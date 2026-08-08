@@ -1,7 +1,95 @@
 {
   "app_name": "Healthcare Cloud & Cybersecurity Job Watcher",
-  "updated_at": "2026-08-08T11:59:22.419404+00:00",
-  "count": 0,
-  "errors": [],
-  "jobs": []
+  "updated_at": "2026-08-08T19:38:20.045317+00:00",
+  "count": 3,
+  "errors": [
+    {
+      "company": "HCA Healthcare",
+      "error": "403 Client Error: Forbidden for url: https://careers.hcahealthcare.com/"
+    },
+    {
+      "company": "Medtronic",
+      "error": "403 Client Error: Forbidden for url: https://www.medtronic.com/en-us/our-company/careers/engineering.html"
+    }
+  ],
+  "jobs": [
+    {
+      "title": "Lead IAM Engineer",
+      "company": "Centene Corporation",
+      "location": "Remote-MO, Missouri, United States of America",
+      "url": "https://jobs.centene.com/us/en/jobs/1648317/lead-iam-engineer/",
+      "description": "You could be the one who changes everything for our 28 million members by using technology to improve health outcomes around the world. As a diversified, national organization, Centene's technology professionals have access to competitive benefits including a fresh perspective on workplace flexibility. Position Purpose: Leads the Identity and Access Management systems and solutions, support of the Production SailPoint IdentityIQ and Identity Now solutions. Performs review of system, user, and administrative roles and accounts and to understand access levels for enterprise applications and platforms. Designs, builds, tests, and maintains scalable and stable off-the-shelf software applications or custom builds technology software solutions to meet technical business identity access needs. Leads cross functional teams through the entire implementation process. Enforces policies and procedures related to identity lifecycle management, and supporting resources using IAM technical best practices Competence in identifying code deficiencies, reviewing logs, researching errors, and replicating issues to find solutions. Solid programming skills in Java, BeanShell, with PowerShell being a ben",
+      "date_posted": "2026-08-05",
+      "source": "Career site",
+      "first_seen": "2026-08-08T19:38:20.045317+00:00",
+      "is_new": true,
+      "matched_titles": [
+        "IAM Engineer"
+      ],
+      "matched_keywords": [
+        "cloud",
+        "information security",
+        "NIST",
+        "identity and access management",
+        "IAM"
+      ],
+      "location_category": "US Remote",
+      "location_priority": 1,
+      "id": "d5686efff54cebb03c0b"
+    },
+    {
+      "title": "Principal Incident Response Analyst",
+      "company": "Centene Corporation",
+      "location": "Remote-IL, Illinois, United States of America",
+      "url": "https://jobs.centene.com/us/en/jobs/1643529/principal-incident-response-analyst/",
+      "description": "You could be the one who changes everything for our 28 million members by using technology to improve health outcomes around the world. As a diversified, national organization, Centene's technology professionals have access to competitive benefits including a fresh perspective on workplace flexibility. Position Purpose: Executes enterprise-wide Incident Response Plan and recommends enhancements to improve security. Partners with business units to accomplish enterprise-wide remediation and develops and delivers presentations to senior leadership team. Keeps abreast of security breaches and ensure incident and response management processes are initiated Implements security service audit schedules, review access authorization, and perform the required access controls testing to identify security shortfalls Automated scripts, contingency plans, and other programmed responses which are launched when an attack against Centene’s systems has been detected Collaborates with Information Security Architects, Information Security Engineers, and software or hardware stakeholders at Centene Ties third party attack monitoring services and threat reporting services, into internal CIRT (Cyber Incid",
+      "date_posted": "2026-07-14",
+      "source": "Career site",
+      "first_seen": "2026-08-08T19:38:20.045317+00:00",
+      "is_new": true,
+      "matched_titles": [
+        "Incident Response Analyst"
+      ],
+      "matched_keywords": [
+        "information security",
+        "incident response"
+      ],
+      "location_category": "US Remote",
+      "location_priority": 1,
+      "id": "ccc80509708032c59f5b"
+    },
+    {
+      "title": "Cloud Security Architect - IS Mod",
+      "company": "Mayo Clinic",
+      "location": "Rochester, MN, US",
+      "url": "https://jobs.mayoclinic.org/job/rochester/cloud-security-architect-is-mod/33647/98132729840",
+      "description": "Why Mayo Clinic Mayo Clinic is top-ranked in more specialties than any other care provider according to U.S. News & World Report. As we work together to put the needs of the patient first, we are also dedicated to our employees, investing in competitive compensation and comprehensive benefit plans – to take care of you and your family, now and in the future. And with continuing education and advancement opportunities at every turn, you can build a long, successful career with Mayo Clinic. Benefits Highlights Medical: Multiple plan options. Dental: Delta Dental or reimbursement account for flexible coverage. Vision: Affordable plan with national network. Pre-Tax Savings: HSA and FSAs for eligible expenses. Retirement: Competitive retirement package to secure your future. Responsibilities The role of the Cloud Security Architect demands business intellect, technical acuity, and the ability to think, communicate, and write at various levels of abstraction, business acumen, and technical capacity. The Cloud Security Architect is a resource to identify and resolve technology-related information security gaps based on the organization's risk posture with guidance and input from peers. Th",
+      "date_posted": "2026-7-22",
+      "source": "Career site",
+      "first_seen": "2026-08-08T19:38:20.045317+00:00",
+      "is_new": true,
+      "matched_titles": [
+        "Cloud Security Architect",
+        "Security Architect"
+      ],
+      "matched_keywords": [
+        "patient",
+        "HIPAA",
+        "cloud",
+        "Azure",
+        "GCP",
+        "Kubernetes",
+        "DevSecOps",
+        "cybersecurity",
+        "information security",
+        "cloud security",
+        "NIST",
+        "HITRUST",
+        "identity and access management"
+      ],
+      "location_category": "US Remote",
+      "location_priority": 1,
+      "id": "1d2ead3399a6645cc5c7"
+    }
+  ]
 }
