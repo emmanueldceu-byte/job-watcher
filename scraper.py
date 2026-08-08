@@ -1,0 +1,466 @@
+from __future__ import annotations
+
+import hashlib
+import html
+import json
+import re
+import sys
+import time
+from dataclasses import dataclass, asdict
+from datetime import datetime, timezone
+from pathlib import Path
+from typing import Iterable
+from urllib.parse import urljoin, urlparse
+
+import requests
+from bs4 import BeautifulSoup
+
+ROOT = Path(__file__).resolve().parent
+CONFIG_PATH = ROOT / "config.json"
+OUTPUT_PATH = ROOT / "docs" / "jobs.json"
+STATE_PATH = ROOT / "data" / "state.json"
+
+SESSION = requests.Session()
+SESSION.headers.update(
+    {
+        "User-Agent": (
+            "Mozilla/5.0 (compatible; DailyJobWatcher/1.0; "
+            "+https://github.com/)"
+        ),
+        "Accept-Language": "en-US,en;q=0.9",
+    }
+)
+
+
+@dataclass
+class Job:
+    title: str
+    company: str
+    location: str
+    url: str
+    description: str = ""
+    date_posted: str = ""
+    source: str = ""
+    first_seen: str = ""
+    is_new: bool = False
+    matched_titles: list[str] | None = None
+    matched_keywords: list[str] | None = None
+    location_category: str = ""
+    location_priority: int = 99
+
+    @property
+    def id(self) -> str:
+        basis = f"{self.company}|{self.title}|{self.url}".lower().strip()
+        return hashlib.sha256(basis.encode("utf-8")).hexdigest()[:20]
+
+
+def clean_text(value: str | None) -> str:
+    if not value:
+        return ""
+    value = BeautifulSoup(html.unescape(str(value)), "html.parser").get_text(" ")
+    return re.sub(r"\s+", " ", value).strip()
+
+
+def get_json(url: str, **kwargs):
+    response = SESSION.get(url, timeout=30, **kwargs)
+    response.raise_for_status()
+    return response.json()
+
+
+def fetch_greenhouse(company: dict) -> list[Job]:
+    token = company["board_token"].strip()
+    url = f"https://boards-api.greenhouse.io/v1/boards/{token}/jobs?content=true"
+    payload = get_json(url)
+    jobs = []
+    for row in payload.get("jobs", []):
+        jobs.append(
+            Job(
+                title=clean_text(row.get("title")),
+                company=company["name"],
+                location=clean_text((row.get("location") or {}).get("name")),
+                url=row.get("absolute_url", ""),
+                description=clean_text(row.get("content")),
+                date_posted=row.get("updated_at", "") or "",
+                source="Greenhouse",
+            )
+        )
+    return jobs
+
+
+def fetch_lever(company: dict) -> list[Job]:
+    site = company["site"].strip()
+    payload = get_json(f"https://api.lever.co/v0/postings/{site}?mode=json")
+    jobs = []
+    for row in payload:
+        categories = row.get("categories") or {}
+        description_parts = [row.get("descriptionPlain", "")]
+        for item in row.get("lists", []) or []:
+            description_parts.append(item.get("text", ""))
+            description_parts.append(item.get("content", ""))
+        jobs.append(
+            Job(
+                title=clean_text(row.get("text")),
+                company=company["name"],
+                location=clean_text(categories.get("location")),
+                url=row.get("hostedUrl", "") or row.get("applyUrl", ""),
+                description=clean_text(" ".join(description_parts)),
+                source="Lever",
+            )
+        )
+    return jobs
+
+
+def fetch_ashby(company: dict) -> list[Job]:
+    board = company["board_name"].strip()
+    payload = get_json(f"https://api.ashbyhq.com/posting-api/job-board/{board}")
+    jobs = []
+    for row in payload.get("jobs", []):
+        jobs.append(
+            Job(
+                title=clean_text(row.get("title")),
+                company=company["name"],
+                location=clean_text(row.get("location")),
+                url=row.get("jobUrl", "") or row.get("applyUrl", ""),
+                description=clean_text(row.get("descriptionPlain") or row.get("descriptionHtml")),
+                date_posted=row.get("publishedAt", "") or "",
+                source="Ashby",
+            )
+        )
+    return jobs
+
+
+def parse_workday_url(careers_url: str):
+    parsed = urlparse(careers_url)
+    host = parsed.netloc
+    path = [p for p in parsed.path.split("/") if p]
+    if not host or not path:
+        raise ValueError("Workday URL must look like https://tenant.wd1.myworkdayjobs.com/en-US/SiteName")
+    site = path[-1]
+    tenant = host.split(".")[0]
+    return parsed.scheme or "https", host, tenant, site
+
+
+def fetch_workday(company: dict) -> list[Job]:
+    careers_url = company["careers_url"].strip()
+    scheme, host, tenant, site = parse_workday_url(careers_url)
+    endpoint = f"{scheme}://{host}/wday/cxs/{tenant}/{site}/jobs"
+    offset = 0
+    limit = 20
+    jobs = []
+    while True:
+        response = SESSION.post(
+            endpoint,
+            json={"appliedFacets": {}, "limit": limit, "offset": offset, "searchText": ""},
+            timeout=30,
+            headers={"Content-Type": "application/json"},
+        )
+        response.raise_for_status()
+        payload = response.json()
+        rows = payload.get("jobPostings", []) or []
+        if not rows:
+            break
+        for row in rows:
+            external_path = row.get("externalPath", "")
+            detail_url = urljoin(careers_url.rstrip("/") + "/", external_path.lstrip("/"))
+            description = ""
+            date_posted = row.get("postedOn", "") or ""
+            # Workday list results often omit the full description. Fetch detail when possible.
+            try:
+                if external_path:
+                    detail_endpoint = f"{scheme}://{host}/wday/cxs/{tenant}/{site}{external_path}"
+                    detail = get_json(detail_endpoint)
+                    info = detail.get("jobPostingInfo", {}) or {}
+                    description = clean_text(info.get("jobDescription"))
+                    detail_url = info.get("externalUrl") or detail_url
+                    date_posted = info.get("startDate") or date_posted
+            except Exception:
+                pass
+            jobs.append(
+                Job(
+                    title=clean_text(row.get("title")),
+                    company=company["name"],
+                    location=clean_text(row.get("locationsText")),
+                    url=detail_url,
+                    description=description,
+                    date_posted=date_posted,
+                    source="Workday",
+                )
+            )
+        offset += len(rows)
+        total = payload.get("total")
+        if len(rows) < limit or (isinstance(total, int) and offset >= total):
+            break
+        time.sleep(0.25)
+    return jobs
+
+
+def looks_like_job_link(text: str, href: str) -> bool:
+    hay = f"{text} {href}".lower()
+    job_terms = ("job", "career", "position", "opening", "requisition", "vacancy", "role")
+    bad_terms = ("privacy", "cookie", "linkedin", "facebook", "instagram", "twitter", "login", "sign in")
+    if any(term in hay for term in bad_terms):
+        return False
+    return any(term in hay for term in job_terms) or (3 <= len(text.split()) <= 14 and len(text) >= 8)
+
+
+def fetch_generic(company: dict, filters: dict | None = None) -> list[Job]:
+    filters = filters or {}
+    configured_urls = company.get("careers_urls") or [company.get("careers_url", "")]
+    source_urls = [u.strip() for u in configured_urls if isinstance(u, str) and u.strip()]
+    if not source_urls:
+        raise ValueError("Generic company needs careers_url or careers_urls")
+
+    candidates: dict[str, str] = {}
+    title_terms = [x.strip() for x in filters.get("title_any", []) if x.strip()]
+
+    for careers_url in source_urls:
+        response = SESSION.get(careers_url, timeout=30)
+        response.raise_for_status()
+        soup = BeautifulSoup(response.text, "html.parser")
+
+        for anchor in soup.find_all("a", href=True):
+            href = urljoin(careers_url, anchor.get("href"))
+            text = clean_text(anchor.get_text(" ") or anchor.get("aria-label") or anchor.get("title"))
+            if not href.startswith(("http://", "https://")) or not text:
+                continue
+            if not looks_like_job_link(text, href):
+                continue
+            # Most career search pages expose the job title as the link text.
+            # Prefiltering here avoids opening hundreds/thousands of unrelated jobs.
+            if title_terms and not any(term_matches(text, term) for term in title_terms):
+                continue
+            candidates[href] = text[:220]
+
+    jobs: list[Job] = []
+    candidate_limit = int(company.get("candidate_limit", 120))
+    # Keep generic mode polite and bounded.
+    for href, anchor_text in list(candidates.items())[:candidate_limit]:
+        title = anchor_text
+        description = ""
+        location = ""
+        date_posted = ""
+        try:
+            detail = SESSION.get(href, timeout=20)
+            if detail.ok and "text/html" in detail.headers.get("content-type", ""):
+                detail_soup = BeautifulSoup(detail.text, "html.parser")
+                h1 = detail_soup.find("h1")
+                if h1:
+                    title = clean_text(h1.get_text(" ")) or title
+                description = clean_text(detail_soup.get_text(" "))[:30000]
+
+                # Basic JobPosting structured-data support.
+                for node in detail_soup.find_all("script", type="application/ld+json"):
+                    try:
+                        data = json.loads(node.string or "null")
+                    except Exception:
+                        continue
+                    items = data if isinstance(data, list) else [data]
+                    for item in items:
+                        if isinstance(item, dict) and item.get("@type") == "JobPosting":
+                            title = clean_text(item.get("title")) or title
+                            description = clean_text(item.get("description")) or description
+                            date_posted = clean_text(item.get("datePosted"))
+                            loc = item.get("jobLocation")
+                            if isinstance(loc, list):
+                                loc = loc[0] if loc else None
+                            if isinstance(loc, dict):
+                                addr = loc.get("address") or {}
+                                if isinstance(addr, dict):
+                                    location = ", ".join(
+                                        x for x in [addr.get("addressLocality"), addr.get("addressRegion"), addr.get("addressCountry")] if x
+                                    )
+                            break
+        except Exception:
+            pass
+
+        jobs.append(
+            Job(
+                title=clean_text(title),
+                company=company["name"],
+                location=clean_text(location),
+                url=href,
+                description=description,
+                date_posted=date_posted,
+                source="Career site",
+            )
+        )
+        time.sleep(0.1)
+    return jobs
+
+
+def fetch_company(company: dict, filters: dict | None = None) -> list[Job]:
+    kind = company.get("type", "generic").lower().strip()
+    if kind == "greenhouse":
+        return fetch_greenhouse(company)
+    if kind == "lever":
+        return fetch_lever(company)
+    if kind == "ashby":
+        return fetch_ashby(company)
+    if kind == "workday":
+        return fetch_workday(company)
+    if kind == "generic":
+        return fetch_generic(company, filters)
+    raise ValueError(f"Unsupported company type: {kind}")
+
+
+def term_matches(text: str, term: str) -> bool:
+    # Phrase match, case-insensitive. Word boundaries for short/alphanumeric terms.
+    text = text.lower()
+    term = term.lower().strip()
+    if not term:
+        return False
+    if len(term) <= 3 and term.isalnum():
+        return re.search(rf"\b{re.escape(term)}\b", text) is not None
+    return term in text
+
+
+def filter_job(job: Job, filters: dict) -> bool:
+    title_terms = [x.strip() for x in filters.get("title_any", []) if x.strip()]
+    keyword_terms = [x.strip() for x in filters.get("keyword_any", []) if x.strip()]
+    exclude_terms = [x.strip() for x in filters.get("exclude_any", []) if x.strip()]
+
+    title_text = job.title
+    all_text = f"{job.title} {job.location} {job.description}"
+
+    if any(term_matches(all_text, x) for x in exclude_terms):
+        return False
+
+    matched_titles = [x for x in title_terms if term_matches(title_text, x)]
+    matched_keywords = [x for x in keyword_terms if term_matches(all_text, x)]
+
+    title_ok = bool(matched_titles) if title_terms else True
+    keyword_ok = bool(matched_keywords) if keyword_terms else True
+
+    job.matched_titles = matched_titles
+    job.matched_keywords = matched_keywords
+
+    if filters.get("require_title_and_keyword", True):
+        return title_ok and keyword_ok
+    return title_ok or keyword_ok
+
+
+
+def _term_in(text: str, term: str) -> bool:
+    """Location-aware term matching; 2-letter state codes use token boundaries."""
+    text_l = text.lower()
+    term_l = term.lower().strip()
+    if not term_l:
+        return False
+    if len(term_l) == 2 and term_l.isalpha():
+        return re.search(rf"(?<![a-z]){re.escape(term_l)}(?![a-z])", text_l) is not None
+    return term_l in text_l
+
+
+def location_allowed(job: Job, policy: dict) -> bool:
+    """Accept NYC/North-Jersey metro roles or remote roles intended for the U.S."""
+    if not policy:
+        return True
+
+    location = clean_text(job.location)
+    all_text = clean_text(f"{job.title} {job.location} {job.description}")
+
+    metro_terms = policy.get("metro_terms", [])
+    remote_terms = policy.get("remote_terms", ["remote"])
+    us_terms = policy.get("us_terms", ["United States", "USA", "U.S."])
+    non_us_terms = policy.get("non_us_terms", [])
+
+    metro_match = any(_term_in(location, x) for x in metro_terms)
+    remote_location = any(_term_in(location, x) for x in remote_terms)
+    remote_anywhere = any(_term_in(all_text, x) for x in remote_terms)
+    us_anywhere = any(_term_in(all_text, x) for x in us_terms)
+    non_us_location = any(_term_in(location, x) for x in non_us_terms)
+
+    if metro_match and policy.get("allow_nyc_nj_metro", True):
+        job.location_category = policy.get("preferred_label", "NYC / North Jersey Metro")
+        job.location_priority = 0
+        return True
+
+    if policy.get("allow_us_remote", True):
+        # U.S. career sites often label U.S.-remote postings simply as "Remote".
+        # Explicitly non-U.S. locations are rejected. Description-only remote
+        # matches must also include an explicit U.S. signal.
+        remote_us = (remote_location and not non_us_location) or (remote_anywhere and us_anywhere)
+        if remote_us:
+            job.location_category = policy.get("remote_label", "US Remote")
+            job.location_priority = 1
+            return True
+
+    if policy.get("us_only", True):
+        return False
+
+    job.location_category = "Other"
+    job.location_priority = 2
+    return True
+
+def load_state() -> dict:
+    if not STATE_PATH.exists():
+        return {"seen": {}}
+    try:
+        return json.loads(STATE_PATH.read_text(encoding="utf-8"))
+    except Exception:
+        return {"seen": {}}
+
+
+def save_results(jobs: Iterable[Job], app_name: str, errors: list[dict]):
+    now = datetime.now(timezone.utc).isoformat()
+    state = load_state()
+    seen = state.setdefault("seen", {})
+
+    serialized = []
+    for job in jobs:
+        first_seen = seen.get(job.id)
+        if not first_seen:
+            first_seen = now
+            seen[job.id] = first_seen
+            job.is_new = True
+        job.first_seen = first_seen
+        row = asdict(job)
+        row["id"] = job.id
+        row["description"] = clean_text(row["description"])[:1200]
+        serialized.append(row)
+
+    serialized.sort(key=lambda x: (x.get("location_priority", 99), not x["is_new"], x["company"].lower(), x["title"].lower()))
+    payload = {
+        "app_name": app_name,
+        "updated_at": now,
+        "count": len(serialized),
+        "errors": errors,
+        "jobs": serialized,
+    }
+
+    OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)
+    STATE_PATH.parent.mkdir(parents=True, exist_ok=True)
+    OUTPUT_PATH.write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")
+    STATE_PATH.write_text(json.dumps(state, indent=2, ensure_ascii=False), encoding="utf-8")
+
+
+def main() -> int:
+    config = json.loads(CONFIG_PATH.read_text(encoding="utf-8"))
+    companies = [c for c in config.get("companies", []) if c.get("enabled", True)]
+    filters = config.get("filters", {})
+    errors: list[dict] = []
+    matches: dict[str, Job] = {}
+
+    for company in companies:
+        try:
+            postings = fetch_company(company, filters)
+            print(f"{company['name']}: fetched {len(postings)} postings")
+            for job in postings:
+                if (
+                    job.title
+                    and job.url
+                    and filter_job(job, filters)
+                    and location_allowed(job, config.get("location_policy", {}))
+                ):
+                    matches[job.id] = job
+        except Exception as exc:
+            print(f"ERROR {company.get('name')}: {exc}", file=sys.stderr)
+            errors.append({"company": company.get("name", "Unknown"), "error": str(exc)[:300]})
+
+    save_results(matches.values(), config.get("app_name", "Daily Job Watcher"), errors)
+    print(f"Saved {len(matches)} matching jobs to {OUTPUT_PATH}")
+    return 0 if not errors else 0  # One company failing should not block all updates.
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

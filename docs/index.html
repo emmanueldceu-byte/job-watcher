@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="A free daily job watcher for healthcare cloud engineering and cybersecurity roles." />
+  <title>Healthcare Cloud & Cybersecurity Job Watcher</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="shell">
+    <section class="hero">
+      <div>
+        <p class="eyebrow">AUTOMATED CAREER SEARCH</p>
+        <h1 id="app-name">Healthcare Cloud &amp; Cybersecurity Job Watcher</h1>
+        <p class="lede">Healthcare cloud, DevOps and cybersecurity roles prioritized for NYC/North Jersey, plus fully remote U.S. opportunities—refreshed automatically every day.</p>
+      </div>
+      <div class="status-card">
+        <span class="status-dot" aria-hidden="true"></span>
+        <div><strong id="job-count">0 matches</strong><small id="updated-at">Waiting for first scan</small></div>
+      </div>
+    </section>
+
+    <section class="toolbar" aria-label="Job filters">
+      <label class="search-wrap">
+        <span>Search</span>
+        <input id="search" type="search" placeholder="Title, company, location, keyword…" autocomplete="off" />
+      </label>
+      <label>
+        <span>Company</span>
+        <select id="company"><option value="">All companies</option></select>
+      </label>
+      <label>
+        <span>Location</span>
+        <select id="location"><option value="">All locations</option></select>
+      </label>
+      <label class="checkbox-label">
+        <input id="new-only" type="checkbox" />
+        <span>New only</span>
+      </label>
+    </section>
+
+    <section id="notice" class="notice hidden"></section>
+    <section id="jobs" class="jobs-grid" aria-live="polite"></section>
+    <section id="empty" class="empty hidden">
+      <div class="empty-icon">⌕</div>
+      <h2>No matching jobs yet</h2>
+      <p>Once your company sources are enabled in <code>config.json</code>, the daily scan will place matching openings here.</p>
+    </section>
+  </main>
+  <script src="app.js" defer></script>
+</body>
+</html>

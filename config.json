@@ -1,0 +1,374 @@
+{
+  "app_name": "Healthcare Cloud & Cybersecurity Job Watcher",
+  "filters": {
+    "title_any": [
+      "Healthcare Cloud Engineer",
+      "Cloud Engineer",
+      "Cloud Infrastructure Engineer",
+      "Cloud Security Engineer",
+      "Cloud Infrastructure Architect",
+      "Cloud Architect",
+      "Infrastructure Architect",
+      "Clinical DevOps Engineer",
+      "DevOps Engineer",
+      "DevSecOps Engineer",
+      "Platform Engineer",
+      "Site Reliability Engineer",
+      "Healthcare Information Security Analyst",
+      "Information Security Analyst",
+      "Cybersecurity Analyst",
+      "Security Analyst",
+      "Security Engineer",
+      "Cybersecurity Engineer",
+      "Medical Device Security Specialist",
+      "Medical Device Security",
+      "Product Security Engineer",
+      "Product Cybersecurity Engineer",
+      "HIPAA Compliance & Security Auditor",
+      "HIPAA Compliance Auditor",
+      "Security Compliance Analyst",
+      "Cybersecurity Compliance Analyst",
+      "IT Compliance Analyst",
+      "GRC Analyst",
+      "IT Auditor",
+      "Information Security Auditor",
+      "Healthcare Incident Responder",
+      "Incident Response Analyst",
+      "Incident Response Engineer",
+      "Incident Responder",
+      "DFIR Analyst",
+      "Digital Forensics Analyst",
+      "SOC Analyst",
+      "Cloud Security Architect",
+      "Security Architect",
+      "Cybersecurity Architect",
+      "Information Security Engineer",
+      "IAM Engineer",
+      "Identity Security Engineer",
+      "PAM Security Engineer",
+      "Privileged Access Management Engineer",
+      "Security Operations Analyst"
+    ],
+    "keyword_any": [
+      "healthcare",
+      "health care",
+      "clinical",
+      "patient",
+      "HIPAA",
+      "PHI",
+      "protected health information",
+      "EHR",
+      "EMR",
+      "electronic health record",
+      "medical device",
+      "cloud",
+      "AWS",
+      "Azure",
+      "GCP",
+      "Kubernetes",
+      "Terraform",
+      "DevOps",
+      "DevSecOps",
+      "cybersecurity",
+      "cyber security",
+      "information security",
+      "cloud security",
+      "incident response",
+      "digital forensics",
+      "DFIR",
+      "SIEM",
+      "SOC",
+      "GRC",
+      "NIST",
+      "HITRUST",
+      "security compliance",
+      "zero trust",
+      "identity and access management",
+      "IAM"
+    ],
+    "exclude_any": [
+      "vice president",
+      "chief information",
+      "chief technology",
+      "chief security",
+      "sales representative",
+      "registered nurse",
+      "physician",
+      "pharmacist"
+    ],
+    "require_title_and_keyword": true
+  },
+  "companies": [
+    {
+      "name": "UnitedHealth Group / Optum",
+      "type": "generic",
+      "careers_urls": [
+        "https://careers.unitedhealthgroup.com/en/search-jobs"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "The Cigna Group / Evernorth",
+      "type": "generic",
+      "careers_urls": [
+        "https://jobs.thecignagroup.com/us/en/c/technology-jobs/0000"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Elevance Health",
+      "type": "generic",
+      "careers_urls": [
+        "https://careers.elevancehealth.com/"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Centene Corporation",
+      "type": "generic",
+      "careers_urls": [
+        "https://jobs.centene.com/us/en/our-teams/technology/"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Humana",
+      "type": "generic",
+      "careers_urls": [
+        "https://careers.humana.com/us/en/tech-digital-analytics-careers-at-humana"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Kaiser Permanente",
+      "type": "generic",
+      "careers_urls": [
+        "https://www.kaiserpermanentejobs.org/en/careers-in-technology"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "HCA Healthcare",
+      "type": "generic",
+      "careers_urls": [
+        "https://careers.hcahealthcare.com/",
+        "https://careers.hcahealthcare.com/pages/digital-transformation-and-innovation"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Johnson & Johnson",
+      "type": "generic",
+      "careers_urls": [
+        "https://www.careers.jnj.com/en/teams/technology-and-cybersecurity/"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "McKesson Corporation",
+      "type": "generic",
+      "careers_urls": [
+        "https://careers.mckesson.com/en/search-jobs/cybersecurity",
+        "https://careers.mckesson.com/en/mckesson-technology-systems-tools-careers"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Cardinal Health",
+      "type": "generic",
+      "careers_urls": [
+        "https://jobs.cardinalhealth.com/career-areas/information"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "CVS Health / Aetna",
+      "type": "generic",
+      "careers_urls": [
+        "https://jobs.cvshealth.com/us/en/innovation-and-technology"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Mayo Clinic",
+      "type": "generic",
+      "careers_urls": [
+        "https://jobs.mayoclinic.org/category/information-technology-jobs/33647/8576512/1"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Cleveland Clinic",
+      "type": "generic",
+      "careers_urls": [
+        "https://jobs.clevelandclinic.org/"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Abbott",
+      "type": "generic",
+      "careers_urls": [
+        "https://www.jobs.abbott/us/en/c/information-technology-jobs/"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Medtronic",
+      "type": "generic",
+      "careers_urls": [
+        "https://www.medtronic.com/xg-en/about/careers/engineering/software.html",
+        "https://www.medtronic.com/en-us/our-company/careers/engineering.html"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "GE HealthCare",
+      "type": "generic",
+      "careers_urls": [
+        "https://careers.gehealthcare.com/global/en/"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Philips",
+      "type": "generic",
+      "careers_urls": [
+        "https://www.careers.philips.com/global/en/healthcare-informatics",
+        "https://www.careers.philips.com/na/en/"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Stryker",
+      "type": "generic",
+      "careers_urls": [
+        "https://careers.stryker.com/jobs",
+        "https://careers.stryker.com/engineering"
+      ],
+      "enabled": true
+    },
+    {
+      "name": "Epic Systems",
+      "type": "generic",
+      "careers_urls": [
+        "https://careers.epic.com/jobs/",
+        "https://careers.epic.com/jobs/hosting/"
+      ],
+      "enabled": true
+    }
+  ],
+  "location_policy": {
+    "us_only": true,
+    "allow_us_remote": true,
+    "allow_nyc_nj_metro": true,
+    "preferred_label": "NYC / North Jersey Metro",
+    "remote_label": "US Remote",
+    "metro_terms": [
+      "New Jersey",
+      "NJ",
+      "New York City",
+      "NYC",
+      "Manhattan",
+      "Brooklyn",
+      "Queens",
+      "Bronx",
+      "Staten Island",
+      "Jersey City",
+      "Newark",
+      "Hoboken",
+      "Secaucus",
+      "Parsippany",
+      "Morristown",
+      "Short Hills",
+      "Summit",
+      "Edison",
+      "New Brunswick",
+      "Princeton",
+      "Woodbridge",
+      "Paramus",
+      "Hackensack",
+      "Fort Lee",
+      "Englewood",
+      "Mahwah",
+      "Iselin",
+      "Bridgewater",
+      "Basking Ridge",
+      "Rahway",
+      "Whippany",
+      "East Hanover",
+      "Madison",
+      "Montvale",
+      "Roseland",
+      "Clifton",
+      "Teaneck",
+      "Piscataway",
+      "White Plains",
+      "Stamford, CT",
+      "Greenwich, CT",
+      "New York, NY"
+    ],
+    "remote_terms": [
+      "remote",
+      "work from home",
+      "work-from-home",
+      "telecommute",
+      "virtual"
+    ],
+    "us_terms": [
+      "United States",
+      "USA",
+      "U.S.",
+      "US Remote",
+      "Remote - US",
+      "Remote, US",
+      "Remote US",
+      "US-based",
+      "United States of America"
+    ],
+    "non_us_terms": [
+      "Canada",
+      "United Kingdom",
+      "UK",
+      "India",
+      "Ireland",
+      "Germany",
+      "France",
+      "Spain",
+      "Italy",
+      "Poland",
+      "Netherlands",
+      "Belgium",
+      "Switzerland",
+      "Sweden",
+      "Norway",
+      "Denmark",
+      "Finland",
+      "Portugal",
+      "Mexico",
+      "Brazil",
+      "Argentina",
+      "Chile",
+      "Colombia",
+      "Costa Rica",
+      "Singapore",
+      "Japan",
+      "China",
+      "Hong Kong",
+      "Australia",
+      "New Zealand",
+      "Philippines",
+      "Malaysia",
+      "South Africa",
+      "Israel",
+      "United Arab Emirates",
+      "UAE"
+    ]
+  },
+  "notifications": {
+    "daily_email": true,
+    "recipient": "kingdomarmyknives@gmail.com",
+    "timezone": "America/New_York",
+    "max_jobs_in_email": 30
+  }
+}
