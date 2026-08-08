@@ -1,0 +1,73 @@
+name: Daily job scan
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 7 * * *'
+      timezone: 'America/New_York'
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+env:
+  GMAIL_USERNAME: kingdomarmyknives@gmail.com
+  GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+  JOB_WATCHER_RECIPIENT: kingdomarmyknives@gmail.com
+
+jobs:
+  scrape-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Scan company career sites
+        run: python scraper.py
+
+      - name: Save updated job results
+        run: |
+          if [[ -n "$(git status --porcelain docs/jobs.json data/state.json)" ]]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add docs/jobs.json data/state.json
+            git commit -m "Update daily job matches"
+            git push
+          else
+            echo "No changes to save."
+          fi
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload dashboard for GitHub Pages
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: docs
+
+      - name: Deploy dashboard to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+      - name: Send daily email digest
+        if: ${{ env.GMAIL_APP_PASSWORD != '' }}
+        continue-on-error: true
+        run: python notify.py
+
+      - name: Email setup reminder
+        if: ${{ env.GMAIL_APP_PASSWORD == '' }}
+        run: echo "Email is configured, but GMAIL_APP_PASSWORD has not been added to GitHub repository secrets yet."
