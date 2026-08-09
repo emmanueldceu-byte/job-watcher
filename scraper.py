@@ -1,6 +1,9 @@
 from __future__ import annotations
 
 import hashlib
+import gzip
+import xml.etree.ElementTree as ET
+from collections import deque
 import html
 import json
 import re
@@ -201,11 +204,277 @@ def fetch_workday(company: dict) -> list[Job]:
 
 def looks_like_job_link(text: str, href: str) -> bool:
     hay = f"{text} {href}".lower()
-    job_terms = ("job", "career", "position", "opening", "requisition", "vacancy", "role")
-    bad_terms = ("privacy", "cookie", "linkedin", "facebook", "instagram", "twitter", "login", "sign in")
+    bad_terms = ("privacy", "cookie", "linkedin", "facebook", "instagram", "twitter", "login", "sign in", "talent community")
     if any(term in hay for term in bad_terms):
         return False
-    return any(term in hay for term in job_terms) or (3 <= len(text.split()) <= 14 and len(text) >= 8)
+    path = urlparse(href).path.lower()
+    strong = bool(re.search(r"/(?:job|jobs|position|positions|requisition|requisitions)/(?:[^/?#]+/){0,5}[^/?#]+", path))
+    return strong or any(term in hay for term in ("job", "career", "position", "opening", "requisition", "vacancy", "role"))
+
+
+def _same_host_or_subdomain(url: str, seed: str) -> bool:
+    a = (urlparse(url).hostname or "").lower()
+    b = (urlparse(seed).hostname or "").lower()
+    if not a or not b:
+        return False
+    return a == b or a.endswith("." + b) or b.endswith("." + a)
+
+
+def _is_listing_or_pagination_link(anchor, href: str, current_url: str) -> bool:
+    if not _same_host_or_subdomain(href, current_url):
+        return False
+    text = clean_text(anchor.get_text(" ")).lower()
+    rel = " ".join(anchor.get("rel") or []).lower()
+    parsed = urlparse(href)
+    q = parsed.query.lower()
+    path = parsed.path.lower()
+    if "next" in rel or text in {"next", "next page", ">", "›", "»"}:
+        return True
+    if re.fullmatch(r"\d{1,3}", text or ""):
+        return True
+    if re.search(r"(?:^|&)(?:page|from|start|offset)=\d+", q):
+        return True
+    if re.search(r"/page/\d+", path):
+        return True
+    if any(x in path for x in ("search-results", "search-jobs", "/jobs")) and any(x in q for x in ("page=", "from=", "start=", "offset=")):
+        return True
+    return False
+
+
+def _discovery_hits(text: str, discovery_terms: list[str]) -> int:
+    t = clean_text(text).lower()
+    return sum(1 for term in discovery_terms if term.lower() in t)
+
+
+def _candidate_score(text: str, href: str, discovery_terms: list[str]) -> int:
+    path = urlparse(href).path.lower()
+    score = 0
+    if re.search(r"/(?:job|jobs)/(?:[^/?#]+/){0,5}(?:\d{4,}|[^/?#]{8,})", path):
+        score += 12
+    elif any(x in path for x in ("/job/", "/jobs/", "/position/", "/requisition/")):
+        score += 7
+    score += min(_discovery_hits(text, discovery_terms) * 8, 24)
+    score += min(_discovery_hits(href.replace("-", " ").replace("_", " "), discovery_terms) * 6, 18)
+    if any(x in path for x in ("search", "category", "teams", "career-areas")):
+        score -= 6
+    return score
+
+
+def _iter_jsonld_objects(value):
+    if isinstance(value, dict):
+        yield value
+        if "@graph" in value:
+            yield from _iter_jsonld_objects(value["@graph"])
+    elif isinstance(value, list):
+        for item in value:
+            yield from _iter_jsonld_objects(item)
+
+
+def _location_from_jobposting(item: dict) -> str:
+    job_type = str(item.get("jobLocationType") or "").lower()
+    applicant = item.get("applicantLocationRequirements")
+    applicant_text = clean_text(json.dumps(applicant, ensure_ascii=False)) if applicant else ""
+    locations = item.get("jobLocation")
+    if not isinstance(locations, list):
+        locations = [locations] if locations else []
+    found = []
+    for loc in locations:
+        if not isinstance(loc, dict):
+            continue
+        addr = loc.get("address") or {}
+        if isinstance(addr, dict):
+            parts = [addr.get("addressLocality"), addr.get("addressRegion"), addr.get("addressCountry")]
+            text = ", ".join(str(x) for x in parts if x)
+            if text:
+                found.append(text)
+    if "telecommute" in job_type or "remote" in job_type:
+        if re.search(r"\b(us|usa|united states|united states of america)\b", applicant_text, re.I):
+            return "Remote, United States"
+        return "Remote" + (f"; {'; '.join(found)}" if found else "")
+    return "; ".join(found)
+
+
+def _jobposting_from_soup(soup: BeautifulSoup, company: dict, fallback_url: str) -> Job | None:
+    for node in soup.find_all("script", type="application/ld+json"):
+        raw = node.string or node.get_text() or ""
+        try:
+            data = json.loads(raw)
+        except Exception:
+            continue
+        for item in _iter_jsonld_objects(data):
+            kind = item.get("@type")
+            kinds = kind if isinstance(kind, list) else [kind]
+            if "JobPosting" not in kinds:
+                continue
+            title = clean_text(item.get("title"))
+            if not title:
+                continue
+            return Job(
+                title=title,
+                company=company["name"],
+                location=_location_from_jobposting(item),
+                url=clean_text(item.get("url")) or fallback_url,
+                description=clean_text(item.get("description"))[:40000],
+                date_posted=clean_text(item.get("datePosted")),
+                source="Career site / JobPosting",
+            )
+    return None
+
+
+def _parse_sitemap(content: bytes, url: str) -> tuple[str, list[str]]:
+    try:
+        if content[:2] == b"\x1f\x8b" or url.lower().endswith(".gz"):
+            content = gzip.decompress(content)
+    except Exception:
+        pass
+    root = ET.fromstring(content)
+    tag = root.tag.rsplit("}", 1)[-1].lower()
+    locs = [clean_text(el.text) for el in root.iter() if el.tag.rsplit("}", 1)[-1].lower() == "loc" and clean_text(el.text)]
+    return tag, locs
+
+
+def _discover_from_sitemaps(seed_url: str, discovery_terms: list[str], company: dict) -> dict[str, tuple[int, str]]:
+    parsed = urlparse(seed_url)
+    origin = f"{parsed.scheme or 'https'}://{parsed.netloc}"
+    sitemap_queue = deque()
+    seen_sitemaps = set()
+    candidates: dict[str, tuple[int, str]] = {}
+
+    try:
+        r = SESSION.get(urljoin(origin, "/robots.txt"), timeout=12)
+        if r.ok:
+            for line in r.text.splitlines():
+                if line.lower().startswith("sitemap:"):
+                    sitemap_queue.append(line.split(":", 1)[1].strip())
+    except Exception:
+        pass
+    for common in ("/sitemap.xml", "/sitemap_index.xml", "/sitemap-index.xml"):
+        sitemap_queue.append(urljoin(origin, common))
+
+    max_sitemaps = 12
+    max_urls = int(company.get("sitemap_url_limit", 3500))
+    collected_joblike: list[tuple[str, int]] = []
+    url_count = 0
+
+    while sitemap_queue and len(seen_sitemaps) < max_sitemaps and url_count < max_urls:
+        sm_url = sitemap_queue.popleft()
+        if sm_url in seen_sitemaps:
+            continue
+        seen_sitemaps.add(sm_url)
+        try:
+            resp = SESSION.get(sm_url, timeout=15)
+            if not resp.ok or not resp.content:
+                continue
+            tag, locs = _parse_sitemap(resp.content, sm_url)
+        except Exception:
+            continue
+        if tag == "sitemapindex":
+            for loc in locs[:50]:
+                if loc not in seen_sitemaps:
+                    sitemap_queue.append(loc)
+            continue
+        for loc in locs:
+            url_count += 1
+            if url_count > max_urls:
+                break
+            if not loc.startswith(("http://", "https://")):
+                continue
+            score = _candidate_score("", loc, discovery_terms)
+            path = urlparse(loc).path.lower()
+            is_joblike = any(x in path for x in ("/job/", "/jobs/", "/position/", "/requisition/"))
+            if is_joblike:
+                collected_joblike.append((loc, score))
+
+    # When a sitemap is small, keep all job-like URLs; for huge sites, prefer URLs
+    # whose slugs contain one of the user's technology/security discovery terms.
+    soft_cap = int(company.get("candidate_limit", 350)) * 2
+    for loc, score in collected_joblike:
+        if len(collected_joblike) <= soft_cap or score >= 18:
+            candidates[loc] = (score, "")
+    return candidates
+
+
+def _discover_from_listings(source_urls: list[str], discovery_terms: list[str], company: dict) -> dict[str, tuple[int, str]]:
+    candidates: dict[str, tuple[int, str]] = {}
+    page_limit = int(company.get("listing_page_limit", 12))
+    queue = deque(source_urls)
+    visited = set()
+
+    while queue and len(visited) < page_limit * max(1, len(source_urls)):
+        page_url = queue.popleft()
+        if page_url in visited:
+            continue
+        visited.add(page_url)
+        try:
+            response = SESSION.get(page_url, timeout=25)
+            response.raise_for_status()
+            if "html" not in response.headers.get("content-type", "text/html").lower():
+                continue
+            soup = BeautifulSoup(response.text, "html.parser")
+        except Exception:
+            continue
+
+        # Some search systems put one or more JobPosting objects directly in HTML.
+        direct = _jobposting_from_soup(soup, company, page_url)
+        if direct:
+            candidates[direct.url] = (100, direct.title)
+
+        for anchor in soup.find_all("a", href=True):
+            href = urljoin(page_url, anchor.get("href"))
+            text = clean_text(anchor.get_text(" ") or anchor.get("aria-label") or anchor.get("title"))
+            if not href.startswith(("http://", "https://")):
+                continue
+            if _is_listing_or_pagination_link(anchor, href, page_url) and href not in visited:
+                queue.append(href)
+            if not looks_like_job_link(text, href):
+                continue
+            score = _candidate_score(text, href, discovery_terms)
+            # A strong job-detail URL can be kept even when the visible text is just "View job".
+            # Otherwise require a technology/security discovery signal in title or URL.
+            if score < 12:
+                continue
+            old = candidates.get(href)
+            if old is None or score > old[0]:
+                candidates[href] = (score, text[:240])
+    return candidates
+
+
+def _fetch_job_detail(href: str, anchor_text: str, company: dict) -> Job | None:
+    try:
+        detail = SESSION.get(href, timeout=20)
+        if not detail.ok or "html" not in detail.headers.get("content-type", "text/html").lower():
+            return None
+        soup = BeautifulSoup(detail.text, "html.parser")
+        structured = _jobposting_from_soup(soup, company, href)
+        if structured:
+            return structured
+        title = anchor_text
+        h1 = soup.find("h1")
+        if h1:
+            title = clean_text(h1.get_text(" ")) or title
+        if not title:
+            title = clean_text((soup.find("title") or {}).get_text(" ") if soup.find("title") else "")
+        page_text = clean_text(soup.get_text(" "))[:40000]
+        location = ""
+        # Common text patterns used when JobPosting JSON-LD is unavailable.
+        for pattern in (
+            r"(?:Primary location|Location|Locations)\s*[:\-]\s*([^|•]{2,120})",
+            r"\b(Remote(?:\s*[-,]\s*(?:US|USA|United States|[A-Z]{2}))?)\b",
+        ):
+            m = re.search(pattern, page_text, re.I)
+            if m:
+                location = clean_text(m.group(1))
+                break
+        return Job(
+            title=clean_text(title),
+            company=company["name"],
+            location=location,
+            url=href,
+            description=page_text,
+            source="Career site",
+        )
+    except Exception:
+        return None
 
 
 def fetch_generic(company: dict, filters: dict | None = None) -> list[Job]:
@@ -215,84 +484,34 @@ def fetch_generic(company: dict, filters: dict | None = None) -> list[Job]:
     if not source_urls:
         raise ValueError("Generic company needs careers_url or careers_urls")
 
-    candidates: dict[str, str] = {}
     discovery_terms = [x.strip() for x in filters.get("discovery_title_terms", []) if x.strip()]
     if not discovery_terms:
         role_families = filters.get("role_families", {}) or {}
         discovery_terms = [term for terms in role_families.values() for term in terms]
 
-    for careers_url in source_urls:
-        response = SESSION.get(careers_url, timeout=30)
-        response.raise_for_status()
-        soup = BeautifulSoup(response.text, "html.parser")
+    candidates: dict[str, tuple[int, str]] = {}
+    listing_candidates = _discover_from_listings(source_urls, discovery_terms, company)
+    candidates.update(listing_candidates)
 
-        for anchor in soup.find_all("a", href=True):
-            href = urljoin(careers_url, anchor.get("href"))
-            text = clean_text(anchor.get_text(" ") or anchor.get("aria-label") or anchor.get("title"))
-            if not href.startswith(("http://", "https://")) or not text:
-                continue
-            if not looks_like_job_link(text, href):
-                continue
-            # Most career search pages expose the job title as the link text.
-            # Prefiltering here avoids opening hundreds/thousands of unrelated jobs.
-            if discovery_terms and not any(term_matches(text, term) for term in discovery_terms):
-                continue
-            candidates[href] = text[:220]
+    if company.get("deep_discovery", True):
+        for seed in source_urls:
+            for href, value in _discover_from_sitemaps(seed, discovery_terms, company).items():
+                old = candidates.get(href)
+                if old is None or value[0] > old[0]:
+                    candidates[href] = value
 
+    ranked = sorted(candidates.items(), key=lambda kv: (-kv[1][0], kv[0]))
+    detail_limit = int(company.get("detail_fetch_limit", company.get("candidate_limit", 350)))
     jobs: list[Job] = []
-    candidate_limit = int(company.get("candidate_limit", 120))
-    # Keep generic mode polite and bounded.
-    for href, anchor_text in list(candidates.items())[:candidate_limit]:
-        title = anchor_text
-        description = ""
-        location = ""
-        date_posted = ""
-        try:
-            detail = SESSION.get(href, timeout=20)
-            if detail.ok and "text/html" in detail.headers.get("content-type", ""):
-                detail_soup = BeautifulSoup(detail.text, "html.parser")
-                h1 = detail_soup.find("h1")
-                if h1:
-                    title = clean_text(h1.get_text(" ")) or title
-                description = clean_text(detail_soup.get_text(" "))[:30000]
-
-                # Basic JobPosting structured-data support.
-                for node in detail_soup.find_all("script", type="application/ld+json"):
-                    try:
-                        data = json.loads(node.string or "null")
-                    except Exception:
-                        continue
-                    items = data if isinstance(data, list) else [data]
-                    for item in items:
-                        if isinstance(item, dict) and item.get("@type") == "JobPosting":
-                            title = clean_text(item.get("title")) or title
-                            description = clean_text(item.get("description")) or description
-                            date_posted = clean_text(item.get("datePosted"))
-                            loc = item.get("jobLocation")
-                            if isinstance(loc, list):
-                                loc = loc[0] if loc else None
-                            if isinstance(loc, dict):
-                                addr = loc.get("address") or {}
-                                if isinstance(addr, dict):
-                                    location = ", ".join(
-                                        x for x in [addr.get("addressLocality"), addr.get("addressRegion"), addr.get("addressCountry")] if x
-                                    )
-                            break
-        except Exception:
-            pass
-
-        jobs.append(
-            Job(
-                title=clean_text(title),
-                company=company["name"],
-                location=clean_text(location),
-                url=href,
-                description=description,
-                date_posted=date_posted,
-                source="Career site",
-            )
-        )
-        time.sleep(0.1)
+    seen_urls = set()
+    for href, (_, anchor_text) in ranked[:detail_limit]:
+        if href in seen_urls:
+            continue
+        seen_urls.add(href)
+        job = _fetch_job_detail(href, anchor_text, company)
+        if job and job.title:
+            jobs.append(job)
+        time.sleep(0.04)
     return jobs
 
 
@@ -322,7 +541,7 @@ def term_matches(text: str, term: str) -> bool:
     return term in text
 
 
-def classify_role_family(title: str, filters: dict) -> tuple[str, list[str]]:
+def classify_role_family(title: str, description: str, filters: dict) -> tuple[str, list[str]]:
     role_families = filters.get("role_families", {}) or {}
     best_family = ""
     best_terms: list[str] = []
@@ -331,7 +550,29 @@ def classify_role_family(title: str, filters: dict) -> tuple[str, list[str]]:
         if matches and (not best_terms or max(map(len, matches)) > max(map(len, best_terms))):
             best_family = family
             best_terms = matches
-    return best_family, best_terms
+    if best_family:
+        return best_family, best_terms
+
+    # Many healthcare employers use generic titles such as "Technology Analyst II" or
+    # "Enterprise Engagement Analyst". If the title is a plausible technical role and
+    # the description contains strong cloud/security signals, classify by those signals.
+    title_nouns = filters.get("generic_title_nouns", []) or []
+    signal_map = filters.get("domain_signals", {}) or {}
+    has_role_noun = any(term_matches(title, noun) for noun in title_nouns)
+    has_title_domain_signal = any(term_matches(title, sig) for signals in signal_map.values() for sig in signals)
+    if not has_role_noun and not has_title_domain_signal:
+        return "", []
+    if any(term_matches(title, x) for x in (filters.get("exclude_function_terms", []) or [])):
+        return "", []
+    all_text = f"{title} {description}"
+    best_signal_family = ""
+    best_signals: list[str] = []
+    for family, signals in signal_map.items():
+        matches = [sig for sig in signals if term_matches(all_text, sig)]
+        if matches and (not best_signals or len(matches) > len(best_signals) or max(map(len, matches)) > max(map(len, best_signals))):
+            best_signal_family = family
+            best_signals = matches
+    return best_signal_family, best_signals
 
 
 def classify_seniority(title: str, filters: dict) -> tuple[str, int]:
@@ -349,9 +590,13 @@ def classify_seniority(title: str, filters: dict) -> tuple[str, int]:
         return pri("Associate / Level I", 2)
     if re.search(r"\b(analyst ii|analyst 2|engineer ii|engineer 2|specialist ii|specialist 2|administrator ii|administrator 2|consultant ii|consultant 2|technician ii|technician 2|level 2|level two|intermediate|mid[- ]level)\b", t):
         return pri("Level II / Mid", 3)
-    if re.search(r"\b(senior|sr\.?|analyst iii|analyst 3|engineer iii|engineer 3|analyst iv|analyst 4|engineer iv|engineer 4|architect)\b", t):
-        return pri("Senior IC / Architect", 5)
-    return pri("Standard / Unspecified", 4)
+    if re.search(r"\b(analyst iii|analyst 3|engineer iii|engineer 3|specialist iii|specialist 3|analyst iv|analyst 4|engineer iv|engineer 4|level 3|level three|level 4|level four)\b", t):
+        return pri("Level III / IV", 4)
+    if re.search(r"\b(lead|staff|principal|architect|distinguished|fellow)\b", t):
+        return pri("Lead / Staff / Principal / Architect", 7)
+    if re.search(r"\b(senior|sr\.?)\b", t):
+        return pri("Senior IC", 6)
+    return pri("Standard / Unspecified", 5)
 
 
 def extract_min_years(description: str) -> int | None:
@@ -381,13 +626,13 @@ def filter_job(job: Job, filters: dict) -> bool:
     if any(term_matches(title_text, x) for x in exclude_title_terms):
         return False
 
-    role_family, matched_titles = classify_role_family(title_text, filters)
+    role_family, matched_titles = classify_role_family(title_text, job.description, filters)
     matched_keywords = [x for x in keyword_terms if term_matches(all_text, x)]
     seniority, seniority_priority = classify_seniority(title_text, filters)
     min_years = extract_min_years(job.description)
 
     policy = filters.get("seniority_policy", {}) or {}
-    if seniority == "Senior IC / Architect" and not policy.get("include_senior_ic", True):
+    if seniority == "Lead / Staff / Principal / Architect" and not policy.get("include_advanced_ic", True):
         return False
 
     max_required_years = filters.get("max_required_years")
@@ -406,10 +651,8 @@ def filter_job(job: Job, filters: dict) -> bool:
     job.seniority_priority = seniority_priority
     job.experience_years_min = min_years
 
-    # Higher score = stronger fit. Exact role-family hits matter most; healthcare/security
-    # keywords add confidence while early-career titles receive a modest boost.
-    score = 60 + min(len(matched_titles) * 8, 24) + min(len(matched_keywords) * 2, 16)
-    score += max(0, 10 - seniority_priority * 2)
+    score = 58 + min(len(matched_titles) * 7, 28) + min(len(matched_keywords) * 2, 16)
+    score += max(0, 12 - seniority_priority)
     if min_years is not None and min_years <= 3:
         score += 8
     job.match_score = min(score, 100)
@@ -477,7 +720,7 @@ def load_state() -> dict:
         return {"seen": {}}
 
 
-def save_results(jobs: Iterable[Job], app_name: str, errors: list[dict]):
+def save_results(jobs: Iterable[Job], app_name: str, errors: list[dict], scan_stats: list[dict] | None = None):
     now = datetime.now(timezone.utc).isoformat()
     state = load_state()
     seen = state.setdefault("seen", {})
@@ -508,6 +751,7 @@ def save_results(jobs: Iterable[Job], app_name: str, errors: list[dict]):
         "updated_at": now,
         "count": len(serialized),
         "errors": errors,
+        "scan_stats": scan_stats or [],
         "jobs": serialized,
     }
 
@@ -522,25 +766,33 @@ def main() -> int:
     companies = [c for c in config.get("companies", []) if c.get("enabled", True)]
     filters = config.get("filters", {})
     errors: list[dict] = []
+    scan_stats: list[dict] = []
     matches: dict[str, Job] = {}
 
     for company in companies:
         try:
             postings = fetch_company(company, filters)
-            print(f"{company['name']}: fetched {len(postings)} postings")
+            role_count = 0
+            location_count = 0
             for job in postings:
-                if (
-                    job.title
-                    and job.url
-                    and filter_job(job, filters)
-                    and location_allowed(job, config.get("location_policy", {}))
-                ):
-                    matches[job.id] = job
+                if not (job.title and job.url):
+                    continue
+                if not filter_job(job, filters):
+                    continue
+                role_count += 1
+                if not location_allowed(job, config.get("location_policy", {})):
+                    continue
+                location_count += 1
+                matches[job.id] = job
+            stat = {"company": company["name"], "fetched": len(postings), "role_matches": role_count, "location_matches": location_count}
+            scan_stats.append(stat)
+            print(f"{company['name']}: fetched {len(postings)} | relevant {role_count} | NYC/NJ or US-remote {location_count}")
         except Exception as exc:
             print(f"ERROR {company.get('name')}: {exc}", file=sys.stderr)
             errors.append({"company": company.get("name", "Unknown"), "error": str(exc)[:300]})
+            scan_stats.append({"company": company.get("name", "Unknown"), "fetched": 0, "role_matches": 0, "location_matches": 0, "error": str(exc)[:160]})
 
-    save_results(matches.values(), config.get("app_name", "Daily Job Watcher"), errors)
+    save_results(matches.values(), config.get("app_name", "Daily Job Watcher"), errors, scan_stats)
     print(f"Saved {len(matches)} matching jobs to {OUTPUT_PATH}")
     return 0 if not errors else 0  # One company failing should not block all updates.
 

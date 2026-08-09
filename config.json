@@ -258,42 +258,53 @@
       ]
     },
     "discovery_title_terms": [
-      "cloud",
-      "devops",
-      "devsecops",
-      "platform",
-      "site reliability",
-      "sre",
-      "infrastructure",
-      "security",
-      "cyber",
-      "information security",
-      "soc",
-      "incident response",
-      "forensic",
-      "dfir",
-      "identity",
-      "iam",
-      "pam",
       "access management",
-      "grc",
-      "risk",
-      "compliance",
-      "audit",
-      "vulnerability",
-      "endpoint",
       "application security",
       "appsec",
-      "product security",
-      "medical device",
-      "network security",
-      "firewall",
-      "data security",
-      "data protection",
-      "dlp",
+      "audit",
+      "aws",
+      "azure",
       "clinical systems",
+      "cloud",
+      "compliance",
+      "cyber",
+      "data protection",
+      "data security",
+      "devops",
+      "devsecops",
+      "dfir",
+      "dlp",
       "ehr",
-      "emr"
+      "emr",
+      "endpoint",
+      "firewall",
+      "forensic",
+      "gcp",
+      "grc",
+      "iam",
+      "identity",
+      "incident",
+      "incident response",
+      "information security",
+      "infrastructure",
+      "medical device",
+      "network",
+      "network security",
+      "pam",
+      "platform",
+      "privacy",
+      "product security",
+      "reliability",
+      "risk",
+      "security",
+      "site reliability",
+      "soc",
+      "sre",
+      "systems",
+      "tech",
+      "technology",
+      "threat",
+      "vulnerability"
     ],
     "keyword_any": [
       "healthcare",
@@ -347,12 +358,7 @@
       "chief ",
       "director",
       "manager",
-      "principal",
-      "staff ",
-      "lead ",
       "head of",
-      "distinguished",
-      "fellow",
       "registered nurse",
       "physician",
       "pharmacist",
@@ -360,18 +366,186 @@
     ],
     "require_role_family": true,
     "require_keyword": false,
-    "max_required_years": 7,
+    "max_required_years": null,
     "seniority_policy": {
-      "include_senior_ic": true,
+      "include_advanced_ic": true,
       "levels": {
         "Intern / New Grad": 0,
         "Entry / Junior": 1,
         "Associate / Level I": 2,
         "Level II / Mid": 3,
-        "Standard / Unspecified": 4,
-        "Senior IC / Architect": 5
+        "Level III / IV": 4,
+        "Standard / Unspecified": 5,
+        "Senior IC": 6,
+        "Lead / Staff / Principal / Architect": 7
       }
-    }
+    },
+    "generic_title_nouns": [
+      "analyst",
+      "engineer",
+      "architect",
+      "specialist",
+      "administrator",
+      "consultant",
+      "developer",
+      "technician",
+      "officer",
+      "coordinator",
+      "advisor",
+      "associate",
+      "investigator",
+      "scientist",
+      "operator",
+      "auditor"
+    ],
+    "domain_signals": {
+      "Cloud Security": [
+        "cloud security",
+        "cloud cybersecurity",
+        "cspm",
+        "cnapp",
+        "cloud posture",
+        "cloud native security"
+      ],
+      "Cloud & Infrastructure": [
+        "cloud",
+        "aws",
+        "azure",
+        "gcp",
+        "infrastructure",
+        "platform",
+        "site reliability",
+        "sre",
+        "systems",
+        "kubernetes",
+        "terraform"
+      ],
+      "DevOps & Platform": [
+        "devops",
+        "devsecops",
+        "ci/cd",
+        "cicd",
+        "release engineering",
+        "platform engineering",
+        "site reliability",
+        "sre"
+      ],
+      "Security Operations & Engineering": [
+        "cybersecurity",
+        "cyber security",
+        "information security",
+        "security operations",
+        "soc",
+        "threat detection",
+        "threat intelligence",
+        "cyber defense",
+        "security monitoring",
+        "detection engineering"
+      ],
+      "Incident Response & DFIR": [
+        "incident response",
+        "incident handling",
+        "dfir",
+        "digital forensics",
+        "forensics",
+        "cyber incident"
+      ],
+      "Identity, IAM & PAM": [
+        "identity and access",
+        "identity access",
+        "iam",
+        "pam",
+        "privileged access",
+        "identity governance",
+        "iga",
+        "access management",
+        "authentication",
+        "directory services"
+      ],
+      "GRC, Risk, Audit & Compliance": [
+        "grc",
+        "security compliance",
+        "cybersecurity compliance",
+        "technology risk",
+        "cyber risk",
+        "security risk",
+        "it risk",
+        "it audit",
+        "security audit",
+        "hipaa",
+        "hitrust",
+        "third party risk",
+        "third-party risk",
+        "security governance",
+        "security assurance",
+        "security controls"
+      ],
+      "Vulnerability & Endpoint Security": [
+        "vulnerability",
+        "endpoint security",
+        "edr",
+        "endpoint protection",
+        "patch management",
+        "attack surface"
+      ],
+      "Application, Product & Medical Device Security": [
+        "application security",
+        "appsec",
+        "product security",
+        "product cybersecurity",
+        "medical device security",
+        "medical device cybersecurity",
+        "software security",
+        "secure software"
+      ],
+      "Network Security": [
+        "network security",
+        "firewall",
+        "network defense",
+        "network cybersecurity",
+        "zero trust network"
+      ],
+      "Data Security & Privacy Engineering": [
+        "data security",
+        "data protection",
+        "dlp",
+        "data loss prevention",
+        "information protection",
+        "privacy engineering",
+        "privacy security"
+      ],
+      "Healthcare & Clinical Systems Security": [
+        "clinical security",
+        "clinical cybersecurity",
+        "clinical systems",
+        "ehr security",
+        "emr security",
+        "epic security",
+        "healthcare security",
+        "healthcare cybersecurity"
+      ]
+    },
+    "exclude_function_terms": [
+      "finance",
+      "financial",
+      "accounting",
+      "actuary",
+      "actuarial",
+      "sales",
+      "marketing",
+      "pharmacy",
+      "pharmacist",
+      "nursing",
+      "nurse",
+      "physician",
+      "clinical care",
+      "claims",
+      "customer service",
+      "human resources",
+      "recruiter",
+      "talent acquisition",
+      "legal counsel"
+    ]
   },
   "companies": [
     {
@@ -380,8 +554,12 @@
       "careers_urls": [
         "https://careers.unitedhealthgroup.com/en/search-jobs"
       ],
-      "candidate_limit": 250,
-      "enabled": true
+      "candidate_limit": 350,
+      "enabled": true,
+      "listing_page_limit": 12,
+      "sitemap_url_limit": 3500,
+      "detail_fetch_limit": 220,
+      "deep_discovery": true
     },
     {
       "name": "The Cigna Group / Evernorth",
@@ -389,8 +567,12 @@
       "careers_urls": [
         "https://jobs.thecignagroup.com/us/en/c/technology-jobs/0000"
       ],
-      "candidate_limit": 250,
-      "enabled": true
+      "candidate_limit": 350,
+      "enabled": true,
+      "listing_page_limit": 12,
+      "sitemap_url_limit": 3500,
+      "detail_fetch_limit": 220,
+      "deep_discovery": true
     },
     {
       "name": "Elevance Health",
@@ -398,8 +580,12 @@
       "careers_urls": [
         "https://careers.elevancehealth.com/"
       ],
-      "candidate_limit": 250,
-      "enabled": true
+      "candidate_limit": 350,
+      "enabled": true,
+      "listing_page_limit": 12,
+      "sitemap_url_limit": 3500,
+      "detail_fetch_limit": 220,
+      "deep_discovery": true
     },
     {
       "name": "Centene Corporation",
@@ -407,8 +593,12 @@
       "careers_urls": [
         "https://jobs.centene.com/us/en/our-teams/technology/"
       ],
-      "candidate_limit": 250,
-      "enabled": true
+      "candidate_limit": 350,
+      "enabled": true,
+      "listing_page_limit": 12,
+      "sitemap_url_limit": 3500,
+      "detail_fetch_limit": 220,
+      "deep_discovery": true
     },
     {
       "name": "Humana",
@@ -416,8 +606,12 @@
       "careers_urls": [
         "https://careers.humana.com/us/en/tech-digital-analytics-careers-at-humana"
       ],
-      "candidate_limit": 250,
-      "enabled": true
+      "candidate_limit": 350,
+      "enabled": true,
+      "listing_page_limit": 12,
+      "sitemap_url_limit": 3500,
+      "detail_fetch_limit": 220,
+      "deep_discovery": true
     },
     {
       "name": "Kaiser Permanente",
@@ -425,8 +619,12 @@
       "careers_urls": [
         "https://www.kaiserpermanentejobs.org/en/careers-in-technology"
       ],
-      "candidate_limit": 250,
-      "enabled": true
+      "candidate_limit": 350,
+      "enabled": true,
+      "listing_page_limit": 12,
+      "sitemap_url_limit": 3500,
+      "detail_fetch_limit": 220,
+      "deep_discovery": true
     },
     {
       "name": "HCA Healthcare",
@@ -435,8 +633,12 @@
         "https://careers.hcahealthcare.com/",
         "https://careers.hcahealthcare.com/pages/digital-transformation-and-innovation"
       ],
-      "candidate_limit": 250,
-      "enabled": true
+      "candidate_limit": 350,
+      "enabled": true,
+      "listing_page_limit": 12,
+      "sitemap_url_limit": 3500,
+      "detail_fetch_limit": 220,
+      "deep_discovery": true
     },
     {
       "name": "Johnson & Johnson",
@@ -444,8 +646,12 @@
       "careers_urls": [
         "https://www.careers.jnj.com/en/teams/technology-and-cybersecurity/"
       ],
-      "candidate_limit": 250,
-      "enabled": true
+      "candidate_limit": 350,
+      "enabled": true,
+      "listing_page_limit": 12,
+      "sitemap_url_limit": 3500,
+      "detail_fetch_limit": 220,
+      "deep_discovery": true
     },
     {
       "name": "McKesson Corporation",
@@ -454,8 +660,12 @@
         "https://careers.mckesson.com/en/search-jobs/cybersecurity",
         "https://careers.mckesson.com/en/mckesson-technology-systems-tools-careers"
       ],
-      "candidate_limit": 250,
-      "enabled": true
+      "candidate_limit": 350,
+      "enabled": true,
+      "listing_page_limit": 12,
+      "sitemap_url_limit": 3500,
+      "detail_fetch_limit": 220,
+      "deep_discovery": true
     },
     {
       "name": "Cardinal Health",
@@ -463,8 +673,12 @@
       "careers_urls": [
         "https://jobs.cardinalhealth.com/career-areas/information"
       ],
-      "candidate_limit": 250,
-      "enabled": true
+      "candidate_limit": 350,
+      "enabled": true,
+      "listing_page_limit": 12,
+      "sitemap_url_limit": 3500,
+      "detail_fetch_limit": 220,
+      "deep_discovery": true
     },
     {
       "name": "CVS Health / Aetna",
@@ -472,8 +686,12 @@
       "careers_urls": [
         "https://jobs.cvshealth.com/us/en/innovation-and-technology"
       ],
-      "candidate_limit": 250,
-      "enabled": true
+      "candidate_limit": 350,
+      "enabled": true,
+      "listing_page_limit": 12,
+      "sitemap_url_limit": 3500,
+      "detail_fetch_limit": 220,
+      "deep_discovery": true
     },
     {
       "name": "Mayo Clinic",
@@ -481,8 +699,12 @@
       "careers_urls": [
         "https://jobs.mayoclinic.org/category/information-technology-jobs/33647/8576512/1"
       ],
-      "candidate_limit": 250,
-      "enabled": true
+      "candidate_limit": 350,
+      "enabled": true,
+      "listing_page_limit": 12,
+      "sitemap_url_limit": 3500,
+      "detail_fetch_limit": 220,
+      "deep_discovery": true
     },
     {
       "name": "Cleveland Clinic",
@@ -490,8 +712,12 @@
       "careers_urls": [
         "https://jobs.clevelandclinic.org/"
       ],
-      "candidate_limit": 250,
-      "enabled": true
+      "candidate_limit": 350,
+      "enabled": true,
+      "listing_page_limit": 12,
+      "sitemap_url_limit": 3500,
+      "detail_fetch_limit": 220,
+      "deep_discovery": true
     },
     {
       "name": "Abbott",
@@ -499,8 +725,12 @@
       "careers_urls": [
         "https://www.jobs.abbott/us/en/c/information-technology-jobs/"
       ],
-      "candidate_limit": 250,
-      "enabled": true
+      "candidate_limit": 350,
+      "enabled": true,
+      "listing_page_limit": 12,
+      "sitemap_url_limit": 3500,
+      "detail_fetch_limit": 220,
+      "deep_discovery": true
     },
     {
       "name": "Medtronic",
@@ -509,8 +739,12 @@
         "https://www.medtronic.com/xg-en/about/careers/engineering/software.html",
         "https://www.medtronic.com/en-us/our-company/careers/engineering.html"
       ],
-      "candidate_limit": 250,
-      "enabled": true
+      "candidate_limit": 350,
+      "enabled": true,
+      "listing_page_limit": 12,
+      "sitemap_url_limit": 3500,
+      "detail_fetch_limit": 220,
+      "deep_discovery": true
     },
     {
       "name": "GE HealthCare",
@@ -518,8 +752,12 @@
       "careers_urls": [
         "https://careers.gehealthcare.com/global/en/"
       ],
-      "candidate_limit": 250,
-      "enabled": true
+      "candidate_limit": 350,
+      "enabled": true,
+      "listing_page_limit": 12,
+      "sitemap_url_limit": 3500,
+      "detail_fetch_limit": 220,
+      "deep_discovery": true
     },
     {
       "name": "Philips",
@@ -528,8 +766,12 @@
         "https://www.careers.philips.com/global/en/healthcare-informatics",
         "https://www.careers.philips.com/na/en/"
       ],
-      "candidate_limit": 250,
-      "enabled": true
+      "candidate_limit": 350,
+      "enabled": true,
+      "listing_page_limit": 12,
+      "sitemap_url_limit": 3500,
+      "detail_fetch_limit": 220,
+      "deep_discovery": true
     },
     {
       "name": "Stryker",
@@ -538,8 +780,12 @@
         "https://careers.stryker.com/jobs",
         "https://careers.stryker.com/engineering"
       ],
-      "candidate_limit": 250,
-      "enabled": true
+      "candidate_limit": 350,
+      "enabled": true,
+      "listing_page_limit": 12,
+      "sitemap_url_limit": 3500,
+      "detail_fetch_limit": 220,
+      "deep_discovery": true
     },
     {
       "name": "Epic Systems",
@@ -548,8 +794,12 @@
         "https://careers.epic.com/jobs/",
         "https://careers.epic.com/jobs/hosting/"
       ],
-      "candidate_limit": 250,
-      "enabled": true
+      "candidate_limit": 350,
+      "enabled": true,
+      "listing_page_limit": 12,
+      "sitemap_url_limit": 3500,
+      "detail_fetch_limit": 220,
+      "deep_discovery": true
     }
   ],
   "location_policy": {
