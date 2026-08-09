@@ -45,6 +45,11 @@ class Job:
     is_new: bool = False
     matched_titles: list[str] | None = None
     matched_keywords: list[str] | None = None
+    role_family: str = ""
+    seniority: str = ""
+    seniority_priority: int = 99
+    experience_years_min: int | None = None
+    match_score: int = 0
     location_category: str = ""
     location_priority: int = 99
 
@@ -211,7 +216,10 @@ def fetch_generic(company: dict, filters: dict | None = None) -> list[Job]:
         raise ValueError("Generic company needs careers_url or careers_urls")
 
     candidates: dict[str, str] = {}
-    title_terms = [x.strip() for x in filters.get("title_any", []) if x.strip()]
+    discovery_terms = [x.strip() for x in filters.get("discovery_title_terms", []) if x.strip()]
+    if not discovery_terms:
+        role_families = filters.get("role_families", {}) or {}
+        discovery_terms = [term for terms in role_families.values() for term in terms]
 
     for careers_url in source_urls:
         response = SESSION.get(careers_url, timeout=30)
@@ -227,7 +235,7 @@ def fetch_generic(company: dict, filters: dict | None = None) -> list[Job]:
                 continue
             # Most career search pages expose the job title as the link text.
             # Prefiltering here avoids opening hundreds/thousands of unrelated jobs.
-            if title_terms and not any(term_matches(text, term) for term in title_terms):
+            if discovery_terms and not any(term_matches(text, term) for term in discovery_terms):
                 continue
             candidates[href] = text[:220]
 
@@ -314,30 +322,98 @@ def term_matches(text: str, term: str) -> bool:
     return term in text
 
 
-def filter_job(job: Job, filters: dict) -> bool:
-    title_terms = [x.strip() for x in filters.get("title_any", []) if x.strip()]
-    keyword_terms = [x.strip() for x in filters.get("keyword_any", []) if x.strip()]
-    exclude_terms = [x.strip() for x in filters.get("exclude_any", []) if x.strip()]
+def classify_role_family(title: str, filters: dict) -> tuple[str, list[str]]:
+    role_families = filters.get("role_families", {}) or {}
+    best_family = ""
+    best_terms: list[str] = []
+    for family, terms in role_families.items():
+        matches = [term for term in terms if term_matches(title, term)]
+        if matches and (not best_terms or max(map(len, matches)) > max(map(len, best_terms))):
+            best_family = family
+            best_terms = matches
+    return best_family, best_terms
 
-    title_text = job.title
+
+def classify_seniority(title: str, filters: dict) -> tuple[str, int]:
+    t = f" {title.lower()} "
+    levels = (filters.get("seniority_policy", {}) or {}).get("levels", {}) or {}
+
+    def pri(label: str, default: int) -> tuple[str, int]:
+        return label, int(levels.get(label, default))
+
+    if re.search(r"\b(intern|internship|co-op|coop|new grad|new graduate|graduate program|early career|apprentice)\b", t):
+        return pri("Intern / New Grad", 0)
+    if re.search(r"\b(entry[- ]level|junior|jr\.?|level 1|level one)\b", t):
+        return pri("Entry / Junior", 1)
+    if re.search(r"\b(associate|analyst i|analyst 1|engineer i|engineer 1|specialist i|specialist 1|administrator i|administrator 1|consultant i|consultant 1|technician i|technician 1)\b", t):
+        return pri("Associate / Level I", 2)
+    if re.search(r"\b(analyst ii|analyst 2|engineer ii|engineer 2|specialist ii|specialist 2|administrator ii|administrator 2|consultant ii|consultant 2|technician ii|technician 2|level 2|level two|intermediate|mid[- ]level)\b", t):
+        return pri("Level II / Mid", 3)
+    if re.search(r"\b(senior|sr\.?|analyst iii|analyst 3|engineer iii|engineer 3|analyst iv|analyst 4|engineer iv|engineer 4|architect)\b", t):
+        return pri("Senior IC / Architect", 5)
+    return pri("Standard / Unspecified", 4)
+
+
+def extract_min_years(description: str) -> int | None:
+    text = clean_text(description).lower()
+    patterns = [
+        r"(?:minimum|min\.?|at least)\s+(\d{1,2})\+?\s+years",
+        r"(\d{1,2})\+\s+years(?: of)? experience",
+        r"(\d{1,2})\s*(?:-|to)\s*\d{1,2}\s+years(?: of)? experience",
+    ]
+    found: list[int] = []
+    for pattern in patterns:
+        for m in re.finditer(pattern, text):
+            try:
+                found.append(int(m.group(1)))
+            except Exception:
+                pass
+    return min(found) if found else None
+
+
+def filter_job(job: Job, filters: dict) -> bool:
+    keyword_terms = [x.strip() for x in filters.get("keyword_any", []) if x.strip()]
+    exclude_title_terms = [x.strip() for x in filters.get("exclude_title_any", []) if x.strip()]
+
+    title_text = clean_text(job.title)
     all_text = f"{job.title} {job.location} {job.description}"
 
-    if any(term_matches(all_text, x) for x in exclude_terms):
+    if any(term_matches(title_text, x) for x in exclude_title_terms):
         return False
 
-    matched_titles = [x for x in title_terms if term_matches(title_text, x)]
+    role_family, matched_titles = classify_role_family(title_text, filters)
     matched_keywords = [x for x in keyword_terms if term_matches(all_text, x)]
+    seniority, seniority_priority = classify_seniority(title_text, filters)
+    min_years = extract_min_years(job.description)
 
-    title_ok = bool(matched_titles) if title_terms else True
-    keyword_ok = bool(matched_keywords) if keyword_terms else True
+    policy = filters.get("seniority_policy", {}) or {}
+    if seniority == "Senior IC / Architect" and not policy.get("include_senior_ic", True):
+        return False
+
+    max_required_years = filters.get("max_required_years")
+    if isinstance(max_required_years, int) and min_years is not None and min_years > max_required_years:
+        return False
+
+    if filters.get("require_role_family", True) and not role_family:
+        return False
+    if filters.get("require_keyword", False) and keyword_terms and not matched_keywords:
+        return False
 
     job.matched_titles = matched_titles
     job.matched_keywords = matched_keywords
+    job.role_family = role_family or "Other Relevant Technology"
+    job.seniority = seniority
+    job.seniority_priority = seniority_priority
+    job.experience_years_min = min_years
 
-    if filters.get("require_title_and_keyword", True):
-        return title_ok and keyword_ok
-    return title_ok or keyword_ok
-
+    # Higher score = stronger fit. Exact role-family hits matter most; healthcare/security
+    # keywords add confidence while early-career titles receive a modest boost.
+    score = 60 + min(len(matched_titles) * 8, 24) + min(len(matched_keywords) * 2, 16)
+    score += max(0, 10 - seniority_priority * 2)
+    if min_years is not None and min_years <= 3:
+        score += 8
+    job.match_score = min(score, 100)
+    return True
 
 
 def _term_in(text: str, term: str) -> bool:
@@ -419,7 +495,14 @@ def save_results(jobs: Iterable[Job], app_name: str, errors: list[dict]):
         row["description"] = clean_text(row["description"])[:1200]
         serialized.append(row)
 
-    serialized.sort(key=lambda x: (x.get("location_priority", 99), not x["is_new"], x["company"].lower(), x["title"].lower()))
+    serialized.sort(key=lambda x: (
+        x.get("location_priority", 99),
+        x.get("seniority_priority", 99),
+        -x.get("match_score", 0),
+        not x["is_new"],
+        x["company"].lower(),
+        x["title"].lower(),
+    ))
     payload = {
         "app_name": app_name,
         "updated_at": now,

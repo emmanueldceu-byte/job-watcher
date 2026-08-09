@@ -50,18 +50,30 @@ def main() -> int:
     max_jobs = int(note.get("max_jobs_in_email", 30))
     display_jobs = sorted(
         jobs,
-        key=lambda j: (j.get("location_priority", 99), not j.get("is_new", False), j.get("company", ""), j.get("title", "")),
+        key=lambda j: (
+            j.get("location_priority", 99),
+            j.get("seniority_priority", 99),
+            -j.get("match_score", 0),
+            not j.get("is_new", False),
+            j.get("company", ""),
+            j.get("title", ""),
+        ),
     )[:max_jobs]
 
     rows = []
     for j in display_jobs:
         badge = "NEW · " if j.get("is_new") else ""
         category = j.get("location_category") or j.get("location") or "Location not listed"
+        role_family = j.get("role_family") or "Relevant technology"
+        seniority = j.get("seniority") or "Level not specified"
+        exp = j.get("experience_years_min")
+        exp_text = f" · {exp}+ yrs requested" if isinstance(exp, int) else ""
         rows.append(
             f'''<tr>
               <td style="padding:14px 0;border-bottom:1px solid #e7eaf0;">
                 <div style="font:700 16px Arial,sans-serif;color:#132238;">{esc(badge + j.get('title',''))}</div>
                 <div style="margin-top:5px;font:14px Arial,sans-serif;color:#526173;">{esc(j.get('company',''))} · {esc(category)}</div>
+                <div style="margin-top:5px;font:13px Arial,sans-serif;color:#687588;">{esc(role_family)} · {esc(seniority)}{esc(exp_text)}</div>
                 <div style="margin-top:5px;font:13px Arial,sans-serif;color:#687588;">{esc(j.get('location',''))}</div>
                 <a href="{esc(j.get('url',''))}" style="display:inline-block;margin-top:9px;font:700 13px Arial,sans-serif;color:#2d5bff;text-decoration:none;">View &amp; apply →</a>
               </td>
@@ -81,7 +93,7 @@ def main() -> int:
     <div style="font:700 12px Arial,sans-serif;color:#2d5bff;letter-spacing:.08em;">DAILY HEALTHCARE TECH JOB WATCHER</div>
     <h1 style="font:700 26px Arial,sans-serif;color:#122033;margin:8px 0 8px;">{len(new_jobs)} new job{'' if len(new_jobs)==1 else 's'} today</h1>
     <p style="font:14px/1.6 Arial,sans-serif;color:#526173;margin:0 0 8px;">{len(preferred)} NYC/North Jersey metro match{'' if len(preferred)==1 else 'es'} · {len(remote)} U.S. remote match{'' if len(remote)==1 else 'es'}.</p>
-    <p style="font:13px/1.6 Arial,sans-serif;color:#687588;margin:0 0 18px;">NYC/North Jersey opportunities are ranked first, followed by fully remote U.S. opportunities.</p>
+    <p style="font:13px/1.6 Arial,sans-serif;color:#687588;margin:0 0 18px;">NYC/North Jersey opportunities are ranked first, followed by fully remote U.S. opportunities. Within each location group, early-career and mid-level roles are ranked before senior individual-contributor roles.</p>
     <table role="presentation" width="100%" cellspacing="0" cellpadding="0">{jobs_html}</table>
     {error_html}
     <p style="font:12px Arial,sans-serif;color:#8a94a4;margin-top:20px;">Showing up to {max_jobs} current matches. The live dashboard contains the full scan results.</p>

@@ -1,53 +1,299 @@
 {
   "app_name": "Healthcare Cloud & Cybersecurity Job Watcher",
   "filters": {
-    "title_any": [
-      "Healthcare Cloud Engineer",
-      "Cloud Engineer",
-      "Cloud Infrastructure Engineer",
-      "Cloud Security Engineer",
-      "Cloud Infrastructure Architect",
-      "Cloud Architect",
-      "Infrastructure Architect",
-      "Clinical DevOps Engineer",
-      "DevOps Engineer",
-      "DevSecOps Engineer",
-      "Platform Engineer",
-      "Site Reliability Engineer",
-      "Healthcare Information Security Analyst",
-      "Information Security Analyst",
-      "Cybersecurity Analyst",
-      "Security Analyst",
-      "Security Engineer",
-      "Cybersecurity Engineer",
-      "Medical Device Security Specialist",
-      "Medical Device Security",
-      "Product Security Engineer",
-      "Product Cybersecurity Engineer",
-      "HIPAA Compliance & Security Auditor",
-      "HIPAA Compliance Auditor",
-      "Security Compliance Analyst",
-      "Cybersecurity Compliance Analyst",
-      "IT Compliance Analyst",
-      "GRC Analyst",
-      "IT Auditor",
-      "Information Security Auditor",
-      "Healthcare Incident Responder",
-      "Incident Response Analyst",
-      "Incident Response Engineer",
-      "Incident Responder",
-      "DFIR Analyst",
-      "Digital Forensics Analyst",
-      "SOC Analyst",
-      "Cloud Security Architect",
-      "Security Architect",
-      "Cybersecurity Architect",
-      "Information Security Engineer",
-      "IAM Engineer",
-      "Identity Security Engineer",
-      "PAM Security Engineer",
-      "Privileged Access Management Engineer",
-      "Security Operations Analyst"
+    "role_families": {
+      "Cloud Security": [
+        "cloud security analyst",
+        "cloud security engineer",
+        "cloud security architect",
+        "cloud security specialist",
+        "cloud security consultant",
+        "cloud security administrator",
+        "cloud cybersecurity analyst",
+        "cloud cybersecurity engineer"
+      ],
+      "Cloud & Infrastructure": [
+        "cloud engineer",
+        "cloud infrastructure engineer",
+        "cloud operations engineer",
+        "cloud platform engineer",
+        "cloud support engineer",
+        "cloud systems engineer",
+        "cloud administrator",
+        "cloud analyst",
+        "infrastructure engineer",
+        "infrastructure analyst",
+        "systems engineer",
+        "systems administrator",
+        "platform engineer",
+        "site reliability engineer",
+        "cloud reliability engineer",
+        "cloud architect",
+        "cloud infrastructure architect",
+        "cloud solutions architect",
+        "cloud operations analyst",
+        "cloud support analyst",
+        "cloud support associate",
+        "cloud specialist",
+        "infrastructure specialist",
+        "platform analyst",
+        "platform specialist",
+        "cloud devops engineer",
+        "cloud systems analyst"
+      ],
+      "DevOps & Platform": [
+        "devops engineer",
+        "devsecops engineer",
+        "devops analyst",
+        "devsecops analyst",
+        "release engineer",
+        "build engineer",
+        "automation engineer",
+        "platform operations engineer",
+        "production engineer",
+        "site reliability engineer",
+        "sre engineer",
+        "devops specialist",
+        "devsecops specialist",
+        "ci/cd engineer",
+        "cicd engineer",
+        "release analyst",
+        "automation analyst"
+      ],
+      "Security Operations & Engineering": [
+        "cybersecurity analyst",
+        "cyber security analyst",
+        "security analyst",
+        "information security analyst",
+        "security operations analyst",
+        "soc analyst",
+        "cybersecurity engineer",
+        "cyber security engineer",
+        "security engineer",
+        "information security engineer",
+        "security operations engineer",
+        "detection engineer",
+        "threat analyst",
+        "threat detection engineer",
+        "cyber defense analyst",
+        "security monitoring analyst",
+        "security administrator",
+        "cybersecurity specialist",
+        "information security specialist",
+        "security consultant",
+        "cybersecurity consultant",
+        "cyber security consultant",
+        "threat intelligence analyst",
+        "threat hunter",
+        "cyber threat analyst",
+        "security specialist",
+        "cybersecurity associate",
+        "security operations specialist"
+      ],
+      "Incident Response & DFIR": [
+        "incident response analyst",
+        "incident response engineer",
+        "incident responder",
+        "security incident responder",
+        "cyber incident response",
+        "cyber incident responder",
+        "dfir analyst",
+        "dfir engineer",
+        "digital forensics analyst",
+        "digital forensics engineer",
+        "forensic analyst",
+        "forensics analyst",
+        "incident response specialist",
+        "forensic investigator",
+        "cyber forensics analyst"
+      ],
+      "Identity, IAM & PAM": [
+        "iam analyst",
+        "iam engineer",
+        "identity and access management analyst",
+        "identity and access management engineer",
+        "identity access management analyst",
+        "identity access management engineer",
+        "identity security analyst",
+        "identity security engineer",
+        "identity governance analyst",
+        "identity governance engineer",
+        "iga analyst",
+        "iga engineer",
+        "pam analyst",
+        "pam engineer",
+        "privileged access management analyst",
+        "privileged access management engineer",
+        "access management analyst",
+        "access management engineer",
+        "authentication engineer",
+        "directory services engineer",
+        "identity analyst",
+        "identity engineer",
+        "access control analyst",
+        "access control engineer",
+        "directory services analyst",
+        "identity consultant",
+        "iam consultant",
+        "identity and access management specialist"
+      ],
+      "GRC, Risk, Audit & Compliance": [
+        "grc analyst",
+        "grc specialist",
+        "security compliance analyst",
+        "cybersecurity compliance analyst",
+        "it compliance analyst",
+        "technology risk analyst",
+        "information security risk analyst",
+        "cyber risk analyst",
+        "it risk analyst",
+        "security risk analyst",
+        "it auditor",
+        "information security auditor",
+        "cybersecurity auditor",
+        "security auditor",
+        "hipaa security analyst",
+        "hipaa compliance analyst",
+        "hipaa security auditor",
+        "hipaa compliance auditor",
+        "hitrust analyst",
+        "third party risk analyst",
+        "third-party risk analyst",
+        "vendor risk analyst",
+        "security governance analyst",
+        "security governance specialist",
+        "security assurance analyst",
+        "cybersecurity assurance analyst",
+        "information security compliance analyst",
+        "it controls analyst",
+        "technology controls analyst",
+        "security controls analyst",
+        "technology risk consultant",
+        "cyber risk consultant",
+        "security compliance specialist",
+        "risk and compliance analyst"
+      ],
+      "Vulnerability & Endpoint Security": [
+        "vulnerability analyst",
+        "vulnerability management analyst",
+        "vulnerability engineer",
+        "vulnerability management engineer",
+        "endpoint security analyst",
+        "endpoint security engineer",
+        "edr analyst",
+        "edr engineer",
+        "endpoint protection engineer",
+        "security vulnerability specialist",
+        "vulnerability management specialist",
+        "vulnerability specialist",
+        "endpoint security specialist",
+        "patch management analyst"
+      ],
+      "Application, Product & Medical Device Security": [
+        "application security analyst",
+        "application security engineer",
+        "appsec analyst",
+        "appsec engineer",
+        "product security analyst",
+        "product security engineer",
+        "product cybersecurity analyst",
+        "product cybersecurity engineer",
+        "medical device security specialist",
+        "medical device security engineer",
+        "medical device cybersecurity engineer",
+        "device security engineer",
+        "secure software engineer",
+        "application security specialist",
+        "product security specialist",
+        "medical device cybersecurity specialist",
+        "software security engineer"
+      ],
+      "Network Security": [
+        "network security analyst",
+        "network security engineer",
+        "network security administrator",
+        "firewall engineer",
+        "firewall analyst",
+        "network cybersecurity engineer",
+        "network security specialist",
+        "network security consultant",
+        "network security associate",
+        "network defense analyst"
+      ],
+      "Data Security & Privacy Engineering": [
+        "data security analyst",
+        "data security engineer",
+        "data protection analyst",
+        "data protection engineer",
+        "dlp analyst",
+        "dlp engineer",
+        "privacy security analyst",
+        "privacy security engineer",
+        "information protection analyst",
+        "information protection engineer",
+        "data security specialist",
+        "data protection specialist",
+        "information protection specialist",
+        "privacy engineer",
+        "data loss prevention analyst"
+      ],
+      "Healthcare & Clinical Systems Security": [
+        "healthcare information security analyst",
+        "healthcare cybersecurity analyst",
+        "healthcare security analyst",
+        "clinical security analyst",
+        "clinical cybersecurity analyst",
+        "clinical systems security analyst",
+        "ehr security analyst",
+        "emr security analyst",
+        "epic security analyst",
+        "clinical systems engineer",
+        "healthcare cloud engineer",
+        "clinical devops engineer",
+        "healthcare security engineer",
+        "clinical security engineer",
+        "ehr security specialist",
+        "epic security engineer",
+        "clinical systems analyst"
+      ]
+    },
+    "discovery_title_terms": [
+      "cloud",
+      "devops",
+      "devsecops",
+      "platform",
+      "site reliability",
+      "sre",
+      "infrastructure",
+      "security",
+      "cyber",
+      "information security",
+      "soc",
+      "incident response",
+      "forensic",
+      "dfir",
+      "identity",
+      "iam",
+      "pam",
+      "access management",
+      "grc",
+      "risk",
+      "compliance",
+      "audit",
+      "vulnerability",
+      "endpoint",
+      "application security",
+      "appsec",
+      "product security",
+      "medical device",
+      "network security",
+      "firewall",
+      "data security",
+      "data protection",
+      "dlp",
+      "clinical systems",
+      "ehr",
+      "emr"
     ],
     "keyword_any": [
       "healthcare",
@@ -84,19 +330,48 @@
       "security compliance",
       "zero trust",
       "identity and access management",
-      "IAM"
+      "IAM",
+      "PAM",
+      "vulnerability management",
+      "endpoint security",
+      "EDR",
+      "application security",
+      "AppSec",
+      "network security",
+      "data protection",
+      "DLP"
     ],
-    "exclude_any": [
+    "exclude_title_any": [
       "vice president",
-      "chief information",
-      "chief technology",
-      "chief security",
-      "sales representative",
+      "vp ",
+      "chief ",
+      "director",
+      "manager",
+      "principal",
+      "staff ",
+      "lead ",
+      "head of",
+      "distinguished",
+      "fellow",
       "registered nurse",
       "physician",
-      "pharmacist"
+      "pharmacist",
+      "sales representative"
     ],
-    "require_title_and_keyword": true
+    "require_role_family": true,
+    "require_keyword": false,
+    "max_required_years": 7,
+    "seniority_policy": {
+      "include_senior_ic": true,
+      "levels": {
+        "Intern / New Grad": 0,
+        "Entry / Junior": 1,
+        "Associate / Level I": 2,
+        "Level II / Mid": 3,
+        "Standard / Unspecified": 4,
+        "Senior IC / Architect": 5
+      }
+    }
   },
   "companies": [
     {
@@ -105,6 +380,7 @@
       "careers_urls": [
         "https://careers.unitedhealthgroup.com/en/search-jobs"
       ],
+      "candidate_limit": 250,
       "enabled": true
     },
     {
@@ -113,6 +389,7 @@
       "careers_urls": [
         "https://jobs.thecignagroup.com/us/en/c/technology-jobs/0000"
       ],
+      "candidate_limit": 250,
       "enabled": true
     },
     {
@@ -121,6 +398,7 @@
       "careers_urls": [
         "https://careers.elevancehealth.com/"
       ],
+      "candidate_limit": 250,
       "enabled": true
     },
     {
@@ -129,6 +407,7 @@
       "careers_urls": [
         "https://jobs.centene.com/us/en/our-teams/technology/"
       ],
+      "candidate_limit": 250,
       "enabled": true
     },
     {
@@ -137,6 +416,7 @@
       "careers_urls": [
         "https://careers.humana.com/us/en/tech-digital-analytics-careers-at-humana"
       ],
+      "candidate_limit": 250,
       "enabled": true
     },
     {
@@ -145,6 +425,7 @@
       "careers_urls": [
         "https://www.kaiserpermanentejobs.org/en/careers-in-technology"
       ],
+      "candidate_limit": 250,
       "enabled": true
     },
     {
@@ -154,6 +435,7 @@
         "https://careers.hcahealthcare.com/",
         "https://careers.hcahealthcare.com/pages/digital-transformation-and-innovation"
       ],
+      "candidate_limit": 250,
       "enabled": true
     },
     {
@@ -162,6 +444,7 @@
       "careers_urls": [
         "https://www.careers.jnj.com/en/teams/technology-and-cybersecurity/"
       ],
+      "candidate_limit": 250,
       "enabled": true
     },
     {
@@ -171,6 +454,7 @@
         "https://careers.mckesson.com/en/search-jobs/cybersecurity",
         "https://careers.mckesson.com/en/mckesson-technology-systems-tools-careers"
       ],
+      "candidate_limit": 250,
       "enabled": true
     },
     {
@@ -179,6 +463,7 @@
       "careers_urls": [
         "https://jobs.cardinalhealth.com/career-areas/information"
       ],
+      "candidate_limit": 250,
       "enabled": true
     },
     {
@@ -187,6 +472,7 @@
       "careers_urls": [
         "https://jobs.cvshealth.com/us/en/innovation-and-technology"
       ],
+      "candidate_limit": 250,
       "enabled": true
     },
     {
@@ -195,6 +481,7 @@
       "careers_urls": [
         "https://jobs.mayoclinic.org/category/information-technology-jobs/33647/8576512/1"
       ],
+      "candidate_limit": 250,
       "enabled": true
     },
     {
@@ -203,6 +490,7 @@
       "careers_urls": [
         "https://jobs.clevelandclinic.org/"
       ],
+      "candidate_limit": 250,
       "enabled": true
     },
     {
@@ -211,6 +499,7 @@
       "careers_urls": [
         "https://www.jobs.abbott/us/en/c/information-technology-jobs/"
       ],
+      "candidate_limit": 250,
       "enabled": true
     },
     {
@@ -220,6 +509,7 @@
         "https://www.medtronic.com/xg-en/about/careers/engineering/software.html",
         "https://www.medtronic.com/en-us/our-company/careers/engineering.html"
       ],
+      "candidate_limit": 250,
       "enabled": true
     },
     {
@@ -228,6 +518,7 @@
       "careers_urls": [
         "https://careers.gehealthcare.com/global/en/"
       ],
+      "candidate_limit": 250,
       "enabled": true
     },
     {
@@ -237,6 +528,7 @@
         "https://www.careers.philips.com/global/en/healthcare-informatics",
         "https://www.careers.philips.com/na/en/"
       ],
+      "candidate_limit": 250,
       "enabled": true
     },
     {
@@ -246,6 +538,7 @@
         "https://careers.stryker.com/jobs",
         "https://careers.stryker.com/engineering"
       ],
+      "candidate_limit": 250,
       "enabled": true
     },
     {
@@ -255,6 +548,7 @@
         "https://careers.epic.com/jobs/",
         "https://careers.epic.com/jobs/hosting/"
       ],
+      "candidate_limit": 250,
       "enabled": true
     }
   ],
@@ -369,6 +663,6 @@
     "daily_email": true,
     "recipient": "kingdomarmyknives@gmail.com",
     "timezone": "America/New_York",
-    "max_jobs_in_email": 30
+    "max_jobs_in_email": 40
   }
 }

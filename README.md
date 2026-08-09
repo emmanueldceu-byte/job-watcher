@@ -1,186 +1,124 @@
-# Healthcare Cloud & Cybersecurity Job Watcher — $0 Starter
+# Healthcare Cloud & Cybersecurity Job Watcher — Expanded Role-Level Edition
 
-A customized job-search web app that checks selected healthcare and health-technology company career pages every day, filters openings by **target role + cloud/security keyword**, and publishes the matches to a clean GitHub Pages site.
+A $0 GitHub-hosted job watcher that checks selected healthcare and health-technology employers every day, classifies matching jobs by **role family + career level**, prioritizes **NYC/North Jersey** and **U.S. remote** roles, updates a live GitHub Pages dashboard, and emails a daily digest to `kingdomarmyknives@gmail.com`.
 
-## What it does
+## What changed in this edition
 
-- Runs automatically every day at **7:17 AM America/New_York**.
-- Sends a **daily Gmail digest to `kingdomarmyknives@gmail.com`** after each scan once the Gmail App Password secret is added.
-- Keeps only **NYC/North Jersey metro** opportunities or **fully remote U.S.** opportunities; NYC/North Jersey matches are ranked first.
-- Supports **Greenhouse, Lever, Ashby, Workday**, plus a best-effort generic HTML careers-page scraper.
-- Filters by any titles you specify.
-- Filters by any keywords you specify.
-- Can require **both a title match AND a keyword match**.
-- Supports exclusions such as `Director` or `Vice President`.
-- Remembers `first_seen` and marks newly discovered jobs as **NEW**.
-- Automatically removes jobs from the live view when they disappear from the source on a later scan.
-- Gives you a searchable, mobile-responsive live website.
+The matcher no longer depends on a few exact titles such as `Cloud Engineer`. It now recognizes a broad set of related job titles and classifies them into these role families:
 
+- Cloud & Infrastructure
+- DevOps & Platform
+- Security Operations & Engineering
+- Incident Response & DFIR
+- Identity, IAM & PAM
+- GRC, Risk, Audit & Compliance
+- Vulnerability & Endpoint Security
+- Application, Product & Medical Device Security
+- Network Security
+- Data Security & Privacy Engineering
+- Healthcare & Clinical Systems Security
 
-## Your customized target list
+It also assigns each match to a career level:
 
-The included `config.json` is already configured for these role families:
+- Intern / New Grad
+- Entry / Junior
+- Associate / Level I
+- Level II / Mid
+- Standard / Unspecified
+- Senior IC / Architect
 
-- Healthcare cloud engineering: Cloud Engineer, Cloud Infrastructure Engineer/Architect, Cloud Security Engineer, Cloud Architect.
-- Clinical cloud delivery: Clinical DevOps Engineer, DevOps/DevSecOps Engineer, Platform Engineer, Site Reliability Engineer.
-- Healthcare cybersecurity: Information Security Analyst, Cybersecurity Analyst/Engineer, Security Analyst/Engineer.
-- Medical-device security: Medical Device Security, Product Security Engineer, Product Cybersecurity Engineer.
-- HIPAA/GRC/audit: HIPAA Compliance Auditor, Security Compliance Analyst, IT Compliance Analyst, GRC Analyst, IT/Security Auditor.
-- Incident response: Healthcare Incident Responder, Incident Response Analyst/Engineer, DFIR Analyst, Digital Forensics Analyst, SOC Analyst.
+Manager, Director, VP, Chief, Principal, Staff, Lead, Head-of and similar leadership titles are excluded by default. Senior individual-contributor and architect jobs are still included but rank below early-career and mid-level jobs. Jobs whose descriptions clearly require more than 7 years are excluded by default.
 
-The included healthcare employers are UnitedHealth Group/Optum, The Cigna Group/Evernorth, Elevance Health, Centene, Humana, Kaiser Permanente, HCA Healthcare, Johnson & Johnson, McKesson, Cardinal Health, CVS Health/Aetna, Mayo Clinic, Cleveland Clinic, Abbott, Medtronic, GE HealthCare, Philips, Stryker, and Epic Systems.
+## Examples now recognized
 
+Examples include Junior Cloud Support Engineer, Cloud Infrastructure Engineer II, Associate IAM Analyst, Cybersecurity Analyst I, Security Operations Analyst, SOC Analyst, GRC Analyst II, Third-Party Risk Analyst, Vulnerability Management Analyst, Endpoint Security Engineer, Application Security Analyst, Product Cybersecurity Engineer I, Medical Device Security Engineer, Network Security Analyst, Data Protection Analyst, EHR Security Analyst, Epic Security Analyst, and many title variants in those families.
 
-## Location rules already configured
+## Ranking order
 
-The app now uses this search policy:
+The dashboard and email sort matches primarily as follows:
 
-1. **Priority 1 — NYC / North Jersey Metro:** New Jersey and New York City metro roles are accepted and ranked first. The configuration includes common hubs such as Jersey City, Newark, Hoboken, Parsippany, Morristown, Edison, Princeton, Manhattan, Brooklyn, Queens, the Bronx, White Plains, Stamford, and nearby areas.
-2. **Priority 2 — U.S. Remote:** Fully remote roles are accepted across the United States.
-3. **Excluded:** On-site/hybrid jobs outside the NYC/North Jersey metro and jobs whose stated location is explicitly outside the United States.
+1. NYC / North Jersey metro
+2. U.S. remote
+3. Within each location group: Intern/New Grad → Entry/Junior → Associate/Level I → Level II/Mid → Standard/Unspecified → Senior IC/Architect
+4. Stronger title/keyword matches rank higher within the same group
 
-These rules are editable under `location_policy` in `config.json`.
+## Dashboard filters
 
-## Daily email notification setup
+The live site now lets you filter by:
 
-The recipient is already configured as **`kingdomarmyknives@gmail.com`**. For security, the Gmail credential is **not** stored in the repository.
+- Search text
+- Company
+- Role family
+- Career level
+- Location type
+- New jobs only
 
-One-time setup in GitHub:
+Each job card shows its role family and career level.
 
-1. Turn on **2-Step Verification** for the Gmail account that will send the digest.
-2. Create a Google **App Password** for the job watcher. Do **not** use your normal Gmail password.
-3. In the GitHub repository, open **Settings → Secrets and variables → Actions → New repository secret**.
-4. Name the secret exactly `GMAIL_APP_PASSWORD`.
-5. Paste the 16-character Google App Password as the value and save it.
-6. Go to **Actions → Daily job scan → Run workflow** once to test it.
+## Companies included
 
-After that, every scheduled run will scan the jobs and send the daily digest automatically. The email contains new-job counts, NYC/North Jersey matches, U.S.-remote matches, direct application links, and a warning if any company source failed that day.
+UnitedHealth Group/Optum, The Cigna Group/Evernorth, Elevance Health, Centene, Humana, Kaiser Permanente, HCA Healthcare, Johnson & Johnson, McKesson, Cardinal Health, CVS Health/Aetna, Mayo Clinic, Cleveland Clinic, Abbott, Medtronic, GE HealthCare, Philips, Stryker, and Epic Systems.
 
-## 1. Customize your searches
+## Location rules
 
-Edit `config.json`.
+The app accepts:
 
-### Filters
+- NYC / North Jersey metro positions
+- Fully remote U.S. positions
 
-```json
-"filters": {
-  "title_any": [
-    "Cloud Engineer",
-    "Cloud Security Engineer",
-    "DevOps Engineer",
-    "Information Security Analyst",
-    "Medical Device Security",
-    "GRC Analyst",
-    "Incident Response Analyst"
-  ],
-  "keyword_any": [
-    "HIPAA", "PHI", "EHR", "cloud", "AWS", "Azure",
-    "cybersecurity", "incident response", "HITRUST", "IAM"
-  ],
-  "exclude_any": ["vice president"],
-  "require_title_and_keyword": true
-}
-```
+It rejects clearly non-U.S. roles and on-site/hybrid roles outside the preferred metro area.
 
-- `title_any`: the job title must contain at least one of these phrases.
-- `keyword_any`: title, location, or description must contain at least one of these phrases.
-- `exclude_any`: reject a posting if it contains one of these phrases.
-- `require_title_and_keyword: true`: requires a title match **and** a keyword match.
-- Set it to `false` to accept a title match **or** a keyword match.
+## Daily email
 
-### Companies
+The digest recipient is already set to `kingdomarmyknives@gmail.com`.
 
-Enable only the companies you want by setting `"enabled": true`.
+In GitHub, store the Gmail App Password as a repository Actions secret named exactly:
 
-#### Greenhouse
-If the careers URL resembles `https://boards.greenhouse.io/acme`, the board token is usually `acme`.
+`GMAIL_APP_PASSWORD`
 
-```json
-{
-  "name": "Acme",
-  "type": "greenhouse",
-  "board_token": "acme",
-  "enabled": true
-}
-```
+Do not put your normal Gmail password in the repository.
 
-#### Lever
-If the careers URL resembles `https://jobs.lever.co/acme`, use `acme` as the site name.
+## Deploy or upgrade an existing repository
 
-```json
-{
-  "name": "Acme",
-  "type": "lever",
-  "site": "acme",
-  "enabled": true
-}
-```
+If you already deployed the earlier version, you do **not** need a new repository.
 
-#### Ashby
-If the board is `https://jobs.ashbyhq.com/acme`, use `acme` as the board name.
+1. Unzip this package.
+2. In your existing GitHub repository, replace these files/folders with the versions from this package:
+   - `config.json`
+   - `scraper.py`
+   - `notify.py`
+   - `docs/index.html`
+   - `docs/app.js`
+   - `.github/workflows/daily-jobs.yml`
+   - optionally `README.md`
+3. Commit the changes to `main`.
+4. Go to **Actions → Daily job scan → Run workflow**.
+5. Open the new run and confirm the steps are green.
+6. Refresh your GitHub Pages site after deployment finishes.
 
-```json
-{
-  "name": "Acme",
-  "type": "ashby",
-  "board_name": "acme",
-  "enabled": true
-}
-```
+The workflow uses the current Node-24-compatible Pages action majors:
 
-#### Workday
-Paste the company's public Workday careers URL.
+- `actions/configure-pages@v6`
+- `actions/upload-pages-artifact@v5`
+- `actions/deploy-pages@v5`
 
-```json
-{
-  "name": "Acme",
-  "type": "workday",
-  "careers_url": "https://acme.wd1.myworkdayjobs.com/en-US/External",
-  "enabled": true
-}
-```
+## Adjusting the matching rules
 
-#### Generic company careers page
-Use this when the site is mostly regular HTML. You can provide one page with `careers_url`, or several targeted technology/security pages with `careers_urls`.
+The main settings are in `config.json`.
 
-```json
-{
-  "name": "Acme Health",
-  "type": "generic",
-  "careers_urls": [
-    "https://www.acmehealth.com/careers/technology",
-    "https://www.acmehealth.com/careers/cybersecurity"
-  ],
-  "enabled": true
-}
-```
+`role_families` contains the title variants accepted for each career area. Add another title phrase to the appropriate family if you want to broaden it further.
 
-The generic scraper prefilters visible job links using your target titles before opening detail pages, which keeps the daily scan lightweight. It is still best-effort: JavaScript-only listings, CAPTCHAs, login gates, or anti-bot protections may require a custom adapter.
+`exclude_title_any` contains leadership or unrelated titles to reject.
 
-## 2. Put it on GitHub
+`max_required_years` is currently `7`. Lower this to focus more strongly on early-career jobs, or raise it to include more experienced positions.
 
-1. Create a new **public** GitHub repository, for example `daily-job-watcher`.
-2. Upload the **contents inside this folder** to the repository so that `config.json`, `scraper.py`, `docs/`, and `.github/` appear at the repository root.
-3. Open **Settings → Pages**.
-4. Under **Build and deployment → Source**, choose **GitHub Actions**. Do not choose “Deploy from a branch” for this version.
-5. Open **Settings → Secrets and variables → Actions** and add the `GMAIL_APP_PASSWORD` secret described above.
-6. Open **Actions → Daily job scan → Run workflow** for the first scan and deployment.
+`include_senior_ic` is currently `true`. Change it to `false` if you want the app to omit Senior Engineer/Senior Analyst/Architect-type individual-contributor roles entirely.
 
-After the workflow succeeds, GitHub Pages will give you a URL resembling:
+`require_keyword` is currently `false`. This is intentional: because every monitored employer is already healthcare/health-tech, a strong relevant job title can qualify without requiring the description to repeat a healthcare or cloud/security keyword.
 
-`https://YOUR-USERNAME.github.io/daily-job-watcher/`
+## Daily schedule
 
-The same daily workflow now performs all four steps automatically: **scrape jobs → save results → deploy the refreshed dashboard → send the Gmail digest**.
-
-## 3. Run the first scan immediately
-
-Go to **Actions → Daily job scan → Run workflow**.
-
-After the workflow finishes, open the live Pages URL. The workflow deploys the refreshed `docs/` dashboard automatically.
-
-## 4. Change the daily time
-
-The workflow currently runs at 7:17 AM in New York time:
+The workflow is configured for 7:17 AM New York time:
 
 ```yaml
 schedule:
@@ -188,15 +126,9 @@ schedule:
     timezone: 'America/New_York'
 ```
 
-Edit `.github/workflows/daily-jobs.yml` to change it.
+## Important limitation
 
-## Important notes
-
-- Respect each employer's terms of use, `robots.txt`, and reasonable request rates.
-- Prefer public ATS/job-board endpoints over aggressive HTML scraping.
-- Never try to defeat CAPTCHAs, login gates, or anti-bot protections.
-- Scheduled GitHub Actions run on the default branch. GitHub may disable scheduled workflows in a public repository after 60 days with no repository activity; re-enable the workflow if that happens.
-- GitHub Pages is static hosting, which is ideal here because the scheduled scraper writes fresh `jobs.json` into the site.
+The generic HTML adapter is best-effort. Some employers render job results almost entirely with JavaScript or use anti-bot systems, so a career page can expose fewer listings to a simple scheduled scraper than a human browser sees. The app also supports Greenhouse, Lever, Ashby, and Workday adapters when a company can be mapped to one of those public job systems.
 
 ## Local test
 
@@ -209,4 +141,4 @@ python scraper.py
 python -m http.server 8000 --directory docs
 ```
 
-Open `http://localhost:8000`.
+Then open `http://localhost:8000`.
