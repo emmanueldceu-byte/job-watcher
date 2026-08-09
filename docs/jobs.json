@@ -1,20 +1,20 @@
 {
   "app_name": "Healthcare Cloud & Cybersecurity Job Watcher",
-  "updated_at": "2026-08-09T02:44:11.720194+00:00",
-  "count": 175,
+  "updated_at": "2026-08-09T11:57:37.565467+00:00",
+  "count": 176,
   "errors": [],
   "scan_stats": [
     {
       "company": "UnitedHealth Group / Optum",
       "fetched": 34,
-      "role_matches": 0,
-      "location_matches": 0
+      "role_matches": 2,
+      "location_matches": 2
     },
     {
       "company": "The Cigna Group / Evernorth",
       "fetched": 220,
-      "role_matches": 82,
-      "location_matches": 14
+      "role_matches": 84,
+      "location_matches": 15
     },
     {
       "company": "Elevance Health",
@@ -24,13 +24,13 @@
     },
     {
       "company": "Centene Corporation",
-      "fetched": 134,
+      "fetched": 131,
       "role_matches": 18,
       "location_matches": 18
     },
     {
       "company": "Humana",
-      "fetched": 85,
+      "fetched": 80,
       "role_matches": 11,
       "location_matches": 10
     },
@@ -49,7 +49,7 @@
     {
       "company": "Johnson & Johnson",
       "fetched": 220,
-      "role_matches": 36,
+      "role_matches": 40,
       "location_matches": 18
     },
     {
@@ -66,9 +66,9 @@
     },
     {
       "company": "CVS Health / Aetna",
-      "fetched": 220,
-      "role_matches": 7,
-      "location_matches": 4
+      "fetched": 215,
+      "role_matches": 3,
+      "location_matches": 2
     },
     {
       "company": "Mayo Clinic",
@@ -78,7 +78,7 @@
     },
     {
       "company": "Cleveland Clinic",
-      "fetched": 2,
+      "fetched": 3,
       "role_matches": 0,
       "location_matches": 0
     },
@@ -97,7 +97,7 @@
     {
       "company": "GE HealthCare",
       "fetched": 220,
-      "role_matches": 71,
+      "role_matches": 69,
       "location_matches": 22
     },
     {
@@ -129,7 +129,7 @@
       "date_posted": "2026-08-03T17:40:05.140484+00:00",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "systems"
       ],
@@ -156,7 +156,7 @@
       "date_posted": "2026-08-03T17:40:11.056681+00:00",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "systems"
       ],
@@ -179,7 +179,7 @@
       "date_posted": "2026-08-03T17:40:23.053700+00:00",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "systems"
       ],
@@ -202,7 +202,7 @@
       "date_posted": "2026-08-07",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "systems"
       ],
@@ -225,7 +225,7 @@
       "date_posted": "2026-07-10T13:23:04.372444+00:00",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "cloud",
         "aws",
@@ -258,7 +258,7 @@
       "date_posted": "2026-08-04",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "cloud",
         "aws",
@@ -293,7 +293,7 @@
       "date_posted": "2026-08-07",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "cloud",
         "aws",
@@ -323,7 +323,7 @@
       "date_posted": "2026-08-08",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "information protection"
       ],
@@ -356,7 +356,7 @@
       "date_posted": "2026-07-20",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "infrastructure",
         "systems"
@@ -376,32 +376,6 @@
       "id": "cc824eaead88a1c9ed29"
     },
     {
-      "title": "Network Management Analyst",
-      "company": "CVS Health / Aetna",
-      "location": "Phoenix, Arizona, United States; Montgomery, Alabama, United States; Little Rock, Arkansas, United States; Denver, Colorado, United States; Hartford, Connecticut, United States; Washington Dc, District of Columbia, United States; Dover, Delaware, United States; Tallahassee, Florida, United States; Atlanta, Georgia, United States; Des Moines, Iowa, United States; Boise, Idaho, United States; Springfield, Illinois, United States; Indianapolis, Indiana, United States; Topeka, Kansas, United States; Frankfort, Kentucky, United States; Baton Rouge, Louisiana, United States; Boston, Massachusetts, United States; Annapolis, Maryland, United States; Augusta, Maine, United States; Lansing, Michigan, United States; Saint Paul, Minnesota, United States; Jefferson City, Missouri, United States; Jackson, Mississippi, United States; Helena, Montana, United States; Raleigh, North Carolina, United States; Bismarck, North Dakota, United States; Lincoln, Nebraska, United States; Concord, New Hampshire, United States; Trenton, New Jersey, United States; Santa Fe, New Mexico, United States; Carson City, Nevada, United States; Albany, New York, United States; Columbus, Ohio, United States; Oklahoma City, Oklahoma, United States; Salem, Oregon, United States; Harrisburg, Pennsylvania, United States; Providence, Rhode Island, United States; Columbia, South Carolina, United States; Pierre, South Dakota, United States; Nashville, Tennessee, United States; Austin, Texas, United States; Salt Lake City, Utah, United States; Richmond, Virginia, United States; Montpelier, Vermont, United States; Olympia, Washington, United States; Madison, Wisconsin, United States; Charleston, West Virginia, United States; Cheyenne, Wyoming, United States",
-      "url": "https://jobs.cvshealth.com/us/en/job/R0958719/Network-Management-Analyst",
-      "description": "We’re building a world of health around every individual — shaping a more connected, convenient and compassionate health experience. At CVS Health®, you’ll be surrounded by passionate colleagues who care deeply, innovate with purpose, hold ourselves accountable and prioritize safety and quality in everything we do. Join us and be part of something bigger – helping to simplify health care one person, one family and one community at a time. Position Summary The Analyst – Pharmacy Network Non-Compliance is responsible for investigating and resolving complex and sensitive pharmacy contract non-compliance allegations. This role requires a highly motivated, detail-oriented individual with the ability to manage multiple priorities effectively. The Analyst will conduct outreach to network pharmacies, evaluate non-compliance concerns, and collaborate with cross-functional partners and ensure compliance with contractual and regulatory requirements, while maintaining strong relationships and delivering excellent service. Key Responsibilities Investigate and resolve pharmacy contract non-compliance allegations , including complex and sensitive cases Conduct outreach to pharmacies to gather inf",
-      "date_posted": "2026-08-06",
-      "source": "Career site / JobPosting",
-      "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
-      "matched_titles": [
-        "systems"
-      ],
-      "matched_keywords": [
-        "health care",
-        "patient"
-      ],
-      "role_family": "Cloud & Infrastructure",
-      "seniority": "Standard / Unspecified",
-      "seniority_priority": 5,
-      "experience_years_min": 2,
-      "match_score": 84,
-      "location_category": "NYC / North Jersey Metro",
-      "location_priority": 0,
-      "id": "3f0c8c986cbc4b413dd6"
-    },
-    {
       "title": "Biomedical Equipment Technician - Mullica Hill, NJ",
       "company": "Philips",
       "location": "Salem, New Jersey, United States, New Jersey, United States of America",
@@ -410,7 +384,7 @@
       "date_posted": "2026-05-24",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "systems"
       ],
@@ -436,7 +410,7 @@
       "date_posted": "2026-08-07",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "systems"
       ],
@@ -462,7 +436,7 @@
       "date_posted": "2026-08-06T17:23:03.241708+00:00",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "systems"
       ],
@@ -490,7 +464,7 @@
       "date_posted": "2026-07-10T13:23:03.971033+00:00",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "cloud",
         "platform"
@@ -520,7 +494,7 @@
       "date_posted": "2026-05-29",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "infrastructure engineer"
       ],
@@ -549,7 +523,7 @@
       "date_posted": "2026-08-07",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "systems"
       ],
@@ -572,7 +546,7 @@
       "date_posted": "2026-08-05",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "platform"
       ],
@@ -590,6 +564,38 @@
       "id": "aa85206ff8a479c13d1c"
     },
     {
+      "title": "Staff Software Engineer (Agentic AI & Cloud Solutions)",
+      "company": "CVS Health / Aetna",
+      "location": "Richardson, Texas, United States; Dover, Delaware, United States; Atlanta, Georgia, United States; Springfield, Illinois, United States; Boston, Massachusetts, United States; Raleigh, North Carolina, United States; Trenton, New Jersey, United States; Albany, New York, United States; Harrisburg, Pennsylvania, United States",
+      "url": "https://jobs.cvshealth.com/us/en/job/R0970084/Staff-Software-Engineer-Agentic-AI-Cloud-Solutions",
+      "description": "We’re building a world of health around every individual — shaping a more connected, convenient and compassionate health experience. At CVS Health®, you’ll be surrounded by passionate colleagues who care deeply, innovate with purpose, hold ourselves accountable and prioritize safety and quality in everything we do. Join us and be part of something bigger – helping to simplify health care one person, one family and one community at a time. Position Summary CVS Health is seeking a Staff Software Engineer specializing in developing machine learning solutions using Agentic AI/ML serving as a leader and role model in engineering for both peers and clients.This team is part of the very impactful Claims Adjudication team and this role will be instrumental in our leap to modern AI driven approaches. The successful candidate will lead project teams working with a diverse range of technologies, including public cloud such as Azure, GCP, on-prem systems such as IBMi and advanced Agentic AI/ML frameworks. **We will consider remote US for the right candidate Key Responsibilities Able to develop a vision and formulate implementation plans to achieve end goals, evaluating situations, decisions, a",
+      "date_posted": "2026-08-05",
+      "source": "Career site / JobPosting",
+      "first_seen": "2026-08-09T11:57:37.565467+00:00",
+      "is_new": true,
+      "matched_titles": [
+        "devsecops",
+        "ci/cd"
+      ],
+      "matched_keywords": [
+        "health care",
+        "patient",
+        "cloud",
+        "AWS",
+        "Azure",
+        "GCP",
+        "DevSecOps"
+      ],
+      "role_family": "DevOps & Platform",
+      "seniority": "Lead / Staff / Principal / Architect",
+      "seniority_priority": 7,
+      "experience_years_min": 2,
+      "match_score": 99,
+      "location_category": "NYC / North Jersey Metro",
+      "location_priority": 0,
+      "id": "388397b03aacaf1fedc4"
+    },
+    {
       "title": "Lead Product Security Engineer",
       "company": "Johnson & Johnson",
       "location": "Danvers, Massachusetts, United States of America; Raritan, New Jersey, United States of America",
@@ -598,7 +604,7 @@
       "date_posted": "2026-07-15",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "product security engineer"
       ],
@@ -632,7 +638,7 @@
       "date_posted": "2026-07-15",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "device security engineer"
       ],
@@ -670,7 +676,7 @@
       "date_posted": "2026-07-21",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "device security engineer"
       ],
@@ -708,7 +714,7 @@
       "date_posted": "2026-8-3",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "cloud",
         "aws",
@@ -741,7 +747,7 @@
       "date_posted": "2026-7-30",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "cloud",
         "azure",
@@ -771,7 +777,7 @@
       "date_posted": "2026-8-5",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "cloud",
         "aws",
@@ -806,7 +812,7 @@
       "date_posted": "2026-04-23",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "cloud",
         "aws",
@@ -835,7 +841,7 @@
       "date_posted": "2026-06-30",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "systems"
       ],
@@ -863,7 +869,7 @@
       "date_posted": "2026-06-29",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "systems"
       ],
@@ -891,7 +897,7 @@
       "date_posted": "2026-8-7",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "systems"
       ],
@@ -919,7 +925,7 @@
       "date_posted": "2026-8-3",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "platform",
         "systems"
@@ -946,7 +952,7 @@
       "date_posted": "2026-08-03T17:40:32.714030+00:00",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "infrastructure",
         "systems"
@@ -973,7 +979,7 @@
       "date_posted": "2026-08-03T17:40:42.379523+00:00",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "infrastructure",
         "systems"
@@ -1000,7 +1006,7 @@
       "date_posted": "2026-08-05T21:23:06.267684+00:00",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "systems"
       ],
@@ -1028,7 +1034,7 @@
       "date_posted": "2026-7-7",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "hipaa"
       ],
@@ -1056,7 +1062,7 @@
       "date_posted": "2026-6-12",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "systems"
       ],
@@ -1083,7 +1089,7 @@
       "date_posted": "2026-08-06",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "systems"
       ],
@@ -1109,7 +1115,7 @@
       "date_posted": "2026-6-7",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "systems"
       ],
@@ -1135,7 +1141,7 @@
       "date_posted": "2026-7-27",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "systems"
       ],
@@ -1161,7 +1167,7 @@
       "date_posted": "2026-8-5",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "systems"
       ],
@@ -1187,7 +1193,7 @@
       "date_posted": "2026-5-21",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "systems"
       ],
@@ -1213,7 +1219,7 @@
       "date_posted": "2026-08-04T21:23:00.949947+00:00",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "systems"
       ],
@@ -1242,7 +1248,7 @@
       "date_posted": "2026-4-23",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "infrastructure",
         "platform"
@@ -1271,7 +1277,7 @@
       "date_posted": "2026-07-10T13:23:04.295911+00:00",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "cloud",
         "aws",
@@ -1306,7 +1312,7 @@
       "date_posted": "2026-8-4",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "cybersecurity",
         "information security",
@@ -1353,7 +1359,7 @@
       "date_posted": "2026-3-10",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "identity and access",
         "iam",
@@ -1425,7 +1431,7 @@
       "date_posted": "2026-6-15",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "systems engineer"
       ],
@@ -1456,7 +1462,7 @@
       "date_posted": "2026-08-04",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "infrastructure",
         "systems"
@@ -1484,7 +1490,7 @@
       "date_posted": "2026-07-11",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "medical device security"
       ],
@@ -1514,7 +1520,7 @@
       "date_posted": "2026-07-11",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "medical device security"
       ],
@@ -1544,7 +1550,7 @@
       "date_posted": "2026-07-11",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "medical device security"
       ],
@@ -1574,7 +1580,7 @@
       "date_posted": "2026-7-8",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "devops engineer"
       ],
@@ -1604,7 +1610,7 @@
       "date_posted": "2026-08-03",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "systems engineer"
       ],
@@ -1633,7 +1639,7 @@
       "date_posted": "2026-7-24",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "devops engineer"
       ],
@@ -1666,7 +1672,7 @@
       "date_posted": "2026-7-29",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "systems"
       ],
@@ -1694,7 +1700,7 @@
       "date_posted": "2026-06-24",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "cybersecurity",
         "information security"
@@ -1723,7 +1729,7 @@
       "date_posted": "2026-06-24",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "cybersecurity",
         "information security"
@@ -1752,7 +1758,7 @@
       "date_posted": "2026-06-24",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "cybersecurity",
         "information security"
@@ -1781,7 +1787,7 @@
       "date_posted": "2026-8-7",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "security operations",
         "soc"
@@ -1810,7 +1816,7 @@
       "date_posted": "2026-05-21",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "infrastructure",
         "systems"
@@ -1839,7 +1845,7 @@
       "date_posted": "2026-07-20",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "infrastructure",
         "systems"
@@ -1868,7 +1874,7 @@
       "date_posted": "2026-06-22",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "infrastructure",
         "systems"
@@ -1897,7 +1903,7 @@
       "date_posted": "2026-07-15",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "infrastructure",
         "systems"
@@ -1926,7 +1932,7 @@
       "date_posted": "2026-07-15",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "infrastructure",
         "systems"
@@ -1947,6 +1953,60 @@
       "id": "5806b069eed360b055ab"
     },
     {
+      "title": "Business Systems Support Analyst",
+      "company": "UnitedHealth Group / Optum",
+      "location": "Everett, Washington, United States; Remote",
+      "url": "https://careers.unitedhealthgroup.com/en/job/everett/business-systems-support-analyst/34088/98906643376",
+      "description": "Optum is a global organization that delivers care, aided by technology to help millions of people live healthier lives. The work you do with our team will directly improve health outcomes by connecting people with the care, pharmacy benefits, data and resources they need to feel their best. Here, you will find a culture guided by inclusion, talented peers, comprehensive benefits and career development opportunities. Come make an impact on the communities we serve as you help us advance health optimization on a global scale. Join us to start C aring. Connecting. Growing together. Key Responsibilities: 1. Business Systems Analysis: Analyze current business processes and workflows to identify areas for improvement. Collaborate with stakeholders to gather and document business requirements. Develop and present recommendations for process enhancements and system improvements. Create detailed reports and documentation to support business decisions. Assist in the design and implementation of new business systems and processes. 2. Application Support: Provide Level 1 and Level 2 support for business applications, addressing user issues and technical problems. Troubleshoot and resolve appli",
+      "date_posted": "2026-8-7",
+      "source": "Career site / JobPosting",
+      "first_seen": "2026-08-09T11:57:37.565467+00:00",
+      "is_new": true,
+      "matched_titles": [
+        "application security"
+      ],
+      "matched_keywords": [
+        "healthcare",
+        "NIST",
+        "application security"
+      ],
+      "role_family": "Application, Product & Medical Device Security",
+      "seniority": "Standard / Unspecified",
+      "seniority_priority": 5,
+      "experience_years_min": 3,
+      "match_score": 86,
+      "location_category": "US Remote",
+      "location_priority": 1,
+      "id": "96aa83d081c092534972"
+    },
+    {
+      "title": "Business Systems Support Analyst",
+      "company": "UnitedHealth Group / Optum",
+      "location": "Everett, Washington, United States; Remote",
+      "url": "https://careers.unitedhealthgroup.com/job/everett/business-systems-support-analyst/34088/98906643376",
+      "description": "Optum is a global organization that delivers care, aided by technology to help millions of people live healthier lives. The work you do with our team will directly improve health outcomes by connecting people with the care, pharmacy benefits, data and resources they need to feel their best. Here, you will find a culture guided by inclusion, talented peers, comprehensive benefits and career development opportunities. Come make an impact on the communities we serve as you help us advance health optimization on a global scale. Join us to start C aring. Connecting. Growing together. Key Responsibilities: 1. Business Systems Analysis: Analyze current business processes and workflows to identify areas for improvement. Collaborate with stakeholders to gather and document business requirements. Develop and present recommendations for process enhancements and system improvements. Create detailed reports and documentation to support business decisions. Assist in the design and implementation of new business systems and processes. 2. Application Support: Provide Level 1 and Level 2 support for business applications, addressing user issues and technical problems. Troubleshoot and resolve appli",
+      "date_posted": "2026-8-7",
+      "source": "Career site / JobPosting",
+      "first_seen": "2026-08-09T11:57:37.565467+00:00",
+      "is_new": true,
+      "matched_titles": [
+        "application security"
+      ],
+      "matched_keywords": [
+        "healthcare",
+        "NIST",
+        "application security"
+      ],
+      "role_family": "Application, Product & Medical Device Security",
+      "seniority": "Standard / Unspecified",
+      "seniority_priority": 5,
+      "experience_years_min": 3,
+      "match_score": 86,
+      "location_category": "US Remote",
+      "location_priority": 1,
+      "id": "675f72e1427771b273c5"
+    },
+    {
       "title": "Product Security Assessment Engineer",
       "company": "GE HealthCare",
       "location": "Remote; Remote, Bayern, Deutschland",
@@ -1955,7 +2015,7 @@
       "date_posted": "2026-08-05",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "security controls"
       ],
@@ -1982,7 +2042,7 @@
       "date_posted": "2026-08-05",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "security controls"
       ],
@@ -2009,7 +2069,7 @@
       "date_posted": "2026-07-22",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "systems"
       ],
@@ -2036,7 +2096,7 @@
       "date_posted": "2026-08-04",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "infrastructure",
         "systems"
@@ -2064,7 +2124,7 @@
       "date_posted": "2026-07-20",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "infrastructure",
         "systems"
@@ -2092,7 +2152,7 @@
       "date_posted": "2026-08-08",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "infrastructure",
         "systems"
@@ -2120,7 +2180,7 @@
       "date_posted": "2026-07-29",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "infrastructure",
         "systems"
@@ -2148,7 +2208,7 @@
       "date_posted": "2026-7-31",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "systems"
       ],
@@ -2174,7 +2234,7 @@
       "date_posted": "2026-06-12",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "systems"
       ],
@@ -2200,7 +2260,7 @@
       "date_posted": "2026-07-29",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "systems"
       ],
@@ -2226,7 +2286,7 @@
       "date_posted": "2026-08-05",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "infrastructure",
         "systems"
@@ -2253,7 +2313,7 @@
       "date_posted": "2026-08-05T17:23:02.670197+00:00",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "systems"
       ],
@@ -2282,7 +2342,7 @@
       "date_posted": "2026-07-16T17:23:06.229913+00:00",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "systems"
       ],
@@ -2311,7 +2371,7 @@
       "date_posted": "2026-08-03T19:23:04.281182+00:00",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "systems"
       ],
@@ -2340,7 +2400,7 @@
       "date_posted": "2026-08-03T19:23:04.094825+00:00",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "systems"
       ],
@@ -2369,7 +2429,7 @@
       "date_posted": "2026-08-08",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "systems"
       ],
@@ -2398,7 +2458,7 @@
       "date_posted": "2026-06-29",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "systems"
       ],
@@ -2423,7 +2483,7 @@
       "date_posted": "2026-08-06",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "platform engineering"
       ],
@@ -2452,7 +2512,7 @@
       "date_posted": "2026-08-08",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "hipaa"
       ],
@@ -2480,7 +2540,7 @@
       "date_posted": "2026-05-18",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "hipaa"
       ],
@@ -2507,7 +2567,7 @@
       "date_posted": "2026-08-09",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "systems"
       ],
@@ -2534,7 +2594,7 @@
       "date_posted": "2026-08-09",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "systems"
       ],
@@ -2561,7 +2621,7 @@
       "date_posted": "2026-7-27",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "systems"
       ],
@@ -2588,7 +2648,7 @@
       "date_posted": "2026-8-5",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "systems"
       ],
@@ -2615,7 +2675,7 @@
       "date_posted": "2026-08-03",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "infrastructure"
       ],
@@ -2642,7 +2702,7 @@
       "date_posted": "2026-08-07",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "platform"
       ],
@@ -2668,7 +2728,7 @@
       "date_posted": "2026-8-3",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "systems"
       ],
@@ -2694,7 +2754,7 @@
       "date_posted": "2026-7-22",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "systems"
       ],
@@ -2720,7 +2780,7 @@
       "date_posted": "2026-7-10",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "systems"
       ],
@@ -2746,7 +2806,7 @@
       "date_posted": "2026-6-29",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "systems"
       ],
@@ -2772,7 +2832,7 @@
       "date_posted": "2026-8-7",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "systems"
       ],
@@ -2798,7 +2858,7 @@
       "date_posted": "2026-6-10",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "systems"
       ],
@@ -2824,7 +2884,7 @@
       "date_posted": "2026-2-13",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "systems"
       ],
@@ -2850,7 +2910,7 @@
       "date_posted": "2026-07-26",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "systems"
       ],
@@ -2875,7 +2935,7 @@
       "date_posted": "2026-07-08",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "systems"
       ],
@@ -2900,7 +2960,7 @@
       "date_posted": "2026-07-23",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "systems"
       ],
@@ -2925,7 +2985,7 @@
       "date_posted": "2026-08-09",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "systems"
       ],
@@ -2950,7 +3010,7 @@
       "date_posted": "2026-08-05",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "systems"
       ],
@@ -2973,7 +3033,7 @@
       "date_posted": "2026-08-07",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "infrastructure engineer"
       ],
@@ -2988,6 +3048,37 @@
       "id": "73c7f597f5c4d108f7e8"
     },
     {
+      "title": "Application Development Senior Advisor",
+      "company": "The Cigna Group / Evernorth",
+      "location": "St. Louis, Missouri, United States of America",
+      "url": "https://jobs.thecignagroup.com/us/en/job/26006763/Application-Development-Senior-Advisor",
+      "description": "Cigna-Evernorth Services Inc. seeks an Application Development Senior Advisor for the St. Louis, MO location to develop and support conversational Call flow to meet the overall goal of the business and program. Responsibilities: • Work as part of a large transformational program team that will enable many lines of business in the enterprise. • Enable meaningful and personalized customer experience in the assisted service channels (voice, text, chat) and lead the organization in adopting increasingly advanced capabilities. • Build, develop, and support Conversational IVRs (Integrated Voice Response) and perform unit and component tests aligned to business needs and in accordance with technology architecture standards. • Build, configure and implement CAI applications. • Design user experience for multimedia applications. • In conjunction with the Solution Architect, assist the Application Owner, Development Manager, and Technical Delivery Lead by providing effort estimates for new projects and initiatives. • Identify and address any issue that affects the integrity of the application (e.g. cross-capability/release issues). • Collaborate and interact directly with design, business an",
+      "date_posted": "2026-08-06",
+      "source": "Career site / JobPosting",
+      "first_seen": "2026-08-09T11:57:37.565467+00:00",
+      "is_new": true,
+      "matched_titles": [
+        "aws",
+        "platform",
+        "systems",
+        "kubernetes"
+      ],
+      "matched_keywords": [
+        "healthcare",
+        "patient",
+        "AWS",
+        "Kubernetes"
+      ],
+      "role_family": "Cloud & Infrastructure",
+      "seniority": "Senior IC",
+      "seniority_priority": 6,
+      "experience_years_min": null,
+      "match_score": 100,
+      "location_category": "US Remote",
+      "location_priority": 1,
+      "id": "30f8b2d9c5a8555e93bc"
+    },
+    {
       "title": "Senior Insider Threat Engineer",
       "company": "Humana",
       "location": "Louisville, Kentucky, United States of America; Atlanta, Georgia, United States of America; Boston, Massachusetts, United States of America; Charlotte, North Carolina, United States of America; Chicago, Illinois, United States of America; Dallas, Texas, United States of America; Miami, Florida, United States of America; Nashville, Tennessee, United States of America; Remote, New York, United States of America; Tampa, Florida, United States of America; Washington, District of Columbia, United States of America",
@@ -2996,7 +3087,7 @@
       "date_posted": "2026-08-09",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "dlp",
         "data loss prevention",
@@ -3032,7 +3123,7 @@
       "date_posted": "2026-7-20",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "cloud",
         "gcp",
@@ -3068,7 +3159,7 @@
       "date_posted": "2026-07-24",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "cloud",
         "infrastructure",
@@ -3098,7 +3189,7 @@
       "date_posted": "2026-6-10",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "cloud engineer"
       ],
@@ -3127,10 +3218,10 @@
       "location": "Remote, Nationwide, United States of America",
       "url": "https://careers.humana.com/us/en/job/R-423948/Senior-Engineer-Offensive-Security",
       "description": "We appreciate that you are interested in pursuing your next career opportunity. As you complete the application below, here are a few tips you should consider: Visit Go/Develop for information on professional development, resume guidance, and interview best practices. ​ Watch a quick video to discover how Humana’s Career Framework can help you identify meaningful growth opportunities. Visit Go/AskARecruiter for expert advice on your job search from our Talent Acquisition Team. Tailor your resume to highlight achievements and skills that align with the role you're applying for. Update your Workday profile to reflect your key accomplishments and experiences. Please read the job description carefully and ensure you meet all required qualifications. Consider having a conversation with your current leader about your career goals and interest in this opportunity. Their support can be valuable as you explore your next step. Job Profile Senior Offensive Security Engineer Job Level Senior Professional Become a part of our caring community The Senior Offensive Security Engineer designs, organizes, and oversees program and team-level activities intended to simulate threat actors and pressure ",
-      "date_posted": "2026-07-31",
+      "date_posted": "2026-08-09",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "hipaa",
         "security controls"
@@ -3165,7 +3256,7 @@
       "date_posted": "2026-8-7",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "azure",
         "platform",
@@ -3195,7 +3286,7 @@
       "date_posted": "2026-05-30",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "cloud",
         "aws",
@@ -3221,10 +3312,10 @@
       "location": "Remote, Nationwide, United States of America",
       "url": "https://careers.humana.com/us/en/job/R-423955/Senior-Engineer-Offensive-Security",
       "description": "We appreciate that you are interested in pursuing your next career opportunity. As you complete the application below, here are a few tips you should consider: Visit Go/Develop for information on professional development, resume guidance, and interview best practices. ​ Watch a quick video to discover how Humana’s Career Framework can help you identify meaningful growth opportunities. Visit Go/AskARecruiter for expert advice on your job search from our Talent Acquisition Team. Tailor your resume to highlight achievements and skills that align with the role you're applying for. Update your Workday profile to reflect your key accomplishments and experiences. Please read the job description carefully and ensure you meet all required qualifications. Consider having a conversation with your current leader about your career goals and interest in this opportunity. Their support can be valuable as you explore your next step. Job Profile Senior Offensive Security Engineer Job Level Senior Professional Become a part of our caring community We're building a new AI & Offensive Tooling capability inside our Offensive Security organization, and we're looking for a senior engineer who can both bu",
-      "date_posted": "2026-07-31",
+      "date_posted": "2026-08-09",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "detection engineering"
       ],
@@ -3258,7 +3349,7 @@
       "date_posted": "2026-7-20",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "application security"
       ],
@@ -3290,7 +3381,7 @@
       "date_posted": "2026-7-10",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "cloud specialist"
       ],
@@ -3322,7 +3413,7 @@
       "date_posted": "2026-7-1",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "cloud",
         "systems"
@@ -3350,7 +3441,7 @@
       "date_posted": "2026-07-11",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "systems"
       ],
@@ -3406,7 +3497,7 @@
       "date_posted": "2026-08-05",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "security compliance analyst"
       ],
@@ -3435,7 +3526,7 @@
       "date_posted": "2026-08-05T21:23:07.400729+00:00",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "systems"
       ],
@@ -3464,7 +3555,7 @@
       "date_posted": "2026-07-30",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "systems"
       ],
@@ -3493,7 +3584,7 @@
       "date_posted": "2026-08-08",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "devops engineer"
       ],
@@ -3522,7 +3613,7 @@
       "date_posted": "2026-7-22",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "systems engineer"
       ],
@@ -3550,7 +3641,7 @@
       "date_posted": "2026-6-25",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "grc analyst"
       ],
@@ -3578,7 +3669,7 @@
       "date_posted": "2026-8-4",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "grc analyst"
       ],
@@ -3606,7 +3697,7 @@
       "date_posted": "2026-08-03",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "grc"
       ],
@@ -3623,33 +3714,6 @@
       "location_category": "US Remote",
       "location_priority": 1,
       "id": "c0a03903d02c8bb69b63"
-    },
-    {
-      "title": "Senior IT Systems Engineer – AI Tools Operations, Enablement and Change Management",
-      "company": "Mayo Clinic",
-      "location": "Rochester, MN, US",
-      "url": "https://jobs.mayoclinic.org/job/rochester/senior-it-systems-engineer-ai-tools-operations-enablement-and-change-management/33647/98141786928",
-      "description": "Why Mayo Clinic Mayo Clinic is top-ranked in more specialties than any other care provider according to U.S. News & World Report. As we work together to put the needs of the patient first, we are also dedicated to our employees, investing in competitive compensation and comprehensive benefit plans – to take care of you and your family, now and in the future. And with continuing education and advancement opportunities at every turn, you can build a long, successful career with Mayo Clinic. Benefits Highlights Medical: Multiple plan options. Dental: Delta Dental or reimbursement account for flexible coverage. Vision: Affordable plan with national network. Pre-Tax Savings: HSA and FSAs for eligible expenses. Retirement: Competitive retirement package to secure your future. Responsibilities The Senior IT Systems Engineer – AI Tools Operations and Enablement / Change Management role is responsible for stable, scalable day-to-day operations of enterprise AI services while driving broad adoption across Mayo Clinic. This position combines platform operations, support model maturity, and change leadership to ensure AI tools are reliable, understandable, and useful in real-world workflows. A",
-      "date_posted": "2026-7-22",
-      "source": "Career site / JobPosting",
-      "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
-      "matched_titles": [
-        "systems engineer"
-      ],
-      "matched_keywords": [
-        "healthcare",
-        "patient",
-        "NIST"
-      ],
-      "role_family": "Cloud & Infrastructure",
-      "seniority": "Senior IC",
-      "seniority_priority": 6,
-      "experience_years_min": null,
-      "match_score": 77,
-      "location_category": "US Remote",
-      "location_priority": 1,
-      "id": "c7de205087b118bab460"
     },
     {
       "title": "Senior IT Systems Engineer – AI Infrastructure and Solutions Architecture",
@@ -3679,6 +3743,33 @@
       "id": "a22811550f95184be923"
     },
     {
+      "title": "Senior IT Systems Engineer – AI Tools Operations, Enablement and Change Management",
+      "company": "Mayo Clinic",
+      "location": "Rochester, MN, US",
+      "url": "https://jobs.mayoclinic.org/job/rochester/senior-it-systems-engineer-ai-tools-operations-enablement-and-change-management/33647/98141786928",
+      "description": "Why Mayo Clinic Mayo Clinic is top-ranked in more specialties than any other care provider according to U.S. News & World Report. As we work together to put the needs of the patient first, we are also dedicated to our employees, investing in competitive compensation and comprehensive benefit plans – to take care of you and your family, now and in the future. And with continuing education and advancement opportunities at every turn, you can build a long, successful career with Mayo Clinic. Benefits Highlights Medical: Multiple plan options. Dental: Delta Dental or reimbursement account for flexible coverage. Vision: Affordable plan with national network. Pre-Tax Savings: HSA and FSAs for eligible expenses. Retirement: Competitive retirement package to secure your future. Responsibilities The Senior IT Systems Engineer – AI Tools Operations and Enablement / Change Management role is responsible for stable, scalable day-to-day operations of enterprise AI services while driving broad adoption across Mayo Clinic. This position combines platform operations, support model maturity, and change leadership to ensure AI tools are reliable, understandable, and useful in real-world workflows. A",
+      "date_posted": "2026-7-22",
+      "source": "Career site / JobPosting",
+      "first_seen": "2026-08-09T02:44:11.720194+00:00",
+      "is_new": false,
+      "matched_titles": [
+        "systems engineer"
+      ],
+      "matched_keywords": [
+        "healthcare",
+        "patient",
+        "NIST"
+      ],
+      "role_family": "Cloud & Infrastructure",
+      "seniority": "Senior IC",
+      "seniority_priority": 6,
+      "experience_years_min": null,
+      "match_score": 77,
+      "location_category": "US Remote",
+      "location_priority": 1,
+      "id": "c7de205087b118bab460"
+    },
+    {
       "title": "Senior Compliance Investigator",
       "company": "Centene Corporation",
       "location": "Remote, United States",
@@ -3687,7 +3778,7 @@
       "date_posted": "2026-06-17",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "systems"
       ],
@@ -3713,7 +3804,7 @@
       "date_posted": "2026-6-19",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "systems"
       ],
@@ -3739,7 +3830,7 @@
       "date_posted": "2026-08-08",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "platform"
       ],
@@ -3764,7 +3855,7 @@
       "date_posted": "2026-07-21",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "cloud",
         "azure",
@@ -3797,7 +3888,7 @@
       "date_posted": "2026-08-05T21:23:08.604753+00:00",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "identity and access",
         "iam",
@@ -3837,7 +3928,7 @@
       "date_posted": "2026-08-06",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "identity and access",
         "iga",
@@ -3870,10 +3961,10 @@
       "location": "Louisville, Kentucky, United States of America; Boston, Massachusetts, United States of America; Charlotte, North Carolina, United States of America; Chicago, Illinois, United States of America; Dallas, Texas, United States of America; Miami, Florida, United States of America; Nashville, Tennessee, United States of America; Remote, New York, United States of America; Tampa, Florida, United States of America; Washington, District of Columbia, United States of America",
       "url": "https://careers.humana.com/us/en/job/R-425252/Lead-Cyber-Threat-Intelligence-Data-Architect",
       "description": "Become a part of our caring community (remote in location) The Lead Intelligence Data Architect serves as the subject matter expert and functional owner for how Humana's cyber threat intelligence is collected, organized, kept current, and made usable across enterprise information security teams and tools. This role ensures Humana's threat intelligence is structured and maintained so it can be reliably referenced by both analysts and the AI-driven and automated systems that leverage it. The Lead sets the standards, drives continuous improvement in how threat intelligence is structured and made usable, and shapes how threat intelligence supports Humana's information security focused AI and automation initiatives. The Lead Intelligence Data Architect serves as the subject matter expert and functional owner for how Humana's cyber threat intelligence is collected, organized, kept current, and made usable across enterprise information security teams and tools. This role ensures Humana's threat intelligence is structured and maintained so it can be reliably referenced by both analysts and the AI-driven and automated systems that leverage it. The Lead sets the standards, drives continuous ",
-      "date_posted": "2026-08-07",
+      "date_posted": "2026-08-09",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "information security",
         "security operations",
@@ -3908,7 +3999,7 @@
       "date_posted": "2026-07-23",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "devops",
         "ci/cd",
@@ -3944,7 +4035,7 @@
       "date_posted": "2026-7-31",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "cloud",
         "aws",
@@ -3982,7 +4073,7 @@
       "date_posted": "2026-7-31",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "cloud",
         "infrastructure",
@@ -4016,7 +4107,7 @@
       "date_posted": "2026-6-11",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "identity and access",
         "iam",
@@ -4054,7 +4145,7 @@
       "date_posted": "2026-4-17",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "cloud",
         "aws",
@@ -4092,7 +4183,7 @@
       "date_posted": "2026-6-30",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "cybersecurity",
         "cyber security",
@@ -4144,7 +4235,7 @@
       "date_posted": "2026-6-9",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "cloud",
         "aws",
@@ -4180,7 +4271,7 @@
       "date_posted": "2026-07-14",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "grc",
         "security risk",
@@ -4212,7 +4303,7 @@
       "date_posted": "2026-07-14",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "grc",
         "security risk",
@@ -4244,7 +4335,7 @@
       "date_posted": "2026-07-14",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "grc",
         "security risk",
@@ -4276,7 +4367,7 @@
       "date_posted": "2026-07-14",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "grc",
         "security risk",
@@ -4308,7 +4399,7 @@
       "date_posted": "2026-07-14",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "grc",
         "security risk",
@@ -4337,10 +4428,10 @@
       "location": "Madrid, Spain",
       "url": "https://jobs.thecignagroup.com/us/en/job/26009197/Infrastructure-Solutions-Lead",
       "description": "About Cigna Healthcare Cigna Healthcare is a global health service company dedicated to transforming healthcare. With roots in the U.S. and operations in over 30 countries, we serve more than 180 million customers and patients worldwide. Ranked 13th on the Fortune 500 in 2025, Cigna is recognized as one of the most trusted and influential names in the industry. Our mission is to improve the health, well‑being, and peace of mind of those we serve. You’ll join a globally recognized organization where trust, clear communication, and a positive culture shape how we work. Our leaders are consistent, approachable, and supportive, helping you maintain balance while doing meaningful work. We look for people who thrive in collaborative environments, care about meaningful change, and want to grow in a company that puts people first. At Cigna Healthcare, your work contributes to better care experiences and supports customers through important moments in their lives. About the role This role is for an IT infrastructure professional who combines engineering credibility with the ability to influence governance, delivery confidence, and portfolio-level decision-making. Sitting within the TEO PMO,",
-      "date_posted": "2026-08-07",
+      "date_posted": "2026-08-09",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "cloud",
         "infrastructure",
@@ -4363,41 +4454,6 @@
       "id": "9afeda9bdc8a3c902683"
     },
     {
-      "title": "Principal Cloud Infrastructure Engineer (GCP)",
-      "company": "CVS Health / Aetna",
-      "location": "Work at Home, Rhode Island, United States",
-      "url": "https://jobs.cvshealth.com/us/en/job/R0694233/Principal-Cloud-Infrastructure-Engineer-GCP",
-      "description": "We’re building a world of health around every individual — shaping a more connected, convenient and compassionate health experience. At CVS Health®, you’ll be surrounded by passionate colleagues who care deeply, innovate with purpose, hold ourselves accountable and prioritize safety and quality in everything we do. Join us and be part of something bigger – helping to simplify health care one person, one family and one community at a time. GCP Platform Technical Lead Position Summary We are looking for a GCP Principal Engineer to lead our Cloud Engineering team, owning the Google Cloud Platform for the enterprise. This is a foundational platform role — you are the GCP technical authority, setting architectural /engineering direction, establishing engineering standards, and ensuring the platform is secure, scalable, and built to last. Your role will include driving designs of the platform , mentor ing the engineers around you, and aligning quality and best practices. You bring deep GCP expertise , a platform-owner mindset, and the leadership presence to align engineers and stakeholders around a shared technical vision. T his role demands a cloud-first thinker who ensures cloud soluti",
-      "date_posted": "2026-08-06",
-      "source": "Career site / JobPosting",
-      "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
-      "matched_titles": [
-        "cloud infrastructure engineer",
-        "infrastructure engineer"
-      ],
-      "matched_keywords": [
-        "health care",
-        "patient",
-        "HIPAA",
-        "cloud",
-        "GCP",
-        "Terraform",
-        "DevOps",
-        "SIEM",
-        "SOC",
-        "IAM"
-      ],
-      "role_family": "Cloud & Infrastructure",
-      "seniority": "Lead / Staff / Principal / Architect",
-      "seniority_priority": 7,
-      "experience_years_min": null,
-      "match_score": 93,
-      "location_category": "US Remote",
-      "location_priority": 1,
-      "id": "bc83a3b0178d59a328a2"
-    },
-    {
       "title": "Staff Cyber Security Engineer",
       "company": "GE HealthCare",
       "location": "Remote; Remote, Illinois, Vereinigte Staaten",
@@ -4406,7 +4462,7 @@
       "date_posted": "2026-08-08",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "cyber security engineer",
         "security engineer"
@@ -4450,7 +4506,7 @@
       "date_posted": "2026-08-08",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "cyber security engineer",
         "security engineer"
@@ -4494,7 +4550,7 @@
       "date_posted": "2026-08-08",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "cyber security engineer",
         "security engineer"
@@ -4535,10 +4591,10 @@
       "location": "Krakow, Kleinpolen, Polen; Budapest, Budapest, Ungarn; Remote, Budapest, Ungarn; Remote, Masowien, Polen",
       "url": "https://careers.gehealthcare.com/de/de/job/GEVGHLGLOBALR4041219EXTERNALDEDE/Staff-Cyber-Security-Engineer-AI-Data-Protection",
       "description": "Job Description Summary Diese Rolle wird auch eine treibende Kraft bei der Einführung neuer Erkennungstechnologien sein, die auf Verhaltensanalysen und maschinellem Lernen basieren. Diese Position ist verantwortlich für die Entwicklung von Unternehmensplattformen, die die Überwachung, Automatisierung und Bereitstellung der Netzwerksicherheitsplattformen von GE HealthCare ermöglichen, einschließlich physischer und virtueller IDS sowie Big-Data-Analysen. Vom Senior Cyber Security Engineer wird erwartet, dass er Open-Source-Technologie und Industriestandard-Programmiersprachen nutzt, um die Cybersicherheitsoperationen zu verbessern. Um in dieser Rolle erfolgreich zu sein, müssen Engineering-, Softwareentwicklungs- und Build-Automatisierungsprojekte in einer agilen Umgebung durchgeführt werden. Job Description Roles and Responsibilities : In this role, as part of the global Cyber Data Protection team, you will: Platform Ownership – DLP for AI Threats - Own and operate the AI DLP platform, including administration, configuration, policy management, tuning, upgrades, deployments, and platform health. Engineer and deploy DLP and AI protection capabilities across endpoint, cloud, mobile, a",
-      "date_posted": "2026-08-08",
+      "date_posted": "2026-08-09",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "cyber security engineer",
         "security engineer"
@@ -4568,13 +4624,13 @@
     {
       "title": "Staff Cyber Security Engineer – AI Data Protection",
       "company": "GE HealthCare",
-      "location": "Krakow, Petite-Pologne, Pologne; Remote, Mazovie, Pologne; Remote, Budapest, Hongrie; Budapest, Budapest, Hongrie",
+      "location": "Krakow, Petite-Pologne, Pologne; Budapest, Budapest, Hongrie; Remote, Mazovie, Pologne; Remote, Budapest, Hongrie",
       "url": "https://careers.gehealthcare.com/fr/fr/job/GEVGHLGLOBALR4041219EXTERNALFRFR/Staff-Cyber-Security-Engineer-AI-Data-Protection",
       "description": "Job Description Summary Dans ce rôle, vous favoriserez l'adoption de nouvelles technologies de détection basées sur l'analyse comportementale et l'apprentissage automatique. À ce poste, vous serez chargé de gérer le développement de plates-formes d'entreprise permettant la surveillance, l'automatisation et l'orchestration des plates-formes de sécurité réseau de GE HealthCare, notamment les IDS physiques et virtuels, ainsi que les analyses en matière de Big Data. L'ingénieur senior en cybersécurité devra exploiter la technologie open source et les langages de programmation standard du secteur pour améliorer les opérations de cybersécurité. L'objectif de ce rôle est de réaliser des projets d'ingénierie, de développement de logiciels et de moteur de production dans un environnement agile. Job Description Roles and Responsibilities : In this role, as part of the global Cyber Data Protection team, you will: Platform Ownership – DLP for AI Threats - Own and operate the AI DLP platform, including administration, configuration, policy management, tuning, upgrades, deployments, and platform health. Engineer and deploy DLP and AI protection capabilities across endpoint, cloud, mobile, and ne",
       "date_posted": "2026-08-09",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "cyber security engineer",
         "security engineer"
@@ -4604,13 +4660,13 @@
     {
       "title": "Staff Cyber Security Engineer – AI Data Protection",
       "company": "GE HealthCare",
-      "location": "Krakow, Lesser Poland, Poland; Budapest, Budapest, Hungary; Remote, Budapest, Hungary; Remote, Masovian, Poland",
+      "location": "Krakow, Lesser Poland, Poland; Remote, Budapest, Hungary; Budapest, Budapest, Hungary; Remote, Masovian, Poland",
       "url": "https://careers.gehealthcare.com/global/en/job/GEVGHLGLOBALR4041219EXTERNALENGLOBAL/Staff-Cyber-Security-Engineer-AI-Data-Protection",
       "description": "Job Description Summary This role sits within GE HealthCare’s Cyber Data Protection team and owns the Data Loss Prevention (DLP) platforms used to manage AI-related data risks. The successful candidate will work across Cyber and IT teams to secure enterprise AI adoption, reduce data leakage risk, and enable responsible AI use. This hands-on engineering role requires expertise in AI technologies, automation, cloud, network, and SIEM platforms. Job Description Roles and Responsibilities : In this role, as part of the global Cyber Data Protection team, you will: Platform Ownership – DLP for AI Threats - Own and operate the AI DLP platform, including administration, configuration, policy management, tuning, upgrades, deployments, and platform health. Engineer and deploy DLP and AI protection capabilities across endpoint, cloud, mobile, and network environments. Maintain detection policies, risk scoring, thresholds, baselines, operational metrics, and the service roadmap. Evaluate emerging DLP and AI security technologies through proof-of-concepts and platform assessments. Manage vendor performance, SLAs, incident resolution, and end-user issue triage through to closure. AI Security & D",
       "date_posted": "2026-08-09",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "cyber security engineer",
         "security engineer"
@@ -4646,7 +4702,7 @@
       "date_posted": "2026-5-6",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "ci/cd",
         "platform engineering"
@@ -4679,7 +4735,7 @@
       "date_posted": "2026-7-29",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "cloud",
         "platform",
@@ -4708,7 +4764,7 @@
       "date_posted": "2026-07-31",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "platform engineer"
       ],
@@ -4741,7 +4797,7 @@
       "date_posted": "2026-08-09",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "information protection"
       ],
@@ -4765,105 +4821,6 @@
       "location_category": "US Remote",
       "location_priority": 1,
       "id": "c4053d9a3b5927395aee"
-    },
-    {
-      "title": "Principal Platform Engineer - Discovery Hub",
-      "company": "Mayo Clinic",
-      "location": "Rochester, MN, US; Remote",
-      "url": "https://jobs.mayoclinic.org/job/rochester/principal-platform-engineer-discovery-hub/33647/98696414080",
-      "description": "Why Mayo Clinic Mayo Clinic is top-ranked in more specialties than any other care provider according to U.S. News & World Report. As we work together to put the needs of the patient first, we are also dedicated to our employees, investing in competitive compensation and comprehensive benefit plans – to take care of you and your family, now and in the future. And with continuing education and advancement opportunities at every turn, you can build a long, successful career with Mayo Clinic. Benefits Highlights Medical: Multiple plan options. Dental: Delta Dental or reimbursement account for flexible coverage. Vision: Affordable plan with national network. Pre-Tax Savings: HSA and FSAs for eligible expenses. Retirement: Competitive retirement package to secure your future. Responsibilities Discovery Hub is a Mayo Clinic Platform initiative focused on enabling transformative innovation projects across Mayo Clinic leveraging Mayo Clinic Platform tools and data. The Principal Platform Engineer for Discovery Hub will serve as the technical expert and lead for developing and deploying innovative healthcare solutions to Mayo Clinic systems leveraging Mayo Clinic Platform. You will develop a",
-      "date_posted": "2026-8-3",
-      "source": "Career site / JobPosting",
-      "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
-      "matched_titles": [
-        "platform engineer"
-      ],
-      "matched_keywords": [
-        "healthcare",
-        "clinical",
-        "patient",
-        "HIPAA",
-        "cloud",
-        "AWS",
-        "Azure",
-        "DevOps",
-        "information security",
-        "NIST",
-        "HITRUST"
-      ],
-      "role_family": "Cloud & Infrastructure",
-      "seniority": "Lead / Staff / Principal / Architect",
-      "seniority_priority": 7,
-      "experience_years_min": 10,
-      "match_score": 86,
-      "location_category": "US Remote",
-      "location_priority": 1,
-      "id": "9c9822a30fc272eb2e94"
-    },
-    {
-      "title": "Lead DevOps (CI/CD Platform Engineering)",
-      "company": "McKesson Corporation",
-      "location": "Bangalore, Karnātaka, India",
-      "url": "https://careers.mckesson.com/en/job/bengaluru/lead-devops-ci-cd-platform-engineering/733/97608943296",
-      "description": "About McKesson Compile Established in 1833, McKesson is a US Fortune 10 global leader in healthcare supply chain management solutions, retail pharmacy, healthcare technology, community oncology, and specialty care. We partner with life sciences companies, manufacturers, providers, pharmacies, governments, and other healthcare organizations to help provide the right medicines, medical products, and healthcare services to the right patients at the right time, safely and cost effectively. Based in Bangalore India, McKesson Compile’s data is a comprehensive, full linked system of record for the US Healthcare market, with intelligence on 2M+ healthcare professionals (HCPs) and over 800K facilities. Compile’s data includes high capture medical and pharmacy claims, closed capture Medicare claims (100%), along with best-in-class provider affiliations and customer master. At McKesson we deliver careers with purpose and potential. Our focus on better health starts with creating an inclusive environment with strong values where you can build a fulfilling career. You can count on us to provide you with resources and opportunities to grow and be your best, while contributing to our pursuit of i",
-      "date_posted": "2026-7-10",
-      "source": "Career site / JobPosting",
-      "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
-      "matched_titles": [
-        "platform engineer"
-      ],
-      "matched_keywords": [
-        "healthcare",
-        "patient",
-        "cloud",
-        "Azure",
-        "Kubernetes",
-        "Terraform",
-        "DevOps",
-        "DevSecOps"
-      ],
-      "role_family": "Cloud & Infrastructure",
-      "seniority": "Lead / Staff / Principal / Architect",
-      "seniority_priority": 7,
-      "experience_years_min": null,
-      "match_score": 86,
-      "location_category": "US Remote",
-      "location_priority": 1,
-      "id": "24f0c3b88a9d58e4b406"
-    },
-    {
-      "title": "Lead Network & Cloud Specialist",
-      "company": "McKesson Corporation",
-      "location": "Mississauga, Ontario, Canada",
-      "url": "https://careers.mckesson.com/en/job/mississauga/lead-network-and-cloud-specialist/733/96228187184",
-      "description": "McKesson is an impact-driven, Fortune 10 company that touches virtually every aspect of healthcare. We are known for delivering insights, products, and services that make quality care more accessible and affordable. Here, we focus on the health, happiness, and well-being of you and those we serve – we care. What you do at McKesson matters. We foster a culture where you can grow, make an impact, and are empowered to bring new ideas. Together, we thrive as we shape the future of health for patients, our communities, and our people. If you want to be part of tomorrow’s health today, we want to hear from you. About the Role We are seeking an experienced Infrastructure Engineering Lead to provide technical leadership across McKesson’s enterprise infrastructure spanning cloud and on‑premises environments. In this role, you will set the technical direction for infrastructure initiatives, ensuring alignment with business goals, scalability, and compliance with architectural standards. You will lead large‑scale projects, drive innovation in automation and reliability, and act as a key escalation point for complex issues. This role partners closely with senior engineering teams and cross-fun",
-      "date_posted": "2026-6-9",
-      "source": "Career site / JobPosting",
-      "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
-      "matched_titles": [
-        "cloud specialist"
-      ],
-      "matched_keywords": [
-        "healthcare",
-        "patient",
-        "cloud",
-        "Azure",
-        "GCP",
-        "Kubernetes",
-        "Terraform",
-        "DevOps"
-      ],
-      "role_family": "Cloud & Infrastructure",
-      "seniority": "Lead / Staff / Principal / Architect",
-      "seniority_priority": 7,
-      "experience_years_min": 10,
-      "match_score": 86,
-      "location_category": "US Remote",
-      "location_priority": 1,
-      "id": "eedab1530f6a98c8879d"
     },
     {
       "title": "Cloud Security Architect - IS Mod",
@@ -4904,6 +4861,105 @@
       "id": "1d2ead3399a6645cc5c7"
     },
     {
+      "title": "Principal Platform Engineer - Discovery Hub",
+      "company": "Mayo Clinic",
+      "location": "Rochester, MN, US; Remote",
+      "url": "https://jobs.mayoclinic.org/job/rochester/principal-platform-engineer-discovery-hub/33647/98696414080",
+      "description": "Why Mayo Clinic Mayo Clinic is top-ranked in more specialties than any other care provider according to U.S. News & World Report. As we work together to put the needs of the patient first, we are also dedicated to our employees, investing in competitive compensation and comprehensive benefit plans – to take care of you and your family, now and in the future. And with continuing education and advancement opportunities at every turn, you can build a long, successful career with Mayo Clinic. Benefits Highlights Medical: Multiple plan options. Dental: Delta Dental or reimbursement account for flexible coverage. Vision: Affordable plan with national network. Pre-Tax Savings: HSA and FSAs for eligible expenses. Retirement: Competitive retirement package to secure your future. Responsibilities Discovery Hub is a Mayo Clinic Platform initiative focused on enabling transformative innovation projects across Mayo Clinic leveraging Mayo Clinic Platform tools and data. The Principal Platform Engineer for Discovery Hub will serve as the technical expert and lead for developing and deploying innovative healthcare solutions to Mayo Clinic systems leveraging Mayo Clinic Platform. You will develop a",
+      "date_posted": "2026-8-3",
+      "source": "Career site / JobPosting",
+      "first_seen": "2026-08-09T02:44:11.720194+00:00",
+      "is_new": false,
+      "matched_titles": [
+        "platform engineer"
+      ],
+      "matched_keywords": [
+        "healthcare",
+        "clinical",
+        "patient",
+        "HIPAA",
+        "cloud",
+        "AWS",
+        "Azure",
+        "DevOps",
+        "information security",
+        "NIST",
+        "HITRUST"
+      ],
+      "role_family": "Cloud & Infrastructure",
+      "seniority": "Lead / Staff / Principal / Architect",
+      "seniority_priority": 7,
+      "experience_years_min": 10,
+      "match_score": 86,
+      "location_category": "US Remote",
+      "location_priority": 1,
+      "id": "9c9822a30fc272eb2e94"
+    },
+    {
+      "title": "Lead DevOps (CI/CD Platform Engineering)",
+      "company": "McKesson Corporation",
+      "location": "Bangalore, Karnātaka, India",
+      "url": "https://careers.mckesson.com/en/job/bengaluru/lead-devops-ci-cd-platform-engineering/733/97608943296",
+      "description": "About McKesson Compile Established in 1833, McKesson is a US Fortune 10 global leader in healthcare supply chain management solutions, retail pharmacy, healthcare technology, community oncology, and specialty care. We partner with life sciences companies, manufacturers, providers, pharmacies, governments, and other healthcare organizations to help provide the right medicines, medical products, and healthcare services to the right patients at the right time, safely and cost effectively. Based in Bangalore India, McKesson Compile’s data is a comprehensive, full linked system of record for the US Healthcare market, with intelligence on 2M+ healthcare professionals (HCPs) and over 800K facilities. Compile’s data includes high capture medical and pharmacy claims, closed capture Medicare claims (100%), along with best-in-class provider affiliations and customer master. At McKesson we deliver careers with purpose and potential. Our focus on better health starts with creating an inclusive environment with strong values where you can build a fulfilling career. You can count on us to provide you with resources and opportunities to grow and be your best, while contributing to our pursuit of i",
+      "date_posted": "2026-7-10",
+      "source": "Career site / JobPosting",
+      "first_seen": "2026-08-09T02:44:11.720194+00:00",
+      "is_new": false,
+      "matched_titles": [
+        "platform engineer"
+      ],
+      "matched_keywords": [
+        "healthcare",
+        "patient",
+        "cloud",
+        "Azure",
+        "Kubernetes",
+        "Terraform",
+        "DevOps",
+        "DevSecOps"
+      ],
+      "role_family": "Cloud & Infrastructure",
+      "seniority": "Lead / Staff / Principal / Architect",
+      "seniority_priority": 7,
+      "experience_years_min": null,
+      "match_score": 86,
+      "location_category": "US Remote",
+      "location_priority": 1,
+      "id": "24f0c3b88a9d58e4b406"
+    },
+    {
+      "title": "Lead Network & Cloud Specialist",
+      "company": "McKesson Corporation",
+      "location": "Mississauga, Ontario, Canada",
+      "url": "https://careers.mckesson.com/en/job/mississauga/lead-network-and-cloud-specialist/733/96228187184",
+      "description": "McKesson is an impact-driven, Fortune 10 company that touches virtually every aspect of healthcare. We are known for delivering insights, products, and services that make quality care more accessible and affordable. Here, we focus on the health, happiness, and well-being of you and those we serve – we care. What you do at McKesson matters. We foster a culture where you can grow, make an impact, and are empowered to bring new ideas. Together, we thrive as we shape the future of health for patients, our communities, and our people. If you want to be part of tomorrow’s health today, we want to hear from you. About the Role We are seeking an experienced Infrastructure Engineering Lead to provide technical leadership across McKesson’s enterprise infrastructure spanning cloud and on‑premises environments. In this role, you will set the technical direction for infrastructure initiatives, ensuring alignment with business goals, scalability, and compliance with architectural standards. You will lead large‑scale projects, drive innovation in automation and reliability, and act as a key escalation point for complex issues. This role partners closely with senior engineering teams and cross-fun",
+      "date_posted": "2026-6-9",
+      "source": "Career site / JobPosting",
+      "first_seen": "2026-08-09T02:44:11.720194+00:00",
+      "is_new": false,
+      "matched_titles": [
+        "cloud specialist"
+      ],
+      "matched_keywords": [
+        "healthcare",
+        "patient",
+        "cloud",
+        "Azure",
+        "GCP",
+        "Kubernetes",
+        "Terraform",
+        "DevOps"
+      ],
+      "role_family": "Cloud & Infrastructure",
+      "seniority": "Lead / Staff / Principal / Architect",
+      "seniority_priority": 7,
+      "experience_years_min": 10,
+      "match_score": 86,
+      "location_category": "US Remote",
+      "location_priority": 1,
+      "id": "eedab1530f6a98c8879d"
+    },
+    {
       "title": "Principal, M&A Delivery Service Leader - Infrastructure",
       "company": "McKesson Corporation",
       "location": "Irving, Texas, United States",
@@ -4912,7 +4968,7 @@
       "date_posted": "2026-7-24",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "cloud",
         "infrastructure"
@@ -4941,7 +4997,7 @@
       "date_posted": "2026-6-16",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "platform",
         "systems"
@@ -4970,7 +5026,7 @@
       "date_posted": "2026-08-04",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "systems engineer"
       ],
@@ -5001,7 +5057,7 @@
       "date_posted": "2026-7-10",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "cloud solutions architect"
       ],
@@ -5032,7 +5088,7 @@
       "date_posted": "2026-4-30",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "platform",
         "systems"
@@ -5060,7 +5116,7 @@
       "date_posted": "2026-8-4",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "ci/cd",
         "platform engineering"
@@ -5080,36 +5136,6 @@
       "id": "4ea5c3a0ed8fb6f924f4"
     },
     {
-      "title": "Principal Cloud Engineer",
-      "company": "CVS Health / Aetna",
-      "location": "Work at Home, Florida, United States; Work At Home, Arizona, United States; Work At Home, New York, United States; Work At Home, Texas, United States",
-      "url": "https://jobs.cvshealth.com/us/en/job/R0938561/Principal-Cloud-Engineer",
-      "description": "We’re building a world of health around every individual — shaping a more connected, convenient and compassionate health experience. At CVS Health®, you’ll be surrounded by passionate colleagues who care deeply, innovate with purpose, hold ourselves accountable and prioritize safety and quality in everything we do. Join us and be part of something bigger – helping to simplify health care one person, one family and one community at a time. Position Summary We are seeking an accomplished Principal Cloud Storage Engineer to lead the design, engineering, and evolution of our private cloud storage platforms. This role will focus on large-scale storage architecture, data protection, cyber recovery, and resiliency technologies across complex enterprise environments. The ideal candidate will combine deep technical expertise in storage systems with strong leadership, architectural vision, and the ability to influence technical direction across the organization. Key Responsibilities Architect and engineer enterprise storage platforms that ensure data integrity, availability, security, and disaster recovery readiness Design and implement end-to-end storage solutions, including Software Define",
-      "date_posted": "2026-08-06",
-      "source": "Career site / JobPosting",
-      "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
-      "matched_titles": [
-        "cloud engineer"
-      ],
-      "matched_keywords": [
-        "health care",
-        "patient",
-        "cloud",
-        "Kubernetes",
-        "cybersecurity",
-        "data protection"
-      ],
-      "role_family": "Cloud & Infrastructure",
-      "seniority": "Lead / Staff / Principal / Architect",
-      "seniority_priority": 7,
-      "experience_years_min": 10,
-      "match_score": 82,
-      "location_category": "US Remote",
-      "location_priority": 1,
-      "id": "36907d338a1767907429"
-    },
-    {
       "title": "Principal Application Analyst",
       "company": "Mayo Clinic",
       "location": "Rochester, MN, US; Remote",
@@ -5118,7 +5144,7 @@
       "date_posted": "2026-6-29",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "platform",
         "systems"
@@ -5174,7 +5200,7 @@
       "date_posted": "2026-08-06",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "endpoint security"
       ],
@@ -5202,7 +5228,7 @@
       "date_posted": "2026-08-06",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "endpoint security"
       ],
@@ -5230,7 +5256,7 @@
       "date_posted": "2026-08-05",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "endpoint security"
       ],
@@ -5258,7 +5284,7 @@
       "date_posted": "2026-7-10",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "access management"
       ],
@@ -5286,7 +5312,7 @@
       "date_posted": "2026-07-27",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "systems"
       ],
@@ -5338,7 +5364,7 @@
       "date_posted": "2026-07-26",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "systems"
       ],
