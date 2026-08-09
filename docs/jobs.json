@@ -1,7 +1,7 @@
 {
   "app_name": "Healthcare Cloud & Cybersecurity Job Watcher",
-  "updated_at": "2026-08-08T19:38:20.045317+00:00",
-  "count": 3,
+  "updated_at": "2026-08-09T01:00:35.969037+00:00",
+  "count": 4,
   "errors": [
     {
       "company": "HCA Healthcare",
@@ -14,49 +14,45 @@
   ],
   "jobs": [
     {
-      "title": "Lead IAM Engineer",
-      "company": "Centene Corporation",
-      "location": "Remote-MO, Missouri, United States of America",
-      "url": "https://jobs.centene.com/us/en/jobs/1648317/lead-iam-engineer/",
-      "description": "You could be the one who changes everything for our 28 million members by using technology to improve health outcomes around the world. As a diversified, national organization, Centene's technology professionals have access to competitive benefits including a fresh perspective on workplace flexibility. Position Purpose: Leads the Identity and Access Management systems and solutions, support of the Production SailPoint IdentityIQ and Identity Now solutions. Performs review of system, user, and administrative roles and accounts and to understand access levels for enterprise applications and platforms. Designs, builds, tests, and maintains scalable and stable off-the-shelf software applications or custom builds technology software solutions to meet technical business identity access needs. Leads cross functional teams through the entire implementation process. Enforces policies and procedures related to identity lifecycle management, and supporting resources using IAM technical best practices Competence in identifying code deficiencies, reviewing logs, researching errors, and replicating issues to find solutions. Solid programming skills in Java, BeanShell, with PowerShell being a ben",
-      "date_posted": "2026-08-05",
+      "title": "Cybersecurity Engineer",
+      "company": "McKesson Corporation",
+      "location": "Richmond, Virginia, United States",
+      "url": "https://careers.mckesson.com/en/job/richmond/cybersecurity-engineer/733/97150235168",
+      "description": "McKesson is an impact-driven, Fortune 10 company that touches virtually every aspect of healthcare. We are known for delivering insights, products, and services that make quality care more accessible and affordable. Here, we focus on the health, happiness, and well-being of you and those we serve – we care. What you do at McKesson matters. We foster a culture where you can grow, make an impact, and are empowered to bring new ideas. Together, we thrive as we shape the future of health for patients, our communities, and our people. If you want to be part of tomorrow’s health today, we want to hear from you. Cybersecurity Engineer Location: Richmond, VA, USA - 9954 Mayland Drive (on-site) The Opportunity: The Cybersecurity Engineer is responsible for implementing and supporting secure solutions and contributing to operational security effectiveness. Working under the direction of senior engineers and architects, this role helps deploy and manage security controls, monitors for issues, supports incident response activities, and participates in projects that enhance the organizations security posture. The Cybersecurity Engineer takes initiative to assist with planning and execution, per",
+      "date_posted": "2026-8-7",
       "source": "Career site",
-      "first_seen": "2026-08-08T19:38:20.045317+00:00",
+      "first_seen": "2026-08-09T01:00:35.969037+00:00",
       "is_new": true,
       "matched_titles": [
-        "IAM Engineer"
+        "cybersecurity engineer",
+        "security engineer"
       ],
       "matched_keywords": [
+        "healthcare",
+        "patient",
         "cloud",
+        "AWS",
+        "Azure",
+        "GCP",
+        "DevOps",
+        "cybersecurity",
         "information security",
+        "cloud security",
+        "incident response",
+        "SIEM",
         "NIST",
-        "identity and access management",
-        "IAM"
+        "IAM",
+        "vulnerability management",
+        "EDR"
       ],
+      "role_family": "Security Operations & Engineering",
+      "seniority": "Standard / Unspecified",
+      "seniority_priority": 4,
+      "experience_years_min": 4,
+      "match_score": 94,
       "location_category": "US Remote",
       "location_priority": 1,
-      "id": "d5686efff54cebb03c0b"
-    },
-    {
-      "title": "Principal Incident Response Analyst",
-      "company": "Centene Corporation",
-      "location": "Remote-IL, Illinois, United States of America",
-      "url": "https://jobs.centene.com/us/en/jobs/1643529/principal-incident-response-analyst/",
-      "description": "You could be the one who changes everything for our 28 million members by using technology to improve health outcomes around the world. As a diversified, national organization, Centene's technology professionals have access to competitive benefits including a fresh perspective on workplace flexibility. Position Purpose: Executes enterprise-wide Incident Response Plan and recommends enhancements to improve security. Partners with business units to accomplish enterprise-wide remediation and develops and delivers presentations to senior leadership team. Keeps abreast of security breaches and ensure incident and response management processes are initiated Implements security service audit schedules, review access authorization, and perform the required access controls testing to identify security shortfalls Automated scripts, contingency plans, and other programmed responses which are launched when an attack against Centene’s systems has been detected Collaborates with Information Security Architects, Information Security Engineers, and software or hardware stakeholders at Centene Ties third party attack monitoring services and threat reporting services, into internal CIRT (Cyber Incid",
-      "date_posted": "2026-07-14",
-      "source": "Career site",
-      "first_seen": "2026-08-08T19:38:20.045317+00:00",
-      "is_new": true,
-      "matched_titles": [
-        "Incident Response Analyst"
-      ],
-      "matched_keywords": [
-        "information security",
-        "incident response"
-      ],
-      "location_category": "US Remote",
-      "location_priority": 1,
-      "id": "ccc80509708032c59f5b"
+      "id": "71bc104792527133abb6"
     },
     {
       "title": "Cloud Security Architect - IS Mod",
@@ -67,10 +63,9 @@
       "date_posted": "2026-7-22",
       "source": "Career site",
       "first_seen": "2026-08-08T19:38:20.045317+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
-        "Cloud Security Architect",
-        "Security Architect"
+        "cloud security architect"
       ],
       "matched_keywords": [
         "patient",
@@ -85,11 +80,74 @@
         "cloud security",
         "NIST",
         "HITRUST",
-        "identity and access management"
+        "identity and access management",
+        "network security"
       ],
+      "role_family": "Cloud Security",
+      "seniority": "Senior IC / Architect",
+      "seniority_priority": 5,
+      "experience_years_min": null,
+      "match_score": 84,
       "location_category": "US Remote",
       "location_priority": 1,
       "id": "1d2ead3399a6645cc5c7"
+    },
+    {
+      "title": "Senior Infrastructure Specialist",
+      "company": "McKesson Corporation",
+      "location": "Mississauga, Ontario, Canada",
+      "url": "https://careers.mckesson.com/en/job/mississauga/senior-infrastructure-specialist/733/95636246656",
+      "description": "McKesson is an impact-driven, Fortune 10 company that touches virtually every aspect of healthcare. We are known for delivering insights, products, and services that make quality care more accessible and affordable. Here, we focus on the health, happiness, and well-being of you and those we serve – we care. What you do at McKesson matters. We foster a culture where you can grow, make an impact, and are empowered to bring new ideas. Together, we thrive as we shape the future of health for patients, our communities, and our people. If you want to be part of tomorrow’s health today, we want to hear from you. The Senior Infrastructure Specialist is responsible for planning, designing, and executing enterprise infrastructure modernization initiatives, including large‑scale migrations from legacy on‑premises environments to Azure Local and hybrid Azure cloud platforms. This role works in close partnership with engineering, architecture, application, operations, and cybersecurity teams to deliver secure, scalable, and resilient infrastructure solutions. The ideal candidate brings deep hands‑on technical expertise across VMware, Microsoft Azure, Azure Local, core server platforms, and auto",
+      "date_posted": "2026-5-27",
+      "source": "Career site",
+      "first_seen": "2026-08-09T01:00:35.969037+00:00",
+      "is_new": true,
+      "matched_titles": [
+        "infrastructure specialist"
+      ],
+      "matched_keywords": [
+        "healthcare",
+        "patient",
+        "cloud",
+        "Azure",
+        "Terraform",
+        "cybersecurity"
+      ],
+      "role_family": "Cloud & Infrastructure",
+      "seniority": "Senior IC / Architect",
+      "seniority_priority": 5,
+      "experience_years_min": null,
+      "match_score": 80,
+      "location_category": "US Remote",
+      "location_priority": 1,
+      "id": "d48189b7211a4e26efab"
+    },
+    {
+      "title": "Senior IT Systems Engineer – AI Infrastructure and Solutions Architecture",
+      "company": "Mayo Clinic",
+      "location": "Rochester, MN, US",
+      "url": "https://jobs.mayoclinic.org/job/rochester/senior-it-systems-engineer-ai-infrastructure-and-solutions-architecture/33647/98141786864",
+      "description": "Why Mayo Clinic Mayo Clinic is top-ranked in more specialties than any other care provider according to U.S. News & World Report. As we work together to put the needs of the patient first, we are also dedicated to our employees, investing in competitive compensation and comprehensive benefit plans – to take care of you and your family, now and in the future. And with continuing education and advancement opportunities at every turn, you can build a long, successful career with Mayo Clinic. Benefits Highlights Medical: Multiple plan options. Dental: Delta Dental or reimbursement account for flexible coverage. Vision: Affordable plan with national network. Pre-Tax Savings: HSA and FSAs for eligible expenses. Retirement: Competitive retirement package to secure your future. Responsibilities The Senior IT Systems Engineer – AI Tools Operations and Enablement / Change Management role is responsible for stable, scalable day-to-day operations of enterprise AI services while driving broad adoption across Mayo Clinic. This position combines platform operations, support model maturity, and change leadership to ensure AI tools are reliable, understandable, and useful in real-world workflows. A",
+      "date_posted": "2026-7-22",
+      "source": "Career site",
+      "first_seen": "2026-08-09T01:00:35.969037+00:00",
+      "is_new": true,
+      "matched_titles": [
+        "systems engineer"
+      ],
+      "matched_keywords": [
+        "healthcare",
+        "patient",
+        "NIST"
+      ],
+      "role_family": "Cloud & Infrastructure",
+      "seniority": "Senior IC / Architect",
+      "seniority_priority": 5,
+      "experience_years_min": null,
+      "match_score": 74,
+      "location_category": "US Remote",
+      "location_priority": 1,
+      "id": "a22811550f95184be923"
     }
   ]
 }
