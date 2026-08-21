@@ -1,38 +1,38 @@
 {
   "app_name": "Healthcare Cloud & Cybersecurity Job Watcher",
-  "updated_at": "2026-08-20T11:53:21.600878+00:00",
-  "count": 175,
+  "updated_at": "2026-08-21T11:53:40.174582+00:00",
+  "count": 168,
   "errors": [],
   "scan_stats": [
     {
       "company": "UnitedHealth Group / Optum",
       "fetched": 34,
-      "role_matches": 8,
-      "location_matches": 2
+      "role_matches": 2,
+      "location_matches": 0
     },
     {
       "company": "The Cigna Group / Evernorth",
-      "fetched": 215,
-      "role_matches": 92,
-      "location_matches": 16
+      "fetched": 219,
+      "role_matches": 95,
+      "location_matches": 17
     },
     {
       "company": "Elevance Health",
       "fetched": 220,
-      "role_matches": 66,
-      "location_matches": 19
+      "role_matches": 63,
+      "location_matches": 15
     },
     {
       "company": "Centene Corporation",
       "fetched": 220,
-      "role_matches": 20,
-      "location_matches": 20
+      "role_matches": 17,
+      "location_matches": 17
     },
     {
       "company": "Humana",
-      "fetched": 100,
-      "role_matches": 16,
-      "location_matches": 15
+      "fetched": 96,
+      "role_matches": 17,
+      "location_matches": 16
     },
     {
       "company": "Kaiser Permanente",
@@ -49,14 +49,14 @@
     {
       "company": "Johnson & Johnson",
       "fetched": 220,
-      "role_matches": 33,
+      "role_matches": 48,
       "location_matches": 15
     },
     {
       "company": "McKesson Corporation",
       "fetched": 134,
-      "role_matches": 67,
-      "location_matches": 52
+      "role_matches": 68,
+      "location_matches": 53
     },
     {
       "company": "Cardinal Health",
@@ -66,19 +66,19 @@
     },
     {
       "company": "CVS Health / Aetna",
-      "fetched": 220,
-      "role_matches": 2,
-      "location_matches": 1
+      "fetched": 210,
+      "role_matches": 4,
+      "location_matches": 2
     },
     {
       "company": "Mayo Clinic",
-      "fetched": 138,
-      "role_matches": 27,
-      "location_matches": 9
+      "fetched": 140,
+      "role_matches": 28,
+      "location_matches": 8
     },
     {
       "company": "Cleveland Clinic",
-      "fetched": 3,
+      "fetched": 1,
       "role_matches": 0,
       "location_matches": 0
     },
@@ -97,19 +97,19 @@
     {
       "company": "GE HealthCare",
       "fetched": 220,
-      "role_matches": 75,
+      "role_matches": 76,
       "location_matches": 17
     },
     {
       "company": "Philips",
-      "fetched": 134,
-      "role_matches": 62,
-      "location_matches": 16
+      "fetched": 131,
+      "role_matches": 60,
+      "location_matches": 15
     },
     {
       "company": "Stryker",
       "fetched": 220,
-      "role_matches": 62,
+      "role_matches": 65,
       "location_matches": 7
     },
     {
@@ -146,6 +146,33 @@
       "location_category": "NYC / North Jersey Metro",
       "location_priority": 0,
       "id": "460cfbcaec7eeeb81eec"
+    },
+    {
+      "title": "Associate Installation Technician - Wisconsin",
+      "company": "Stryker",
+      "location": "Milwaukee, WI, US; Madison, WI, US",
+      "url": "https://careers.stryker.com/associate-installation-technician-wisconsin/job/3280C66214DEB3553420C18D47E8CE78",
+      "description": "Basic Function Responsible for the on-site physical installation, functional testing, and quality inspection of surgical light suspensions, surgical booms, video integration systems, and other ancillary equipment (room cameras, video monitors, video signals, etc.). Partner with internal teams including sales, project engineering, project management, field service and external teams including electricians, plumbers, general contractors and perioperative hospital staff. This role requires 100% overnight travel, Monday - Friday. Travel, lodging and meal expenses are paid for by Stryker in accordance with the Stryker Corporate Travel Policy. Job Responsibilities Confirms site readiness of pre-installation requirements and infrastructure and performs detailed product inventory of installable equipment. Communicates issues to internal project team and follows up for resolution. Responsible for the installation of all surgical light suspension systems, surgical booms, video integration systems and associated cabling to deliver appropriate video signals as well as installation of ancillary equipment (room cameras, video monitors, etc.) in accordance with quality and safety standards as wel",
+      "date_posted": "2026-08-20T21:06:09.330486+00:00",
+      "source": "Career site / JobPosting",
+      "first_seen": "2026-08-21T11:53:40.174582+00:00",
+      "is_new": true,
+      "matched_titles": [
+        "infrastructure",
+        "systems"
+      ],
+      "matched_keywords": [
+        "medical device",
+        "NIST"
+      ],
+      "role_family": "Cloud & Infrastructure",
+      "seniority": "Associate / Level I",
+      "seniority_priority": 2,
+      "experience_years_min": null,
+      "match_score": 86,
+      "location_category": "NYC / North Jersey Metro",
+      "location_priority": 0,
+      "id": "25bd889875b1317a665e"
     },
     {
       "title": "Sr. Associate, Field Support Engineering",
@@ -282,7 +309,7 @@
       "location": "Morris Plains, New Jersey, United States of America",
       "url": "https://jobs.thecignagroup.com/us/en/job/26006516/Software-Engineering-Advisor-Hybrid",
       "description": "Cigna-Evernorth Services Inc. seeks a Software Engineering Advisor for the Morris Plains, NJ location to play a critical role in leading the design, development, and maintenance of complex software applications. Responsibilities: • Leverage deep technical expertise to guide teams through the full software development lifecycle, ensuring high-quality deliverables and continuous improvement. • Mentor team members, collaborate with cross-functional stakeholders, and drive strategic technology initiatives across multiple projects and platforms. • Lead software development teams in designing, coding, testing, and deploying application solutions. • Create detailed technical specifications and design documentation. • Conduct peer code reviews and quality assurance assessments. • Partner with vendors to develop estimates and delivery plans for projects across application families. • Ensure the quality and consistency of technology solutions delivered by internal and external teams. • Provide technical leadership and accountability across multiple concurrent projects. • Drive efforts to reduce technical debt and mature team technologies. • Identify and implement process improvements to enha",
-      "date_posted": "2026-08-19",
+      "date_posted": "2026-08-20",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
       "is_new": false,
@@ -312,7 +339,7 @@
       "location": "Bloomfield, Connecticut, United States of America; Austin, Texas, United States of America; Denver, Colorado, United States of America; Franklin, Tennessee, United States of America; Morris Plains, New Jersey, United States of America; Philadelphia, Pennsylvania, United States of America; St. Louis, Missouri, United States of America",
       "url": "https://jobs.thecignagroup.com/us/en/job/26001567/Business-Analytics-Advisor-Clinical-Affordability-Trend-Analytics-Hybrid",
       "description": "The job profile for this position is Business Analytics Advisor, which is a Band 4 Senior Contributor Career Track Role. Excited to grow your career? We value our talented employees, and whenever possible strive to help one of our associates grow professionally before recruiting new talent to our open positions. If you think the open position you see is right for you, we encourage you to apply! Our people make all the difference in our success. Join a team that turns clinical data into clear insight and action. As a Business Analytics Advisor, you will help build trend prediction capabilities across clinical and affordability metrics within the CHC Risk Ecosystem. You will connect claims, authorization, service category, diagnosis, and episode-of-care data to help clinical, analytics, finance, and affordability partners understand risk drivers and improve decisions. Responsibilities Design and build clinical risk indicators, projection insights, and key performance indicators within the CHC Risk Ecosystem. Partner with clinical, finance, analytics, affordability, technical, and visualization teams to create practical analytic capabilities that improve trend analysis and claims insi",
-      "date_posted": "2026-08-20",
+      "date_posted": "2026-08-21",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-12T12:08:57.494668+00:00",
       "is_new": false,
@@ -341,7 +368,7 @@
       "location": "Plano, Texas, United States of America; Austin, Texas, United States of America; Bloomfield, Connecticut, United States of America; Bloomington, Minnesota, United States of America; Morris Plains, New Jersey, United States of America; St. Louis, Missouri, United States of America",
       "url": "https://jobs.thecignagroup.com/us/en/job/26007719/Information-Protection-Advisor-Product-Security-DevSecOps",
       "description": "The job profile for this position is Information Protection Advisor, which is a Band 4 Senior Contributor Career Track Role. Excited to grow your career? We value our talented employees, and whenever possible strive to help one of our associates grow professionally before recruiting new talent to our open positions. If you think the open position you see is right for you, we encourage you to apply! Our people make all the difference in our success. Join a high-impact team driving the future of secure healthcare technology. As an Information Protection Advisor, you will enable secure product delivery by embedding automated security solutions across modern development pipelines. You will partner closely with engineering teams to integrate security into every stage of the SDLC, helping protect critical applications while accelerating innovation across the organization. Responsibilities Partner with development teams to embed security practices that enable safe, scalable, and high-quality product delivery Design and implement automated security solutions within CI/CD pipelines to strengthen application security posture Integrate and optimize application security testing tools (SAST, DA",
-      "date_posted": "2026-08-19",
+      "date_posted": "2026-08-20",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
       "is_new": false,
@@ -426,7 +453,7 @@
       "location": "Bloomfield, Connecticut, United States of America; Austin, Texas, United States of America; Morris Plains, New Jersey, United States of America; St. Louis, Missouri, United States of America",
       "url": "https://jobs.thecignagroup.com/us/en/job/26007638/Technology-Strategy-Leader-Enterprise-Data-AI-Platforms-Hybrid",
       "description": "The job profile for this position is IT Strategy Principal, which is a Band 5 Senior Contributor Career Track Role. Excited to grow your career? We value our talented employees, and whenever possible strive to help one of our associates grow professionally before recruiting new talent to our open positions. If you think the open position you see is right for you, we encourage you to apply! Our people make all the difference in our success. The Enterprise Data, AI and Platforms team is shaping how our company uses data, analytics, AI, and shared technology services to deliver stronger experiences and measurable value. As the Technology Strategy Leader, you will connect enterprise priorities to clear roadmaps, investment choices, and operating routines that help teams move with focus, speed, and accountability. This role is a strong fit for a strategic, collaborative leader who can make complex work simpler and bring partners together around outcomes that matter. Responsibilities Lead an integrated technology strategy and roadmap across Enterprise Data, AI and Platforms, including priorities, sequencing, dependencies, and multi-year outcomes. Turn enterprise goals into an actionable ",
-      "date_posted": "2026-08-20",
+      "date_posted": "2026-08-21",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-12T12:08:57.494668+00:00",
       "is_new": false,
@@ -446,34 +473,6 @@
       "location_category": "NYC / North Jersey Metro",
       "location_priority": 0,
       "id": "455bf8717a2cde8caee4"
-    },
-    {
-      "title": "Certified Peer Support Specialist",
-      "company": "Elevance Health",
-      "location": "Atlanta, GA, US; CA, US; CO, US; CT, US; FL, US; IL, US; MD, US; MA, US; NV, US; NJ, US; New York, NY, US; OH, US; TX, US",
-      "url": "https://careers.elevancehealth.com/certified-peer-support-specialist/job/254EA26959C625AE7860C68C798B3603",
-      "description": "Certified Peer Support Specialist (Wellness & Recovery Specialist) Anticipated Job Posting End Date: 08/21/2026 Virtual : This role enables associates to work virtually full-time , except for required in-person training sessions, providing maximum flexibility and autonomy. This approach promotes productivity, supports work-life integration, and ensures essential face-to-face onboarding and skill development. Alternate locations may be considered if candidates reside within a commuting distance from an office. Please note that per our policy on hybrid/virtual work, candidates not within a reasonable commuting distance from the posting location(s) will not be considered for employment, unless accommodation is granted as required by law. A proud member of the Elevance Health family of companies, Carelon Behavioral Health uses our powerful combination of experience, expertise, dedication and compassion to see what's possible and what's better. Born out of one of the largest healthcare systems organization in the United States, our rich history gives us a unique and valuable perspective on how to solve the most pressing healthcare challenges. Please note: This position requires a Peer S",
-      "date_posted": "2026-08-06T17:23:03.241708+00:00",
-      "source": "Career site / JobPosting",
-      "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": false,
-      "matched_titles": [
-        "systems"
-      ],
-      "matched_keywords": [
-        "healthcare",
-        "health care",
-        "patient",
-        "NIST"
-      ],
-      "role_family": "Cloud & Infrastructure",
-      "seniority": "Standard / Unspecified",
-      "seniority_priority": 5,
-      "experience_years_min": null,
-      "match_score": 80,
-      "location_category": "NYC / North Jersey Metro",
-      "location_priority": 0,
-      "id": "3afd5aac9d66aa953b9b"
     },
     {
       "title": "Data Admin Analyst Senior",
@@ -563,7 +562,7 @@
       "location": "Morris Plains, New Jersey, United States of America",
       "url": "https://jobs.thecignagroup.com/us/en/job/26006225/Software-Engineering-Senior-Advisor-Hybrid",
       "description": "Cigna-Evernorth Services Inc. seeks a Software Engineering Senior Advisor for the Morris Plains, NJ location to support over 30 applications, focusing on Consumer Driven Healthcare (CDH) and Mainframe Services (MFS). Responsibilities: • Identify and resolve problems faced in various online applications that serve Cigna’s online and web based platforms. • Work on multiple high critical incident tickets to resolve issues. • Provide support to all MML calls and resolve MML tickets. • Work on critical CDH and MFS issues to open a MML line to triage and solve issues. • Analyze production tickets and support application maintenance, enhancements, and bug fixes. • Provide code analysis, business friendly explanations for requests and incidents, and resolve production critical incidents using a deep understanding of application architecture. • Provide functional and technical knowledge of the applications. • Hybrid work schedule. Qualifications: • Bachelor’s degree in Computers or Engineering and 3 years of experience. • Must have experience with: JCL; • CA7M; • Customer Driven Healthcare (CDH) Applications; • Mainframe Services (MFS); • MVS; • Windows XP; • DOS; • OS 390; • Z / OS; • COBO",
-      "date_posted": "2026-08-18",
+      "date_posted": "2026-08-20",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
       "is_new": false,
@@ -651,50 +650,19 @@
       "id": "b1f4811251974d8b1487"
     },
     {
-      "title": "Software Engineering Associate Advisor - HIH - Evernorth",
-      "company": "The Cigna Group / Evernorth",
-      "location": "Hyderabad, Telangāna, India",
-      "url": "https://jobs.thecignagroup.com/us/en/job/26007767/Software-Engineering-Associate-Advisor-HIH-Evernorth",
-      "description": "The job profile for this position is HIH - Software Engineering Associate Advisor, which is a Band 3 Senior Contributor Career Track Role. Excited to grow your career? We value our talented employees, and whenever possible strive to help one of our associates grow professionally before recruiting new talent to our open positions. If you think the open position you see is right for you, we encourage you to apply! Our people make all the difference in our success. INTRODUCTION TO EVERNORTH: Evernorth Health Services India, established in Hyderabad in 2024, is an innovation hub for Evernorth Health Services, the pharmacy, care and benefits division of The Cigna Group. The innovation hub will support innovation-focused areas, such as generative AI, product development, process improvement, analytics, and software engineering across The Cigna Group and its businesses. Evernorth Health Services India builds on The Cigna Group’s existing presence in India. About Evernorth Health Services: Evernorth Health Services (Evernorth) is the pharmacy, care and benefits solution division of The Cigna Group - a Fortune 16 global health company with 75,000 employees, 186 million customers in more tha",
-      "date_posted": "2026-08-16",
+      "title": "Sr. Associate Data Engineer (PySpark, Python & ETL)",
+      "company": "McKesson Corporation",
+      "location": "Overland Park, Kansas, United States",
+      "url": "https://careers.mckesson.com/en/job/overland-park/sr-associate-data-engineer-pyspark-python-and-etl/733/98192728800",
+      "description": "McKesson is an impact-driven, Fortune 10 company that touches virtually every aspect of healthcare. We are known for delivering insights, products, and services that make quality care more accessible and affordable. Here, we focus on the health, happiness, and well-being of you and those we serve – we care. What you do at McKesson matters. We foster a culture where you can grow, make an impact, and are empowered to bring new ideas. Together, we thrive as we shape the future of health for patients, our communities, and our people. If you want to be part of tomorrow’s health today, we want to hear from you. Rx Savings Solutions, part of McKesson's CoverMyMeds organization, offers an innovative, patented software system that educates and empowers consumers to make the best healthcare choices at the lowest cost. Founded and operated by a team of pharmacists and software engineers, we support a collaborative, cost-saving solution for purchasing prescription drugs. We currently have an opportunity for a Sr Associate Data Engineer to join our growing Business Operations data engineering team! This is a junior-level position on our team (ideally looking for 2-4 years of Data Engineering / ",
+      "date_posted": "2026-8-21",
       "source": "Career site / JobPosting",
-      "first_seen": "2026-08-20T11:53:21.600878+00:00",
+      "first_seen": "2026-08-21T11:53:40.174582+00:00",
       "is_new": true,
       "matched_titles": [
         "cloud",
         "aws",
-        "infrastructure",
-        "terraform"
-      ],
-      "matched_keywords": [
-        "healthcare",
-        "health care",
-        "cloud",
-        "AWS",
-        "Terraform"
-      ],
-      "role_family": "Cloud & Infrastructure",
-      "seniority": "Associate / Level I",
-      "seniority_priority": 2,
-      "experience_years_min": 5,
-      "match_score": 100,
-      "location_category": "US Remote",
-      "location_priority": 1,
-      "id": "e9ccf32b3dc7c712f2ec"
-    },
-    {
-      "title": "Sr. Associate Data Engineer (ETL / Databricks)",
-      "company": "McKesson Corporation",
-      "location": "Overland Park, Kansas, United States",
-      "url": "https://careers.mckesson.com/en/job/overland-park/sr-associate-data-engineer-etl-databricks/733/98192728800",
-      "description": "McKesson is an impact-driven, Fortune 10 company that touches virtually every aspect of healthcare. We are known for delivering insights, products, and services that make quality care more accessible and affordable. Here, we focus on the health, happiness, and well-being of you and those we serve – we care. What you do at McKesson matters. We foster a culture where you can grow, make an impact, and are empowered to bring new ideas. Together, we thrive as we shape the future of health for patients, our communities, and our people. If you want to be part of tomorrow’s health today, we want to hear from you. Rx Savings Solutions, part of McKesson's CoverMyMeds organization, offers an innovative, patented software system that educates and empowers consumers to make the best healthcare choices at the lowest cost. Founded and operated by a team of pharmacists and software engineers, we support a collaborative, cost-saving solution for purchasing prescription drugs. We currently have an opportunity for a Data Engineer (ETL / Databricks) to join our growing Business Operations data engineering team! This is a junior-level position on our team (ideally looking for 2-4 years of Data Engineer",
-      "date_posted": "2026-8-13",
-      "source": "Career site / JobPosting",
-      "first_seen": "2026-08-14T12:09:06.064374+00:00",
-      "is_new": false,
-      "matched_titles": [
-        "cloud",
-        "aws",
+        "azure",
         "platform",
         "systems"
       ],
@@ -702,7 +670,8 @@
         "healthcare",
         "patient",
         "cloud",
-        "AWS"
+        "AWS",
+        "Azure"
       ],
       "role_family": "Cloud & Infrastructure",
       "seniority": "Associate / Level I",
@@ -711,7 +680,7 @@
       "match_score": 100,
       "location_category": "US Remote",
       "location_priority": 1,
-      "id": "6924ae46c4210cb78680"
+      "id": "87c911817f801c1f4350"
     },
     {
       "title": "Sr. Associate Software Engineer",
@@ -779,6 +748,38 @@
       "id": "29449a4d5de1371f8696"
     },
     {
+      "title": "Software Engineering Associate Advisor - HIH - Evernorth",
+      "company": "The Cigna Group / Evernorth",
+      "location": "Hyderabad, Telangāna, India",
+      "url": "https://jobs.thecignagroup.com/us/en/job/26007767/Software-Engineering-Associate-Advisor-HIH-Evernorth",
+      "description": "The job profile for this position is HIH - Software Engineering Associate Advisor, which is a Band 3 Senior Contributor Career Track Role. Excited to grow your career? We value our talented employees, and whenever possible strive to help one of our associates grow professionally before recruiting new talent to our open positions. If you think the open position you see is right for you, we encourage you to apply! Our people make all the difference in our success. INTRODUCTION TO EVERNORTH: Evernorth Health Services India, established in Hyderabad in 2024, is an innovation hub for Evernorth Health Services, the pharmacy, care and benefits division of The Cigna Group. The innovation hub will support innovation-focused areas, such as generative AI, product development, process improvement, analytics, and software engineering across The Cigna Group and its businesses. Evernorth Health Services India builds on The Cigna Group’s existing presence in India. About Evernorth Health Services: Evernorth Health Services (Evernorth) is the pharmacy, care and benefits solution division of The Cigna Group - a Fortune 16 global health company with 75,000 employees, 186 million customers in more tha",
+      "date_posted": "2026-08-16",
+      "source": "Career site / JobPosting",
+      "first_seen": "2026-08-20T11:53:21.600878+00:00",
+      "is_new": false,
+      "matched_titles": [
+        "cloud",
+        "aws",
+        "infrastructure",
+        "terraform"
+      ],
+      "matched_keywords": [
+        "healthcare",
+        "health care",
+        "cloud",
+        "AWS",
+        "Terraform"
+      ],
+      "role_family": "Cloud & Infrastructure",
+      "seniority": "Associate / Level I",
+      "seniority_priority": 2,
+      "experience_years_min": 5,
+      "match_score": 100,
+      "location_category": "US Remote",
+      "location_priority": 1,
+      "id": "e9ccf32b3dc7c712f2ec"
+    },
+    {
       "title": "Senior Associate, Information Security Analyst",
       "company": "McKesson Corporation",
       "location": "Irving, Texas, United States",
@@ -787,7 +788,7 @@
       "date_posted": "2026-8-20",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-20T11:53:21.600878+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "security analyst",
         "information security analyst"
@@ -938,7 +939,7 @@
       "date_posted": "2026-08-19T21:06:02.541266+00:00",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-20T11:53:21.600878+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "systems"
       ],
@@ -954,32 +955,6 @@
       "location_category": "US Remote",
       "location_priority": 1,
       "id": "95932accff1da705e014"
-    },
-    {
-      "title": "Associate Technical Instructor (Remote)",
-      "company": "Stryker",
-      "location": "Remote, United States",
-      "url": "https://careers.stryker.com/associate-technical-instructor-remote/job/21902A8CD98E67EC17AC1C087BD6BBA8",
-      "description": "The Associate Technical Instructor will deliver training sessions, provide student support, assess student progress and provide administrative support related to the training program and learning management system. This role collaborates with multiple stakeholders to help manage and improve the training program. Working hours can be any time between 6am CST until 6pm CST. What you will do: Conduct engaging and informative training sessions on system administration topics, including operating systems, networking, security, and troubleshooting. Provide guidance and support to students, addressing their questions and concerns, and helping them to successfully complete their coursework. Evaluate student performance through assessments, quizzes, and practical exercises and provide constructive feedback. Work closely with other instructors, instructional designers, and subject matter experts to continually improve the training program. What you need: Required: Bachelor’s degree or in lieu of degree 6+ years of additional relevant experience Minimum 2 years of relevant technical training experience required Proficiency in operating systems networking, system security, and troubleshooting.",
-      "date_posted": "2026-08-12T22:35:05.764057+00:00",
-      "source": "Career site / JobPosting",
-      "first_seen": "2026-08-11T12:07:54.056650+00:00",
-      "is_new": false,
-      "matched_titles": [
-        "systems"
-      ],
-      "matched_keywords": [
-        "healthcare",
-        "NIST"
-      ],
-      "role_family": "Cloud & Infrastructure",
-      "seniority": "Associate / Level I",
-      "seniority_priority": 2,
-      "experience_years_min": 2,
-      "match_score": 87,
-      "location_category": "US Remote",
-      "location_priority": 1,
-      "id": "188a17098c40489d35da"
     },
     {
       "title": "Associate Installation Technician - California",
@@ -1014,7 +989,7 @@
       "location": "Hyderabad, Telangāna, India",
       "url": "https://jobs.thecignagroup.com/us/en/job/26007641/Data-Measurement-Reporting-Associate-Advisor-HIH-Evernorth",
       "description": "The job profile for this position is HIH - Data Measurement & Reporting Associate Advisor, which is a Band 3 Senior Contributor Career Track Role. Excited to grow your career? We value our talented employees, and whenever possible strive to help one of our associates grow professionally before recruiting new talent to our open positions. If you think the open position you see is right for you, we encourage you to apply! Our people make all the difference in our success. INTRODUCTION TO EVERNORTH: Evernorth Health Services India, established in Hyderabad in 2024, is an innovation hub for Evernorth Health Services, the pharmacy, care and benefits division of The Cigna Group. The innovation hub will support innovation-focused areas, such as generative AI, product development, process improvement, analytics, and software engineering across The Cigna Group and its businesses. Evernorth Health Services India builds on The Cigna Group’s existing presence in India. About Evernorth Health Services: Evernorth Health Services (Evernorth) is the pharmacy, care and benefits solution division of The Cigna Group - a Fortune 16 global health company with 75,000 employees, 186 million customers in ",
-      "date_posted": "2026-08-17",
+      "date_posted": "2026-08-20",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-14T12:09:06.064374+00:00",
       "is_new": false,
@@ -1197,38 +1172,6 @@
       "id": "5281f4933c7a04cdb8df"
     },
     {
-      "title": "AI Machine Learning Scientist",
-      "company": "Elevance Health",
-      "location": "Indianapolis, IN, US; Tampa, FL, US; Atlanta, GA, US",
-      "url": "https://careers.elevancehealth.com/ai-machine-learning-scientist/job/B4A98930F07F4CF0980CE32756BFEB81",
-      "description": "AI Machine Learning Scientist Location: This role requires associates to be in-office 1 day per week, fostering collaboration and connectivity, while providing flexibility to support productivity and work-life balance. This approach combines structured office engagement with the autonomy of virtual work, promoting a dynamic and adaptable workplace. Ideal candidates will be able to report to one of our Pulse Point locations in Indianapolis, IN, Atlanta, GA or Tampa, FL. Alternate locations may be considered if candidates reside within a commuting distance from an office. Please note that per our policy on hybrid/virtual work, candidates not within a reasonable commuting distance from the posting location(s) will not be considered for employment, unless an accommodation is granted as required by law. The AI Machine Learning Scientist is responsible for Artificial Intelligence (AI) scientific and statistical methods to assist with product creation, development and improvement. Plays a critical role in enabling the responsible and scalable adoption of AI across the enterprise. This role is responsible for designing, developing, evaluating, and operationalizing AI and machine learning s",
-      "date_posted": "2026-08-17T15:23:03.404123+00:00",
-      "source": "Career site / JobPosting",
-      "first_seen": "2026-08-18T11:52:20.261663+00:00",
-      "is_new": false,
-      "matched_titles": [
-        "cloud",
-        "infrastructure",
-        "platform",
-        "systems"
-      ],
-      "matched_keywords": [
-        "healthcare",
-        "health care",
-        "patient",
-        "cloud",
-        "NIST"
-      ],
-      "role_family": "Cloud & Infrastructure",
-      "seniority": "Standard / Unspecified",
-      "seniority_priority": 5,
-      "experience_years_min": null,
-      "match_score": 100,
-      "location_category": "US Remote",
-      "location_priority": 1,
-      "id": "bba99f9e0b4c6c58b6a7"
-    },
-    {
       "title": "Developer Advisor",
       "company": "Elevance Health",
       "location": "Indianapolis, IN, US",
@@ -1262,44 +1205,6 @@
       "location_category": "US Remote",
       "location_priority": 1,
       "id": "a8416788e0d45577bc64"
-    },
-    {
-      "title": "Technical FinOps Analyst",
-      "company": "Humana",
-      "location": "Louisville, Kentucky, United States of America; Atlanta, Georgia, United States of America; Boston, Massachusetts, United States of America; Charlotte, North Carolina, United States of America; Frisco, Texas, United States of America; Fort Lauderdale, Florida, United States of America; Nashville, Tennessee, United States of America; Tampa, Florida, United States of America; Washington, District of Columbia, United States of America",
-      "url": "https://careers.humana.com/us/en/job/R-412497/Technical-FinOps-Analyst",
-      "description": "We appreciate that you are interested in pursuing your next career opportunity. As you complete the application below, here are a few tips you should consider: Visit Go/Develop for information on professional development, resume guidance, and interview best practices. ​ Watch a quick video to discover how Humana’s Career Framework can help you identify meaningful growth opportunities. Visit Go/AskARecruiter for expert advice on your job search from our Talent Acquisition Team. Tailor your resume to highlight achievements and skills that align with the role you're applying for. Update your Workday profile to reflect your key accomplishments and experiences. Please read the job description carefully and ensure you meet all required qualifications. Consider having a conversation with your current leader about your career goals and interest in this opportunity. Their support can be valuable as you explore your next step. Job Profile Senior IT Business Performance/Process Improvement Professional Job Level Senior Professional Become a part of our caring community A Technical FinOps Analyst sits at the intersection of cloud engineering and finance, focusing on making technology spending ",
-      "date_posted": "2026-08-17",
-      "source": "Career site / JobPosting",
-      "first_seen": "2026-08-18T11:52:20.261663+00:00",
-      "is_new": false,
-      "matched_titles": [
-        "cloud",
-        "aws",
-        "azure",
-        "gcp",
-        "infrastructure",
-        "platform",
-        "systems"
-      ],
-      "matched_keywords": [
-        "healthcare",
-        "HIPAA",
-        "PHI",
-        "cloud",
-        "AWS",
-        "Azure",
-        "GCP",
-        "NIST"
-      ],
-      "role_family": "Cloud & Infrastructure",
-      "seniority": "Standard / Unspecified",
-      "seniority_priority": 5,
-      "experience_years_min": null,
-      "match_score": 100,
-      "location_category": "US Remote",
-      "location_priority": 1,
-      "id": "2faf0eb23583a65aa02e"
     },
     {
       "title": "Cyber Threat Detection & Response Analyst",
@@ -1380,12 +1285,44 @@
       "id": "75c20dbe38148ce561bd"
     },
     {
+      "title": "Technical Implementation Advisor - eviCore - Remote",
+      "company": "The Cigna Group / Evernorth",
+      "location": "Remote, United States of America",
+      "url": "https://jobs.thecignagroup.com/us/en/job/26010358/Technical-Implementation-Advisor-eviCore-Remote",
+      "description": "Join our team of implementation specialists dedicated to improving the prior authorization experience for patients, providers, and healthcare organizations. In this role, you will partner with clients, internal stakeholders, and technical teams to deliver innovative healthcare technology solutions that drive operational excellence and improve customer outcomes. If you enjoy solving problems, building trusted relationships, and leading complex implementations, we'd love to hear from you. Responsibilities Lead complex technical implementation projects that integrate healthcare technology solutions into client environments. Partner directly with clients to understand business and technical requirements, recommend solutions, and ensure successful project delivery. Provide expert guidance on healthcare data exchange, interoperability standards, and system integrations. Research, analyze, and resolve technical issues to minimize client disruption and improve solution performance. Create and maintain technical documentation, implementation guides, and knowledge transfer materials that enable long-term client success. Collaborate with internal and external stakeholders to drive project mil",
+      "date_posted": "2026-08-20",
+      "source": "Career site / JobPosting",
+      "first_seen": "2026-08-21T11:53:40.174582+00:00",
+      "is_new": true,
+      "matched_titles": [
+        "cloud",
+        "azure",
+        "platform"
+      ],
+      "matched_keywords": [
+        "healthcare",
+        "patient",
+        "EHR",
+        "electronic health record",
+        "cloud",
+        "Azure"
+      ],
+      "role_family": "Cloud & Infrastructure",
+      "seniority": "Standard / Unspecified",
+      "seniority_priority": 5,
+      "experience_years_min": 6,
+      "match_score": 98,
+      "location_category": "US Remote",
+      "location_priority": 1,
+      "id": "b64e4bd2da05ff58ecd9"
+    },
+    {
       "title": "Cyber Security Engineer",
       "company": "Humana",
       "location": "Louisville, Kentucky, United States of America; Boston, Massachusetts, United States of America; Charlotte, North Carolina, United States of America; Chicago, Illinois, United States of America; Dallas, Texas, United States of America; Miami, Florida, United States of America; Nashville, Tennessee, United States of America; New York, New York, United States of America; Tampa, Florida, United States of America",
       "url": "https://careers.humana.com/us/en/job/R-426256/Cyber-Security-Engineer",
       "description": "Become a part of our caring community (Remote in posted locations) We are seeking a hands-on Cyber Security Engineer 2 to join the Product Security Tools team. This role will support the engineering, integration, automation, operationalization, and continuous improvement of enterprise security tools that protect Humana's applications, SaaS platforms, cloud environments, development pipelines, and security operations workflows. The selected candidate will work across Product Security, DevSecOps, Cloud Engineering, AI Security, Security Architecture, Scan & Triage, CSOC/TMR, IAM, application teams, and vendors to improve security posture, reduce risk, and strengthen operational maturity across critical platforms such as AppOmni, Cycode, Checkmarx, Wiz, Prisma Cloud, JFrog/Xray, AppScan, and GCP Model Armor. This role is ideal for an engineer with some hands-on cybersecurity experience who can operate independently, troubleshoot complex tool issues, automate repeatable processes, support security control implementation, and communicate clearly with technical and leadership stakeholders. Job Description: Support onboarding, configuration, tuning, and operationalization of Product Secur",
-      "date_posted": "2026-08-18",
+      "date_posted": "2026-08-21",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-15T11:44:13.734879+00:00",
       "is_new": false,
@@ -1566,36 +1503,6 @@
       "id": "6a7199fe253f8493bddc"
     },
     {
-      "title": "DevOps Engineer",
-      "company": "McKesson Corporation",
-      "location": "Atlanta, Georgia, United States; Irving, Texas, United States",
-      "url": "https://careers.mckesson.com/en/job/atlanta/devops-engineer/733/97513462880",
-      "description": "McKesson is an impact-driven, Fortune 10 company that touches virtually every aspect of healthcare. We are known for delivering insights, products, and services that make quality care more accessible and affordable. Here, we focus on the health, happiness, and well-being of you and those we serve – we care. What you do at McKesson matters. We foster a culture where you can grow, make an impact, and are empowered to bring new ideas. Together, we thrive as we shape the future of health for patients, our communities, and our people. If you want to be part of tomorrow’s health today, we want to hear from you. McKesson complies with all applicable U.S. immigration laws and regulations. The Company does not provide employer support or sponsorship for any immigration related employment benefit for this role. Applicants must be currently authorized to work in the United States on a fulltime basis without the need for employer support or sponsorship now or in the future. This includes having the legal right to work in the United States without the need for McKesson support or sponsorship for any immigration related employment authorization (e.g., H1B, O1, E3, H1B1, TN, F1 OPT, F1 STEM OPT, ",
-      "date_posted": "2026-7-8",
-      "source": "Career site / JobPosting",
-      "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": false,
-      "matched_titles": [
-        "devops engineer"
-      ],
-      "matched_keywords": [
-        "healthcare",
-        "patient",
-        "cloud",
-        "Azure",
-        "DevOps",
-        "NIST"
-      ],
-      "role_family": "DevOps & Platform",
-      "seniority": "Standard / Unspecified",
-      "seniority_priority": 5,
-      "experience_years_min": 3,
-      "match_score": 92,
-      "location_category": "US Remote",
-      "location_priority": 1,
-      "id": "e69b80641dc786e60137"
-    },
-    {
       "title": "Supply Chain & Transportation Systems Analyst",
       "company": "McKesson Corporation",
       "location": "Irving, Texas, United States",
@@ -1625,60 +1532,6 @@
       "id": "a9fbe02c251ef3639f4f"
     },
     {
-      "title": "Out of Network Dispute Resolution Analyst",
-      "company": "UnitedHealth Group / Optum",
-      "location": "Richardson, Texas, United States; Phoenix, Arizona, United States; Hartford, Connecticut, United States; Tampa, Florida, United States; Minneapolis, Minnesota, United States; Dallas, Texas, United States",
-      "url": "https://careers.unitedhealthgroup.com/en/job/richardson/out-of-network-dispute-resolution-analyst/34088/99455830000",
-      "description": "This position is National Remote. You'll enjoy the flexibility to telecommute* from anywhere within the U.S. as you take on some tough challenges. At UnitedHealthcare, we're simplifying the health care experience, creating healthier communities and removing barriers to quality care. The work you do here impacts the lives of millions of people for the better. Come build the health care system of tomorrow, making it more responsive, affordable and optimized. Ready to make a difference? Join us to start Caring. Connecting. Growing together. The Out of Network (OON) Dispute Resolution team is responsible for end-to-end resolution of regulated OON disputes and arbitrations across UHC commercial lines of business on multiple platforms. This team is expected to continue expanding due to requirements related to the No Surprises Act section of the federal Consolidated Appropriations Act. The Out of Network Dispute Resolution Analyst reviews, researches, investigates, and resolves regulated OON disputes. This role requires strong claims knowledge, regulatory awareness, sound judgment, and the ability to identify trends, root causes, and potential process or system defects that may contribute",
-      "date_posted": "2026-8-19",
-      "source": "Career site / JobPosting",
-      "first_seen": "2026-08-20T11:53:21.600878+00:00",
-      "is_new": true,
-      "matched_titles": [
-        "platform",
-        "systems"
-      ],
-      "matched_keywords": [
-        "healthcare",
-        "health care"
-      ],
-      "role_family": "Cloud & Infrastructure",
-      "seniority": "Standard / Unspecified",
-      "seniority_priority": 5,
-      "experience_years_min": 1,
-      "match_score": 91,
-      "location_category": "US Remote",
-      "location_priority": 1,
-      "id": "3283cba709179dcf2d4e"
-    },
-    {
-      "title": "Out of Network Dispute Resolution Analyst",
-      "company": "UnitedHealth Group / Optum",
-      "location": "Richardson, Texas, United States; Phoenix, Arizona, United States; Hartford, Connecticut, United States; Tampa, Florida, United States; Minneapolis, Minnesota, United States; Dallas, Texas, United States",
-      "url": "https://careers.unitedhealthgroup.com/job/richardson/out-of-network-dispute-resolution-analyst/34088/99455830000",
-      "description": "This position is National Remote. You'll enjoy the flexibility to telecommute* from anywhere within the U.S. as you take on some tough challenges. At UnitedHealthcare, we're simplifying the health care experience, creating healthier communities and removing barriers to quality care. The work you do here impacts the lives of millions of people for the better. Come build the health care system of tomorrow, making it more responsive, affordable and optimized. Ready to make a difference? Join us to start Caring. Connecting. Growing together. The Out of Network (OON) Dispute Resolution team is responsible for end-to-end resolution of regulated OON disputes and arbitrations across UHC commercial lines of business on multiple platforms. This team is expected to continue expanding due to requirements related to the No Surprises Act section of the federal Consolidated Appropriations Act. The Out of Network Dispute Resolution Analyst reviews, researches, investigates, and resolves regulated OON disputes. This role requires strong claims knowledge, regulatory awareness, sound judgment, and the ability to identify trends, root causes, and potential process or system defects that may contribute",
-      "date_posted": "2026-8-19",
-      "source": "Career site / JobPosting",
-      "first_seen": "2026-08-20T11:53:21.600878+00:00",
-      "is_new": true,
-      "matched_titles": [
-        "platform",
-        "systems"
-      ],
-      "matched_keywords": [
-        "healthcare",
-        "health care"
-      ],
-      "role_family": "Cloud & Infrastructure",
-      "seniority": "Standard / Unspecified",
-      "seniority_priority": 5,
-      "experience_years_min": 1,
-      "match_score": 91,
-      "location_category": "US Remote",
-      "location_priority": 1,
-      "id": "0f6b2d11b5a24fcdee94"
-    },
-    {
       "title": "Systems Engineer",
       "company": "Philips",
       "location": "Cambridge , Massachusetts, United States, Massachusetts, United States of America",
@@ -1706,35 +1559,6 @@
       "location_category": "US Remote",
       "location_priority": 1,
       "id": "d06c822d703b67bfd4d1"
-    },
-    {
-      "title": "Systems Analyst Advisor",
-      "company": "Elevance Health",
-      "location": "Norfolk, VA, US; Atlanta, GA, US; Richmond, VA, US",
-      "url": "https://careers.elevancehealth.com/systems-analyst-advisor/job/A7CB9DB22C91BF0A5D471D3E1088BA8A",
-      "description": "Systems Analyst Advisor Location: Norfolk, VA; Atlanta, GA; Richmond, VA Hybrid 1 : This role requires associates to be in-office 1 - 2 days per week, fostering collaboration and connectivity, while providing flexibility to support productivity and work-life balance. This approach combines structured office engagement with the autonomy of virtual work, promoting a dynamic and adaptable workplace. Alternate locations may be considered if candidates reside within a commuting distance from an office. Please note that per our policy on hybrid/virtual work, candidates not within a reasonable commuting distance from the posting location(s) will not be considered for employment, unless accommodation is granted as required by law. This position requires participation in an on-call rotation to provide 24/7 support for seven consecutive days, approximately once every four months. The Systems Analyst Advisor will be responsible for defining and managing the scope of Business Systems projects. How you will make an impact: Defines functional, usability, reliability, performance and support requirements of a system. Creates and performs feature testing and determines environmental needs. Provide",
-      "date_posted": "2026-08-19T13:23:01.701816+00:00",
-      "source": "Career site / JobPosting",
-      "first_seen": "2026-08-20T11:53:21.600878+00:00",
-      "is_new": true,
-      "matched_titles": [
-        "infrastructure",
-        "systems"
-      ],
-      "matched_keywords": [
-        "healthcare",
-        "health care",
-        "patient",
-        "NIST"
-      ],
-      "role_family": "Cloud & Infrastructure",
-      "seniority": "Standard / Unspecified",
-      "seniority_priority": 5,
-      "experience_years_min": null,
-      "match_score": 87,
-      "location_category": "US Remote",
-      "location_priority": 1,
-      "id": "70dd4e76c119f3d64b4e"
     },
     {
       "title": "Privacy & Security Enterprise Engagement Officer",
@@ -1822,6 +1646,35 @@
       "location_category": "US Remote",
       "location_priority": 1,
       "id": "eeb13ec30d31b5a9d621"
+    },
+    {
+      "title": "Systems Analyst Advisor",
+      "company": "Elevance Health",
+      "location": "Norfolk, VA, US; Atlanta, GA, US; Richmond, VA, US",
+      "url": "https://careers.elevancehealth.com/systems-analyst-advisor/job/A7CB9DB22C91BF0A5D471D3E1088BA8A",
+      "description": "Systems Analyst Advisor Location: Norfolk, VA; Atlanta, GA; Richmond, VA Hybrid 1 : This role requires associates to be in-office 1 - 2 days per week, fostering collaboration and connectivity, while providing flexibility to support productivity and work-life balance. This approach combines structured office engagement with the autonomy of virtual work, promoting a dynamic and adaptable workplace. Alternate locations may be considered if candidates reside within a commuting distance from an office. Please note that per our policy on hybrid/virtual work, candidates not within a reasonable commuting distance from the posting location(s) will not be considered for employment, unless accommodation is granted as required by law. This position requires participation in an on-call rotation to provide 24/7 support for seven consecutive days, approximately once every four months. The Systems Analyst Advisor will be responsible for defining and managing the scope of Business Systems projects. How you will make an impact: Defines functional, usability, reliability, performance and support requirements of a system. Creates and performs feature testing and determines environmental needs. Provide",
+      "date_posted": "2026-08-20T17:23:02.667093+00:00",
+      "source": "Career site / JobPosting",
+      "first_seen": "2026-08-20T11:53:21.600878+00:00",
+      "is_new": false,
+      "matched_titles": [
+        "infrastructure",
+        "systems"
+      ],
+      "matched_keywords": [
+        "healthcare",
+        "health care",
+        "patient",
+        "NIST"
+      ],
+      "role_family": "Cloud & Infrastructure",
+      "seniority": "Standard / Unspecified",
+      "seniority_priority": 5,
+      "experience_years_min": null,
+      "match_score": 87,
+      "location_category": "US Remote",
+      "location_priority": 1,
+      "id": "70dd4e76c119f3d64b4e"
     },
     {
       "title": "Security Operations Center (SOC) Operator",
@@ -1940,37 +1793,6 @@
       "id": "10e0a5ce28f824e5ef3f"
     },
     {
-      "title": "Analyst/Programmer",
-      "company": "Mayo Clinic",
-      "location": "Rochester, MN, US",
-      "url": "https://jobs.mayoclinic.org/job/rochester/analyst-programmer/33647/99039879264",
-      "description": "Why Mayo Clinic Mayo Clinic is top-ranked in more specialties than any other care provider according to U.S. News & World Report. As we work together to put the needs of the patient first, we are also dedicated to our employees, investing in competitive compensation and comprehensive benefit plans – to take care of you and your family, now and in the future. And with continuing education and advancement opportunities at every turn, you can build a long, successful career with Mayo Clinic. Benefits Highlights Medical: Multiple plan options. Dental: Delta Dental or reimbursement account for flexible coverage. Vision: Affordable plan with national network. Pre-Tax Savings: HSA and FSAs for eligible expenses. Retirement: Competitive retirement package to secure your future. Responsibilities Provides support for vended and custom applications, including resolving highly complex issues, and assists with data security, redundancy, and support in collaboration with more senior technical staff. Conducts root-cause analysis by researching hardware environment and software application and system problems, works with colleagues and customers to resolve issues, documents resolution, and communi",
-      "date_posted": "2026-8-10",
-      "source": "Career site / JobPosting",
-      "first_seen": "2026-08-11T12:07:54.056650+00:00",
-      "is_new": false,
-      "matched_titles": [
-        "data security"
-      ],
-      "matched_keywords": [
-        "healthcare",
-        "patient",
-        "cloud",
-        "Azure",
-        "DevOps",
-        "NIST",
-        "PAM"
-      ],
-      "role_family": "Data Security & Privacy Engineering",
-      "seniority": "Standard / Unspecified",
-      "seniority_priority": 5,
-      "experience_years_min": null,
-      "match_score": 86,
-      "location_category": "US Remote",
-      "location_priority": 1,
-      "id": "b55b1ffc40bfdf537abe"
-    },
-    {
       "title": "Field Service Technician - Culiacán",
       "company": "Philips",
       "location": "Mexico City, Distrito Federal, Brazil",
@@ -1998,40 +1820,12 @@
       "id": "ef3c8c0aa05c1b81632d"
     },
     {
-      "title": "Internal Auditor",
-      "company": "Humana",
-      "location": "Remote, Nationwide, United States of America",
-      "url": "https://careers.humana.com/us/en/job/R-426701/Internal-Auditor",
-      "description": "Become a part of our caring community The Internal Audit group drives the achievement of Humana's strategic and financial objectives. You will provide value-added service by evaluating the efficiency and effectiveness of Humana's operational processes. The Internal Auditor audits information system applications to ensure that appropriate controls exist and information produced by the system is accurate. Work assignments are varied and frequently require interpretation and independent determination of the appropriate courses of action: Perform IT audit projects and consulting engagements in accordance with established methodology and within budgeted timeframes Perform walkthroughs and design testing of various Humana IT business segments, concluding on design and operating effectiveness Work collaboratively with other internal audit team members to support company and team goals Execute the audit plan as directed by leader Use professional concepts while consistently applying standard skills and techniques Use your skills to make an impact Required Qualifications Bachelor's degree Less than 3 years of audit experience Likes to focus on the \"big picture\" and thrives in a fast paced, ",
-      "date_posted": "2026-08-19",
-      "source": "Career site / JobPosting",
-      "first_seen": "2026-08-20T11:53:21.600878+00:00",
-      "is_new": true,
-      "matched_titles": [
-        "it audit",
-        "hipaa"
-      ],
-      "matched_keywords": [
-        "healthcare",
-        "HIPAA",
-        "PHI"
-      ],
-      "role_family": "GRC, Risk, Audit & Compliance",
-      "seniority": "Standard / Unspecified",
-      "seniority_priority": 5,
-      "experience_years_min": null,
-      "match_score": 85,
-      "location_category": "US Remote",
-      "location_priority": 1,
-      "id": "0472d188c626bd346c27"
-    },
-    {
       "title": "Commercial Leader – Acute Care Germany (Monitoring Systems & Anesthesia) (m/w/d)",
       "company": "GE HealthCare",
       "location": "Freiburg, Baden-Württemberg, Deutschland; Remote, Bayern, Deutschland",
       "url": "https://careers.gehealthcare.com/de/de/job/GEVGHLGLOBALR4044606EXTERNALDEDE/Commercial-Leader-Acute-Care-Germany-Monitoring-Systems-Anesthesia-m-w-d",
       "description": "Jobbeschreibung Zusammenfassung Gestalten Sie die Zukunft der Patientenversorgung bei GE HealthCare Als Commercial Leader – Acute Care, Monitoring Systems & Anesthesia Germany übernehmen Sie die kommerzielle Gesamtverantwortung für eines der strategisch wichtigsten Wachstumssegmente von GE HealthCare in Deutschland. Sie treiben nachhaltiges Wachstum, stärken unsere Marktposition und entwickeln das Geschäft erfolgreich weiter – in einem dynamischen und zunehmend digitalisierten Gesundheitsmarkt. In dieser Schlüsselrolle verbinden Sie strategische Markt- und Geschäftsentwicklung mit operativer Exzellenz. Sie führen ein spezialisiertes Vertriebsteam, entwickeln leistungsfähige Go-to-Market-Strategien und bauen sowohl direkte als auch indirekte Vertriebskanäle weiter aus. Gemeinsam mit Kunden, Vertriebspartnern sowie internen und externen Stakeholdern schaffen Sie nachhaltigen Mehrwert für Krankenhäuser, medizinisches Fachpersonal und Patientinnen und Patienten. Diese Position ist homebased (flexibel innerhalb Deutschlands) mit Reisetätigkeit im gesamten Bundesgebiet. Bei GE HealthCare machen unsere Geräte, unsere Software, unsere Lösungen, unser Service und unsere Mitarbeitenden für m",
-      "date_posted": "2026-08-20",
+      "date_posted": "2026-08-21",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-11T12:07:54.056650+00:00",
       "is_new": false,
@@ -2052,6 +1846,34 @@
       "location_category": "US Remote",
       "location_priority": 1,
       "id": "91c3a0c0ee652ac56435"
+    },
+    {
+      "title": "Internal Auditor",
+      "company": "Humana",
+      "location": "Remote, Nationwide, United States of America",
+      "url": "https://careers.humana.com/us/en/job/R-426701/Internal-Auditor",
+      "description": "Become a part of our caring community The Internal Audit group drives the achievement of Humana's strategic and financial objectives. You will provide value-added service by evaluating the efficiency and effectiveness of Humana's operational processes. The Internal Auditor audits information system applications to ensure that appropriate controls exist and information produced by the system is accurate. Work assignments are varied and frequently require interpretation and independent determination of the appropriate courses of action: Perform IT audit projects and consulting engagements in accordance with established methodology and within budgeted timeframes Perform walkthroughs and design testing of various Humana IT business segments, concluding on design and operating effectiveness Work collaboratively with other internal audit team members to support company and team goals Execute the audit plan as directed by leader Use professional concepts while consistently applying standard skills and techniques Use your skills to make an impact Required Qualifications Bachelor's degree Less than 3 years of audit experience Likes to focus on the \"big picture\" and thrives in a fast paced, ",
+      "date_posted": "2026-08-19",
+      "source": "Career site / JobPosting",
+      "first_seen": "2026-08-20T11:53:21.600878+00:00",
+      "is_new": false,
+      "matched_titles": [
+        "it audit",
+        "hipaa"
+      ],
+      "matched_keywords": [
+        "healthcare",
+        "HIPAA",
+        "PHI"
+      ],
+      "role_family": "GRC, Risk, Audit & Compliance",
+      "seniority": "Standard / Unspecified",
+      "seniority_priority": 5,
+      "experience_years_min": null,
+      "match_score": 85,
+      "location_category": "US Remote",
+      "location_priority": 1,
+      "id": "0472d188c626bd346c27"
     },
     {
       "title": "Technical Consultant - Patient Monitoring (Central/Northeast Pennsylvania)",
@@ -2189,24 +2011,24 @@
       "id": "8dc0ef0b8c130ee98a36"
     },
     {
-      "title": "Risk Adjustment Coding Analyst",
+      "title": "Inpatient Medical Coding Auditor",
       "company": "Humana",
       "location": "Remote, Nationwide, United States of America",
-      "url": "https://careers.humana.com/us/en/job/R-424621/Risk-Adjustment-Coding-Analyst",
-      "description": "Become a part of our caring community The Risk Adjustment Coding Analyst provides operational, analytical, and administrative support to business leaders and teams. You will analyze data to support decision-making, performance monitoring, project tracking, and partner communication. You will develop recurring dashboards and reports that support operational oversight, analytics, compliance monitoring, and leadership decision-making. You will analyze operational trends, variances, aging, volumes, activity breakdowns, and performance changes; summarize findings in a clear business narrative with important takeaways and recommended next steps. Prepare executive-ready summaries, presentations, and written analyses that explain the “story behind the data” rather than relying solely on raw reports or pivot tables. Support recurring and ad hoc reporting needs, including dashboard maintenance, pending work analyses, activity tracking, audit reporting, GenAI-related reporting, CDI tracking, query tracking, and other priorities. Partner with leaders and teams to define reporting needs, resolve data issues, and support interpretation of results. Document active deliverables, reporting schedule",
+      "url": "https://careers.humana.com/us/en/job/R-427132/Inpatient-Medical-Coding-Auditor",
+      "description": "Become a part of our caring community The Inpatient Medical Coding Auditor extracts clinical information from a variety of medical records and assigns appropriate procedural terminology and medical codes (e.g., ICD-10-CM, CPT) to patient records. The Inpatient Medical Coding Auditor work assignments involve moderately complex to complex issues where the analysis of situations or data requires an in-depth evaluation of variable factors. Where you Come In Humana is looking for an experienced medical coding auditor to review inpatient hospital claims for proper reimbursement, handle provider disputes in a result-oriented and metrics-driven environment. If you are looking to work from home, for a Fortune 100 company that focuses on the well-being of their consumers and staff, and rewards performance, then you should strongly consider the Inpatient Coding Auditor (MSDRG). The Inpatient Medical Coding Auditor contributes to overall cost reduction, by increasing the accuracy of provider contract payments in our payer systems, and by ensuring correct claims payment and appropriate diagnosis related group (DRG) assignments. Analyzes, enters and manipulates database. Responds to or clarifies",
       "date_posted": "2026-08-20",
       "source": "Career site / JobPosting",
-      "first_seen": "2026-08-20T11:53:21.600878+00:00",
+      "first_seen": "2026-08-21T11:53:40.174582+00:00",
       "is_new": true,
       "matched_titles": [
-        "platform"
+        "systems"
       ],
       "matched_keywords": [
         "healthcare",
+        "clinical",
         "patient",
         "HIPAA",
-        "PHI",
-        "NIST"
+        "PHI"
       ],
       "role_family": "Cloud & Infrastructure",
       "seniority": "Standard / Unspecified",
@@ -2215,7 +2037,32 @@
       "match_score": 82,
       "location_category": "US Remote",
       "location_priority": 1,
-      "id": "bb997c28018acc5190d3"
+      "id": "46dc67cc6f0c10a3600f"
+    },
+    {
+      "title": "Business Technical Analyst",
+      "company": "Centene Corporation",
+      "location": "Remote, United States",
+      "url": "https://jobs.centene.com/us/en/jobs/1651525/business-technical-analyst/",
+      "description": "Position Purpose: Provides functional business knowledge and technical support to the enterprise business operations department through scripting automation and data analytics by designing and programming new processes/reports. Acts as subject matter expert for department or business unit on business systems/applications. Analyzes claims processes, functions and activities to increase operational efficiency and manual processes. Performs development and technical design and implementation including testing. Documents development requirements and consults with end users to test and debug applications to meet client needs. Develops ad-hoc reports to conduct data analysis and validation. Confers with area/department to analyze current operational procedures and trends and identify problems. Conducts business analysis and recommends technical alternative solutions to management as to course of action that best meets the organization's goals. Researches, evaluates, and assesses the financial impact of issues identified in data/processes. Supports, troubleshoots, and maintains systems and applications as required, optimizing performance, resolving problems, and providing timely follow-up",
+      "date_posted": "2026-08-20",
+      "source": "Career site / JobPosting",
+      "first_seen": "2026-08-15T11:44:13.734879+00:00",
+      "is_new": false,
+      "matched_titles": [
+        "systems"
+      ],
+      "matched_keywords": [
+        "healthcare"
+      ],
+      "role_family": "Cloud & Infrastructure",
+      "seniority": "Standard / Unspecified",
+      "seniority_priority": 5,
+      "experience_years_min": 2,
+      "match_score": 82,
+      "location_category": "US Remote",
+      "location_priority": 1,
+      "id": "235e7099244f21ff3b4c"
     },
     {
       "title": "BCBA-D/PsyD Autism Specialist Psychologist-Clinical Reviewer (Florida Licensed)",
@@ -2252,7 +2099,7 @@
       "location": "Severn, MD, US; MD, US",
       "url": "https://careers.elevancehealth.com/clinical-provider-auditor-i-maryland-behavioral-health/job/6468EDBE370F33F2E38B97305D02E56E",
       "description": "Clinical Provider Auditor I Supports Payment Integrity & Behavioral Health Carelon, a proud member of the Elevance Health family of companies, is a healthcare services organization that takes a whole-health approach to making care more integrated, personalized, and affordable. We put people at the center—connecting physical, behavioral, social, and pharmacy services, along with clinical expertise, research, operations, and advanced technology to help care work better, together. Among us are specialty-care physicians, nurse practitioners, pharmacists, engineers, data scientists, and other dedicated and caring health professionals. While our roles may differ, our purpose is shared: to make a positive impact on whole health. A proud member of the Elevance Health family of companies, Carelon Behavioral Health uses our powerful combination of experience, expertise, dedication and compassion to see what's possible and what's better. Born out of one of the largest healthcare systems organization in the United States, our rich history gives us a unique and valuable perspective on how to solve the most pressing healthcare challenges. Location: The ideal candidate would need to reside within",
-      "date_posted": "2026-08-17T21:23:04.065302+00:00",
+      "date_posted": "2026-08-20T19:23:05.040285+00:00",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-18T11:52:20.261663+00:00",
       "is_new": false,
@@ -2390,6 +2237,35 @@
       "location_category": "US Remote",
       "location_priority": 1,
       "id": "0e3830b9bd1a83e43bb6"
+    },
+    {
+      "title": "Risk Adjustment Coding Analyst",
+      "company": "Humana",
+      "location": "Remote, Nationwide, United States of America",
+      "url": "https://careers.humana.com/us/en/job/R-424621/Risk-Adjustment-Coding-Analyst",
+      "description": "Become a part of our caring community The Risk Adjustment Coding Analyst provides operational, analytical, and administrative support to business leaders and teams. You will analyze data to support decision-making, performance monitoring, project tracking, and partner communication. You will develop recurring dashboards and reports that support operational oversight, analytics, compliance monitoring, and leadership decision-making. You will analyze operational trends, variances, aging, volumes, activity breakdowns, and performance changes; summarize findings in a clear business narrative with important takeaways and recommended next steps. Prepare executive-ready summaries, presentations, and written analyses that explain the “story behind the data” rather than relying solely on raw reports or pivot tables. Support recurring and ad hoc reporting needs, including dashboard maintenance, pending work analyses, activity tracking, audit reporting, GenAI-related reporting, CDI tracking, query tracking, and other priorities. Partner with leaders and teams to define reporting needs, resolve data issues, and support interpretation of results. Document active deliverables, reporting schedule",
+      "date_posted": "2026-08-20",
+      "source": "Career site / JobPosting",
+      "first_seen": "2026-08-20T11:53:21.600878+00:00",
+      "is_new": false,
+      "matched_titles": [
+        "platform"
+      ],
+      "matched_keywords": [
+        "healthcare",
+        "patient",
+        "HIPAA",
+        "PHI",
+        "NIST"
+      ],
+      "role_family": "Cloud & Infrastructure",
+      "seniority": "Standard / Unspecified",
+      "seniority_priority": 5,
+      "experience_years_min": null,
+      "match_score": 82,
+      "location_category": "US Remote",
+      "location_priority": 1,
+      "id": "bb997c28018acc5190d3"
     },
     {
       "title": "Service Now AI DevOps Engineer",
@@ -2535,7 +2411,7 @@
       "location": "Remote; Remote, British Columbia, Kanada; Remote, Alberta, Kanada",
       "url": "https://careers.gehealthcare.com/de/de/job/GEVGHLGLOBALR4042352EXTERNALDEDE/Clinical-Applications-Specialist-Monitoring-Systems",
       "description": "Jobbeschreibung Zusammenfassung As a Clinical Application Specialist – Patient Monitoring, you will support the adoption and optimization of monitoring solutions across acute care environments. You will deliver clinical training and workflow support to end-users, helping improve patient care and clinical efficiency. You will partner with customers and internal teams to provide a consistent, high-quality experience across the full customer lifecycle—from pre-sale support to implementation and post-go-live optimization. This is a national role supporting customers across Canada. GE HealthCare is a leading global medical technology and digital solutions innovator. Our mission is to improve lives in the moments that matter. Unlock your ambition, turn ideas into world-changing realities, and join an organization where every voice makes a difference, and every difference builds a healthier world. Stellenbeschreibung Key Responsibilities Deliver clinical training and support during implementations, go-lives, and optimization engagements Partner with customers to improve workflows and drive best practices Collaborate with internal teams to ensure a consistent, high-quality customer experie",
-      "date_posted": "2026-08-20",
+      "date_posted": "2026-08-21",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
       "is_new": false,
@@ -2719,6 +2595,32 @@
       "id": "2220be58f14b60b7e81d"
     },
     {
+      "title": "Enrollment Specialist",
+      "company": "McKesson Corporation",
+      "location": "Irving, Texas, United States; La Vergne, Tennessee, United States; The Woodlands, Texas, United States",
+      "url": "https://careers.mckesson.com/en/job/irving/enrollment-specialist/733/99524661152",
+      "description": "McKesson is an impact-driven, Fortune 10 company that touches virtually every aspect of healthcare. We are known for delivering insights, products, and services that make quality care more accessible and affordable. Here, we focus on the health, happiness, and well-being of you and those we serve – we care. What you do at McKesson matters. We foster a culture where you can grow, make an impact, and are empowered to bring new ideas. Together, we thrive as we shape the future of health for patients, our communities, and our people. If you want to be part of tomorrow’s health today, we want to hear from you. Company Profile McKesson Corporation is a global leader in healthcare supply chain management solutions, retail pharmacy, community oncology and specialty care, and healthcare information solutions. McKesson partners with pharmaceutical manufacturers, providers, pharmacies, governments, and other organizations in healthcare to help provide the right medicines, medical products, and healthcare services to the right patients at the right time, safely and cost-effectively. United by our I2CARE shared principles, our employees work every day to innovate and deliver opportunities that ",
+      "date_posted": "2026-8-21",
+      "source": "Career site / JobPosting",
+      "first_seen": "2026-08-21T11:53:40.174582+00:00",
+      "is_new": true,
+      "matched_titles": [
+        "systems"
+      ],
+      "matched_keywords": [
+        "healthcare",
+        "patient"
+      ],
+      "role_family": "Cloud & Infrastructure",
+      "seniority": "Standard / Unspecified",
+      "seniority_priority": 5,
+      "experience_years_min": null,
+      "match_score": 76,
+      "location_category": "US Remote",
+      "location_priority": 1,
+      "id": "85ea4b5128740f4cd73b"
+    },
+    {
       "title": "Process Improvement Specialist (Clinical)",
       "company": "Centene Corporation",
       "location": "Remote, United States",
@@ -2727,7 +2629,7 @@
       "date_posted": "2026-08-19",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-20T11:53:21.600878+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "systems"
       ],
@@ -2745,20 +2647,20 @@
       "id": "ce5e4303f551a3a3c4cd"
     },
     {
-      "title": "Facilities Technician",
-      "company": "McKesson Corporation",
-      "location": "Jeffersonville, Ohio, United States",
-      "url": "https://careers.mckesson.com/en/job/jeffersonville/facilities-technician/733/99449480320",
-      "description": "McKesson is an impact-driven, Fortune 10 company that touches virtually every aspect of healthcare. We are known for delivering insights, products, and services that make quality care more accessible and affordable. Here, we focus on the health, happiness, and well-being of you and those we serve – we care. What you do at McKesson matters. We foster a culture where you can grow, make an impact, and are empowered to bring new ideas. Together, we thrive as we shape the future of health for patients, our communities, and our people. If you want to be part of tomorrow’s health today, we want to hear from you. About the Role McKesson is seeking a skilled Facilities Maintenance Technician to support the safe, efficient, and reliable operation of our facility. In this role, you will perform preventive maintenance, troubleshoot building systems, complete repairs, and respond to facility service requests. The ideal candidate has hands-on experience maintaining commercial or industrial facilities and can independently resolve a variety of building maintenance issues while ensuring compliance with safety standards. What You'll Do (Responsibilities) Perform preventive maintenance and routine i",
-      "date_posted": "2026-8-19",
+      "title": "Field Service Technician - Denver/Arvada/Lakewood CO",
+      "company": "CVS Health / Aetna",
+      "location": "Denver, Colorado, United States",
+      "url": "https://jobs.cvshealth.com/us/en/job/R0971678/Field-Service-Technician-Denver-Arvada-Lakewood-CO",
+      "description": "We’re building a world of health around every individual — shaping a more connected, convenient and compassionate health experience. At CVS Health®, you’ll be surrounded by passionate colleagues who care deeply, innovate with purpose, hold ourselves accountable and prioritize safety and quality in everything we do. Join us and be part of something bigger – helping to simplify health care one person, one family and one community at a time. Position Summary The Field Service Technician provides on-site technical support to CVS Pharmacy locations, traveling between stores to maintain and repair computer systems, hardware, and store technology. This role supports point-of-sale (POS), pharmacy systems, networking equipment, and other in-store technologies. The technician diagnoses and resolves technical issues, performs preventative maintenance, and ensures minimal disruption to store operations. This position works closely with remote support teams such as network services, software engineering, and help desk personnel to restore service and identify root causes of issues. The Field Service Technician maintains accurate service records and ensures timely resolution of all assigned work",
+      "date_posted": "2026-08-09",
       "source": "Career site / JobPosting",
-      "first_seen": "2026-08-20T11:53:21.600878+00:00",
-      "is_new": true,
+      "first_seen": "2026-08-18T11:52:20.261663+00:00",
+      "is_new": false,
       "matched_titles": [
         "systems"
       ],
       "matched_keywords": [
-        "healthcare",
+        "health care",
         "patient"
       ],
       "role_family": "Cloud & Infrastructure",
@@ -2768,33 +2670,7 @@
       "match_score": 76,
       "location_category": "US Remote",
       "location_priority": 1,
-      "id": "4b6f2665620f494a36c4"
-    },
-    {
-      "title": "Social Media Specialist",
-      "company": "Centene Corporation",
-      "location": "Remote, United States",
-      "url": "https://jobs.centene.com/us/en/jobs/1645740/social-media-specialist/",
-      "description": "You could be the one who changes everything for our 28 million members. Centene is transforming the health of our communities, one person at a time. As a diversified, national organization, you’ll have access to competitive benefits including a fresh perspective on workplace flexibility. Position Purpose: Collaborates & assists on the implementation and maintenance of the Corporation's social media strategy, including online platform management and administration. This role works closely with the social media managers to manage the planning and implementation of the daily, weekly, and monthly social media components that contribute to the overall communications department mission while maintaining a positive image for the company and subsidiaries. Manages enterprise social media operations, including intake, content publishing, channel maintenance, asset management, and cross-functional coordination to ensure efficient execution across platforms and stakeholders. Assists with the establishment, maintenance and reviews Centene social media accounts to enhance the Corporation’s interaction with the public and government. Monitors all Centene social media channels in real time and esc",
-      "date_posted": "2026-08-18",
-      "source": "Career site / JobPosting",
-      "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": false,
-      "matched_titles": [
-        "platform"
-      ],
-      "matched_keywords": [
-        "healthcare",
-        "NIST"
-      ],
-      "role_family": "Cloud & Infrastructure",
-      "seniority": "Standard / Unspecified",
-      "seniority_priority": 5,
-      "experience_years_min": null,
-      "match_score": 76,
-      "location_category": "US Remote",
-      "location_priority": 1,
-      "id": "b2c1ada42c84b294dfcc"
+      "id": "0c7041fbf159c8b9de76"
     },
     {
       "title": "Facilities Maintenance Service Technician - Automated Distribution Center",
@@ -2847,6 +2723,32 @@
       "location_category": "US Remote",
       "location_priority": 1,
       "id": "51aaa7b82bc53f37466c"
+    },
+    {
+      "title": "Facilities Technician",
+      "company": "McKesson Corporation",
+      "location": "Jeffersonville, Ohio, United States",
+      "url": "https://careers.mckesson.com/en/job/jeffersonville/facilities-technician/733/99449480320",
+      "description": "McKesson is an impact-driven, Fortune 10 company that touches virtually every aspect of healthcare. We are known for delivering insights, products, and services that make quality care more accessible and affordable. Here, we focus on the health, happiness, and well-being of you and those we serve – we care. What you do at McKesson matters. We foster a culture where you can grow, make an impact, and are empowered to bring new ideas. Together, we thrive as we shape the future of health for patients, our communities, and our people. If you want to be part of tomorrow’s health today, we want to hear from you. About the Role McKesson is seeking a skilled Facilities Maintenance Technician to support the safe, efficient, and reliable operation of our facility. In this role, you will perform preventive maintenance, troubleshoot building systems, complete repairs, and respond to facility service requests. The ideal candidate has hands-on experience maintaining commercial or industrial facilities and can independently resolve a variety of building maintenance issues while ensuring compliance with safety standards. What You'll Do (Responsibilities) Perform preventive maintenance and routine i",
+      "date_posted": "2026-8-19",
+      "source": "Career site / JobPosting",
+      "first_seen": "2026-08-20T11:53:21.600878+00:00",
+      "is_new": false,
+      "matched_titles": [
+        "systems"
+      ],
+      "matched_keywords": [
+        "healthcare",
+        "patient"
+      ],
+      "role_family": "Cloud & Infrastructure",
+      "seniority": "Standard / Unspecified",
+      "seniority_priority": 5,
+      "experience_years_min": null,
+      "match_score": 76,
+      "location_category": "US Remote",
+      "location_priority": 1,
+      "id": "4b6f2665620f494a36c4"
     },
     {
       "title": "Facility Maintenance Service Technician – Distribution Center",
@@ -2927,56 +2829,6 @@
       "id": "7380e726bba3957c6795"
     },
     {
-      "title": "Quality Review and Audit Advisor - Express Scripts - Remote",
-      "company": "The Cigna Group / Evernorth",
-      "location": "Missouri, United States of America; Remote, United States of America",
-      "url": "https://jobs.thecignagroup.com/us/en/job/26010164/Quality-Review-and-Audit-Advisor-Express-Scripts-Remote",
-      "description": "POSITION SUMMARY The Quality Review and Audit Advisor works with our pharmaceutical manufacturers (and/or their auditors) and management as well as other Express Scripts (ES) subject matter experts as a lead to resolve issues noted during the Pharma Audit process or during Pharma Web Portal (PWP) review. This Advisor level Analyst will serve as a project lead and tracks status on data deliverables, monitors contract terms to ensure pharma is requesting appropriate data, and assists with troubleshooting issues and questions arising from pharma audits and/or the PWP. As a Quality Review and Audit Advisor, you will work cross functionally with other ES subject matter experts to build out data analytics, obtain applicable electronic files/data when necessary, ensuring all information is included and readable. Assist other members of the team with performing their job duties as needed. Provides data and ongoing support to both Pharma Audit and PWP subject matter experts as needed. ESSENTIAL FUNCTIONS Works with Pharma Audit and PWP as lead to ensure issues are resolved and deadlines are met by working independently as well as cross functionally with internal departments. Assists with tr",
-      "date_posted": "2026-08-20",
-      "source": "Career site / JobPosting",
-      "first_seen": "2026-08-20T11:53:21.600878+00:00",
-      "is_new": true,
-      "matched_titles": [
-        "systems"
-      ],
-      "matched_keywords": [
-        "healthcare"
-      ],
-      "role_family": "Cloud & Infrastructure",
-      "seniority": "Standard / Unspecified",
-      "seniority_priority": 5,
-      "experience_years_min": null,
-      "match_score": 74,
-      "location_category": "US Remote",
-      "location_priority": 1,
-      "id": "1c6e1cdc6207823d88d1"
-    },
-    {
-      "title": "Technical Customer Support Analyst",
-      "company": "The Cigna Group / Evernorth",
-      "location": "Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
-      "url": "https://jobs.thecignagroup.com/us/en/job/26008506/Technical-Customer-Support-Analyst",
-      "description": "The job profile for this position is Technical Customer Support Analyst, which is a Band 2 Senior Contributor Career Track Role. Excited to grow your career? We value our talented employees, and whenever possible strive to help one of our associates grow professionally before recruiting new talent to our open positions. If you think the open position you see is right for you, we encourage you to apply! Our people make all the difference in our success. Job Description Cigna, a leading global health insurer, is going through an exciting period and we are looking to recruit an experienced IT Service Analyst in our Kuala Lumpur office. This successful candidate will be a member of the Technology, Engineering & Operations group. Reporting to the IT Service Desk Team leader, the successful candidate will provide operational support, and access management administration within the IT Service team. The successful candidate will be a high-performing individual who is methodical, inquisitive, and has a passion for technology and service. The role will involve shift-based work: once every four weeks you will work from 5 AM to 2 PM (home working), and the next 3 weeks you work from 8 AM to 5 ",
-      "date_posted": "2026-08-20",
-      "source": "Career site / JobPosting",
-      "first_seen": "2026-08-20T11:53:21.600878+00:00",
-      "is_new": true,
-      "matched_titles": [
-        "access management"
-      ],
-      "matched_keywords": [
-        "NIST"
-      ],
-      "role_family": "Identity, IAM & PAM",
-      "seniority": "Standard / Unspecified",
-      "seniority_priority": 5,
-      "experience_years_min": null,
-      "match_score": 74,
-      "location_category": "US Remote",
-      "location_priority": 1,
-      "id": "434b7b284cd09a0b56ba"
-    },
-    {
       "title": "Compliance Policy Analyst",
       "company": "Centene Corporation",
       "location": "Remote, United States",
@@ -3000,31 +2852,6 @@
       "location_category": "US Remote",
       "location_priority": 1,
       "id": "1436d166a548f4ba7f0c"
-    },
-    {
-      "title": "Risk Adjustment Specialist (Non-Clinical)",
-      "company": "Centene Corporation",
-      "location": "Remote, United States",
-      "url": "https://jobs.centene.com/us/en/jobs/1651078/risk-adjustment-specialist-non-clinical/",
-      "description": "You could be the one who changes everything for our 28 million members. Centene is transforming the health of our communities, one person at a time. As a diversified, national organization, you’ll have access to competitive benefits including a fresh perspective on workplace flexibility. Must be authorized to work in the U.S. without the need for employment-based visa sponsorship now or in the future. Sponsorship and future sponsorship are not available for this opportunity, including employment-based visa types H-1B, L-1, O-1, H-1B1, F-1, J-1, OPT, or CPT **Applicants for this position have the flexibility to work remote anywhere within the Continental United States.** Position Purpose: Purpose of job is to engage and educate providers on accurate capture and reporting chronic conditions for revenue management purposes and ensure program is following state and federal guidelines while doing so. Main function is provider engagement, training, data analysis and reporting. Position is responsible for outreach and engagement to 60-100 providers with sole responsibility of engaging, training, providing monthly reporting and using data to develop strategies and best practices that will ",
-      "date_posted": "2026-08-18",
-      "source": "Career site / JobPosting",
-      "first_seen": "2026-08-19T11:53:16.333310+00:00",
-      "is_new": false,
-      "matched_titles": [
-        "systems"
-      ],
-      "matched_keywords": [
-        "clinical"
-      ],
-      "role_family": "Cloud & Infrastructure",
-      "seniority": "Standard / Unspecified",
-      "seniority_priority": 5,
-      "experience_years_min": null,
-      "match_score": 74,
-      "location_category": "US Remote",
-      "location_priority": 1,
-      "id": "2e6581bc3f5ce48a3e85"
     },
     {
       "title": "Health Systems District Leader Czechia",
@@ -3077,6 +2904,56 @@
       "id": "d7b2e41ec048fd3bd38d"
     },
     {
+      "title": "Quality Review and Audit Advisor - Express Scripts - Remote",
+      "company": "The Cigna Group / Evernorth",
+      "location": "Missouri, United States of America; Remote, United States of America",
+      "url": "https://jobs.thecignagroup.com/us/en/job/26010164/Quality-Review-and-Audit-Advisor-Express-Scripts-Remote",
+      "description": "POSITION SUMMARY The Quality Review and Audit Advisor works with our pharmaceutical manufacturers (and/or their auditors) and management as well as other Express Scripts (ES) subject matter experts as a lead to resolve issues noted during the Pharma Audit process or during Pharma Web Portal (PWP) review. This Advisor level Analyst will serve as a project lead and tracks status on data deliverables, monitors contract terms to ensure pharma is requesting appropriate data, and assists with troubleshooting issues and questions arising from pharma audits and/or the PWP. As a Quality Review and Audit Advisor, you will work cross functionally with other ES subject matter experts to build out data analytics, obtain applicable electronic files/data when necessary, ensuring all information is included and readable. Assist other members of the team with performing their job duties as needed. Provides data and ongoing support to both Pharma Audit and PWP subject matter experts as needed. ESSENTIAL FUNCTIONS Works with Pharma Audit and PWP as lead to ensure issues are resolved and deadlines are met by working independently as well as cross functionally with internal departments. Assists with tr",
+      "date_posted": "2026-08-20",
+      "source": "Career site / JobPosting",
+      "first_seen": "2026-08-20T11:53:21.600878+00:00",
+      "is_new": false,
+      "matched_titles": [
+        "systems"
+      ],
+      "matched_keywords": [
+        "healthcare"
+      ],
+      "role_family": "Cloud & Infrastructure",
+      "seniority": "Standard / Unspecified",
+      "seniority_priority": 5,
+      "experience_years_min": null,
+      "match_score": 74,
+      "location_category": "US Remote",
+      "location_priority": 1,
+      "id": "1c6e1cdc6207823d88d1"
+    },
+    {
+      "title": "Technical Customer Support Analyst",
+      "company": "The Cigna Group / Evernorth",
+      "location": "Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
+      "url": "https://jobs.thecignagroup.com/us/en/job/26008506/Technical-Customer-Support-Analyst",
+      "description": "The job profile for this position is Technical Customer Support Analyst, which is a Band 2 Senior Contributor Career Track Role. Excited to grow your career? We value our talented employees, and whenever possible strive to help one of our associates grow professionally before recruiting new talent to our open positions. If you think the open position you see is right for you, we encourage you to apply! Our people make all the difference in our success. Job Description Cigna, a leading global health insurer, is going through an exciting period and we are looking to recruit an experienced IT Service Analyst in our Kuala Lumpur office. This successful candidate will be a member of the Technology, Engineering & Operations group. Reporting to the IT Service Desk Team leader, the successful candidate will provide operational support, and access management administration within the IT Service team. The successful candidate will be a high-performing individual who is methodical, inquisitive, and has a passion for technology and service. The role will involve shift-based work: once every four weeks you will work from 5 AM to 2 PM (home working), and the next 3 weeks you work from 8 AM to 5 ",
+      "date_posted": "2026-08-21",
+      "source": "Career site / JobPosting",
+      "first_seen": "2026-08-20T11:53:21.600878+00:00",
+      "is_new": false,
+      "matched_titles": [
+        "access management"
+      ],
+      "matched_keywords": [
+        "NIST"
+      ],
+      "role_family": "Identity, IAM & PAM",
+      "seniority": "Standard / Unspecified",
+      "seniority_priority": 5,
+      "experience_years_min": null,
+      "match_score": 74,
+      "location_category": "US Remote",
+      "location_priority": 1,
+      "id": "434b7b284cd09a0b56ba"
+    },
+    {
       "title": "Operations Auditor",
       "company": "Centene Corporation",
       "location": "Remote, United States",
@@ -3123,36 +3000,45 @@
       "id": "73c7f597f5c4d108f7e8"
     },
     {
-      "title": "Software Engineering Senior Advisor",
-      "company": "The Cigna Group / Evernorth",
-      "location": "Remote, United States of America",
-      "url": "https://jobs.thecignagroup.com/us/en/job/26006465/Software-Engineering-Senior-Advisor",
-      "description": "The job profile for this position is Software Engineering Senior Advisor, which is a Band 4 Senior Contributor Career Track Role. Excited to grow your career? We value our talented employees, and whenever possible strive to help one of our associates grow professionally before recruiting new talent to our open positions. If you think the open position you see is right for you, we encourage you to apply! Our people make all the difference in our success. We are looking for a Senior Data Engineer to help build and support data solutions that power business decisions. In this role, you will work closely with business and technical teams to understand requirements, design data solutions, develop data pipelines, and support large-scale data platforms. You will use technologies such as Databricks, Spark, PySpark, Teradata, AWS, and Ab Initio to deliver reliable, high-performing data products. You will also participate in Agile teams and help maintain production systems. Responsibilities: Partner with business and technical leaders to understand data and reporting needs. Design and document data solutions that meet business requirements. Develop and maintain scalable ETL/ELT processes usi",
+      "title": "Senior Cybersecurity Engineer",
+      "company": "Humana",
+      "location": "Louisville, Kentucky, United States of America; Boston, Massachusetts, United States of America; Charlotte, North Carolina, United States of America; Chicago, Illinois, United States of America; Dallas, Texas, United States of America; Miami, Florida, United States of America; Nashville, Tennessee, United States of America; New York, New York, United States of America; Tampa, Florida, United States of America; Washington, District of Columbia, United States of America",
+      "url": "https://careers.humana.com/us/en/job/R-420136/Senior-Cybersecurity-Engineer",
+      "description": "We appreciate that you are interested in pursuing your next career opportunity. As you complete the application below, here are a few tips you should consider: Visit Go/Develop for information on professional development, resume guidance, and interview best practices. ​ Watch a quick video to discover how Humana’s Career Framework can help you identify meaningful growth opportunities. Visit Go/AskARecruiter for expert advice on your job search from our Talent Acquisition Team. Tailor your resume to highlight achievements and skills that align with the role you're applying for. Update your Workday profile to reflect your key accomplishments and experiences. Please read the job description carefully and ensure you meet all required qualifications. Consider having a conversation with your current leader about your career goals and interest in this opportunity. Their support can be valuable as you explore your next step. Job Profile Senior CyberSecurity Engineer Job Level Senior Professional Become a part of our caring community ** Selected candidate(s) are required to live within 60 mins drive of the following cities. (Louisville KY, NYC Metro, Dallas Metro, Charlotte NC Metro, South ",
       "date_posted": "2026-08-20",
       "source": "Career site / JobPosting",
-      "first_seen": "2026-08-20T11:53:21.600878+00:00",
+      "first_seen": "2026-08-21T11:53:40.174582+00:00",
       "is_new": true,
       "matched_titles": [
-        "cloud",
-        "aws",
-        "platform",
-        "systems"
+        "cybersecurity engineer",
+        "security engineer"
       ],
       "matched_keywords": [
         "healthcare",
+        "HIPAA",
+        "PHI",
         "cloud",
         "AWS",
+        "Azure",
+        "GCP",
+        "Kubernetes",
         "DevOps",
-        "IAM"
+        "cybersecurity",
+        "cyber security",
+        "information security",
+        "incident response",
+        "SIEM",
+        "data protection",
+        "DLP"
       ],
-      "role_family": "Cloud & Infrastructure",
+      "role_family": "Security Operations & Engineering",
       "seniority": "Senior IC",
       "seniority_priority": 6,
-      "experience_years_min": null,
+      "experience_years_min": 3,
       "match_score": 100,
       "location_category": "US Remote",
       "location_priority": 1,
-      "id": "be51af28b3e7270bdd0b"
+      "id": "d3ce092cf8e567fee5cd"
     },
     {
       "title": "Senior AI-ML Engineer",
@@ -3259,67 +3145,6 @@
       "id": "fb6a8601b0fb3178f784"
     },
     {
-      "title": "Sr. Infrastructure Integration Engineer",
-      "company": "Philips",
-      "location": "Cambridge , Massachusetts, United States, Massachusetts, United States of America",
-      "url": "https://www.careers.philips.com/global/en/job/583608/Sr-Infrastructure-Integration-Engineer",
-      "description": "Job Title Sr. Infrastructure Integration Engineer Job Description Your role: Leads the end-to-end design, implementation, and deployment of complex infrastructure solutions, ensuring technical architectures align with client requirements, business objectives, and industry best practices. Serves as a trusted advisor to clients and stakeholders, providing expert guidance on infrastructure strategies, emerging technologies, and solution roadmaps that support informed decision-making. Drives the implementation, integration, and optimization of advanced infrastructure environments, ensuring seamless interoperability across platforms, third-party applications, and legacy systems. Collaborates closely with stakeholders to define system architectures, recommend deployment strategies, and deliver scalable, reliable, and secure solutions. Functions as a senior technical expert responsible for troubleshooting highly complex infrastructure issues, conducting in-depth root cause analysis, and implementing long-term corrective actions to prevent recurrence. Performs advanced testing, validation, and performance optimization activities to maximize system reliability, security, and operational eff",
-      "date_posted": "2026-08-15",
-      "source": "Career site / JobPosting",
-      "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": false,
-      "matched_titles": [
-        "cloud",
-        "infrastructure",
-        "platform",
-        "systems"
-      ],
-      "matched_keywords": [
-        "healthcare",
-        "cloud",
-        "NIST"
-      ],
-      "role_family": "Cloud & Infrastructure",
-      "seniority": "Senior IC",
-      "seniority_priority": 6,
-      "experience_years_min": 8,
-      "match_score": 98,
-      "location_category": "US Remote",
-      "location_priority": 1,
-      "id": "6785e62821dd2aec287c"
-    },
-    {
-      "title": "Senior Software Developer",
-      "company": "McKesson Corporation",
-      "location": "Columbus, Ohio, United States",
-      "url": "https://careers.mckesson.com/en/job/columbus/senior-software-developer/733/99463139984",
-      "description": "McKesson is an impact-driven, Fortune 10 company that touches virtually every aspect of healthcare. We are known for delivering insights, products, and services that make quality care more accessible and affordable. Here, we focus on the health, happiness, and well-being of you and those we serve – we care. What you do at McKesson matters. We foster a culture where you can grow, make an impact, and are empowered to bring new ideas. Together, we thrive as we shape the future of health for patients, our communities, and our people. If you want to be part of tomorrow’s health today, we want to hear from you. The Specialty Access & Affordability value stream is seeking a Senior Full Stack Developer to join the FastAuth team. In this role you will build and scale the applications that move specialty prescriptions through prior authorization faster, reducing the time between a prescription being written and a patient starting therapy. You will work alongside a collaborative group of skilled engineers who take pride in consistent delivery and technical excellence, spanning React front ends, .NET services, and event-driven integrations running on Azure. This is a hands-on role on a team th",
-      "date_posted": "2026-8-19",
-      "source": "Career site / JobPosting",
-      "first_seen": "2026-08-20T11:53:21.600878+00:00",
-      "is_new": true,
-      "matched_titles": [
-        "cloud",
-        "azure",
-        "infrastructure"
-      ],
-      "matched_keywords": [
-        "healthcare",
-        "patient",
-        "EHR",
-        "cloud",
-        "Azure"
-      ],
-      "role_family": "Cloud & Infrastructure",
-      "seniority": "Senior IC",
-      "seniority_priority": 6,
-      "experience_years_min": null,
-      "match_score": 95,
-      "location_category": "US Remote",
-      "location_priority": 1,
-      "id": "c43f16cfa94b81f9b047"
-    },
-    {
       "title": "Senior Engineer, Offensive Security",
       "company": "Humana",
       "location": "Remote, Nationwide, United States of America",
@@ -3385,78 +3210,12 @@
       "id": "ffba1289a000761c8817"
     },
     {
-      "title": "Engineer Senior",
-      "company": "Elevance Health",
-      "location": "Atlanta, GA, US",
-      "url": "https://careers.elevancehealth.com/engineer-senior/job/E58306993A5A7335C61D1D95596756AC",
-      "description": "Engineer Senior Location: This role requires associates to be in-office 1 day per week, fostering collaboration and connectivity, while providing flexibility to support productivity and work-life balance. This approach combines structured office engagement with the autonomy of virtual work, promoting a dynamic and adaptable workplace. Ideal candidates will be able to report our Pulse Point location in Atlanta, GA. Alternate locations may be considered if candidates reside within a commuting distance from an office. Please note that per our policy on hybrid/virtual work, candidates not within a reasonable commuting distance from the posting location(s) will not be considered for employment, unless an accommodation is granted as required by law. The Engineer Senior is responsible for delivery of end-to-end application, system development and maintenance on complex multi technology platforms within assigned client group, business unit or corporate department and utilizing various customer technology platforms. How you will make an impact: Maintains active relationships with customers to determine business requirements and leads requirements gathering meetings. Owns the change request ",
-      "date_posted": "2026-08-17T15:23:03.292233+00:00",
-      "source": "Career site / JobPosting",
-      "first_seen": "2026-08-18T11:52:20.261663+00:00",
-      "is_new": false,
-      "matched_titles": [
-        "aws",
-        "platform"
-      ],
-      "matched_keywords": [
-        "healthcare",
-        "health care",
-        "patient",
-        "AWS",
-        "NIST"
-      ],
-      "role_family": "Cloud & Infrastructure",
-      "seniority": "Senior IC",
-      "seniority_priority": 6,
-      "experience_years_min": null,
-      "match_score": 88,
-      "location_category": "US Remote",
-      "location_priority": 1,
-      "id": "0b11bb013cd9c563ea1f"
-    },
-    {
-      "title": "Sr. Network Systems Engineer, Firewall",
-      "company": "McKesson Corporation",
-      "location": "Mississauga, Ontario, Canada",
-      "url": "https://careers.mckesson.com/en/job/mississauga/sr-network-systems-engineer-firewall/733/99445291696",
-      "description": "McKesson is an impact-driven, Fortune 10 company that touches virtually every aspect of healthcare. We are known for delivering insights, products, and services that make quality care more accessible and affordable. Here, we focus on the health, happiness, and well-being of you and those we serve – we care. What you do at McKesson matters. We foster a culture where you can grow, make an impact, and are empowered to bring new ideas. Together, we thrive as we shape the future of health for patients, our communities, and our people. If you want to be part of tomorrow’s health today, we want to hear from you. About the Role McKesson is seeking a Senior Network Security Engineer to lead the design, implementation, and governance of secure enterprise network infrastructure across cloud, data center, and hybrid environments. This role will drive the evolution of McKesson’s network security architecture through Zero Trust principles, segmentation strategies, secure access technologies, and advanced threat detection capabilities. The ideal candidate combines strong network engineering expertise with a modern security mindset and the ability to build scalable, resilient, and compliant infras",
-      "date_posted": "2026-8-19",
-      "source": "Career site / JobPosting",
-      "first_seen": "2026-08-20T11:53:21.600878+00:00",
-      "is_new": true,
-      "matched_titles": [
-        "systems engineer"
-      ],
-      "matched_keywords": [
-        "healthcare",
-        "patient",
-        "cloud",
-        "AWS",
-        "Azure",
-        "GCP",
-        "Kubernetes",
-        "Terraform",
-        "cybersecurity",
-        "NIST",
-        "zero trust",
-        "network security"
-      ],
-      "role_family": "Cloud & Infrastructure",
-      "seniority": "Senior IC",
-      "seniority_priority": 6,
-      "experience_years_min": null,
-      "match_score": 87,
-      "location_category": "US Remote",
-      "location_priority": 1,
-      "id": "b45679769677b691f0a7"
-    },
-    {
       "title": "Senior Engineer, Offensive Security",
       "company": "Humana",
       "location": "Louisville, Kentucky, United States of America; Atlanta, Georgia, United States of America; Boston, Massachusetts, United States of America; Charlotte, North Carolina, United States of America; Chicago, Illinois, United States of America; Dallas, Texas, United States of America; Miami, Florida, United States of America; Nashville, Tennessee, United States of America; New York, New York, United States of America; Tampa, Florida, United States of America; Washington, District of Columbia, United States of America",
       "url": "https://careers.humana.com/us/en/job/R-420522/Senior-Engineer-Offensive-Security",
       "description": "We appreciate that you are interested in pursuing your next career opportunity. As you complete the application below, here are a few tips you should consider: Visit Go/Develop for information on professional development, resume guidance, and interview best practices. ​ Watch a quick video to discover how Humana’s Career Framework can help you identify meaningful growth opportunities. Visit Go/AskARecruiter for expert advice on your job search from our Talent Acquisition Team. Tailor your resume to highlight achievements and skills that align with the role you're applying for. Update your Workday profile to reflect your key accomplishments and experiences. Please read the job description carefully and ensure you meet all required qualifications. Consider having a conversation with your current leader about your career goals and interest in this opportunity. Their support can be valuable as you explore your next step. Job Profile Senior Offensive Security Engineer Job Level Senior Professional Become a part of our caring community *Selected candidate must reside within approximately 60 minutes driving distance from one of the following locations: ((Louisville KY, NYC Metro, Dallas M",
-      "date_posted": "2026-08-13",
+      "date_posted": "2026-08-21",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-12T12:08:57.494668+00:00",
       "is_new": false,
@@ -3619,6 +3378,42 @@
       "id": "221dab7f2afb626d1a71"
     },
     {
+      "title": "Sr. Network Systems Engineer, Firewall",
+      "company": "McKesson Corporation",
+      "location": "Mississauga, Ontario, Canada",
+      "url": "https://careers.mckesson.com/en/job/mississauga/sr-network-systems-engineer-firewall/733/99445291696",
+      "description": "McKesson is an impact-driven, Fortune 10 company that touches virtually every aspect of healthcare. We are known for delivering insights, products, and services that make quality care more accessible and affordable. Here, we focus on the health, happiness, and well-being of you and those we serve – we care. What you do at McKesson matters. We foster a culture where you can grow, make an impact, and are empowered to bring new ideas. Together, we thrive as we shape the future of health for patients, our communities, and our people. If you want to be part of tomorrow’s health today, we want to hear from you. About the Role McKesson is seeking a Senior Network Security Engineer to lead the design, implementation, and governance of secure enterprise network infrastructure across cloud, data center, and hybrid environments. This role will drive the evolution of McKesson’s network security architecture through Zero Trust principles, segmentation strategies, secure access technologies, and advanced threat detection capabilities. The ideal candidate combines strong network engineering expertise with a modern security mindset and the ability to build scalable, resilient, and compliant infras",
+      "date_posted": "2026-8-19",
+      "source": "Career site / JobPosting",
+      "first_seen": "2026-08-20T11:53:21.600878+00:00",
+      "is_new": false,
+      "matched_titles": [
+        "systems engineer"
+      ],
+      "matched_keywords": [
+        "healthcare",
+        "patient",
+        "cloud",
+        "AWS",
+        "Azure",
+        "GCP",
+        "Kubernetes",
+        "Terraform",
+        "cybersecurity",
+        "NIST",
+        "zero trust",
+        "network security"
+      ],
+      "role_family": "Cloud & Infrastructure",
+      "seniority": "Senior IC",
+      "seniority_priority": 6,
+      "experience_years_min": null,
+      "match_score": 87,
+      "location_category": "US Remote",
+      "location_priority": 1,
+      "id": "b45679769677b691f0a7"
+    },
+    {
       "title": "Sr FP&A Business Systems Analyst - SAP Analytics",
       "company": "McKesson Corporation",
       "location": "Irving, Texas, United States; Alpharetta, Georgia, United States; Columbus, Ohio, United States; La Vergne, Tennessee, United States; The Woodlands, Texas, United States",
@@ -3673,36 +3468,6 @@
       "location_category": "US Remote",
       "location_priority": 1,
       "id": "3289709c7bac9ebbe237"
-    },
-    {
-      "title": "Sr. Network Systems Engineer, Firewall",
-      "company": "McKesson Corporation",
-      "location": "Mississauga, Ontario, Canada",
-      "url": "https://careers.mckesson.com/en/job/mississauga/sr-network-systems-engineer-firewall/733/99445291936",
-      "description": "McKesson is an impact-driven, Fortune 10 company that touches virtually every aspect of healthcare. We are known for delivering insights, products, and services that make quality care more accessible and affordable. Here, we focus on the health, happiness, and well-being of you and those we serve – we care. What you do at McKesson matters. We foster a culture where you can grow, make an impact, and are empowered to bring new ideas. Together, we thrive as we shape the future of health for patients, our communities, and our people. If you want to be part of tomorrow’s health today, we want to hear from you. About the Role McKesson is seeking a Senior Network Security Engineer to help design, secure, and evolve our global enterprise network infrastructure. This role serves as a strategic technical leader responsible for building resilient, scalable, and secure network architectures that support business growth, regulatory compliance, and digital transformation initiatives. The ideal candidate brings deep expertise in network security architecture, Zero Trust principles, firewall technologies, and enterprise networking. You will partner closely with Security, Infrastructure, Cloud, and",
-      "date_posted": "2026-8-19",
-      "source": "Career site / JobPosting",
-      "first_seen": "2026-08-20T11:53:21.600878+00:00",
-      "is_new": true,
-      "matched_titles": [
-        "systems engineer"
-      ],
-      "matched_keywords": [
-        "healthcare",
-        "patient",
-        "cloud",
-        "cybersecurity",
-        "zero trust",
-        "network security"
-      ],
-      "role_family": "Cloud & Infrastructure",
-      "seniority": "Senior IC",
-      "seniority_priority": 6,
-      "experience_years_min": null,
-      "match_score": 83,
-      "location_category": "US Remote",
-      "location_priority": 1,
-      "id": "06d4af7669e71c7c657e"
     },
     {
       "title": "Senior Business Technical Analyst",
@@ -3761,6 +3526,65 @@
       "id": "d48189b7211a4e26efab"
     },
     {
+      "title": "Sr. Network Systems Engineer, Firewall",
+      "company": "McKesson Corporation",
+      "location": "Mississauga, Ontario, Canada",
+      "url": "https://careers.mckesson.com/en/job/mississauga/sr-network-systems-engineer-firewall/733/99445291936",
+      "description": "McKesson is an impact-driven, Fortune 10 company that touches virtually every aspect of healthcare. We are known for delivering insights, products, and services that make quality care more accessible and affordable. Here, we focus on the health, happiness, and well-being of you and those we serve – we care. What you do at McKesson matters. We foster a culture where you can grow, make an impact, and are empowered to bring new ideas. Together, we thrive as we shape the future of health for patients, our communities, and our people. If you want to be part of tomorrow’s health today, we want to hear from you. About the Role McKesson is seeking a Senior Network Security Engineer to help design, secure, and evolve our global enterprise network infrastructure. This role serves as a strategic technical leader responsible for building resilient, scalable, and secure network architectures that support business growth, regulatory compliance, and digital transformation initiatives. The ideal candidate brings deep expertise in network security architecture, Zero Trust principles, firewall technologies, and enterprise networking. You will partner closely with Security, Infrastructure, Cloud, and",
+      "date_posted": "2026-8-19",
+      "source": "Career site / JobPosting",
+      "first_seen": "2026-08-20T11:53:21.600878+00:00",
+      "is_new": false,
+      "matched_titles": [
+        "systems engineer"
+      ],
+      "matched_keywords": [
+        "healthcare",
+        "patient",
+        "cloud",
+        "cybersecurity",
+        "zero trust",
+        "network security"
+      ],
+      "role_family": "Cloud & Infrastructure",
+      "seniority": "Senior IC",
+      "seniority_priority": 6,
+      "experience_years_min": null,
+      "match_score": 83,
+      "location_category": "US Remote",
+      "location_priority": 1,
+      "id": "06d4af7669e71c7c657e"
+    },
+    {
+      "title": "Certified Senior Medical Coding Outpatient Auditor",
+      "company": "Humana",
+      "location": "Remote, Nationwide, United States of America",
+      "url": "https://careers.humana.com/us/en/job/R-427502/Certified-Senior-Medical-Coding-Outpatient-Auditor",
+      "description": "Become a part of our caring community The Senior Medical Coding Outpatient Auditor is responsible for coding-focused audit activities, including identifying billing anomalies, validating coding accuracy, and ensuring compliance with outpatient coding and reimbursement guidelines. You will report to the Manager, Payment Integrity. Key Responsibilities Research claims anomalies to identify outpatient audit opportunities Apply CPT/HCPCS coding guidelines and payer-specific rules Analyze how codes impact reimbursement (APC grouping, edits, bundling) Conduct detailed record to bill reviews Validate appropriate code assignment and modifier usage Document findings and support defensible audit determinations Provide recommendations for recovery or education Partner with clinical and analytics teams on audit strategies Use your skills to make an impact Required Qualifications CPC, COC, CCS, ROCC, RHIA, or RHIT Certification 5+ years post certification experience with Outpatient Specialty Surgeries and Procedures Knowledge of CPT/HCPCS coding Audit experience Experience reading and coding from operative reports Preferred Qualifications 5+ years prior coding experience Outpatient facility aud",
+      "date_posted": "2026-08-20",
+      "source": "Career site / JobPosting",
+      "first_seen": "2026-08-21T11:53:40.174582+00:00",
+      "is_new": true,
+      "matched_titles": [
+        "hipaa"
+      ],
+      "matched_keywords": [
+        "healthcare",
+        "clinical",
+        "patient",
+        "HIPAA",
+        "PHI"
+      ],
+      "role_family": "GRC, Risk, Audit & Compliance",
+      "seniority": "Senior IC",
+      "seniority_priority": 6,
+      "experience_years_min": null,
+      "match_score": 81,
+      "location_category": "US Remote",
+      "location_priority": 1,
+      "id": "39f18e35fe7b88031b8f"
+    },
+    {
       "title": "Senior Business Systems Analysis Professional",
       "company": "Humana",
       "location": "Remote, Nationwide, United States of America",
@@ -3788,6 +3612,32 @@
       "location_category": "US Remote",
       "location_priority": 1,
       "id": "5e0c3cc8f3ba27d06877"
+    },
+    {
+      "title": "Product Strategy Senior Advisor – Identity Strategy & Innovation",
+      "company": "The Cigna Group / Evernorth",
+      "location": "Remote, United States of America",
+      "url": "https://jobs.thecignagroup.com/us/en/job/26009895/Product-Strategy-Senior-Advisor-Identity-Strategy-Innovation",
+      "description": "The job profile for this position is Product Management Senior Advisor, which is a Band 4 Senior Contributor Career Track Role. Excited to grow your career? We value our talented employees, and whenever possible strive to help one of our associates grow professionally before recruiting new talent to our open positions. If you think the open position you see is right for you, we encourage you to apply! Our people make all the difference in our success. Role Summary The Product Strategy Senior Advisor – Identity Strategy & Innovation provides strategic counsel and product leadership for the enterprise Identity platform, helping shape its strategy, roadmap, and innovation agenda across identity modernization, secure access, authentication, fraud prevention, identity proofing, delegation, and emerging AI-aware identity capabilities. Acting as a product-minded translator between business and technical teams, the advisor develops product definitions, roadmap recommendations, and executive-ready narratives that accelerate adoption and business value. The role works in close partnership with the enterprise Personalization technology stack and Customer 360 data foundations, ensuring identit",
+      "date_posted": "2026-08-21",
+      "source": "Career site / JobPosting",
+      "first_seen": "2026-08-21T11:53:40.174582+00:00",
+      "is_new": true,
+      "matched_titles": [
+        "access management",
+        "authentication"
+      ],
+      "matched_keywords": [
+        "healthcare"
+      ],
+      "role_family": "Identity, IAM & PAM",
+      "seniority": "Senior IC",
+      "seniority_priority": 6,
+      "experience_years_min": null,
+      "match_score": 80,
+      "location_category": "US Remote",
+      "location_priority": 1,
+      "id": "eb50f235be02158c00ce"
     },
     {
       "title": "Sr GRC Analyst",
@@ -3844,6 +3694,33 @@
       "location_category": "US Remote",
       "location_priority": 1,
       "id": "f2d36b265e85074de48c"
+    },
+    {
+      "title": "Senior Corporate Compliance Auditor",
+      "company": "McKesson Corporation",
+      "location": "Milton, Ontario, Canada",
+      "url": "https://careers.mckesson.com/en/job/milton/senior-corporate-compliance-auditor/733/99500526944",
+      "description": "McKesson is an impact-driven, Fortune 10 company that touches virtually every aspect of healthcare. We are known for delivering insights, products, and services that make quality care more accessible and affordable. Here, we focus on the health, happiness, and well-being of you and those we serve – we care. What you do at McKesson matters. We foster a culture where you can grow, make an impact, and are empowered to bring new ideas. Together, we thrive as we shape the future of health for patients, our communities, and our people. If you want to be part of tomorrow’s health today, we want to hear from you. Job Summary The Senior Corporate Compliance Auditor – Supplier & Risk provides pharmaceutical compliance oversight for audit activities, supplier qualification, risk management, and inspection readiness across McKesson Canada businesses. This role requires strong warehousing, distribution, 3-PL compliance expertise and the ability to interpret and navigate Health Canada expectations and applicable GXPs, Controlled Substances, Medical Devices, and corporate quality requirements into practical audit criteria, supplier controls, CAPA expectations, on a risk-based approach. The positi",
+      "date_posted": "2026-8-20",
+      "source": "Career site / JobPosting",
+      "first_seen": "2026-08-21T11:53:40.174582+00:00",
+      "is_new": true,
+      "matched_titles": [
+        "systems"
+      ],
+      "matched_keywords": [
+        "healthcare",
+        "patient",
+        "medical device"
+      ],
+      "role_family": "Cloud & Infrastructure",
+      "seniority": "Senior IC",
+      "seniority_priority": 6,
+      "experience_years_min": 7,
+      "match_score": 77,
+      "location_category": "US Remote",
+      "location_priority": 1,
+      "id": "64c47eb10b2057f1989e"
     },
     {
       "title": "Senior Compliance Corrections Specialist",
@@ -3928,31 +3805,6 @@
       "title": "Senior Compliance Analyst",
       "company": "Centene Corporation",
       "location": "Remote, United States",
-      "url": "https://jobs.centene.com/us/en/jobs/1651693/senior-compliance-analyst/",
-      "description": "You could be the one who changes everything for our 28 million members. Centene is transforming the health of our communities, one person at a time. As a diversified, national organization, you’ll have access to competitive benefits including a fresh perspective on workplace flexibility. This position offers remote work flexibility. Candidates residing in Missouri or Pennsylvania are strongly preferred, although qualified applicants from other locations within the Continental United States may be considered. Position Purpose: Assist in maintaining Centene Corporation’s Compliance Program. Provide regulatory interpretation, perform compliance reporting, lead special projects, and develop and implement compliance auditing and monitoring strategies. Respond to external requests for information required by the organization for its regulatory filings. Manage compliance reporting responsibilities and respond to inquiries from state and federal regulatory agencies. Manage ethics and compliance projects or implementations. Review and synthesize regulatory requirements and create policy and/or position statements. Assist in managing annual code of conduct attestation and remediation. Commun",
-      "date_posted": "2026-08-19",
-      "source": "Career site / JobPosting",
-      "first_seen": "2026-08-20T11:53:21.600878+00:00",
-      "is_new": true,
-      "matched_titles": [
-        "hipaa"
-      ],
-      "matched_keywords": [
-        "HIPAA"
-      ],
-      "role_family": "GRC, Risk, Audit & Compliance",
-      "seniority": "Senior IC",
-      "seniority_priority": 6,
-      "experience_years_min": null,
-      "match_score": 73,
-      "location_category": "US Remote",
-      "location_priority": 1,
-      "id": "88066f72e30e91eeb218"
-    },
-    {
-      "title": "Senior Compliance Analyst",
-      "company": "Centene Corporation",
-      "location": "Remote, United States",
       "url": "https://jobs.centene.com/us/en/jobs/1649633/senior-compliance-analyst/",
       "description": "You could be the one who changes everything for our 28 million members. Centene is transforming the health of our communities, one person at a time. As a diversified, national organization, you’ll have access to competitive benefits including a fresh perspective on workplace flexibility. Applicants for this job have the flexibility to work remote from home anywhere in the Continental United States, but it's strongly preferred that selected candidate reside in Ohio. Selected candidate will be asked to travel to the Ohio office on occasion. Position Purpose: Assist in maintaining Centene Corporation’s Compliance Program. Provide regulatory interpretation, perform compliance reporting, lead special projects, and develop and implement compliance auditing and monitoring strategies. Respond to external requests for information required by the organization for its regulatory filings. Manage compliance reporting responsibilities and respond to inquiries from state and federal regulatory agencies. Manage ethics and compliance projects or implementations. Review and synthesize regulatory requirements and create policy and/or position statements. Assist in managing annual code of conduct atte",
       "date_posted": "2026-08-18",
@@ -3975,14 +3827,14 @@
       "id": "b838dee0c0372af128c9"
     },
     {
-      "title": "Sr Compliance Analyst - External Audit - Travel Required",
+      "title": "Senior Compliance Analyst",
       "company": "Centene Corporation",
       "location": "Remote, United States",
-      "url": "https://jobs.centene.com/us/en/jobs/1649623/sr-compliance-analyst-external-audit-travel-required/",
-      "description": "You could be the one who changes everything for our 28 million members. Centene is transforming the health of our communities, one person at a time. As a diversified, national organization, you’ll have access to competitive benefits including a fresh perspective on workplace flexibility. This is a remote role with 25% travel to our state health plans every other month. Position Purpose: Drives and coordinate the end‑to‑end external audit lifecycle. This role is responsible for leading cross‑functional initiatives, serving as the primary liaison between internal partners and delivery teams to ensure external audits are executed effectively, on time, and in accordance with regulatory and quality standards. Respond to external requests for information required by the organization for its regulatory filings Manage compliance reporting responsibilities and respond to inquiries from state and federal regulatory agencies Drive and coordinate the end‑to‑end external audit process from planning through closure Serve as the primary point of contact between internal partners, delivery teams, and external auditors Lead calls and working sessions with internal stakeholders to gather, clarify, a",
-      "date_posted": "2026-08-14",
+      "url": "https://jobs.centene.com/us/en/jobs/1651693/senior-compliance-analyst/",
+      "description": "You could be the one who changes everything for our 28 million members. Centene is transforming the health of our communities, one person at a time. As a diversified, national organization, you’ll have access to competitive benefits including a fresh perspective on workplace flexibility. This position offers remote work flexibility. Candidates residing in Missouri or Pennsylvania are strongly preferred, although qualified applicants from other locations within the Continental United States may be considered. Position Purpose: Assist in maintaining Centene Corporation’s Compliance Program. Provide regulatory interpretation, perform compliance reporting, lead special projects, and develop and implement compliance auditing and monitoring strategies. Respond to external requests for information required by the organization for its regulatory filings. Manage compliance reporting responsibilities and respond to inquiries from state and federal regulatory agencies. Manage ethics and compliance projects or implementations. Review and synthesize regulatory requirements and create policy and/or position statements. Assist in managing annual code of conduct attestation and remediation. Commun",
+      "date_posted": "2026-08-19",
       "source": "Career site / JobPosting",
-      "first_seen": "2026-08-15T11:44:13.734879+00:00",
+      "first_seen": "2026-08-20T11:53:21.600878+00:00",
       "is_new": false,
       "matched_titles": [
         "hipaa"
@@ -3997,65 +3849,42 @@
       "match_score": 73,
       "location_category": "US Remote",
       "location_priority": 1,
-      "id": "8e78f8cec4e13e00744b"
+      "id": "88066f72e30e91eeb218"
     },
     {
-      "title": "Sr. HEDIS Quality & Audit Analyst",
-      "company": "Centene Corporation",
-      "location": "Remote, United States",
-      "url": "https://jobs.centene.com/us/en/jobs/1649736/sr-hedis-quality-audit-analyst/",
-      "description": "You could be the one who changes everything for our 28 million members. Centene is transforming the health of our communities, one person at a time. As a diversified, national organization, you’ll have access to competitive benefits including a fresh perspective on workplace flexibility. Must be authorized to work in the U.S. without the need for employment-based visa sponsorship now or in the future. Sponsorship and future sponsorship are not available for this opportunity, including employment-based visa types H-1B, L-1, O-1, H-1B1, F-1, J-1, OPT, or CPT **Applicants for this role have the flexibility to work remotely within the continental United States.\" Position Purpose: The Senior HEDIS Quality & Audit Analyst serves as an enterprise subject matter expert responsible for advanced HEDIS quality oversight, audit readiness, and submission support activities. This role independently interprets regulatory and audit requirements, leads complex HEDIS audit workstreams, and ensures accurate, timely, and audit-defensible documentation and submissions in alignment with NCQA and CMS expectations. Operating with a high degree of autonomy, the Senior Analyst provides expert guidance on au",
-      "date_posted": "2026-08-14",
+      "title": "Principal Enterprise Architect",
+      "company": "McKesson Corporation",
+      "location": "Richmond, Virginia, United States; Irving, Texas, United States",
+      "url": "https://careers.mckesson.com/en/job/richmond/principal-enterprise-architect/733/99505595824",
+      "description": "McKesson is an impact-driven, Fortune 10 company that touches virtually every aspect of healthcare. We are known for delivering insights, products, and services that make quality care more accessible and affordable. Here, we focus on the health, happiness, and well-being of you and those we serve – we care. What you do at McKesson matters. We foster a culture where you can grow, make an impact, and are empowered to bring new ideas. Together, we thrive as we shape the future of health for patients, our communities, and our people. If you want to be part of tomorrow’s health today, we want to hear from you. Key Responsibilities Lead architecture review board reviews and provide architectural guidance for enterprise technology initiatives. Partner with application, infrastructure, security, cloud, and operations teams to evaluate solution designs and technology decisions. Identify architectural, operational, security, and supportability risks and provide recommendations for mitigation. Consult with project teams throughout the solution lifecycle, from initial design through implementation and operational transition. Develop and maintain technology standards, architectural patterns, an",
+      "date_posted": "2026-8-20",
       "source": "Career site / JobPosting",
-      "first_seen": "2026-08-15T11:44:13.734879+00:00",
-      "is_new": false,
-      "matched_titles": [
-        "it risk"
-      ],
-      "matched_keywords": [
-        "healthcare"
-      ],
-      "role_family": "GRC, Risk, Audit & Compliance",
-      "seniority": "Senior IC",
-      "seniority_priority": 6,
-      "experience_years_min": null,
-      "match_score": 73,
-      "location_category": "US Remote",
-      "location_priority": 1,
-      "id": "06a1285dc618a7294e24"
-    },
-    {
-      "title": "Engineering Tech Lead Senior",
-      "company": "Elevance Health",
-      "location": "Atlanta, GA, US",
-      "url": "https://careers.elevancehealth.com/engineering-tech-lead-senior/job/BBA533AE479BE63EE0A64C9A2CD39DBA",
-      "description": "Engineering Tech Lead Senior PLEASE NOTE: This position is not eligible for current or future visa sponsorship Location : This role requires associates to be in-office 1 - 2 days per week, fostering collaboration and connectivity, while providing flexibility to support productivity and work-life balance. This approach combines structured office engagement with the autonomy of virtual work, promoting a dynamic and adaptable workplace. Alternate locations may be considered if candidates reside within a commuting distance from an office. Please note that per our policy on hybrid/virtual work, candidates not within a reasonable commuting distance from the posting location(s) will not be considered for employment, unless an accommodation is granted as required by law. The Engineering Tech Lead Senior is responsible for leading the end to end application system development and maintenance on large complex enterprise wide technology platforms. How you will make an impact: Develop, enhance, and maintain enterprise applications using Java, Spring Boot, Spring Cloud, REST APIs, Microservices. Implement ORM/JPA/Hibernate models and integrate with relational or NoSQL databases. Build, optimize",
-      "date_posted": "2026-08-19T23:23:02.003677+00:00",
-      "source": "Career site / JobPosting",
-      "first_seen": "2026-08-20T11:53:21.600878+00:00",
+      "first_seen": "2026-08-21T11:53:40.174582+00:00",
       "is_new": true,
       "matched_titles": [
         "cloud",
         "infrastructure",
         "platform",
-        "systems"
+        "systems",
+        "kubernetes",
+        "terraform"
       ],
       "matched_keywords": [
         "healthcare",
-        "health care",
         "patient",
         "cloud",
-        "DevOps",
-        "NIST"
+        "Kubernetes",
+        "Terraform",
+        "DevOps"
       ],
       "role_family": "Cloud & Infrastructure",
       "seniority": "Lead / Staff / Principal / Architect",
       "seniority_priority": 7,
-      "experience_years_min": null,
+      "experience_years_min": 10,
       "match_score": 100,
       "location_category": "US Remote",
       "location_priority": 1,
-      "id": "6173c176101b45982018"
+      "id": "ed363ad1e22013c323e1"
     },
     {
       "title": "Distinguished Engineer",
@@ -4194,83 +4023,12 @@
       "id": "00e00916d7bba6f98d83"
     },
     {
-      "title": "Lead Cyber Threat Intelligence Data Architect",
-      "company": "Humana",
-      "location": "Louisville, Kentucky, United States of America; Boston, Massachusetts, United States of America; Charlotte, North Carolina, United States of America; Chicago, Illinois, United States of America; Dallas, Texas, United States of America; Miami, Florida, United States of America; Nashville, Tennessee, United States of America; Remote, New York, United States of America; Tampa, Florida, United States of America; Washington, District of Columbia, United States of America",
-      "url": "https://careers.humana.com/us/en/job/R-425252/Lead-Cyber-Threat-Intelligence-Data-Architect",
-      "description": "Become a part of our caring community (remote in location) The Lead Intelligence Data Architect serves as the subject matter expert and functional owner for how Humana's cyber threat intelligence is collected, organized, kept current, and made usable across enterprise information security teams and tools. This role ensures Humana's threat intelligence is structured and maintained so it can be reliably referenced by both analysts and the AI-driven and automated systems that leverage it. The Lead sets the standards, drives continuous improvement in how threat intelligence is structured and made usable, and shapes how threat intelligence supports Humana's information security focused AI and automation initiatives. The Lead Intelligence Data Architect serves as the subject matter expert and functional owner for how Humana's cyber threat intelligence is collected, organized, kept current, and made usable across enterprise information security teams and tools. This role ensures Humana's threat intelligence is structured and maintained so it can be reliably referenced by both analysts and the AI-driven and automated systems that leverage it. The Lead sets the standards, drives continuous ",
-      "date_posted": "2026-08-10",
-      "source": "Career site / JobPosting",
-      "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": false,
-      "matched_titles": [
-        "information security",
-        "security operations",
-        "soc",
-        "threat intelligence",
-        "detection engineering"
-      ],
-      "matched_keywords": [
-        "healthcare",
-        "HIPAA",
-        "PHI",
-        "information security",
-        "SOC",
-        "NIST",
-        "vulnerability management"
-      ],
-      "role_family": "Security Operations & Engineering",
-      "seniority": "Lead / Staff / Principal / Architect",
-      "seniority_priority": 7,
-      "experience_years_min": null,
-      "match_score": 100,
-      "location_category": "US Remote",
-      "location_priority": 1,
-      "id": "cdaeb67547f541d5a452"
-    },
-    {
-      "title": "Principal, AI Engineer - Agent Enablement and Platforms",
-      "company": "Humana",
-      "location": "Louisville, Kentucky, United States of America",
-      "url": "https://careers.humana.com/us/en/job/R-419341/Principal-AI-Engineer-Agent-Enablement-and-Platforms",
-      "description": "Become a part of our caring community At Humana, we are redefining what it means to allow productivity and efficiency for our community of developers, engineers, and partners. The Engineering AI Enablement organization brings together top talent and new practices to build AI-powered IT productivity solutions that empower our enterprise. As a principal, within Humana's AI Enablement team, you will be the senior technical leader for platform engineering, AI enablement, and enterprise software delivery projects. Reporting to the Director, AI Enablement, you will guide strategy and architecture. You will focus on AI developer tools and products, playing an important role in advancing Humana's technology ecosystem. This ecosystem will incorporate generative AI, automation, and agents. Responsibilities Lead platform engineering efforts to ensure advanced AI developer tools and capabilities for Humana's enterprise engineering teams. Architect and lead end-to-end solutions that integrate AI, automation, and agents to support software delivery and productivity. Collaborate with partners including Leadership, Engineers, Product Owners, and partners to mature use cases, define technical requi",
-      "date_posted": "2026-08-17",
-      "source": "Career site / JobPosting",
-      "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": false,
-      "matched_titles": [
-        "devops",
-        "ci/cd",
-        "platform engineering"
-      ],
-      "matched_keywords": [
-        "healthcare",
-        "HIPAA",
-        "PHI",
-        "cloud",
-        "AWS",
-        "Azure",
-        "GCP",
-        "Kubernetes",
-        "Terraform",
-        "DevOps"
-      ],
-      "role_family": "DevOps & Platform",
-      "seniority": "Lead / Staff / Principal / Architect",
-      "seniority_priority": 7,
-      "experience_years_min": 3,
-      "match_score": 100,
-      "location_category": "US Remote",
-      "location_priority": 1,
-      "id": "f1ef383e7118943812bc"
-    },
-    {
       "title": "Senior AI Security Architect",
       "company": "Humana",
       "location": "Remote, Kentucky, United States of America; Remote, District of Columbia, United States of America; Remote, Florida, United States of America; Remote, Georgia, United States of America; Remote, Illinois, United States of America; Remote, New York, United States of America; Remote, Tennessee, United States of America; Remote, Texas, United States of America",
       "url": "https://careers.humana.com/us/en/job/R-418400/Senior-AI-Security-Architect",
       "description": "We appreciate that you are interested in pursuing your next career opportunity. As you complete the application below, here are a few tips you should consider: Visit Go/Develop for information on professional development, resume guidance, and interview best practices. ​ Watch a quick video to discover how Humana’s Career Framework can help you identify meaningful growth opportunities. Visit Go/AskARecruiter for expert advice on your job search from our Talent Acquisition Team. Tailor your resume to highlight achievements and skills that align with the role you're applying for. Update your Workday profile to reflect your key accomplishments and experiences. Please read the job description carefully and ensure you meet all required qualifications. Consider having a conversation with your current leader about your career goals and interest in this opportunity. Their support can be valuable as you explore your next step. Job Profile Senior Cloud Security Architect Job Level Senior Professional Become a part of our caring community *(Selected candidate will be required to live within 60 mins of one of the following metro locations OR be willing to relocate to within 12 months of hire da",
-      "date_posted": "2026-08-17",
+      "date_posted": "2026-08-21",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-14T12:09:06.064374+00:00",
       "is_new": false,
@@ -4539,7 +4297,7 @@
       "date_posted": "2026-08-19T15:23:01.447189+00:00",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-20T11:53:21.600878+00:00",
-      "is_new": true,
+      "is_new": false,
       "matched_titles": [
         "cloud",
         "platform",
@@ -4568,7 +4326,7 @@
       "location": "Madrid, Spain",
       "url": "https://jobs.thecignagroup.com/us/en/job/26009197/Infrastructure-Solutions-Lead",
       "description": "About Cigna Healthcare Cigna Healthcare is a global health service company dedicated to transforming healthcare. With roots in the U.S. and operations in over 30 countries, we serve more than 180 million customers and patients worldwide. Ranked 13th on the Fortune 500 in 2025, Cigna is recognized as one of the most trusted and influential names in the industry. Our mission is to improve the health, well‑being, and peace of mind of those we serve. You’ll join a globally recognized organization where trust, clear communication, and a positive culture shape how we work. Our leaders are consistent, approachable, and supportive, helping you maintain balance while doing meaningful work. We look for people who thrive in collaborative environments, care about meaningful change, and want to grow in a company that puts people first. At Cigna Healthcare, your work contributes to better care experiences and supports customers through important moments in their lives. About the role This role is for an IT infrastructure professional who combines engineering credibility with the ability to influence governance, delivery confidence, and portfolio-level decision-making. Sitting within the TEO PMO,",
-      "date_posted": "2026-08-20",
+      "date_posted": "2026-08-21",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
       "is_new": false,
@@ -4596,10 +4354,10 @@
     {
       "title": "Staff Cyber Security Engineer – AI Data Protection",
       "company": "GE HealthCare",
-      "location": "Krakow, Kleinpolen, Polen; Budapest, Budapest, Ungarn; Remote, Budapest, Ungarn; Remote, Masowien, Polen",
+      "location": "Krakow, Kleinpolen, Polen; Remote, Budapest, Ungarn; Remote, Masowien, Polen; Budapest, Budapest, Ungarn",
       "url": "https://careers.gehealthcare.com/de/de/job/GEVGHLGLOBALR4041219EXTERNALDEDE/Staff-Cyber-Security-Engineer-AI-Data-Protection",
       "description": "Job Description Summary Diese Rolle wird auch eine treibende Kraft bei der Einführung neuer Erkennungstechnologien sein, die auf Verhaltensanalysen und maschinellem Lernen basieren. Diese Position ist verantwortlich für die Entwicklung von Unternehmensplattformen, die die Überwachung, Automatisierung und Bereitstellung der Netzwerksicherheitsplattformen von GE HealthCare ermöglichen, einschließlich physischer und virtueller IDS sowie Big-Data-Analysen. Vom Senior Cyber Security Engineer wird erwartet, dass er Open-Source-Technologie und Industriestandard-Programmiersprachen nutzt, um die Cybersicherheitsoperationen zu verbessern. Um in dieser Rolle erfolgreich zu sein, müssen Engineering-, Softwareentwicklungs- und Build-Automatisierungsprojekte in einer agilen Umgebung durchgeführt werden. Job Description Roles and Responsibilities : In this role, as part of the global Cyber Data Protection team, you will: Platform Ownership – DLP for AI Threats - Own and operate the AI DLP platform, including administration, configuration, policy management, tuning, upgrades, deployments, and platform health. Engineer and deploy DLP and AI protection capabilities across endpoint, cloud, mobile, a",
-      "date_posted": "2026-08-20",
+      "date_posted": "2026-08-21",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
       "is_new": false,
@@ -4632,10 +4390,10 @@
     {
       "title": "Staff Cyber Security Engineer – AI Data Protection",
       "company": "GE HealthCare",
-      "location": "Krakow, Petite-Pologne, Pologne; Budapest, Budapest, Hongrie; Remote, Budapest, Hongrie; Remote, Mazovie, Pologne",
+      "location": "Krakow, Petite-Pologne, Pologne; Remote, Mazovie, Pologne; Budapest, Budapest, Hongrie; Remote, Budapest, Hongrie",
       "url": "https://careers.gehealthcare.com/fr/fr/job/GEVGHLGLOBALR4041219EXTERNALFRFR/Staff-Cyber-Security-Engineer-AI-Data-Protection",
       "description": "Job Description Summary Dans ce rôle, vous favoriserez l'adoption de nouvelles technologies de détection basées sur l'analyse comportementale et l'apprentissage automatique. À ce poste, vous serez chargé de gérer le développement de plates-formes d'entreprise permettant la surveillance, l'automatisation et l'orchestration des plates-formes de sécurité réseau de GE HealthCare, notamment les IDS physiques et virtuels, ainsi que les analyses en matière de Big Data. L'ingénieur senior en cybersécurité devra exploiter la technologie open source et les langages de programmation standard du secteur pour améliorer les opérations de cybersécurité. L'objectif de ce rôle est de réaliser des projets d'ingénierie, de développement de logiciels et de moteur de production dans un environnement agile. Job Description Roles and Responsibilities : In this role, as part of the global Cyber Data Protection team, you will: Platform Ownership – DLP for AI Threats - Own and operate the AI DLP platform, including administration, configuration, policy management, tuning, upgrades, deployments, and platform health. Engineer and deploy DLP and AI protection capabilities across endpoint, cloud, mobile, and ne",
-      "date_posted": "2026-08-20",
+      "date_posted": "2026-08-21",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
       "is_new": false,
@@ -4668,10 +4426,10 @@
     {
       "title": "Staff Cyber Security Engineer – AI Data Protection",
       "company": "GE HealthCare",
-      "location": "Krakow, Lesser Poland, Poland; Budapest, Budapest, Hungary; Remote, Budapest, Hungary; Remote, Masovian, Poland",
+      "location": "Krakow, Lesser Poland, Poland; Remote, Budapest, Hungary; Budapest, Budapest, Hungary; Remote, Masovian, Poland",
       "url": "https://careers.gehealthcare.com/global/en/job/GEVGHLGLOBALR4041219EXTERNALENGLOBAL/Staff-Cyber-Security-Engineer-AI-Data-Protection",
       "description": "Job Description Summary This role sits within GE HealthCare’s Cyber Data Protection team and owns the Data Loss Prevention (DLP) platforms used to manage AI-related data risks. The successful candidate will work across Cyber and IT teams to secure enterprise AI adoption, reduce data leakage risk, and enable responsible AI use. This hands-on engineering role requires expertise in AI technologies, automation, cloud, network, and SIEM platforms. Job Description Roles and Responsibilities : In this role, as part of the global Cyber Data Protection team, you will: Platform Ownership – DLP for AI Threats - Own and operate the AI DLP platform, including administration, configuration, policy management, tuning, upgrades, deployments, and platform health. Engineer and deploy DLP and AI protection capabilities across endpoint, cloud, mobile, and network environments. Maintain detection policies, risk scoring, thresholds, baselines, operational metrics, and the service roadmap. Evaluate emerging DLP and AI security technologies through proof-of-concepts and platform assessments. Manage vendor performance, SLAs, incident resolution, and end-user issue triage through to closure. AI Security & D",
-      "date_posted": "2026-08-20",
+      "date_posted": "2026-08-21",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
       "is_new": false,
@@ -4771,7 +4529,7 @@
       "location": "Louisville, Kentucky, United States of America; Dallas, Texas, United States of America; Miami, Florida, United States of America; Nashville, Tennessee, United States of America; Tampa, Florida, United States of America",
       "url": "https://careers.humana.com/us/en/job/R-424780/Lead-DevSecOps-Application-Architecture",
       "description": "Become a part of our caring community (remote in posted locations) The Lead, DevSecOps Architecture builds overarching microservice architectures focused on DevSecOps integration. May assist with security tooling selection, security testing, process automation, and configuration of existing Humana tools, applications, and systems. The Lead, DevSecOps Architecture works on problems of diverse scope and complexity ranging from moderate to substantial. The Lead, DevSecOps Application Architecture is a senior technical leadership role within the DevSecOps & Engineering organization. This role owns the technical direction, architecture strategy, and roadmap for enterprise DevSecOps application platforms, with a primary focus on secure software engineering, application security posture, developer experience, and CI/CD security orchestration. The Lead, DevSecOps Application Architecture serves as a technical authority for the DevSecOps Engineering team and partners with Enterprise Information Protection, architecture, engineering, platform, and application development stakeholders to define security requirements and embed security controls into current and future application architectures",
-      "date_posted": "2026-08-17",
+      "date_posted": "2026-08-21",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
       "is_new": false,
@@ -4926,6 +4684,37 @@
       "location_category": "US Remote",
       "location_priority": 1,
       "id": "c26f88ffae17f9667415"
+    },
+    {
+      "title": "Lead Platform Engineer - NBA",
+      "company": "Humana",
+      "location": "Remote, Nationwide, United States of America",
+      "url": "https://careers.humana.com/us/en/job/R-426817/Lead-Platform-Engineer-NBA",
+      "description": "Become a part of our caring community We are seeking a seasoned Lead Software Engineer to architect and deliver the foundational services that enable real time recommendations to become dependable, auditable, and scalable outcomes. In this position, you will own the design and implementation of the State Machine (managing authoritative state and legal transitions) and Transactional Outbox (ensuring exactly-once intent emission for downstream consumers). Your solutions must be robust, traceable, and maintain high performance under significant concurrency and latency demands. This role is hands-on, combining technical leadership with active engineering: you will architect systems, set technical standards, mentor peers, and collaborate closely across platform, data, and product teams. About the Platform The Next Best Action (NBA) Decision Intelligence Platform is Humana's enterprise system for personalized, omnichannel member engagement. It decides the next best action for each Medicare Advantage member — what to communicate, when, and through which channel — and delivers it reliably across the member journey. The platform pairs a real-time decisioning and orchestration stack with rei",
+      "date_posted": "2026-08-20",
+      "source": "Career site / JobPosting",
+      "first_seen": "2026-08-21T11:53:40.174582+00:00",
+      "is_new": true,
+      "matched_titles": [
+        "platform engineer"
+      ],
+      "matched_keywords": [
+        "healthcare",
+        "HIPAA",
+        "PHI",
+        "cloud",
+        "Azure",
+        "Kubernetes",
+        "DevOps"
+      ],
+      "role_family": "Cloud & Infrastructure",
+      "seniority": "Lead / Staff / Principal / Architect",
+      "seniority_priority": 7,
+      "experience_years_min": null,
+      "match_score": 84,
+      "location_category": "US Remote",
+      "location_priority": 1,
+      "id": "ef15fe81d928d5f47b68"
     },
     {
       "title": "Lead Systems Engineer",
@@ -5110,7 +4899,7 @@
       "location": "Louisville, Kentucky, United States of America",
       "url": "https://careers.humana.com/us/en/job/R-421184/Lead-Application-Architect-Patient-Care-Technology",
       "description": "We appreciate that you are interested in pursuing your next career opportunity. As you complete the application below, here are a few tips you should consider: Visit Go/Develop for information on professional development, resume guidance, and interview best practices. ​ Watch a quick video to discover how Humana’s Career Framework can help you identify meaningful growth opportunities. Visit Go/AskARecruiter for expert advice on your job search from our Talent Acquisition Team. Tailor your resume to highlight achievements and skills that align with the role you're applying for. Update your Workday profile to reflect your key accomplishments and experiences. Please read the job description carefully and ensure you meet all required qualifications. Consider having a conversation with your current leader about your career goals and interest in this opportunity. Their support can be valuable as you explore your next step. Job Profile Lead Application Architect Job Level Lead Become a part of our caring community The Lead Application Architect designs and develops IT applications architecture solutions to business problems in alignment with the enterprise architecture direction and stand",
-      "date_posted": "2026-08-19",
+      "date_posted": "2026-08-21",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-15T11:44:13.734879+00:00",
       "is_new": false,
@@ -5194,8 +4983,8 @@
       "company": "GE HealthCare",
       "location": "Remote, United States",
       "url": "https://careers.gehealthcare.com/global/en/job/GEVGHLGLOBALR4043752EXTERNALENGLOBAL/Cyber-Security-Architect",
-      "description": "Job Description Summary This position will work on highly complex projects that require in-depth domain knowledge in two or more specialized areas. They are responsible for driving the design and implementation efforts related to architecture, scalability, availability and performance alignment w/ the product roadmap with a focus on application development & automation. They may interact w/ functional leaders to support these technical initiatives. Job Description Roles and Responsibilities In this role, you will: • Drive significant endpoint security technology initiatives across multiple layers of architecture, including PC, iOS, BYOD, Cloud and Mobile platforms • Partner with product management, product owners and architects to identify & prioritize automation targets across the CTR portfolio • Work to design implement projects to transform products within the CTR portfolio through automation orchestration opportunities • A focus on automation & orchestration and furthering the integration of Cyber Security & Risk management into the native development workflow; experience across GE • Contribute to the development of infrastructure platforms that are service-oriented with reusab",
-      "date_posted": "2026-08-13",
+      "description": "Job Description Summary This position will work on highly complex projects that require in-depth domain knowledge in two or more specialized areas. They are responsible for driving The Cyber Security Architect works on highly complex initiatives requiring in-depth domain knowledge across multiple specialized areas, with a focus on endpoint security, application development, and automation. This role drives architecture and implementation efforts aligned with product roadmaps, including scalability, availability, and performance considerations. The architect advances security automation and orchestration across multiple technology environments while contributing technical expertise to broader cyber security initiatives. Job Description What You Will Do Drive significant endpoint security technology initiatives across multiple architecture layers and environments, including PC, iOS, bring your own device (BYOD), cloud, and mobile platforms. Design and implement projects that transform products within the CTR portfolio through automation and orchestration opportunities, with an emphasis on application development and automation. Partner with product management, product owners, and arc",
+      "date_posted": "2026-08-21",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
       "is_new": false,
