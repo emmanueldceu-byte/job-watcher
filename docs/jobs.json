@@ -1,7 +1,7 @@
 {
   "app_name": "Healthcare Cloud & Cybersecurity Job Watcher",
-  "updated_at": "2026-09-13T15:05:16.584125+00:00",
-  "count": 189,
+  "updated_at": "2026-09-14T17:12:22.323806+00:00",
+  "count": 184,
   "errors": [],
   "scan_stats": [
     {
@@ -12,27 +12,27 @@
     },
     {
       "company": "The Cigna Group / Evernorth",
-      "fetched": 220,
+      "fetched": 218,
       "role_matches": 93,
-      "location_matches": 26
+      "location_matches": 25
     },
     {
       "company": "Elevance Health",
       "fetched": 220,
-      "role_matches": 51,
-      "location_matches": 20
+      "role_matches": 46,
+      "location_matches": 14
     },
     {
       "company": "Centene Corporation",
       "fetched": 220,
-      "role_matches": 27,
-      "location_matches": 27
+      "role_matches": 29,
+      "location_matches": 29
     },
     {
       "company": "Humana",
-      "fetched": 96,
-      "role_matches": 16,
-      "location_matches": 14
+      "fetched": 78,
+      "role_matches": 12,
+      "location_matches": 10
     },
     {
       "company": "Kaiser Permanente",
@@ -49,14 +49,14 @@
     {
       "company": "Johnson & Johnson",
       "fetched": 220,
-      "role_matches": 30,
+      "role_matches": 32,
       "location_matches": 18
     },
     {
       "company": "McKesson Corporation",
-      "fetched": 128,
+      "fetched": 122,
       "role_matches": 67,
-      "location_matches": 57
+      "location_matches": 58
     },
     {
       "company": "Cardinal Health",
@@ -68,17 +68,17 @@
       "company": "CVS Health / Aetna",
       "fetched": 219,
       "role_matches": 9,
-      "location_matches": 5
+      "location_matches": 7
     },
     {
       "company": "Mayo Clinic",
-      "fetched": 124,
-      "role_matches": 31,
+      "fetched": 121,
+      "role_matches": 30,
       "location_matches": 5
     },
     {
       "company": "Cleveland Clinic",
-      "fetched": 2,
+      "fetched": 3,
       "role_matches": 0,
       "location_matches": 0
     },
@@ -96,21 +96,21 @@
     },
     {
       "company": "GE HealthCare",
-      "fetched": 220,
-      "role_matches": 80,
-      "location_matches": 13
+      "fetched": 218,
+      "role_matches": 79,
+      "location_matches": 12
     },
     {
       "company": "Philips",
-      "fetched": 132,
+      "fetched": 128,
       "role_matches": 48,
       "location_matches": 12
     },
     {
       "company": "Stryker",
       "fetched": 220,
-      "role_matches": 58,
-      "location_matches": 4
+      "role_matches": 59,
+      "location_matches": 6
     },
     {
       "company": "Epic Systems",
@@ -125,8 +125,8 @@
       "company": "The Cigna Group / Evernorth",
       "location": "Bloomfield, Connecticut, United States of America; Morris Plains, New Jersey, United States of America; St. Louis, Missouri, United States of America",
       "url": "https://jobs.thecignagroup.com/us/en/job/26009533/The-Cigna-Group-s-Technology-Development-Program-Data-Analytics-Engineering-Track-Summer-Internship",
-      "description": "The Cigna Group’s Technology Development Program (TECDP) Data Analytics Engineering Internship Get ready to embark on an exhilarating summer adventure with The Cigna Group’s Technology Development Program Summer Internship! We are on the lookout for passionate individuals who are eager to dive into the world of technology and make a real difference in healthcare. Over the course of 12 dynamic weeks, you’ll have the chance to work on impactful technology projects, receive comprehensive training, and benefit from invaluable mentorship that will supercharge your career. What You Will Do Meaningful Role Work: Work within the Data & Analytics Engineering track, contributing to the design, development, and optimization of data pipelines, platforms, and analytical tools. You’ll gain hands-on experience transforming raw data into actionable insights, deepening your skills in data architecture, engineering, and visualization while helping drive data-informed decision-making across The Cigna Group. Learning From Others: Engage with peers, mentors, and cross-functional partners through community-building activities and collaborative initiatives. Whether you’re supporting recruiting efforts, d",
-      "date_posted": "2026-09-11",
+      "description": "The job profile for this position is Co-Op/Intern (US Only), which is a Band 1 Professional Career Track Role. Excited to grow your career? We value our talented employees, and whenever possible strive to help one of our associates grow professionally before recruiting new talent to our open positions. If you think the open position you see is right for you, we encourage you to apply! Our people make all the difference in our success. The Cigna Group’s Technology Development Program (TECDP) Data Analytics Engineering Internship Get ready to embark on an exhilarating summer adventure with The Cigna Group’s Technology Development Program Summer Internship! We are on the lookout for passionate individuals who are eager to dive into the world of technology and make a real difference in healthcare. Over the course of 12 dynamic weeks, you’ll have the chance to work on impactful technology projects, receive comprehensive training, and benefit from invaluable mentorship that will supercharge your career. What You Will Do Meaningful Role Work: Work within the Data & Analytics Engineering track, contributing to the design, development, and optimization of data pipelines, platforms, and anal",
+      "date_posted": "2026-09-14",
       "source": "Career site / JobPosting",
       "first_seen": "2026-09-10T15:10:28.877711+00:00",
       "is_new": false,
@@ -138,7 +138,6 @@
       ],
       "matched_keywords": [
         "healthcare",
-        "patient",
         "cloud",
         "AWS",
         "Azure"
@@ -262,8 +261,8 @@
       "company": "The Cigna Group / Evernorth",
       "location": "Bloomfield, Connecticut, United States of America; Morris Plains, New Jersey, United States of America; St. Louis, Missouri, United States of America",
       "url": "https://jobs.thecignagroup.com/us/en/job/26010467/Technology-Development-Program-TECDP-Data-Analytics-Engineering-Track-Start-Date-July-12-2027",
-      "description": "Technology Development Program (TECDP) – Data & Analytics Engineering Track – Full-Time Associate Our Technology Development Program (TECDP) is a two‑year program designed to build technical expertise and a holistic understanding of how technology fuels transformation across the healthcare industry. Associates join a technical track aligned to their interests and career goals, gaining hands‑on experience, expanding their technical acumen, and collaborating across disciplines to solve real‑world challenges in healthcare. This role is designed to support your transition from academia to industry. The program is ideal for recent graduates and early‑career professionals who are curious, motivated, and eager to apply their academic knowledge in a real-world setting. The Data & Analytics Engineering Track is designed for individuals passionate about building scalable data solutions, enabling analytics, and turning data into insights that drive better healthcare outcomes. What you’ll do Meaningful Work: Contribute to the Data & Analytics Engineering track by helping design, build, and optimize data pipelines, platforms, and analytical tools. You’ll gain hands-on experience turning raw dat",
-      "date_posted": "2026-09-13",
+      "description": "The job profile for this position is TECDP Senior Analyst, which is a Band 3 Senior Contributor Career Track Role. Excited to grow your career? We value our talented employees, and whenever possible strive to help one of our associates grow professionally before recruiting new talent to our open positions. If you think the open position you see is right for you, we encourage you to apply! Our people make all the difference in our success. Technology Development Program (TECDP) – Data & Analytics Engineering Track – Full-Time Associate Our Technology Development Program (TECDP) is a two‑year program designed to build technical expertise and a holistic understanding of how technology fuels transformation across the healthcare industry. Associates join a technical track aligned to their interests and career goals, gaining hands‑on experience, expanding their technical acumen, and collaborating across disciplines to solve real‑world challenges in healthcare. This role is designed to support your transition from academia to industry. The program is ideal for recent graduates and early‑career professionals who are curious, motivated, and eager to apply their academic knowledge in a real-",
+      "date_posted": "2026-09-14",
       "source": "Career site / JobPosting",
       "first_seen": "2026-09-10T15:10:28.877711+00:00",
       "is_new": false,
@@ -276,7 +275,6 @@
       ],
       "matched_keywords": [
         "healthcare",
-        "patient",
         "cloud",
         "AWS",
         "Azure"
@@ -326,7 +324,7 @@
       "location": "Bloomfield, Connecticut, United States of America; Austin, Texas, United States of America; Denver, Colorado, United States of America; Franklin, Tennessee, United States of America; Morris Plains, New Jersey, United States of America; Philadelphia, Pennsylvania, United States of America; St. Louis, Missouri, United States of America",
       "url": "https://jobs.thecignagroup.com/us/en/job/26001567/Business-Analytics-Advisor-Clinical-Affordability-Trend-Analytics-Hybrid",
       "description": "The job profile for this position is Business Analytics Advisor, which is a Band 4 Senior Contributor Career Track Role. Excited to grow your career? We value our talented employees, and whenever possible strive to help one of our associates grow professionally before recruiting new talent to our open positions. If you think the open position you see is right for you, we encourage you to apply! Our people make all the difference in our success. Join a team that turns clinical data into clear insight and action. As a Business Analytics Advisor, you will help build trend prediction capabilities across clinical and affordability metrics within the CHC Risk Ecosystem. You will connect claims, authorization, service category, diagnosis, and episode-of-care data to help clinical, analytics, finance, and affordability partners understand risk drivers and improve decisions. Responsibilities Design and build clinical risk indicators, projection insights, and key performance indicators within the CHC Risk Ecosystem. Partner with clinical, finance, analytics, affordability, technical, and visualization teams to create practical analytic capabilities that improve trend analysis and claims insi",
-      "date_posted": "2026-09-12",
+      "date_posted": "2026-09-14",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-12T12:08:57.494668+00:00",
       "is_new": false,
@@ -355,7 +353,7 @@
       "location": "Plano, Texas, United States of America; Austin, Texas, United States of America; Bloomfield, Connecticut, United States of America; Bloomington, Minnesota, United States of America; Morris Plains, New Jersey, United States of America; St. Louis, Missouri, United States of America",
       "url": "https://jobs.thecignagroup.com/us/en/job/26007719/Information-Protection-Advisor-Product-Security-DevSecOps",
       "description": "The job profile for this position is Information Protection Advisor, which is a Band 4 Senior Contributor Career Track Role. Excited to grow your career? We value our talented employees, and whenever possible strive to help one of our associates grow professionally before recruiting new talent to our open positions. If you think the open position you see is right for you, we encourage you to apply! Our people make all the difference in our success. Join a high-impact team driving the future of secure healthcare technology. As an Information Protection Advisor, you will enable secure product delivery by embedding automated security solutions across modern development pipelines. You will partner closely with engineering teams to integrate security into every stage of the SDLC, helping protect critical applications while accelerating innovation across the organization. Responsibilities Partner with development teams to embed security practices that enable safe, scalable, and high-quality product delivery Design and implement automated security solutions within CI/CD pipelines to strengthen application security posture Integrate and optimize application security testing tools (SAST, DA",
-      "date_posted": "2026-09-12",
+      "date_posted": "2026-09-14",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
       "is_new": false,
@@ -381,6 +379,32 @@
       "location_category": "NYC / North Jersey Metro",
       "location_priority": 0,
       "id": "997c87def6b465f97611"
+    },
+    {
+      "title": "Network Management Analyst",
+      "company": "CVS Health / Aetna",
+      "location": "Phoenix, Arizona, United States; Montgomery, Alabama, United States; Little Rock, Arkansas, United States; Denver, Colorado, United States; Hartford, Connecticut, United States; Washington Dc, District of Columbia, United States; Dover, Delaware, United States; Tallahassee, Florida, United States; Atlanta, Georgia, United States; Des Moines, Iowa, United States; Boise, Idaho, United States; Springfield, Illinois, United States; Indianapolis, Indiana, United States; Topeka, Kansas, United States; Frankfort, Kentucky, United States; Baton Rouge, Louisiana, United States; Boston, Massachusetts, United States; Annapolis, Maryland, United States; Augusta, Maine, United States; Lansing, Michigan, United States; Saint Paul, Minnesota, United States; Jefferson City, Missouri, United States; Jackson, Mississippi, United States; Helena, Montana, United States; Raleigh, North Carolina, United States; Bismarck, North Dakota, United States; Lincoln, Nebraska, United States; Concord, New Hampshire, United States; Trenton, New Jersey, United States; Santa Fe, New Mexico, United States; Carson City, Nevada, United States; Albany, New York, United States; Columbus, Ohio, United States; Oklahoma City, Oklahoma, United States; Salem, Oregon, United States; Harrisburg, Pennsylvania, United States; Providence, Rhode Island, United States; Columbia, South Carolina, United States; Pierre, South Dakota, United States; Nashville, Tennessee, United States; Austin, Texas, United States; Salt Lake City, Utah, United States; Richmond, Virginia, United States; Montpelier, Vermont, United States; Olympia, Washington, United States; Madison, Wisconsin, United States; Charleston, West Virginia, United States; Cheyenne, Wyoming, United States",
+      "url": "https://jobs.cvshealth.com/us/en/job/R0958719/Network-Management-Analyst",
+      "description": "We’re building a world of health around every individual — shaping a more connected, convenient and compassionate health experience. At CVS Health®, you’ll be surrounded by passionate colleagues who care deeply, innovate with purpose, hold ourselves accountable and prioritize safety and quality in everything we do. Join us and be part of something bigger – helping to simplify health care one person, one family and one community at a time. Position Summary The Analyst – Pharmacy Network Non-Compliance is responsible for investigating and resolving complex and sensitive pharmacy contract non-compliance allegations. This role requires a highly motivated, detail-oriented individual with the ability to manage multiple priorities effectively. The Analyst will conduct outreach to network pharmacies, evaluate non-compliance concerns, and collaborate with cross-functional partners and ensure compliance with contractual and regulatory requirements, while maintaining strong relationships and delivering excellent service. Key Responsibilities Investigate and resolve pharmacy contract non-compliance allegations , including complex and sensitive cases Conduct outreach to pharmacies to gather inf",
+      "date_posted": "2026-09-10",
+      "source": "Career site / JobPosting",
+      "first_seen": "2026-08-09T02:44:11.720194+00:00",
+      "is_new": false,
+      "matched_titles": [
+        "systems"
+      ],
+      "matched_keywords": [
+        "health care",
+        "patient"
+      ],
+      "role_family": "Cloud & Infrastructure",
+      "seniority": "Standard / Unspecified",
+      "seniority_priority": 5,
+      "experience_years_min": 2,
+      "match_score": 84,
+      "location_category": "NYC / North Jersey Metro",
+      "location_priority": 0,
+      "id": "3f0c8c986cbc4b413dd6"
     },
     {
       "title": "Biomedical Equipment Technician - Mullica Hill, NJ",
@@ -440,7 +464,7 @@
       "location": "Bloomfield, Connecticut, United States of America; Austin, Texas, United States of America; Morris Plains, New Jersey, United States of America; St. Louis, Missouri, United States of America",
       "url": "https://jobs.thecignagroup.com/us/en/job/26007638/Technology-Strategy-Leader-Enterprise-Data-AI-Platforms-Hybrid",
       "description": "The job profile for this position is IT Strategy Principal, which is a Band 5 Senior Contributor Career Track Role. Excited to grow your career? We value our talented employees, and whenever possible strive to help one of our associates grow professionally before recruiting new talent to our open positions. If you think the open position you see is right for you, we encourage you to apply! Our people make all the difference in our success. The Enterprise Data, AI and Platforms team is shaping how our company uses data, analytics, AI, and shared technology services to deliver stronger experiences and measurable value. As the Technology Strategy Leader, you will connect enterprise priorities to clear roadmaps, investment choices, and operating routines that help teams move with focus, speed, and accountability. This role is a strong fit for a strategic, collaborative leader who can make complex work simpler and bring partners together around outcomes that matter. Responsibilities Lead an integrated technology strategy and roadmap across Enterprise Data, AI and Platforms, including priorities, sequencing, dependencies, and multi-year outcomes. Turn enterprise goals into an actionable ",
-      "date_posted": "2026-09-13",
+      "date_posted": "2026-09-14",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-12T12:08:57.494668+00:00",
       "is_new": false,
@@ -496,7 +520,7 @@
       "location": "Newark, Delaware, United States of America",
       "url": "https://jobs.thecignagroup.com/us/en/job/26011156/Compliance-Senior-Analyst-CuraScript-Hybrid",
       "description": "The job profile for this position is Legal Compliance Senior Analyst, which is a Band 3 Senior Contributor Career Track Role. Excited to grow your career? We value our talented employees, and whenever possible strive to help one of our associates grow professionally before recruiting new talent to our open positions. If you think the open position you see is right for you, we encourage you to apply! Our people make all the difference in our success. Compliance Senior Analyst- CuraScript- Hybrid Join a team that thrives on ambition and compassion. As a Compliance Senior Analyst, you’ll play a pivotal role in safeguarding our organization’s integrity while influencing strategies that keep us ahead of regulatory changes. This is your opportunity to lead initiatives that matter—ensuring compliance isn’t just a requirement but a competitive advantage. The Compliance Senior Analyst oversees complex licensing and regulatory compliance activities, ensuring the organization meets all legal and industry requirements for pharmaceutical distribution. This role involves managing high-level licensing projects, analyzing regulatory changes, and serving as a subject matter expert for licensing pro",
-      "date_posted": "2026-09-11",
+      "date_posted": "2026-09-14",
       "source": "Career site / JobPosting",
       "first_seen": "2026-09-12T14:17:41.243441+00:00",
       "is_new": false,
@@ -690,7 +714,7 @@
       "location": "Bloomfield, Connecticut, United States of America; St. Louis, Missouri, United States of America",
       "url": "https://jobs.thecignagroup.com/us/en/job/26009531/The-Cigna-Group-s-Technology-Development-Program-Cybersecurity-Track-Summer-Internship",
       "description": "The Cigna Group’s Technology Development Program (TECDP) Cyber-Security Summer Internship Get ready to embark on an exhilarating summer adventure with The Cigna Group’s Technology Development Program Summer Internship! We are on the lookout for passionate individuals who are eager to dive into the world of technology and make a real difference in healthcare. Over the course of 12 dynamic weeks, you’ll have the chance to work on impactful technology projects, receive comprehensive training, and benefit from invaluable mentorship that will supercharge your career. What You Will Do Meaningful Role Work: Work within Cyber Security across both technical and investigative teams. You’ll contribute to threat detection, incident response, vulnerability management, and risk mitigation efforts that protect sensitive health data and critical infrastructure. Whether analyzing suspicious activity in a Security Operations Center (SOC), conducting forensic investigations, or engineering secure systems, you’ll gain hands-on experience solving real-world challenges that drive innovation and resilience across The Cigna Group. Learning From Others: Engage with peers, mentors, and cross-functional part",
-      "date_posted": "2026-09-13",
+      "date_posted": "2026-09-14",
       "source": "Career site / JobPosting",
       "first_seen": "2026-09-10T15:10:28.877711+00:00",
       "is_new": false,
@@ -778,12 +802,41 @@
       "id": "e58e1ee86a218ca6a510"
     },
     {
+      "title": "The Cigna Group's Technology Development Program - Infrastructure & Cloud Engineering Track Summer Internship",
+      "company": "The Cigna Group / Evernorth",
+      "location": "Bloomfield, Connecticut, United States of America",
+      "url": "https://jobs.thecignagroup.com/us/en/job/26009529/The-Cigna-Group-s-Technology-Development-Program-Infrastructure-Cloud-Engineering-Track-Summer-Internship",
+      "description": "The job profile for this position is Co-Op/Intern (US Only), which is a Band 1 Professional Career Track Role. Excited to grow your career? We value our talented employees, and whenever possible strive to help one of our associates grow professionally before recruiting new talent to our open positions. If you think the open position you see is right for you, we encourage you to apply! Our people make all the difference in our success. The Cigna Group’s Technology Development Program (TECDP) Infrastructure & Cloud Engineering Summer Internship Get ready to embark on an exhilarating summer adventure with The Cigna Group’s Technology Development Program Summer Internship! We are on the lookout for passionate individuals who are eager to dive into the world of technology and make a real difference in healthcare. Over the course of 12 dynamic weeks, you’ll have the chance to work on impactful technology projects, receive comprehensive training, and benefit from invaluable mentorship that will supercharge your career. What You Will Do Meaningful Role Work: Work within the Infrastructure and Cloud Engineering track, contributing to the design, deployment, and support of secure, scalable t",
+      "date_posted": "2026-09-14",
+      "source": "Career site / JobPosting",
+      "first_seen": "2026-09-14T17:12:22.323806+00:00",
+      "is_new": true,
+      "matched_titles": [
+        "cloud engineer"
+      ],
+      "matched_keywords": [
+        "healthcare",
+        "cloud",
+        "AWS",
+        "Azure",
+        "Kubernetes"
+      ],
+      "role_family": "Cloud & Infrastructure",
+      "seniority": "Intern / New Grad",
+      "seniority_priority": 0,
+      "experience_years_min": null,
+      "match_score": 87,
+      "location_category": "US Remote",
+      "location_priority": 1,
+      "id": "e48b5cbb375f963a06b2"
+    },
+    {
       "title": "The Cigna Group's Technology Development Program - AI Engineering Track Summer Internship",
       "company": "The Cigna Group / Evernorth",
       "location": "Austin, Texas, United States of America",
       "url": "https://jobs.thecignagroup.com/us/en/job/26009535/The-Cigna-Group-s-Technology-Development-Program-AI-Engineering-Track-Summer-Internship",
-      "description": "The Cigna Group’s Technology Development Program (TECDP) Generative AI Summer Internship Get ready to embark on an exhilarating summer adventure with The Cigna Group’s Technology Development Program Summer Internship! We are on the lookout for passionate individuals who are eager to dive into the world of technology and make a real difference in healthcare. Over the course of 12 dynamic weeks, you’ll have the chance to work on impactful technology projects, receive comprehensive training, and benefit from invaluable mentorship that will supercharge your career. What You Will Do Meaningful Work: Contribute within the Artificial Intelligence track by building impactful technical solutions that drive innovation across The Cigna Group while strengthening your real-world skills. Learn by Collaborating: Learn by doing alongside peers, mentors, and cross-functional partners through hands-on projects, recruiting support, innovation efforts, community initiatives, and onboarding experiences. Structured Learning: Grow through a blend of core and track-specific curriculum, including technical training, leadership development, and business exposure to support your development as a well-rounded",
-      "date_posted": "2026-09-10",
+      "description": "The job profile for this position is Co-Op/Intern (US Only), which is a Band 1 Professional Career Track Role. Excited to grow your career? We value our talented employees, and whenever possible strive to help one of our associates grow professionally before recruiting new talent to our open positions. If you think the open position you see is right for you, we encourage you to apply! Our people make all the difference in our success. The Cigna Group’s Technology Development Program (TECDP) Generative AI Summer Internship Get ready to embark on an exhilarating summer adventure with The Cigna Group’s Technology Development Program Summer Internship! We are on the lookout for passionate individuals who are eager to dive into the world of technology and make a real difference in healthcare. Over the course of 12 dynamic weeks, you’ll have the chance to work on impactful technology projects, receive comprehensive training, and benefit from invaluable mentorship that will supercharge your career. What You Will Do Meaningful Work: Contribute within the Artificial Intelligence track by building impactful technical solutions that drive innovation across The Cigna Group while strengthening ",
+      "date_posted": "2026-09-14",
       "source": "Career site / JobPosting",
       "first_seen": "2026-09-10T15:10:28.877711+00:00",
       "is_new": false,
@@ -791,14 +844,13 @@
         "platform"
       ],
       "matched_keywords": [
-        "healthcare",
-        "patient"
+        "healthcare"
       ],
       "role_family": "Cloud & Infrastructure",
       "seniority": "Intern / New Grad",
       "seniority_priority": 0,
       "experience_years_min": null,
-      "match_score": 81,
+      "match_score": 79,
       "location_category": "US Remote",
       "location_priority": 1,
       "id": "755293daf9db4798cf14"
@@ -953,7 +1005,7 @@
       "location": "Remote, Nationwide, United States of America",
       "url": "https://careers.humana.com/us/en/job/R-428937/Associate-Brand-Strategy-and-Activation",
       "description": "Become a part of our caring community The Associate, Brand Strategy & Activation supports the development, activation, and adoption of Humana's brand strategy across the enterprise. This role translates customer, market, competitive, and business insights into actionable recommendations, helping ensure brand priorities are consistently reflected across campaigns, communications, customer experiences, and business initiatives. Working closely with cross-functional teams, the Associate supports strategic planning, brand governance, activation, and enablement efforts that strengthen brand awareness, differentiation, and customer engagement. As the Associate, Brand Strategy & Activation , you will help shape how Humana's insurance brands come to life across the enterprise. This role, reporting into the Associate Director of Brand Strategy, supports the management, activation, and adoption of brand strategy by translating customer, market, competitive, and business insights into meaningful brand experiences across marketing, communications, customer journeys, and business initiatives. You will partner with cross-functional stakeholders to ensure brand priorities are consistently applied",
-      "date_posted": "2026-09-10",
+      "date_posted": "2026-09-13",
       "source": "Career site / JobPosting",
       "first_seen": "2026-09-11T15:13:46.908976+00:00",
       "is_new": false,
@@ -1165,33 +1217,6 @@
       "id": "bd1cf66c0c3e4e1c2844"
     },
     {
-      "title": "Sr. Transportation Associate",
-      "company": "McKesson Corporation",
-      "location": "Edmonton, Alberta, Canada",
-      "url": "https://careers.mckesson.com/en/job/edmonton/sr-transportation-associate/733/99817868080",
-      "description": "McKesson is an impact-driven, Fortune 10 company that touches virtually every aspect of healthcare. We are known for delivering insights, products, and services that make quality care more accessible and affordable. Here, we focus on the health, happiness, and well-being of you and those we serve – we care. What you do at McKesson matters. We foster a culture where you can grow, make an impact, and are empowered to bring new ideas. Together, we thrive as we shape the future of health for patients, our communities, and our people. If you want to be part of tomorrow’s health today, we want to hear from you. About the Role McKesson Canada is seeking a Senior Transportation Associate to support the efficient movement of products across our national distribution network. In this role, you will coordinate transportation activities, manage carrier relationships, monitor shipment performance, and help ensure products are delivered safely, accurately, and on time. The ideal candidate is organized, analytical, and customer-focused, with experience in transportation, logistics, supply chain, or freight operations. You will work closely with cross-functional teams and transportation providers ",
-      "date_posted": "2026-8-27",
-      "source": "Career site / JobPosting",
-      "first_seen": "2026-08-28T21:35:37.300395+00:00",
-      "is_new": false,
-      "matched_titles": [
-        "systems"
-      ],
-      "matched_keywords": [
-        "healthcare",
-        "patient",
-        "NIST"
-      ],
-      "role_family": "Cloud & Infrastructure",
-      "seniority": "Associate / Level I",
-      "seniority_priority": 2,
-      "experience_years_min": null,
-      "match_score": 81,
-      "location_category": "US Remote",
-      "location_priority": 1,
-      "id": "bfd7c98acf7750e6cf9a"
-    },
-    {
       "title": "Associate Biomed Technician",
       "company": "McKesson Corporation",
       "location": "City of Industry, California, United States",
@@ -1357,37 +1382,68 @@
       "id": "5281f4933c7a04cdb8df"
     },
     {
-      "title": "Data Scientist",
-      "company": "McKesson Corporation",
-      "location": "Remote, United States",
-      "url": "https://careers.mckesson.com/en/job/texas/data-scientist/733/100561182880",
-      "description": "McKesson is an impact-driven, Fortune 10 company that touches virtually every aspect of healthcare. We are known for delivering insights, products, and services that make quality care more accessible and affordable. Here, we focus on the health, happiness, and well-being of you and those we serve – we care. What you do at McKesson matters. We foster a culture where you can grow, make an impact, and are empowered to bring new ideas. Together, we thrive as we shape the future of health for patients, our communities, and our people. If you want to be part of tomorrow’s health today, we want to hear from you. Ontada's Genospace team is transforming precision medicine through advanced analytics, machine learning, and AI-driven insights. We are seeking a Data Scientist to help turn complex healthcare, genomic, and clinical data into actionable insights that support research, clinical development, and patient care. In this role, you will apply machine learning, statistical modeling, and generative AI techniques to develop predictive models, build analytical solutions, and deliver data-driven recommendations. You'll collaborate closely with product managers, engineers, clinicians, and scie",
-      "date_posted": "2026-9-13",
+      "title": "Software Engineer",
+      "company": "UnitedHealth Group / Optum",
+      "location": "Cincinnati, Ohio, United States",
+      "url": "https://careers.unitedhealthgroup.com/en/job/cincinnati/software-engineer/34088/100623684320",
+      "description": "Optum is a global organization that delivers care, aided by technology to help millions of people live healthier lives. The work you do with our team will directly improve health outcomes by connecting people with the care, pharmacy benefits, data and resources they need to feel their best. Here, you will find a culture guided by inclusion, talented peers, comprehensive benefits and career development opportunities. Come make an impact on the communities we serve as you help us advance health optimization on a global scale. Join us to start Caring. Connecting. Growing together. To support this mission, OSIT has initiated a multi‑year modernization program aimed at updating and enhancing enterprise technology systems in accordance with modern design standards. You will enjoy the flexibility to telecommute* from anywhere within the U.S. as you take on some tough challenges. Primary Responsibilities: Designs, codes, tests and debugs applications and components that meet all technical specifications and business requirements per assigned work items Collaborates closely with stakeholders, product owners, and feature team on developing requirements Refines business requirements into tech",
+      "date_posted": "2026-9-14",
       "source": "Career site / JobPosting",
-      "first_seen": "2026-09-13T15:05:16.584125+00:00",
+      "first_seen": "2026-09-14T17:12:22.323806+00:00",
       "is_new": true,
       "matched_titles": [
         "cloud",
         "azure",
-        "platform"
+        "infrastructure",
+        "systems",
+        "kubernetes"
       ],
       "matched_keywords": [
-        "healthcare",
-        "clinical",
-        "patient",
-        "HIPAA",
-        "EMR",
         "cloud",
-        "Azure"
+        "Azure",
+        "Kubernetes",
+        "DevOps"
       ],
       "role_family": "Cloud & Infrastructure",
       "seniority": "Standard / Unspecified",
       "seniority_priority": 5,
-      "experience_years_min": null,
+      "experience_years_min": 1,
       "match_score": 100,
       "location_category": "US Remote",
       "location_priority": 1,
-      "id": "9085dd69a75210c82203"
+      "id": "94d2112cca2aa7e09d85"
+    },
+    {
+      "title": "Software Engineer",
+      "company": "UnitedHealth Group / Optum",
+      "location": "Cincinnati, Ohio, United States",
+      "url": "https://careers.unitedhealthgroup.com/job/cincinnati/software-engineer/34088/100623684320",
+      "description": "Optum is a global organization that delivers care, aided by technology to help millions of people live healthier lives. The work you do with our team will directly improve health outcomes by connecting people with the care, pharmacy benefits, data and resources they need to feel their best. Here, you will find a culture guided by inclusion, talented peers, comprehensive benefits and career development opportunities. Come make an impact on the communities we serve as you help us advance health optimization on a global scale. Join us to start Caring. Connecting. Growing together. To support this mission, OSIT has initiated a multi‑year modernization program aimed at updating and enhancing enterprise technology systems in accordance with modern design standards. You will enjoy the flexibility to telecommute* from anywhere within the U.S. as you take on some tough challenges. Primary Responsibilities: Designs, codes, tests and debugs applications and components that meet all technical specifications and business requirements per assigned work items Collaborates closely with stakeholders, product owners, and feature team on developing requirements Refines business requirements into tech",
+      "date_posted": "2026-9-14",
+      "source": "Career site / JobPosting",
+      "first_seen": "2026-09-14T17:12:22.323806+00:00",
+      "is_new": true,
+      "matched_titles": [
+        "cloud",
+        "azure",
+        "infrastructure",
+        "systems",
+        "kubernetes"
+      ],
+      "matched_keywords": [
+        "cloud",
+        "Azure",
+        "Kubernetes",
+        "DevOps"
+      ],
+      "role_family": "Cloud & Infrastructure",
+      "seniority": "Standard / Unspecified",
+      "seniority_priority": 5,
+      "experience_years_min": 1,
+      "match_score": 100,
+      "location_category": "US Remote",
+      "location_priority": 1,
+      "id": "91db7fb39602660c6f43"
     },
     {
       "title": "Privacy & Security Enterprise Engagement Officer",
@@ -1505,8 +1561,8 @@
       "company": "The Cigna Group / Evernorth",
       "location": "Bloomfield, Connecticut, United States of America; St. Louis, Missouri, United States of America",
       "url": "https://jobs.thecignagroup.com/us/en/job/26010468/Technology-Development-Program-TECDP-Cyber-Security-Track-Start-Date-July-12-2027",
-      "description": "Technology Development Program (TECDP) – Cybersecurity Track – Full-Time Associate Our Technology Development Program (TECDP) is a two‑year program designed to build technical expertise and a holistic understanding of how technology fuels transformation across the healthcare industry. Associates join a technical track aligned to their interests and career goals, gaining hands‑on experience, expanding their technical acumen, and collaborating across disciplines to solve real‑world challenges in healthcare. This role is designed to support your transition from academia to industry. The program is ideal for recent graduates and early‑career professionals who are curious, motivated, and eager to apply their academic knowledge in a real-world setting. The Cybersecurity Track is designed for individuals passionate about protecting data, investigating threats, and building resilient systems across healthcare. What you’ll do Meaningful Work: Contribute to Cyber Security across technical and investigative teams, supporting threat detection, incident response, vulnerability management, and risk mitigation to protect sensitive health data and critical infrastructure. Gain hands-on experience ",
-      "date_posted": "2026-09-10",
+      "description": "The job profile for this position is TECDP Senior Analyst, which is a Band 3 Senior Contributor Career Track Role. Excited to grow your career? We value our talented employees, and whenever possible strive to help one of our associates grow professionally before recruiting new talent to our open positions. If you think the open position you see is right for you, we encourage you to apply! Our people make all the difference in our success. Technology Development Program (TECDP) – Cybersecurity Track – Full-Time Associate Our Technology Development Program (TECDP) is a two‑year program designed to build technical expertise and a holistic understanding of how technology fuels transformation across the healthcare industry. Associates join a technical track aligned to their interests and career goals, gaining hands‑on experience, expanding their technical acumen, and collaborating across disciplines to solve real‑world challenges in healthcare. This role is designed to support your transition from academia to industry. The program is ideal for recent graduates and early‑career professionals who are curious, motivated, and eager to apply their academic knowledge in a real-world setting. ",
+      "date_posted": "2026-09-14",
       "source": "Career site / JobPosting",
       "first_seen": "2026-09-10T15:10:28.877711+00:00",
       "is_new": false,
@@ -1521,7 +1577,6 @@
       ],
       "matched_keywords": [
         "healthcare",
-        "patient",
         "cloud",
         "cybersecurity",
         "cyber security",
@@ -1544,6 +1599,39 @@
       "location_category": "US Remote",
       "location_priority": 1,
       "id": "f7da161133f4d6ca0231"
+    },
+    {
+      "title": "Software Support Engineer",
+      "company": "McKesson Corporation",
+      "location": "Remote, United States",
+      "url": "https://careers.mckesson.com/en/job/illinois/software-support-engineer/733/98808903872",
+      "description": "McKesson is an impact-driven, Fortune 10 company that touches virtually every aspect of healthcare. We are known for delivering insights, products, and services that make quality care more accessible and affordable. Here, we focus on the health, happiness, and well-being of you and those we serve – we care. What you do at McKesson matters. We foster a culture where you can grow, make an impact, and are empowered to bring new ideas. Together, we thrive as we shape the future of health for patients, our communities, and our people. If you want to be part of tomorrow’s health today, we want to hear from you. McKesson’s Provider Solutions is experiencing significant growth, focus and investment. To support our aggressive business goals, our business has embarked on a major technology investment to enable and provide an unmatched, personalized and integrated digital experience for patients, providers and manufacturers. This position supports the Provider Solutions activities in Ophthalmology, and it supports two applications: RetinaPurchasing and RetinaInventory. If you are a motivated and skilled software engineer seeking an opportunity to contribute to the success of McKesson’s ecomme",
+      "date_posted": "2026-8-5",
+      "source": "Career site / JobPosting",
+      "first_seen": "2026-08-12T12:08:57.494668+00:00",
+      "is_new": false,
+      "matched_titles": [
+        "cybersecurity"
+      ],
+      "matched_keywords": [
+        "healthcare",
+        "patient",
+        "EMR",
+        "cloud",
+        "AWS",
+        "Azure",
+        "DevOps",
+        "cybersecurity",
+        "NIST"
+      ],
+      "role_family": "Security Operations & Engineering",
+      "seniority": "Standard / Unspecified",
+      "seniority_priority": 5,
+      "experience_years_min": 2,
+      "match_score": 96,
+      "location_category": "US Remote",
+      "location_priority": 1,
+      "id": "4ec968878cb4f1c60633"
     },
     {
       "title": "Information Security Advisor",
@@ -1761,32 +1849,6 @@
       "id": "a9fbe02c251ef3639f4f"
     },
     {
-      "title": "Concurrent Review Care Coordinator - EviCore - Work At Home",
-      "company": "The Cigna Group / Evernorth",
-      "location": "Remote, United States of America",
-      "url": "https://jobs.thecignagroup.com/us/en/job/26006976/Concurrent-Review-Care-Coordinator-EviCore-Work-At-Home",
-      "description": "The job profile for this position is UM Clinical Reviewer Senior Analyst, which is a Band 3 Senior Contributor Career Track Role. Excited to grow your career? We value our talented employees, and whenever possible strive to help one of our associates grow professionally before recruiting new talent to our open positions. If you think the open position you see is right for you, we encourage you to apply! Our people make all the difference in our success. Concurrent Review Care Coordinator Job Summary The Concurrent Review Care Coordinator is responsible for concurrent review, care coordination, and utilization management activities across post-acute care settings. The role applies clinical judgment, evidence-based guidelines, and organizational policies to support quality outcomes, cost-effective care, and member experience. Key Responsibilities Implement, evaluate, and coordinate individualized plans of care for assigned members. Conduct utilization and concurrent reviews in alignment with medical necessity criteria and regulatory requirements. Collaborate with providers, Medical Directors, and interdisciplinary teams to support transitions of care. Identify gaps or deviations in c",
-      "date_posted": "2026-09-13",
-      "source": "Career site / JobPosting",
-      "first_seen": "2026-09-11T15:13:46.908976+00:00",
-      "is_new": false,
-      "matched_titles": [
-        "platform",
-        "systems"
-      ],
-      "matched_keywords": [
-        "clinical"
-      ],
-      "role_family": "Cloud & Infrastructure",
-      "seniority": "Standard / Unspecified",
-      "seniority_priority": 5,
-      "experience_years_min": 2,
-      "match_score": 89,
-      "location_category": "US Remote",
-      "location_priority": 1,
-      "id": "2bf4a15606fc1e9cd561"
-    },
-    {
       "title": "Cloud Engineer (AWS & Multi-Cloud) - Cigna Healthcare",
       "company": "The Cigna Group / Evernorth",
       "location": "Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
@@ -1998,34 +2060,6 @@
       "id": "10e0a5ce28f824e5ef3f"
     },
     {
-      "title": "Commercial Leader – Acute Care Germany (Monitoring Systems & Anesthesia) (m/w/d)",
-      "company": "GE HealthCare",
-      "location": "Freiburg, Baden-Württemberg, Deutschland; Remote, Bayern, Deutschland",
-      "url": "https://careers.gehealthcare.com/de/de/job/GEVGHLGLOBALR4044606EXTERNALDEDE/Commercial-Leader-Acute-Care-Germany-Monitoring-Systems-Anesthesia-m-w-d",
-      "description": "Jobbeschreibung Zusammenfassung Gestalten Sie die Zukunft der Patientenversorgung bei GE HealthCare Als Commercial Leader – Acute Care, Monitoring Systems & Anesthesia Germany übernehmen Sie die kommerzielle Gesamtverantwortung für eines der strategisch wichtigsten Wachstumssegmente von GE HealthCare in Deutschland. Sie treiben nachhaltiges Wachstum, stärken unsere Marktposition und entwickeln das Geschäft erfolgreich weiter – in einem dynamischen und zunehmend digitalisierten Gesundheitsmarkt. In dieser Schlüsselrolle verbinden Sie strategische Markt- und Geschäftsentwicklung mit operativer Exzellenz. Sie führen ein spezialisiertes Vertriebsteam, entwickeln leistungsfähige Go-to-Market-Strategien und bauen sowohl direkte als auch indirekte Vertriebskanäle weiter aus. Gemeinsam mit Kunden, Vertriebspartnern sowie internen und externen Stakeholdern schaffen Sie nachhaltigen Mehrwert für Krankenhäuser, medizinisches Fachpersonal und Patientinnen und Patienten. Diese Position ist homebased (flexibel innerhalb Deutschlands) mit Reisetätigkeit im gesamten Bundesgebiet. Bei GE HealthCare machen unsere Geräte, unsere Software, unsere Lösungen, unser Service und unsere Mitarbeitenden für m",
-      "date_posted": "2026-09-13",
-      "source": "Career site / JobPosting",
-      "first_seen": "2026-08-11T12:07:54.056650+00:00",
-      "is_new": false,
-      "matched_titles": [
-        "platform",
-        "systems"
-      ],
-      "matched_keywords": [
-        "healthcare",
-        "clinical",
-        "patient"
-      ],
-      "role_family": "Cloud & Infrastructure",
-      "seniority": "Standard / Unspecified",
-      "seniority_priority": 5,
-      "experience_years_min": null,
-      "match_score": 85,
-      "location_category": "US Remote",
-      "location_priority": 1,
-      "id": "91c3a0c0ee652ac56435"
-    },
-    {
       "title": "CRM Coordinator",
       "company": "Mayo Clinic",
       "location": "Rochester, MN, US; Remote",
@@ -2085,7 +2119,7 @@
       "location": "Remote, Nationwide, United States of America",
       "url": "https://careers.humana.com/us/en/job/R-430016/Clinical-Programs-Pharm-Technician",
       "description": "Become a part of our caring community As a remote Clinical Programs Pharmacy Technician Representative, you will support Pharmacists and patients and report to a Clinical Programs supervisor. You will do this by accomplishing programs developed to improve overall health outcomes, with a focus on prescription drugs and medication therapy. Additionally, you will help bring the strategy on comprehensive medication reviews. You will perform varied activities and moderately complex administrative/operational/customer support assignments. Perform computations. Typically work on semi-routine assignments. As a Clinical Programs Pharmacy Technician Representative, you will: Make outbound and take inbound calls communicating with Humana members. Collect medication history information. Prepare members for a comprehensive medication review. Help guide prescription drug optimization in cases where patients are taking multiple medications. Help create health awareness with patients through Rx Education and targeted quarterly campaigns. Assist Pharmacists by placing and retrieving calls to confirm patients are taking drugs and provide counseling. Use your skills to make an impact Earn a $1,500 hi",
-      "date_posted": "2026-09-11",
+      "date_posted": "2026-09-14",
       "source": "Career site / JobPosting",
       "first_seen": "2026-09-12T14:17:41.243441+00:00",
       "is_new": false,
@@ -2222,36 +2256,6 @@
       "id": "7366d80b307aca2e8c42"
     },
     {
-      "title": "The Cigna Group's Technology Development Program - Infrastructure & Cloud Engineering Track",
-      "company": "The Cigna Group / Evernorth",
-      "location": "Bloomfield, Connecticut, United States of America",
-      "url": "https://jobs.thecignagroup.com/us/en/job/26009529/The-Cigna-Group-s-Technology-Development-Program-Infrastructure-Cloud-Engineering-Track-Summer-Internship",
-      "description": "The Cigna Group’s Technology Development Program (TECDP) Infrastructure & Cloud Engineering Summer Internship Get ready to embark on an exhilarating summer adventure with The Cigna Group’s Technology Development Program Summer Internship! We are on the lookout for passionate individuals who are eager to dive into the world of technology and make a real difference in healthcare. Over the course of 12 dynamic weeks, you’ll have the chance to work on impactful technology projects, receive comprehensive training, and benefit from invaluable mentorship that will supercharge your career. What You Will Do Meaningful Role Work: Work within the Infrastructure and Cloud Engineering track, contributing to the design, deployment, and support of secure, scalable technology environments. You’ll gain hands-on experience with cloud platforms, automation tools, and enterprise infrastructure, helping power the systems that enable healthcare innovation across The Cigna Group. Learning From Others: Engage with peers, mentors, and cross-functional partners through community-building activities and collaborative initiatives. Whether you’re supporting recruiting efforts, driving innovation, promoting com",
-      "date_posted": "2026-09-10",
-      "source": "Career site / JobPosting",
-      "first_seen": "2026-09-11T15:13:46.908976+00:00",
-      "is_new": false,
-      "matched_titles": [
-        "cloud engineer"
-      ],
-      "matched_keywords": [
-        "healthcare",
-        "patient",
-        "cloud",
-        "AWS",
-        "Azure",
-        "Kubernetes"
-      ],
-      "role_family": "Cloud & Infrastructure",
-      "seniority": "Standard / Unspecified",
-      "seniority_priority": 5,
-      "experience_years_min": null,
-      "match_score": 84,
-      "location_category": "US Remote",
-      "location_priority": 1,
-      "id": "476ba18c97a818a78d19"
-    },
-    {
       "title": "Service Repair Technician, Flexible Robotics",
       "company": "Johnson & Johnson",
       "location": "Santa Clara, California, United States of America",
@@ -2277,35 +2281,6 @@
       "location_category": "US Remote",
       "location_priority": 1,
       "id": "927523026c4b829e331f"
-    },
-    {
-      "title": "BCBA-D/PsyD Autism Specialist Psychologist-Clinical Reviewer (Florida Licensed)",
-      "company": "Elevance Health",
-      "location": "Tampa, FL, US; Lake Mary, FL, US; Miami, FL, US",
-      "url": "https://careers.elevancehealth.com/bcba-d-psyd-autism-specialist-psychologist-clinical-reviewer-florida-licensed/job/E10DE3BCAE940A7D9C7A1D37490774EB",
-      "description": "BCBA-D/PsyD Autism Specialist Psychologist Location: Tampa, FL, Lake Mary, FL and Miami, FL Hybrid 1 : This role requires associates to be in-office 1 - 2 days per week, fostering collaboration and connectivity, while providing flexibility to support productivity and work-life balance. This approach combines structured office engagement with the autonomy of virtual work, promoting a dynamic and adaptable workplace. Alternate locations may be considered if candidates reside within a commuting distance from an office. Please note that per our policy on hybrid/virtual work, candidates not within a reasonable commuting distance from the posting location(s) will not be considered for employment, unless an accommodation is granted as required by law. A proud member of the Elevance Health family of companies, Carelon Behavioral Health uses our powerful combination of experience, expertise, dedication and compassion to see what's possible and what's better. Born out of one of the largest healthcare systems organization in the United States, our rich history gives us a unique and valuable perspective on how to solve the most pressing healthcare challenges. The BCBA-D/PsyD Autism Specialist ",
-      "date_posted": "2026-08-31T20:42:07.911093+00:00",
-      "source": "Career site / JobPosting",
-      "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": false,
-      "matched_titles": [
-        "systems"
-      ],
-      "matched_keywords": [
-        "healthcare",
-        "health care",
-        "clinical",
-        "patient",
-        "NIST"
-      ],
-      "role_family": "Cloud & Infrastructure",
-      "seniority": "Standard / Unspecified",
-      "seniority_priority": 5,
-      "experience_years_min": null,
-      "match_score": 82,
-      "location_category": "US Remote",
-      "location_priority": 1,
-      "id": "15e72aff24c94a3ae455"
     },
     {
       "title": "Crisis & Referral Specialist",
@@ -2399,7 +2374,7 @@
       "company": "Humana",
       "location": "Remote, Nationwide, United States of America",
       "url": "https://careers.humana.com/us/en/job/R-423867/Home-Health-Facility-Licensure-Regulatory-Compliance-Analyst",
-      "description": "Become a part of our caring community As a Home Health Facility Licensure & Regulatory Compliance Analyst, you will report directly to the Manager, Home Health Licensure & Regulatory Compliance. You will be responsible for overseeing facility licensing and certification processes, ensure ongoing regulatory compliance, and support our agency's commitment to delivering compliant, high-quality home health services. Key Responsibilities: Ensure compliance with federal, state, and local healthcare regulations, including CMS guidelines. Prepare and submit required facility license applications and renewals to the State Department of Health, Federal, and local agencies. Oversee and manage Medicaid and Medicare enrollment, renewal, and compliance activities. Track expiration dates and coordinate renewal processes to prevent lapses in facility licensure. Development and maintenance of working relationships with representatives of various internal departments and external regulatory agencies. Conduct research on local, state, and federal statutes and regulations to support organizational initiatives, providing clear and concise written reports of findings. Conduct due diligence and analysis ",
+      "description": "We appreciate that you are interested in pursuing your next career opportunity. As you complete the application below, here are a few tips you should consider: Visit Go/Develop for information on professional development, resume guidance, and interview best practices. ​ Watch a quick video to discover how Humana’s Career Framework can help you identify meaningful growth opportunities. Visit Go/AskARecruiter for expert advice on your job search from our Talent Acquisition Team. Tailor your resume to highlight achievements and skills that align with the role you're applying for. Update your Workday profile to reflect your key accomplishments and experiences. Please read the job description carefully and ensure you meet all required qualifications. Consider having a conversation with your current leader about your career goals and interest in this opportunity. Their support can be valuable as you explore your next step. Job Profile Home Health Compliance Professional 2 Job Level Professional 2 Become a part of our caring community As a Home Health Facility Licensure & Regulatory Compliance Analyst, you will report directly to the Manager, Home Health Licensure & Regulatory Compliance.",
       "date_posted": "2026-09-13",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-25T11:55:07.772858+00:00",
@@ -2536,6 +2511,33 @@
       "id": "4b2dc84a5d79ee895a42"
     },
     {
+      "title": "Hub Patient Services Specialist (12-Month Contract)",
+      "company": "McKesson Corporation",
+      "location": "Mississauga, Ontario, Canada",
+      "url": "https://careers.mckesson.com/en/job/mississauga/hub-patient-services-specialist-12-month-contract/733/100619302128",
+      "description": "McKesson is an impact-driven, Fortune 10 company that touches virtually every aspect of healthcare. We are known for delivering insights, products, and services that make quality care more accessible and affordable. Here, we focus on the health, happiness, and well-being of you and those we serve – we care. What you do at McKesson matters. We foster a culture where you can grow, make an impact, and are empowered to bring new ideas. Together, we thrive as we shape the future of health for patients, our communities, and our people. If you want to be part of tomorrow’s health today, we want to hear from you. About the Role We are seeking a Hub Patient Services Specialist to join our Patient Support Program (PSP) team on a 12-month contract. In this fully remote role, you will provide administrative and operational support to ensure patients, healthcare providers, and partners receive timely and accurate service. This is an entry-level healthcare support role where you will contribute to patient program delivery by supporting enrollment, reimbursement processes, and customer service activities , working within established procedures and guidelines. What You’ll Do: Support patient enrol",
+      "date_posted": "2026-9-14",
+      "source": "Career site / JobPosting",
+      "first_seen": "2026-09-14T17:12:22.323806+00:00",
+      "is_new": true,
+      "matched_titles": [
+        "systems"
+      ],
+      "matched_keywords": [
+        "healthcare",
+        "patient",
+        "NIST"
+      ],
+      "role_family": "Cloud & Infrastructure",
+      "seniority": "Standard / Unspecified",
+      "seniority_priority": 5,
+      "experience_years_min": null,
+      "match_score": 78,
+      "location_category": "US Remote",
+      "location_priority": 1,
+      "id": "507698adf1d7fabd32aa"
+    },
+    {
       "title": "California Compliance Officer",
       "company": "Centene Corporation",
       "location": "Remote, United States",
@@ -2595,7 +2597,7 @@
       "location": "Remote; Remote, British Columbia, Kanada; Remote, Alberta, Kanada",
       "url": "https://careers.gehealthcare.com/de/de/job/GEVGHLGLOBALR4042352EXTERNALDEDE/Clinical-Applications-Specialist-Monitoring-Systems",
       "description": "Jobbeschreibung Zusammenfassung As a Clinical Application Specialist – Patient Monitoring, you will support the adoption and optimization of monitoring solutions across acute care environments. You will deliver clinical training and workflow support to end-users, helping improve patient care and clinical efficiency. You will partner with customers and internal teams to provide a consistent, high-quality experience across the full customer lifecycle—from pre-sale support to implementation and post-go-live optimization. This is a national role supporting customers across Canada. GE HealthCare is a leading global medical technology and digital solutions innovator. Our mission is to improve lives in the moments that matter. Unlock your ambition, turn ideas into world-changing realities, and join an organization where every voice makes a difference, and every difference builds a healthier world. Stellenbeschreibung Key Responsibilities Deliver clinical training and support during implementations, go-lives, and optimization engagements Partner with customers to improve workflows and drive best practices Collaborate with internal teams to ensure a consistent, high-quality customer experie",
-      "date_posted": "2026-09-13",
+      "date_posted": "2026-09-14",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
       "is_new": false,
@@ -2622,7 +2624,7 @@
       "location": "Remote; Remote, Colombie-Britannique, Canada; Remote, Alberta, Canada",
       "url": "https://careers.gehealthcare.com/fr/fr/job/GEVGHLGLOBALR4042352EXTERNALFRFR/Clinical-Applications-Specialist-Monitoring-Systems",
       "description": "Job Description Summary As a Clinical Application Specialist – Patient Monitoring, you will support the adoption and optimization of monitoring solutions across acute care environments. You will deliver clinical training and workflow support to end-users, helping improve patient care and clinical efficiency. You will partner with customers and internal teams to provide a consistent, high-quality experience across the full customer lifecycle—from pre-sale support to implementation and post-go-live optimization. This is a national role supporting customers across Canada. GE HealthCare is a leading global medical technology and digital solutions innovator. Our mission is to improve lives in the moments that matter. Unlock your ambition, turn ideas into world-changing realities, and join an organization where every voice makes a difference, and every difference builds a healthier world. Job Description Key Responsibilities Deliver clinical training and support during implementations, go-lives, and optimization engagements Partner with customers to improve workflows and drive best practices Collaborate with internal teams to ensure a consistent, high-quality customer experience Maintain",
-      "date_posted": "2026-09-13",
+      "date_posted": "2026-09-14",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-09T02:44:11.720194+00:00",
       "is_new": false,
@@ -3065,12 +3067,38 @@
       "id": "54a87c64d37babae81af"
     },
     {
+      "title": "Legal Compliance Advisor, Individual Dental Operations - Cigna Healthcare - Remote",
+      "company": "The Cigna Group / Evernorth",
+      "location": "Massachusetts, United States of America; Florida, United States of America; Missouri, United States of America; Pennsylvania, United States of America; Tennessee, United States of America; Texas, United States of America",
+      "url": "https://jobs.thecignagroup.com/us/en/job/26011332/Legal-Compliance-Advisor-Individual-Dental-Operations-Cigna-Healthcare-Remote",
+      "description": "Position Summary The Legal Compliance Advisor is responsible for supporting regulatory compliance, governance, and implementation activities for the Individual Dental business. This role serves as a key operational partner to ensure federal and state regulatory requirements are accurately assessed, documented, communicated, implemented, and monitored across the Individual Dental organization. The Legal Compliance Advisor partners closely with Product, Operations, Government Affairs, Legal, Enterprise Compliance, Portfolio, Quality, and vendor partners to support regulatory readiness, ongoing compliance execution, risk mitigation, and operational governance. This role is accountable for coordinating regulatory implementation activities, maintaining compliance documentation and evidence, monitoring regulatory obligations, supporting audits and examinations, and identifying opportunities to strengthen compliance processes and controls. The position plays a critical role in ensuring Individual Dental maintains a sustainable and scalable regulatory compliance framework that supports business objectives while meeting regulatory and contractual obligations. Core Accountabilities & Respons",
+      "date_posted": "2026-09-11",
+      "source": "Career site / JobPosting",
+      "first_seen": "2026-09-12T14:17:41.243441+00:00",
+      "is_new": false,
+      "matched_titles": [
+        "systems"
+      ],
+      "matched_keywords": [
+        "healthcare",
+        "health care"
+      ],
+      "role_family": "Cloud & Infrastructure",
+      "seniority": "Standard / Unspecified",
+      "seniority_priority": 5,
+      "experience_years_min": 5,
+      "match_score": 76,
+      "location_category": "US Remote",
+      "location_priority": 1,
+      "id": "2612b12413c27b6d9429"
+    },
+    {
       "title": "Technical Customer Support Analyst - Cigna Healthcare",
       "company": "The Cigna Group / Evernorth",
       "location": "Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur, Malaysia",
       "url": "https://jobs.thecignagroup.com/us/en/job/26008506/Technical-Customer-Support-Analyst-Cigna-Healthcare",
       "description": "The job profile for this position is Technical Customer Support Analyst, which is a Band 2 Senior Contributor Career Track Role. Excited to grow your career? We value our talented employees, and whenever possible strive to help one of our associates grow professionally before recruiting new talent to our open positions. If you think the open position you see is right for you, we encourage you to apply! Our people make all the difference in our success. Job Description Cigna, a leading global health insurer, is going through an exciting period and we are looking to recruit an experienced IT Service Analyst in our Kuala Lumpur office. This successful candidate will be a member of the Technology, Engineering & Operations group. Reporting to the IT Service Desk Team leader, the successful candidate will provide operational support, and access management administration within the IT Service team. The successful candidate will be a high-performing individual who is methodical, inquisitive, and has a passion for technology and service. The role will involve shift-based work: once every four weeks you will work from 5 AM to 2 PM (home working), and the next 3 weeks you work from 8 AM to 5 ",
-      "date_posted": "2026-09-11",
+      "date_posted": "2026-09-14",
       "source": "Career site / JobPosting",
       "first_seen": "2026-09-03T15:14:28.984882+00:00",
       "is_new": false,
@@ -3196,7 +3224,7 @@
       "location": "Remote, United States of America; Bloomfield, Connecticut, United States of America; Chattanooga, Tennessee, United States of America; Denver, Colorado, United States of America; Scottsdale, Arizona, United States of America; St. Louis, Missouri, United States of America",
       "url": "https://jobs.thecignagroup.com/us/en/job/26006449/Data-Measurement-Reporting-Advisor-Evernorth-Remote",
       "description": "The job profile for this position is Data Measurement & Reporting Advisor, which is a Band 4 Senior Contributor Career Track Role. Excited to grow your career? We value our talented employees, and whenever possible strive to help one of our associates grow professionally before recruiting new talent to our open positions. If you think the open position you see is right for you, we encourage you to apply! Our people make all the difference in our success. Candidates who reside within 50 miles of the following locations may be asked to work in person three days per week: Bloomfield, CT, Chattanooga, TN, Denver, CO, St Louis, MO, or Scottsdale, AZ. We are seeking an Advisor to join the Integration & Automation (I&A) team within Data Measurement & Reporting. This role is critical to delivering technical reporting solutions, user interfaces, data analysis, and automation workflows that support provider data quality, regulatory compliance, and operational readiness across several high‑visibility enterprise initiatives. This role requires equal parts technical skill and knowledge with the ability to fully understand the business processes it supports. The candidate will lead and manage me",
-      "date_posted": "2026-09-13",
+      "date_posted": "2026-09-14",
       "source": "Career site / JobPosting",
       "first_seen": "2026-09-03T15:14:28.984882+00:00",
       "is_new": false,
@@ -3212,68 +3240,6 @@
       "location_category": "US Remote",
       "location_priority": 1,
       "id": "7ce7da220d783ab41244"
-    },
-    {
-      "title": "Senior Data Engineer (DBA)",
-      "company": "UnitedHealth Group / Optum",
-      "location": "Schaumburg, Illinois, United States",
-      "url": "https://careers.unitedhealthgroup.com/en/job/schaumburg/senior-data-engineer-dba/34088/100505864512",
-      "description": "Optum is a global organization that delivers care, aided by technology to help millions of people live healthier lives. The work you do with our team will directly improve health outcomes by connecting people with the care, pharmacy benefits, and data they need to feel their best. Here, you will find a culture guided by diversity and inclusion, talented peers, comprehensive benefits, and career development opportunities. Come make an impact on the communities we serve as you help us advance health equity on a global scale. Join us to start Caring. Connecting. Growing together. As a Senior Data Engineer / Senior Database Administrator within Optum Technology supporting OptumCare products-including Curo, Order Utility, and Optum Pro-you will design, implement, and maintain resilient Postgres and MySQL database solutions in an Azure cloud environment. You will solve complex data architectural challenges, drive database performance tuning, implement task automation, manage Snowflake administration and security, and collaborate with cross-functional engineering teams to support high-impact clinical and care delivery applications. If you reside in Schaumburg, Illinois, you will enjoy the",
-      "date_posted": "2026-9-11",
-      "source": "Career site / JobPosting",
-      "first_seen": "2026-09-13T15:05:16.584125+00:00",
-      "is_new": true,
-      "matched_titles": [
-        "cloud",
-        "azure",
-        "systems"
-      ],
-      "matched_keywords": [
-        "healthcare",
-        "clinical",
-        "cloud",
-        "Azure",
-        "NIST"
-      ],
-      "role_family": "Cloud & Infrastructure",
-      "seniority": "Senior IC",
-      "seniority_priority": 6,
-      "experience_years_min": 2,
-      "match_score": 100,
-      "location_category": "US Remote",
-      "location_priority": 1,
-      "id": "f6d2531f06a29eee3a70"
-    },
-    {
-      "title": "Senior Data Engineer (DBA)",
-      "company": "UnitedHealth Group / Optum",
-      "location": "Schaumburg, Illinois, United States",
-      "url": "https://careers.unitedhealthgroup.com/job/schaumburg/senior-data-engineer-dba/34088/100505864512",
-      "description": "Optum is a global organization that delivers care, aided by technology to help millions of people live healthier lives. The work you do with our team will directly improve health outcomes by connecting people with the care, pharmacy benefits, and data they need to feel their best. Here, you will find a culture guided by diversity and inclusion, talented peers, comprehensive benefits, and career development opportunities. Come make an impact on the communities we serve as you help us advance health equity on a global scale. Join us to start Caring. Connecting. Growing together. As a Senior Data Engineer / Senior Database Administrator within Optum Technology supporting OptumCare products-including Curo, Order Utility, and Optum Pro-you will design, implement, and maintain resilient Postgres and MySQL database solutions in an Azure cloud environment. You will solve complex data architectural challenges, drive database performance tuning, implement task automation, manage Snowflake administration and security, and collaborate with cross-functional engineering teams to support high-impact clinical and care delivery applications. If you reside in Schaumburg, Illinois, you will enjoy the",
-      "date_posted": "2026-9-11",
-      "source": "Career site / JobPosting",
-      "first_seen": "2026-09-13T15:05:16.584125+00:00",
-      "is_new": true,
-      "matched_titles": [
-        "cloud",
-        "azure",
-        "systems"
-      ],
-      "matched_keywords": [
-        "healthcare",
-        "clinical",
-        "cloud",
-        "Azure",
-        "NIST"
-      ],
-      "role_family": "Cloud & Infrastructure",
-      "seniority": "Senior IC",
-      "seniority_priority": 6,
-      "experience_years_min": 2,
-      "match_score": 100,
-      "location_category": "US Remote",
-      "location_priority": 1,
-      "id": "cb9cd862cca212616a71"
     },
     {
       "title": "Senior Data Engineer - Digital Pathology (Hybrid)",
@@ -3373,36 +3339,34 @@
       "id": "5b4badc5a992378f216c"
     },
     {
-      "title": "Senior Digital Forensics and Incident Response Engineer",
-      "company": "Humana",
-      "location": "Louisville, Kentucky, United States of America; Atlanta, Georgia, United States of America; Boston, Massachusetts, United States of America; Charlotte, North Carolina, United States of America; Chicago, Illinois, United States of America; Dallas, Texas, United States of America; Miami, Florida, United States of America; Nashville, Tennessee, United States of America; Remote, New York, United States of America; Tampa, Florida, United States of America; Washington, District of Columbia, United States of America",
-      "url": "https://careers.humana.com/us/en/job/R-427539/Senior-Digital-Forensics-and-Incident-Response-Engineer",
-      "description": "Become a part of our caring community Selected candidate must reside within 60 mins commute to one of the following cities or be willing to relocate to :Louisville KY, NYC Metro, Dallas Metro, Charlotte NC Metro, South Florida(Tampa/Miami/Ft Lauderdale) , Washington DC metro, Chicago, Boston, Atlanta, Nashville) The Senior Digital Forensics and Incident Response Engineer provides forensics technical expertise and investigations support to EIP CyberSecurity defense stakeholders to assist with incident response, remediation, and root-cause identification. The Senior Digital Forensics and Incident Response Engineer work assignments involve moderately complex to complex issues where the analysis of situations or data requires an in-depth evaluation of variable factors. The Senior Digital Forensics and Incident Response Engineer serves as a senior technical investigator responsible for leading and advancing Humana's response to identity theft and account takeover, and associated fraud activities. This role actively investigates identity-based threats, conducts forensic analysis to determine attack methods and root causes, and coordinates response activities to mitigate risk and protect ",
-      "date_posted": "2026-09-13",
+      "title": "Senior Data Engineer",
+      "company": "Centene Corporation",
+      "location": "Remote, United States",
+      "url": "https://jobs.centene.com/us/en/jobs/1655647/senior-data-engineer/",
+      "description": "Position Purpose: Develops and operationalizes data pipelines to make data available for consumption (reports and advanced analytics), including data ingestion, data transformation, data validation / quality, data pipeline optimization, and orchestration. Engages with the DevSecOps Engineer during continuous integration and continuous deployment. Development and support an existing ETL processes in a cloud environment (AWS) consisting of Snowflake and Teradata. Helps guide the design and implementation of complex data management procedures within around data staging, data ingestion, data preparation, data provisioning, and data destruction (scripts, programs, automation, assisted by automation, etc.) Provides guidance to data engineers in the design, development, implementation, testing, documenting, and operating of large-scale, high-volume, high-performance data structures for business intelligence analytics Designs, develops, and maintains real-time processing applications and real-time data pipelines with Snowflake and Terradata. Ensure quality of technical solutions as data moves across Centene’s AWS cloud environments Provides senior level knowledge and insight into the chang",
+      "date_posted": "2026-09-14",
       "source": "Career site / JobPosting",
-      "first_seen": "2026-09-03T15:14:28.984882+00:00",
-      "is_new": false,
+      "first_seen": "2026-09-14T17:12:22.323806+00:00",
+      "is_new": true,
       "matched_titles": [
-        "incident response engineer"
+        "cloud",
+        "aws",
+        "infrastructure"
       ],
       "matched_keywords": [
         "healthcare",
-        "HIPAA",
-        "PHI",
         "cloud",
-        "cybersecurity",
-        "cyber security",
-        "incident response",
-        "digital forensics"
+        "AWS",
+        "DevSecOps"
       ],
-      "role_family": "Incident Response & DFIR",
+      "role_family": "Cloud & Infrastructure",
       "seniority": "Senior IC",
       "seniority_priority": 6,
-      "experience_years_min": 3,
-      "match_score": 95,
+      "experience_years_min": null,
+      "match_score": 93,
       "location_category": "US Remote",
       "location_priority": 1,
-      "id": "5da17c3fd26fc39f3a78"
+      "id": "2a02b6e58cef237ebc3d"
     },
     {
       "title": "Sr. DC/Warehouse Automation Business Systems Analyst",
@@ -3462,6 +3426,33 @@
       "location_category": "US Remote",
       "location_priority": 1,
       "id": "decf57447e7314f36901"
+    },
+    {
+      "title": "Senior Product Analyst - Learning Technologies & AI Solutions",
+      "company": "CVS Health / Aetna",
+      "location": "Galway, Galway, Ireland",
+      "url": "https://jobs.cvshealth.com/us/en/job/R0985550/Senior-Product-Analyst-Learning-Technologies-AI-Solutions",
+      "description": "We’re building a world of health around every individual — shaping a more connected, convenient and compassionate health experience. At CVS Health®, you’ll be surrounded by passionate colleagues who care deeply, innovate with purpose, hold ourselves accountable and prioritize safety and quality in everything we do. Join us and be part of something bigger – helping to simplify health care one person, one family and one community at a time. Position Summary The Senior Product Analyst - Learning Technologies & AI Solutions will support the strategy, implementation, optimization, and continuous evolution of enterprise learning technologies and AI-powered learning solutions. This role serves as the bridge between business stakeholders, product teams, engineering, and external partners to deliver scalable learning experiences that drive measurable business outcomes. The ideal candidate brings strong experience with Learning Management Systems (LMS), learning technology ecosystems, product analysis, requirements management, and roadmap planning. Experience with Generative AI, AI agents, copilots, and intelligent learning experiences is highly preferred. This role combines product strategy",
+      "date_posted": "2026-08-22",
+      "source": "Career site / JobPosting",
+      "first_seen": "2026-08-22T11:48:09.265270+00:00",
+      "is_new": false,
+      "matched_titles": [
+        "platform",
+        "systems"
+      ],
+      "matched_keywords": [
+        "healthcare",
+        "health care"
+      ],
+      "role_family": "Cloud & Infrastructure",
+      "seniority": "Senior IC",
+      "seniority_priority": 6,
+      "experience_years_min": 2,
+      "match_score": 90,
+      "location_category": "US Remote",
+      "location_priority": 1,
+      "id": "c8bb405570cd8d99d1a4"
     },
     {
       "title": "Senior IAM Engineer",
@@ -3538,7 +3529,7 @@
       "location": "Budapest, Budapest, Ungarn; Krakow, Kleinpolen, Polen",
       "url": "https://careers.gehealthcare.com/de/de/job/GEVGHLGLOBALR4045969EXTERNALDEDE/Senior-Infrastructure-Engineer-Remote-Access",
       "description": "Jobbeschreibung Zusammenfassung Verantwortlich für Projekte im technischen Bereich als technischer Experte oder interner Berater. Arbeitet an Projekten für Komponenten der Domain. Stellenbeschreibung Key Responsibilities Supporting the design, implementation, and continuous improvement of GE HealthCare’s global remote access environment, Helping deploy and maintain secure remote access technologies, including VPN and SASE platforms, Collaborating with senior architects and engineering teams on secure connectivity solutions for employees, vendors, and partners, Troubleshooting complex connectivity, authentication, and network access issues across global environments, Assisting with implementation of Zero Trust and identity-aware access models, Supporting high availability, resiliency, and scalability initiatives across remote access infrastructure, Working closely with Security, Cloud, Identity, and Infrastructure teams to deliver integrated solutions, Participating in operational readiness, change planning, testing, and incident response activities, Supporting ongoing operational health of remote access platforms, including certificate updates, policy maintenance, lifecycle activit",
-      "date_posted": "2026-09-13",
+      "date_posted": "2026-09-14",
       "source": "Career site / JobPosting",
       "first_seen": "2026-09-10T15:10:28.877711+00:00",
       "is_new": false,
@@ -3670,35 +3661,32 @@
       "id": "b45679769677b691f0a7"
     },
     {
-      "title": "Senior Platform Engineer - NBA",
-      "company": "Humana",
-      "location": "Remote, Nationwide, United States of America; Remote, Massachusetts, United States of America",
-      "url": "https://careers.humana.com/us/en/job/R-426815/Senior-Platform-Engineer-NBA",
-      "description": "Become a part of our caring community The Senior Platform Engineer keeps the entire NBA platform healthy, reliable, and maintainable for the long term. You develop a working understanding of every layer of the technology stack — the Java/Drools rules engine, the React/Node/Postgres action library, the Node.js and Temporal orchestration and state machine, the Kafka event backbone, and the Databricks decisioning pipelines — and you use that breadth to diagnose issues, improve reliability and performance, and implement focused features and enhancements wherever they are needed. This is a hands-on role for an engineer who enjoys understanding how systems fit together and takes pride in keeping a complex platform running smoothly. Key Responsibilities • Cross-Stack Maintenance — Maintain and support services across the full platform; build and keep current a working knowledge of each component and how they integrate. • Reliability Engineering — Monitor platform health, investigate production issues, and resolve bottlenecks, failures, and scaling constraints — often before users notice them. • Feature Implementation — Design and ship focused features, enhancements, and technical improvem",
-      "date_posted": "2026-09-06",
+      "title": "Sr. Business Systems Analyst",
+      "company": "McKesson Corporation",
+      "location": "Saint-Laurent, Quebec, Canada",
+      "url": "https://careers.mckesson.com/en/job/saint-laurent/sr-business-systems-analyst/733/100619302000",
+      "description": "McKesson, l’une des 10 premières entreprises du classement Fortune Global 500, touche à pratiquement tous les aspects des soins de santé et s’emploie à faire une réelle différence. Nous sommes reconnus pour notre capacité à offrir un savoir, des produits et des services qui rendent les soins de qualité plus accessibles et plus abordables. Chez nous, la santé, le bonheur et le bien-être de nos gens et des personnes que nous desservons sont prioritaires—et nous tiennent à cœur. Ce que tu fais chez McKesson a de l’importance. Nous favorisons une culture où tu peux t’épanouir et avoir un impact, et où tu es encouragé à proposer de nouvelles idées. Ensemble, nous façonnons l’avenir de la santé pour nos patients, nos communautés et nos équipes. Si tu souhaites dès aujourd’hui contribuer à la santé de demain, nous aimerions avoir de tes nouvelles. McKesson is an impact-driven, Fortune 10 company that touches virtually every aspect of healthcare. We are known for delivering insights, products, and services that make quality care more accessible and affordable. Here, we focus on the health, happiness, and well-being of you and those we serve – we care. What you do at McKesson matters. We fo",
+      "date_posted": "2026-9-14",
       "source": "Career site / JobPosting",
-      "first_seen": "2026-08-23T11:45:38.314260+00:00",
-      "is_new": false,
+      "first_seen": "2026-09-14T17:12:22.323806+00:00",
+      "is_new": true,
       "matched_titles": [
-        "platform engineer"
+        "platform",
+        "systems"
       ],
       "matched_keywords": [
         "healthcare",
-        "HIPAA",
-        "PHI",
-        "cloud",
-        "Azure",
-        "Kubernetes",
-        "incident response"
+        "patient",
+        "NIST"
       ],
       "role_family": "Cloud & Infrastructure",
       "seniority": "Senior IC",
       "seniority_priority": 6,
       "experience_years_min": null,
-      "match_score": 85,
+      "match_score": 84,
       "location_category": "US Remote",
       "location_priority": 1,
-      "id": "72985f720fae4abd9403"
+      "id": "6e96bad6e9b05386e190"
     },
     {
       "title": "Senior Business Technical Analyst",
@@ -3876,7 +3864,7 @@
       "location": "Remote, United States of America",
       "url": "https://jobs.thecignagroup.com/us/en/job/26009895/Product-Strategy-Senior-Advisor-Identity-Strategy-Innovation",
       "description": "The job profile for this position is Product Management Senior Advisor, which is a Band 4 Senior Contributor Career Track Role. Excited to grow your career? We value our talented employees, and whenever possible strive to help one of our associates grow professionally before recruiting new talent to our open positions. If you think the open position you see is right for you, we encourage you to apply! Our people make all the difference in our success. Role Summary The Product Strategy Senior Advisor – Identity Strategy & Innovation provides strategic counsel and product leadership for the enterprise Identity platform, helping shape its strategy, roadmap, and innovation agenda across identity modernization, secure access, authentication, fraud prevention, identity proofing, delegation, and emerging AI-aware identity capabilities. Acting as a product-minded translator between business and technical teams, the advisor develops product definitions, roadmap recommendations, and executive-ready narratives that accelerate adoption and business value. The role works in close partnership with the enterprise Personalization technology stack and Customer 360 data foundations, ensuring identit",
-      "date_posted": "2026-09-13",
+      "date_posted": "2026-09-14",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-21T11:53:40.174582+00:00",
       "is_new": false,
@@ -4065,6 +4053,32 @@
       "title": "Senior Compliance Analyst",
       "company": "Centene Corporation",
       "location": "Remote, United States",
+      "url": "https://jobs.centene.com/us/en/jobs/1651693/senior-compliance-analyst/",
+      "description": "This position offers remote work flexibility. Candidates residing in Missouri or Pennsylvania are strongly preferred, although qualified applicants from other locations within the Continental United States may be considered. Position Purpose: Assist in maintaining Centene Corporation’s Compliance Program. Provide regulatory interpretation, perform compliance reporting, lead special projects, and develop and implement compliance auditing and monitoring strategies. Respond to external requests for information required by the organization for its regulatory filings. Manage compliance reporting responsibilities and respond to inquiries from state and federal regulatory agencies. Manage ethics and compliance projects or implementations. Review and synthesize regulatory requirements and create policy and/or position statements. Assist in managing annual code of conduct attestation and remediation. Communicate state and federal requirements to internal and external clients. Provide development guidance and assist in the identification, implementation, and maintenance of compliance policies, procedures and work instructions. Assist in the identification, analysis, and resolution of complia",
+      "date_posted": "2026-09-14",
+      "source": "Career site / JobPosting",
+      "first_seen": "2026-08-20T11:53:21.600878+00:00",
+      "is_new": false,
+      "matched_titles": [
+        "hipaa"
+      ],
+      "matched_keywords": [
+        "healthcare",
+        "HIPAA"
+      ],
+      "role_family": "GRC, Risk, Audit & Compliance",
+      "seniority": "Senior IC",
+      "seniority_priority": 6,
+      "experience_years_min": null,
+      "match_score": 75,
+      "location_category": "US Remote",
+      "location_priority": 1,
+      "id": "88066f72e30e91eeb218"
+    },
+    {
+      "title": "Senior Compliance Analyst",
+      "company": "Centene Corporation",
+      "location": "Remote, United States",
       "url": "https://jobs.centene.com/us/en/jobs/1654463/senior-compliance-analyst/",
       "description": "Position Purpose: Assist in maintaining Centene Corporation’s Compliance Program. Provide regulatory interpretation, perform compliance reporting, lead special projects, and develop and implement compliance auditing and monitoring strategies. Key Details: Must be authorized to work in the U.S. without the need for employment-based visa sponsorship now or in the future. Sponsorship and future sponsorship are not available for this opportunity, including employment-based visa types H-1B, L-1, O-1, H-1B1, F-1, J -1, OPT, or CPT. Respond to external requests for information required by the organization for its regulatory filings Manage compliance reporting responsibilities and respond to inquiries from state and federal regulatory agencies Manage ethics and compliance projects or implementations Review and synthesize regulatory requirements and create policy and/or position statements Assist in managing annual code of conduct attestation and remediation Communicate state and federal requirements to internal and external clients Provide development guidance and assist in the identification, implementation, and maintenance of compliance policies, procedures and work instructions Assist i",
       "date_posted": "2026-09-08",
@@ -4140,32 +4154,6 @@
       "id": "7e708e57f37947e3a8f0"
     },
     {
-      "title": "Senior Advisor, Clinical AI & Technology Program Execution - Cigna Healthcare - Remote",
-      "company": "The Cigna Group / Evernorth",
-      "location": "Missouri, United States of America; Florida, United States of America; North Carolina, United States of America; Pennsylvania, United States of America; Tennessee, United States of America; Texas, United States of America",
-      "url": "https://jobs.thecignagroup.com/us/en/job/26010672/Senior-Advisor-Clinical-AI-Technology-Program-Execution-Cigna-Healthcare-Remote",
-      "description": "The job profile for this position is Program Management Senior Advisor, which is a Band 4 Senior Contributor Career Track Role. Excited to grow your career? We value our talented employees, and whenever possible strive to help one of our associates grow professionally before recruiting new talent to our open positions. If you think the open position you see is right for you, we encourage you to apply! Our people make all the difference in our success. Job Summary As a part of the enterprise clinical organization and the Office of the Chief Medical Officer, the Sr. Advisor, Clinical AI and Technology Program Execution will manage the portfolio and program management processes that move clinical AI and technology opportunities from intake through prioritization, decision-making, execution oversight, measurement, and learning. This role is responsible for ensuring visibility across the clinical AI and technology portfolio, tracking progress against cross-enterprise goals, monitoring dependencies and risks, and ensuring owners are aligned on tasks, timelines, and risk management while stakeholders are engaged in required toll gates and approvals. The ideal candidate will bring strong p",
-      "date_posted": "2026-09-12",
-      "source": "Career site / JobPosting",
-      "first_seen": "2026-08-27T21:15:37.038674+00:00",
-      "is_new": false,
-      "matched_titles": [
-        "systems"
-      ],
-      "matched_keywords": [
-        "healthcare",
-        "clinical"
-      ],
-      "role_family": "Cloud & Infrastructure",
-      "seniority": "Senior IC",
-      "seniority_priority": 6,
-      "experience_years_min": null,
-      "match_score": 75,
-      "location_category": "US Remote",
-      "location_priority": 1,
-      "id": "1cfea39e1eabd49a61bc"
-    },
-    {
       "title": "Senior HEDIS Quality & Audit Analyst",
       "company": "Centene Corporation",
       "location": "Remote, United States",
@@ -4196,7 +4184,7 @@
       "location": "Bloomfield, Connecticut, United States of America; Remote, United States of America",
       "url": "https://jobs.thecignagroup.com/us/en/job/26007796/Senior-Advisor-of-Business-Analytics-Customer-Engagement",
       "description": "The job profile for this position is Business Analytics Senior Advisor, which is a Band 4 Senior Contributor Career Track Role. Excited to grow your career? We value our talented employees, and whenever possible strive to help one of our associates grow professionally before recruiting new talent to our open positions. If you think the open position you see is right for you, we encourage you to apply! Our people make all the difference in our success. POSITION OVERVIEW At Cigna and Evernorth, you will be part of a team transforming healthcare through data, analytics, and digital innovation. This role offers the opportunity to build and operationalize the analytical foundation that connects the enterprise digital and customer experience agenda to financial and strategic outcomes. The Senior Advisor, Business Analytics – Customer Engagement is responsible for advancing the data and analytics suite that powers an outcomes-oriented Customer Engagement function. This role plays a critical part in translating complex digital strategies into measurable outcomes that drive market leadership, shaping how analytics informs experience innovation, customer engagement, and enterprise decision-m",
-      "date_posted": "2026-09-11",
+      "date_posted": "2026-09-14",
       "source": "Career site / JobPosting",
       "first_seen": "2026-09-07T16:37:59.376573+00:00",
       "is_new": false,
@@ -4221,7 +4209,7 @@
       "location": "Remote, United States of America",
       "url": "https://jobs.thecignagroup.com/us/en/job/26007797/Senior-Advisor-Business-Analytics-Digital-Product",
       "description": "The job profile for this position is Business Analytics Senior Advisor, which is a Band 4 Senior Contributor Career Track Role. Excited to grow your career? We value our talented employees, and whenever possible strive to help one of our associates grow professionally before recruiting new talent to our open positions. If you think the open position you see is right for you, we encourage you to apply! Our people make all the difference in our success. At Cigna and Evernorth, you will be part of a team transforming healthcare through data, analytics, and digital innovation. This role offers the opportunity to build the analytical foundation that connects the enterprise digital and customer experience agenda to financial and strategic outcomes. The Senior Advisor, Business Analytics – Digital Product is responsible for advancing the data and analytics suite that powers an outcomes-oriented Digital Product function. This role plays a critical part in translating complex digital strategies into measurable outcomes that drive market leadership, shaping how analytics informs product innovation, customer engagement, and enterprise decision-making. WHAT YOU’LL DO Enable Outcomes-Oriented D",
-      "date_posted": "2026-09-12",
+      "date_posted": "2026-09-14",
       "source": "Career site / JobPosting",
       "first_seen": "2026-09-10T15:10:28.877711+00:00",
       "is_new": false,
@@ -4239,6 +4227,48 @@
       "location_category": "US Remote",
       "location_priority": 1,
       "id": "a04fdd763389b9e5d7a7"
+    },
+    {
+      "title": "Architect, Cybersecurity, Identity Security - Remote",
+      "company": "Stryker",
+      "location": "Remote, United States",
+      "url": "https://careers.stryker.com/architect-cybersecurity-identity-security-remote/job/FEEDD9024BF1B9BDC5D40B54FDFDD968",
+      "description": "As an Identity Security Architect, you will design and govern enterprise identity and access management solutions that protect organizational assets while enabling secure access to business systems and applications. You will serve as the technical authority for identity security and partner with cybersecurity, infrastructure, cloud, application, enterprise architecture, security operations, and business teams across on-premises and cloud environments. What you will do: Technical Responsibilities: Design and maintain enterprise identity security architecture, standards, and reference designs. Develop identity strategies that support Zero Trust Architecture and enterprise digital transformation. Architect authentication, authorization, federation, single sign-on (SSO), multi-factor authentication (MFA), and identity lifecycle management solutions. Lead architecture reviews for IAM projects, cloud implementations, and business applications. Design and govern Privileged Access Management (PAM) solutions and privileged identity controls. Integrate identity security controls with Infrastructure, Cloud Engineering, Enterprise Architecture, Application Development, and Security Operations ",
+      "date_posted": "2026-09-14T15:04:32.813701+00:00",
+      "source": "Career site / JobPosting",
+      "first_seen": "2026-09-14T17:12:22.323806+00:00",
+      "is_new": true,
+      "matched_titles": [
+        "identity and access",
+        "iam",
+        "pam",
+        "privileged access",
+        "identity governance",
+        "iga",
+        "access management",
+        "authentication",
+        "directory services"
+      ],
+      "matched_keywords": [
+        "HIPAA",
+        "cloud",
+        "AWS",
+        "Azure",
+        "cybersecurity",
+        "NIST",
+        "zero trust",
+        "identity and access management",
+        "IAM",
+        "PAM"
+      ],
+      "role_family": "Identity, IAM & PAM",
+      "seniority": "Lead / Staff / Principal / Architect",
+      "seniority_priority": 7,
+      "experience_years_min": 3,
+      "match_score": 100,
+      "location_category": "US Remote",
+      "location_priority": 1,
+      "id": "a71ba6c0e0e11f8a4257"
     },
     {
       "title": "Distinguished Engineer - Application Security",
@@ -4281,46 +4311,6 @@
       "location_category": "US Remote",
       "location_priority": 1,
       "id": "723ad63f2be1446b08a7"
-    },
-    {
-      "title": "Distinguished Engineer",
-      "company": "Elevance Health",
-      "location": "Atlanta, GA, US; Lake Mary, FL, US; Miami, FL, US; Indianapolis, IN, US; Louisville, KY, US; Severn, MD, US; Durham, NC, US; Mason, OH, US; Grand Prairie, TX, US",
-      "url": "https://careers.elevancehealth.com/distinguished-engineer/job/4AC1AF46B4CED78073C33A33DC51F558",
-      "description": "Distinguished Engineer Locations: This role requires associates to be in-office 1-2 days per week, fostering collaboration and connectivity, while providing flexibility to support productivity and work-life balance. This approach combines structured office engagement with the autonomy of virtual work, promoting a dynamic and adaptable workplace. Alternate locations may be considered if candidates reside within a commuting distance from an office Please note that per our policy on hybrid/virtual work, candidates not within a reasonable commuting distance from the posting location(s) will not be considered for employment, unless an accommodation is granted as required by law. PLEASE NOTE: This position is not eligible for current or future VISA sponsorship. The Distinguished Engineer is responsible for leading the design, development, and deployment of large-scale, production-grade artificial intelligence (AI) systems and platforms that enable enterprise-wide innovation and modernization. They are key influencers who work with senior leadership to solve complex, company-wide technical challenges while fostering a culture of innovation and mentorship. How you will make an Impact: Arch",
-      "date_posted": "2026-09-11T19:22:34.916715+00:00",
-      "source": "Career site / JobPosting",
-      "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": false,
-      "matched_titles": [
-        "identity and access",
-        "iam",
-        "access management"
-      ],
-      "matched_keywords": [
-        "healthcare",
-        "health care",
-        "patient",
-        "cloud",
-        "AWS",
-        "Azure",
-        "GCP",
-        "DevOps",
-        "DevSecOps",
-        "cloud security",
-        "NIST",
-        "identity and access management",
-        "IAM",
-        "network security"
-      ],
-      "role_family": "Identity, IAM & PAM",
-      "seniority": "Lead / Staff / Principal / Architect",
-      "seniority_priority": 7,
-      "experience_years_min": null,
-      "match_score": 100,
-      "location_category": "US Remote",
-      "location_priority": 1,
-      "id": "f03c7f1b418acd50f789"
     },
     {
       "title": "Distinguished Engineer",
@@ -4391,145 +4381,12 @@
       "id": "28cb0c4246c53e572e41"
     },
     {
-      "title": "Engineer Lead Sr, FDE",
-      "company": "Elevance Health",
-      "location": "Indianapolis, IN, US",
-      "url": "https://careers.elevancehealth.com/engineer-lead-sr-fde/job/18EDA52A5B98598A4823AABB81CCA43F",
-      "description": "JR204469 Engineer Lead Sr, FDE Forward Deployment Group (FDG), AI & Agentic Engineering The Engineer Lead Sr FDE is responsible for leading end-to-end application system development and maintenance for large, complex, enterprise-wide technology platforms. LOCATION: Hybrid 2: This role requires associates to be in-office 3 days per week, fostering collaboration and connectivity, while providing flexibility to support productivity and work-life balance. This approach combines structured office engagement with the autonomy of virtual work, promoting a dynamic and adaptable workplace. Alternate locations may be considered if candidates reside within a commuting distance from an office. Please note that per our policy on hybrid/virtual work, candidates not within a reasonable commuting distance from the posting location(s) will not be considered for employment, unless an accommodation is granted as required by law. How you will make an impact: Lead the design and delivery of AI-enabled and agentic solutions from problem framing through production. Define the technical approach for LLMs, retrieval-augmented generation (RAG), tool integration, orchestration, human-in-the-loop, and evaluat",
-      "date_posted": "2026-09-01T23:23:02.653610+00:00",
-      "source": "Career site / JobPosting",
-      "first_seen": "2026-09-02T15:21:28.198776+00:00",
-      "is_new": false,
-      "matched_titles": [
-        "cloud",
-        "infrastructure",
-        "platform",
-        "systems"
-      ],
-      "matched_keywords": [
-        "healthcare",
-        "health care",
-        "patient",
-        "cloud",
-        "NIST"
-      ],
-      "role_family": "Cloud & Infrastructure",
-      "seniority": "Lead / Staff / Principal / Architect",
-      "seniority_priority": 7,
-      "experience_years_min": null,
-      "match_score": 100,
-      "location_category": "US Remote",
-      "location_priority": 1,
-      "id": "5a2fb44e76d744f744e1"
-    },
-    {
-      "title": "Engineer Lead Sr, FDE",
-      "company": "Elevance Health",
-      "location": "Atlanta, GA, US",
-      "url": "https://careers.elevancehealth.com/engineer-lead-sr-fde/job/516A5E04AAC8FA09E2B37678D5DE3B8D",
-      "description": "JR204470 Engineer Lead Sr, FDE Enterprise Applications & Integration, Forward Deployment Group (FDG) The Engineer Lead Sr, FDE is responsible for leading end-to-end application system development and maintenance for large, complex, enterprise-wide technology platforms. LOCATION: Hybrid 2: This role requires associates to be in-office 3 days per week, fostering collaboration and connectivity, while providing flexibility to support productivity and work-life balance. This approach combines structured office engagement with the autonomy of virtual work, promoting a dynamic and adaptable workplace. Alternate locations may be considered if candidates reside within a commuting distance from an office. Please note that per our policy on hybrid/virtual work, candidates not within a reasonable commuting distance from the posting location(s) will not be considered for employment, unless an accommodation is granted as required by law. How you will make an impact: Lead integration of FDG solutions across enterprise applications, APIs, data, identity, and legacy platforms. Define pragmatic technical paths through complex application landscapes and enterprise dependencies. Build and guide APIs, ",
-      "date_posted": "2026-09-01T23:23:02.366010+00:00",
-      "source": "Career site / JobPosting",
-      "first_seen": "2026-09-02T15:21:28.198776+00:00",
-      "is_new": false,
-      "matched_titles": [
-        "cloud",
-        "infrastructure",
-        "platform",
-        "systems"
-      ],
-      "matched_keywords": [
-        "healthcare",
-        "health care",
-        "patient",
-        "cloud",
-        "NIST"
-      ],
-      "role_family": "Cloud & Infrastructure",
-      "seniority": "Lead / Staff / Principal / Architect",
-      "seniority_priority": 7,
-      "experience_years_min": null,
-      "match_score": 100,
-      "location_category": "US Remote",
-      "location_priority": 1,
-      "id": "5994ec9922baf104f38a"
-    },
-    {
-      "title": "Engineer Lead Sr, FDE",
-      "company": "Elevance Health",
-      "location": "Atlanta, GA, US",
-      "url": "https://careers.elevancehealth.com/engineer-lead-sr-fde/job/BE67873FA27479428799E4836733A3C8",
-      "description": "JR204471 Engineer Lead Sr, FDE Platform and Production Engineering, Forward Deployment Group (FDG) The Engineer Lead Sr, FDE is responsible for leading end-to-end application system development and maintenance for large, complex, enterprise-wide technology platforms. LOCATION: Hybrid 2: This role requires associates to be in-office 3 days per week, fostering collaboration and connectivity, while providing flexibility to support productivity and work-life balance. This approach combines structured office engagement with the autonomy of virtual work, promoting a dynamic and adaptable workplace. Alternate locations may be considered if candidates reside within a commuting distance from an office. Please note that per our policy on hybrid/virtual work, candidates not within a reasonable commuting distance from the posting location(s) will not be considered for employment, unless an accommodation is granted as required by law. How you will make an impact: Lead the transition of FDG solutions from working prototype to secure, reliable, production-ready services. Define CI/CD, cloud environments, observability, DevSecOps, reliability, and release engineering patterns. Work with Infrastruc",
-      "date_posted": "2026-09-01T23:23:02.558955+00:00",
-      "source": "Career site / JobPosting",
-      "first_seen": "2026-09-02T15:21:28.198776+00:00",
-      "is_new": false,
-      "matched_titles": [
-        "devsecops",
-        "ci/cd",
-        "release engineering",
-        "sre"
-      ],
-      "matched_keywords": [
-        "healthcare",
-        "health care",
-        "patient",
-        "cloud",
-        "Kubernetes",
-        "DevSecOps",
-        "NIST"
-      ],
-      "role_family": "DevOps & Platform",
-      "seniority": "Lead / Staff / Principal / Architect",
-      "seniority_priority": 7,
-      "experience_years_min": null,
-      "match_score": 100,
-      "location_category": "US Remote",
-      "location_priority": 1,
-      "id": "63665b1a134740b29e45"
-    },
-    {
-      "title": "Lead Cyber Threat Intelligence Data Architect",
-      "company": "Humana",
-      "location": "Louisville, Kentucky, United States of America; Boston, Massachusetts, United States of America; Charlotte, North Carolina, United States of America; Chicago, Illinois, United States of America; Dallas, Texas, United States of America; Miami, Florida, United States of America; Nashville, Tennessee, United States of America; Remote, New York, United States of America; Tampa, Florida, United States of America; Washington, District of Columbia, United States of America",
-      "url": "https://careers.humana.com/us/en/job/R-425252/Lead-Cyber-Threat-Intelligence-Data-Architect",
-      "description": "We appreciate that you are interested in pursuing your next career opportunity. As you complete the application below, here are a few tips you should consider: Visit Go/Develop for information on professional development, resume guidance, and interview best practices. ​ Watch a quick video to discover how Humana’s Career Framework can help you identify meaningful growth opportunities. Visit Go/AskARecruiter for expert advice on your job search from our Talent Acquisition Team. Tailor your resume to highlight achievements and skills that align with the role you're applying for. Update your Workday profile to reflect your key accomplishments and experiences. Please read the job description carefully and ensure you meet all required qualifications. Consider having a conversation with your current leader about your career goals and interest in this opportunity. Their support can be valuable as you explore your next step. Job Profile Lead, Threat and Vulnerability Management Job Level Lead Become a part of our caring community (remote in location) The Lead Intelligence Data Architect serves as the subject matter expert and functional owner for how Humana's cyber threat intelligence is c",
-      "date_posted": "2026-09-08",
-      "source": "Career site / JobPosting",
-      "first_seen": "2026-08-09T02:44:11.720194+00:00",
-      "is_new": false,
-      "matched_titles": [
-        "information security",
-        "security operations",
-        "soc",
-        "threat intelligence",
-        "detection engineering"
-      ],
-      "matched_keywords": [
-        "healthcare",
-        "HIPAA",
-        "PHI",
-        "information security",
-        "SOC",
-        "NIST",
-        "vulnerability management"
-      ],
-      "role_family": "Security Operations & Engineering",
-      "seniority": "Lead / Staff / Principal / Architect",
-      "seniority_priority": 7,
-      "experience_years_min": null,
-      "match_score": 100,
-      "location_category": "US Remote",
-      "location_priority": 1,
-      "id": "cdaeb67547f541d5a452"
-    },
-    {
       "title": "Lead Solutions Architect (CIAM/XIAM)",
       "company": "Humana",
       "location": "Louisville, Kentucky, United States of America; Boston, Massachusetts, United States of America; Charlotte, North Carolina, United States of America; Chicago, Illinois, United States of America; Dallas, Texas, United States of America; Fort Lauderdale, Florida, United States of America; Frisco, Texas, United States of America; Nashville, Tennessee, United States of America; New York, New York, United States of America; Tampa, Florida, United States of America; Washington, District of Columbia, United States of America",
       "url": "https://careers.humana.com/us/en/job/R-424546/Lead-Solutions-Architect-CIAM-XIAM",
       "description": "We appreciate that you are interested in pursuing your next career opportunity. As you complete the application below, here are a few tips you should consider: Visit Go/Develop for information on professional development, resume guidance, and interview best practices. ​ Watch a quick video to discover how Humana’s Career Framework can help you identify meaningful growth opportunities. Visit Go/AskARecruiter for expert advice on your job search from our Talent Acquisition Team. Tailor your resume to highlight achievements and skills that align with the role you're applying for. Update your Workday profile to reflect your key accomplishments and experiences. Please read the job description carefully and ensure you meet all required qualifications. Consider having a conversation with your current leader about your career goals and interest in this opportunity. Their support can be valuable as you explore your next step. Job Profile Lead Solutions Architect Job Level Lead Become a part of our caring community The Lead Solution Architect will serve as the technical leader for the organization's Customer Identity and Access Management (CIAM/XIAM) ecosystem. The role is responsible for dr",
-      "date_posted": "2026-09-11",
+      "date_posted": "2026-09-14",
       "source": "Career site / JobPosting",
       "first_seen": "2026-09-02T15:21:28.198776+00:00",
       "is_new": false,
@@ -4826,6 +4683,38 @@
       "id": "45d72668b7ae7db4fecd"
     },
     {
+      "title": "Principal Engineer, Cybersecurity, IGA",
+      "company": "Stryker",
+      "location": "Remote, United States",
+      "url": "https://careers.stryker.com/principal-engineer-cybersecurity-iga/job/1BA8CE0249FEC5D84F30E2297646F202",
+      "description": "As an IGA Principal Engineer, you will build and operate enterprise identity governance, authentication, and authorization services that protect access across the organization. You will partner with senior business, application, and infrastructure stakeholders to translate requirements into scalable identity architecture, standards, and controls. WHAT YOU WILL DO Technical Responsibilities: Build, configure, and operate enterprise IGA platforms, including SailPoint, Saviynt, or Microsoft Entra ID Governance, with supporting directory and authentication services. Engineer identity lifecycle workflows for joiners, movers, and leavers, including automated provisioning and deprovisioning. Implement and maintain access requests, approval workflows, access certification and recertification campaigns, RBAC models, role mining, and segregation-of-duties rules. Configure authoritative sources, identity reconciliation, and identity data quality remediation. Implement SSO, MFA, federation, and risk-based authentication using SAML, OAuth, OpenID Connect, and SCIM. Develop PowerShell, Microsoft Graph, REST API, and SCIM automations and integrations to onboard applications to IGA services. Produ",
+      "date_posted": "2026-09-14T15:04:33.781175+00:00",
+      "source": "Career site / JobPosting",
+      "first_seen": "2026-09-14T17:12:22.323806+00:00",
+      "is_new": true,
+      "matched_titles": [
+        "identity and access",
+        "iam",
+        "identity governance",
+        "iga",
+        "authentication"
+      ],
+      "matched_keywords": [
+        "HIPAA",
+        "cybersecurity",
+        "NIST",
+        "IAM"
+      ],
+      "role_family": "Identity, IAM & PAM",
+      "seniority": "Lead / Staff / Principal / Architect",
+      "seniority_priority": 7,
+      "experience_years_min": 5,
+      "match_score": 99,
+      "location_category": "US Remote",
+      "location_priority": 1,
+      "id": "e0b0569b479d9e0bce66"
+    },
+    {
       "title": "Enterprise Engagement Lead Analyst",
       "company": "Centene Corporation",
       "location": "Remote, United States",
@@ -4991,7 +4880,7 @@
       "location": "Indianapolis, IN, US; Atlanta, GA, US; Mason, OH, US; Grand Prairie, TX, US",
       "url": "https://careers.elevancehealth.com/distinguished-ai-engineer/job/4E2AB8674DCAA482FFFE6F866C0972CF",
       "description": "Distinguished AI Engineer Location: This role requires associates to be in-office 3 days per week, fostering collaboration and connectivity, while providing flexibility to support productivity and work-life balance. This approach combines structured office engagement with the autonomy of virtual work, promoting a dynamic and adaptable workplace. Alternate locations may be considered if candidates reside within a commuting distance from an office. Please note that per our policy on hybrid/virtual work, candidates not within a reasonable commuting distance from the posting location(s) will not be considered for employment, unless an accommodation is granted as required by law. The Distinguished AI Engineer will be responsible for leading the design, development, and deployment of large-scale, production-grade artificial intelligence (AI) systems and platforms that enable enterprise-wide innovation and modernization. How you will make an impact: • Architect and deliver scalable, resilient AI solutions leveraging technologies such as agentic systems, large language models (LLMs), distributed systems, and event-driven architectures. • Define enterprise-wide technical direction, includin",
-      "date_posted": "2026-09-11T17:22:28.743992+00:00",
+      "date_posted": "2026-09-14T15:22:33.480272+00:00",
       "source": "Career site / JobPosting",
       "first_seen": "2026-08-20T11:53:21.600878+00:00",
       "is_new": false,
@@ -5372,35 +5261,6 @@
       "id": "eedab1530f6a98c8879d"
     },
     {
-      "title": "Engineer Lead FDE - Production and Enablement",
-      "company": "Elevance Health",
-      "location": "Atlanta, GA, US; Indianapolis, IN, US; Mason, OH, US",
-      "url": "https://careers.elevancehealth.com/engineer-lead-fde-production-and-enablement/job/8EC4767C7CB249076AD7BB2CA90F06E0",
-      "description": "Engineer Lead (FDE) – Production & Enablement FDE – Forward Deployment Engineer Location: This role requires associates to be in-office 1 - 2 days per week, fostering collaboration and connectivity, while providing flexibility to support productivity and work-life balance. This approach combines structured office engagement with the autonomy of virtual work, promoting a dynamic and adaptable workplace. Alternate locations may be considered if candidates reside within a commuting distance from an office. Please note that per our policy on hybrid/virtual work, candidates not within a reasonable commuting distance from the posting location(s) will not be considered for employment, unless an accommodation is granted as required by law. The Engineer Lead will be responsible for full delivery of end to end system development and maintenance on medium Enterprise wide technology platforms. How you will make an impact: Maintains active relationships with customers to determine business requirements and leads requirements gathering meetings. Primary duties may include, but are not limited to. Leads requirements gathering meetings and reviews designs with the business. Leads efforts with Web ",
-      "date_posted": "2026-08-31T20:42:25.505710+00:00",
-      "source": "Career site / JobPosting",
-      "first_seen": "2026-08-27T21:15:37.038674+00:00",
-      "is_new": false,
-      "matched_titles": [
-        "platform",
-        "systems"
-      ],
-      "matched_keywords": [
-        "healthcare",
-        "health care",
-        "patient",
-        "NIST"
-      ],
-      "role_family": "Cloud & Infrastructure",
-      "seniority": "Lead / Staff / Principal / Architect",
-      "seniority_priority": 7,
-      "experience_years_min": null,
-      "match_score": 85,
-      "location_category": "US Remote",
-      "location_priority": 1,
-      "id": "348add5f30d419fa44c9"
-    },
-    {
       "title": "Principal Enterprise Compliance Architect",
       "company": "McKesson Corporation",
       "location": "Mississauga, Ontario, Canada",
@@ -5607,36 +5467,6 @@
       "id": "20efdf5e28d869d93e29"
     },
     {
-      "title": "Lead Systems Engineer",
-      "company": "Humana",
-      "location": "Remote, Kentucky, United States of America; Remote, Florida, United States of America; Remote, New York, United States of America; Remote, Tennessee, United States of America; Remote, Texas, United States of America; Remote, Virginia, United States of America",
-      "url": "https://careers.humana.com/us/en/job/R-428701/Lead-Systems-Engineer",
-      "description": "Become a part of our caring community The Lead Systems Engineer is responsible for leading the strategic direction, design, and implementation of associate technology at Humana, focused on Windows solutions. This role will require a deep understanding of modern workplace technology and the employee experience. This role will require a deep understanding of Microsoft Intune, Configmgr and/or other Enterprise Mobility Management solutions. Selected candidates must currently reside within a 50-mile radius of one of the following locations: Arlington, VA; Austin, TX; Dallas, TX; Fort Lauderdale, FL; Louisville, KY; Nashville, TN; Tampa, FL; or the New York City Metropolitan Area, NY. The Lead Systems Engineer is responsible for the oversight of multiple systems and projects, including policy management, compliance, and automation across Windows operating systems, Configmgr, Intune, etc. This position will also be accountable for implementing business continuity and oversee and evaluate Windows device system security, privacy, new device solutions across different lines of business, and backup processes. This role will be an instrumental part of growing the Windows solutions across Huma",
-      "date_posted": "2026-09-13",
-      "source": "Career site / JobPosting",
-      "first_seen": "2026-09-04T15:11:06.892046+00:00",
-      "is_new": false,
-      "matched_titles": [
-        "systems engineer"
-      ],
-      "matched_keywords": [
-        "healthcare",
-        "HIPAA",
-        "PHI",
-        "Azure",
-        "DevOps",
-        "NIST"
-      ],
-      "role_family": "Cloud & Infrastructure",
-      "seniority": "Lead / Staff / Principal / Architect",
-      "seniority_priority": 7,
-      "experience_years_min": null,
-      "match_score": 82,
-      "location_category": "US Remote",
-      "location_priority": 1,
-      "id": "d545e214ca8617153263"
-    },
-    {
       "title": "Lead IAM Engineer",
       "company": "Centene Corporation",
       "location": "Remote, United States",
@@ -5726,7 +5556,7 @@
       "location": "Remote, United States of America",
       "url": "https://jobs.thecignagroup.com/us/en/job/26007247/Lead-Analyst-Forsyth-Health-Remote",
       "description": "The job profile for this position is Business Analytics Lead Analyst, which is a Band 3 Senior Contributor Career Track Role. Excited to grow your career? We value our talented employees, and whenever possible strive to help one of our associates grow professionally before recruiting new talent to our open positions. If you think the open position you see is right for you, we encourage you to apply! Our people make all the difference in our success. The Lead Analyst will play a key role in managing and overseeing the client data delivery process, ensuring that all deliverables consistently meet defined client requirements while adhering to established quality standards and timelines. Responsibilities: Deliver accurate and complete data for client deliverables. Ensure timely delivery of data in line with agreed schedules. Perform initial root cause and quality control analyses to identify and assess issues in deliverables. Develop and maintain ongoing data surveillance processes to monitor recurring deliveries. Support new client onboarding by defining data delivery formats and schedules. Establish appropriate data delivery methods (e.g., Databricks to Databricks, Databricks to othe",
-      "date_posted": "2026-09-13",
+      "date_posted": "2026-09-14",
       "source": "Career site / JobPosting",
       "first_seen": "2026-09-05T14:02:25.965571+00:00",
       "is_new": false,
